@@ -1,0 +1,315 @@
+﻿﻿
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Fanikiwa - Peer-to-Peer Lending</title>
+<link href="/Images/Dollar.ico" rel="shortcut icon" type="image/x-icon" />
+<link rel="stylesheet" href="/Content/Site.css" type="text/css" />
+<script src="/Scripts/jquery-2.0.3.js" type="text/javascript"></script>
+
+</head>
+
+
+<body>
+
+	<header>
+		<div class="content-wrapper">
+
+			<div class="float-left">
+				<p class="site-title" title="Fanikiwa - Administrator">Fanikiwa
+					- Administrator</p>
+			</div>
+
+
+			<div class="float-right">
+				<section id="login">
+					<text> Welcome To Fanikiwa, <a id="lnkloggedinuser"
+						style="cursor: pointer;" href="#" onclick="ManageProfile()"
+						title="Manage Profile"></a> <a id="lnklogoff"
+						style="cursor: pointer;" href="#" onclick="LogOff()"
+						title="Log Off">Log off</a> </text>
+				</section>
+			</div>
+
+			<div id="MainMenu"></div>
+			<div id="SubMenu"></div>
+
+		</div>
+
+
+	</header>
+
+
+
+
+	<div id="body">
+
+
+		<section class="content-wrapper main-content clear-fix">
+
+			<div id="error-display-div" class="displaynone"></div>
+
+
+			<hgroup class="title">
+				<h2 class="page-title">MPESA Test</h2>
+			</hgroup>
+
+			<article class="col1">
+				<div class="pad">
+
+					<form action="javascript:void(0);">
+
+						<fieldset>
+							<legend>MPESA Test</legend>
+
+							<article class="col1">
+								<div class="pad">
+
+									<div>
+										<label for="txtCustomerTelno">Customer Telno</label> <input
+											id="txtCustomerTelno" placeholder="CustomerTelno" type="text"></input>
+									</div>
+
+									<div>
+										<label for="txtAmount">Amount</label> <input id="txtAmount"
+											placeholder="Amount" type="number" min="0"></input>
+									</div>
+
+									<div>
+										<label for="txtMpesaref">Mpesa reference</label> <input
+											id="txtMpesaref" placeholder="Mpesaref" type="text"></input>
+									</div>
+
+									<div>
+										<label for="txtAccountId">Account Id</label> <input
+											id="txtAccountId" placeholder="AccountId" type="number"
+											min="0"></input>
+									</div>
+
+									<div>
+										<label for="txtSentDate">Sent Date</label> <input
+											id="txtSentDate" placeholder="SentDate" type="date"></input>
+									</div>
+
+									<div>
+										<label for="txtBal">Balance</label> <input id="txtBal"
+											placeholder="Bal" type="number" min="0"></input>
+									</div>
+
+								</div>
+							</article>
+
+
+
+							<div style="float: left; clear: both">
+								<input type="submit" value="Deposit" onclick="sendDepositAjax()"
+									id="btnDeposit" style="float: left; clear: both" />
+							</div>
+
+						</fieldset>
+
+
+					</form>
+
+				</div>
+			</article>
+
+
+			<article class="col2">
+				<div class="pad">
+
+					<div>
+						<label for="txtMpesaIPNMessage">IPN Message</label> <input
+							id="txtMpesaIPNMessage" placeholder="IPN Message" type="text"></input>
+					</div>
+
+					<div style="float: left; clear: both">
+						<input type="submit" value="Submit Mpesa IPN Message"
+							onclick="sendMpesaIPNMessageAjax()" id="btnMpesaIPNMessage"
+							style="float: left; clear: both" />
+					</div>
+
+				</div>
+			</article>
+
+
+			<div id="apiResults" style="float: left; clear: both"></div>
+
+
+
+		</section>
+
+	</div>
+
+
+
+	<footer>
+
+		<hr />
+
+		<div style="margin-left: 180px;">
+			<span style="float: left; padding-left: 2px; padding-right: 2px;">Copyright
+				&copy;</span> <span id="footerdate"
+				style="float: left; padding-left: 2px; padding-right: 2px;"></span>
+			<span style="float: left; padding-left: 2px; padding-right: 2px;">
+				Software Providers Limited.</span> <span
+				style="float: left; padding-left: 2px; padding-right: 2px;">All
+				Rights Reserved.</span>
+		</div>
+
+	</footer>
+
+
+	<script type="text/javascript">
+
+	var errormsg='';
+ 	errormsg +=   '<ul id="errorList">' ;
+ 	
+    function sendDepositAjax() {
+
+    	errormsg='';
+        ClearException(); 
+        errormsg += '<ul id="errorList">' ;
+        var error_free=true;
+        
+        // Validate the entries
+    	var customerTelno = $('#txtCustomerTelno').val();
+    	var amount = $('#txtAmount').val();
+    	var mpesaref = $('#txtMpesaref').val();
+    	var accountId = $('#txtAccountId').val();
+    	var sentDate = $('#txtSentDate').val();
+    	var bal = $('#txtBal').val(); 
+    	
+    	 if(customerTelno.length == 0)
+    	 {
+    		errormsg += '<li>' + " Customer Telno cannot be null "   + '</li>'; 
+         	error_free = false;  
+    	 }
+    	 if(amount.length == 0)
+    	 {
+    		errormsg += '<li>' + " Amount cannot be null "   + '</li>'; 
+         	error_free = false;  
+    	 }
+    	 if(mpesaref.length == 0)
+    	 {
+    		errormsg += '<li>' + " Mpesa Reference cannot be null "   + '</li>'; 
+         	error_free = false;  
+    	 }
+    	 if(accountId.length == 0)
+    	 {
+    		errormsg += '<li>' + " Account cannot be null "   + '</li>'; 
+         	error_free = false;  
+    	 } 
+    	  
+    	
+    	// Build the Request Object
+        var sms = new Object();
+        sms.CustomerTelno = customerTelno;
+        sms.Amount = amount;
+        sms.Mpesaref = mpesaref;
+        sms.AccountId = accountId;
+        sms.SentDate = sentDate;
+        sms.Bal = bal;
+     
+        $('#apiResults').html('sending...'); 
+        
+        sendDepositAjaxNow(sms);
+    }
+    
+    function sendDepositAjaxNow(sms) {
+    	
+    	var url ='http://localhost:8888/Mpesa';
+    	
+    	$.ajax({
+            url: url, 
+           type: 'POST',
+           dataType: 'text',
+           data: JSON.stringify(sms),
+           contentType: 'application/json',
+           mimeType: 'application/json', 
+           success: function (data) {
+           	 $('#apiResults').html(data);
+           },
+           error:function(xhr,status,error) {
+           	$('#apiResults').html("xhr ="+ xhr + "\nStatus=" +status+ "\nError="+error);
+           	alert("xhr ="+ xhr + "\nStatus=" +status+ "\nError="+error)
+           }
+       });
+     } 
+    
+    function sendMpesaIPNMessageAjax() {
+
+    	errormsg='';
+        ClearException(); 
+        errormsg += '<ul id="errorList">' ;
+        var error_free=true;
+        
+        // Validate the entries
+    	var _MpesaIPNMessage = $('#txtMpesaIPNMessage').val(); 
+    	
+    	 if(_MpesaIPNMessage.length == 0)
+    	 {
+    		errormsg += '<li>' + " Mpesa IPN Message cannot be null "   + '</li>'; 
+         	error_free = false;  
+    	 }   
+    	  
+    	// Build the Request Object
+         var sms = new Object(); 
+         sms = _MpesaIPNMessage;
+         
+        $('#apiResults').html('sending...'); 
+        
+        sendMpesaIPNMessageAjaxNow(sms);
+    }
+    
+    function sendMpesaIPNMessageAjaxNow(sms) {
+
+    	var url ='http://localhost:8888/Mpesa';
+    	
+    	$.ajax({
+           url: url, 
+           type: 'POST',
+           dataType: 'text',
+           data: JSON.stringify(sms),
+           contentType: 'application/json',
+           mimeType: 'application/json', 
+           success: function (data) {
+           	 $('#apiResults').html("Success");
+           	 $('#apiResults').append(data);
+           },
+           error:function(xhr,status,error) {
+           	$('#apiResults').html("xhr ="+ xhr + "\nStatus=" +status+ "\nError="+error);
+           	alert("xhr ="+ xhr + "\nStatus=" +status+ "\nError="+error)
+           }
+       });
+     } 
+    
+    function DisplayException(errormsg) {
+   	 
+      	errormsg += "</ul>";
+      		 
+       	 $("#error-display-div").html(errormsg); 
+         $("#error-display-div").removeClass('displaynone');
+         $("#error-display-div").addClass('displayblock');
+         $("#error-display-div").show();  
+  	  }
+
+   	function ClearException() {
+   		$('#errorList').remove();
+   		$('#error-display-div').empty();
+   	}
+   	    	
+   </script>
+
+
+
+</body>
+
+
+</html>

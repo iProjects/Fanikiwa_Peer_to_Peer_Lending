@@ -1,0 +1,462 @@
+{
+ "kind": "discovery#rpcDescription",
+ "etag": "\"u_zXkMELIlX4ktyNbM2XKD4vK8E/9BWC5lsHlrzyUpNl8IWqIfNJ9q0\"",
+ "discoveryVersion": "v1",
+ "id": "mpesaipnmessageendpoint:v1",
+ "name": "mpesaipnmessageendpoint",
+ "version": "v1",
+ "description": "This is an API",
+ "ownerDomain": "sp.com",
+ "ownerName": "sp.com",
+ "packagePath": "fanikiwa.entity",
+ "icons": {
+  "x16": "http://www.google.com/images/icons/product/search-16.gif",
+  "x32": "http://www.google.com/images/icons/product/search-32.gif"
+ },
+ "protocol": "rpc",
+ "rootUrl": "https://fanikiwaweb.appspot.com/_ah/api/",
+ "rpcUrl": "https://fanikiwaweb.appspot.com/_ah/api/rpc",
+ "rpcPath": "/_ah/api/rpc",
+ "parameters": {
+  "alt": {
+   "type": "string",
+   "description": "Data format for the response.",
+   "default": "json",
+   "enum": [
+    "json"
+   ],
+   "enumDescriptions": [
+    "Responses with Content-Type of application/json"
+   ],
+   "location": "query"
+  },
+  "fields": {
+   "type": "string",
+   "description": "Selector specifying which fields to include in a partial response.",
+   "location": "query"
+  },
+  "key": {
+   "type": "string",
+   "description": "API key. Your API key identifies your project and provides you with API access, quota, and reports. Required unless you provide an OAuth 2.0 token.",
+   "location": "query"
+  },
+  "oauth_token": {
+   "type": "string",
+   "description": "OAuth 2.0 token for the current user.",
+   "location": "query"
+  },
+  "prettyPrint": {
+   "type": "boolean",
+   "description": "Returns response with indentations and line breaks.",
+   "default": "true",
+   "location": "query"
+  },
+  "quotaUser": {
+   "type": "string",
+   "description": "Available to use for quota purposes for server-side applications. Can be any arbitrary string assigned to a user, but should not exceed 40 characters. Overrides userIp if both are provided.",
+   "location": "query"
+  },
+  "userIp": {
+   "type": "string",
+   "description": "IP address of the site where the request originates. Use this if you want to enforce per-user limits.",
+   "location": "query"
+  }
+ },
+ "auth": {
+  "oauth2": {
+   "scopes": {
+    "https://www.googleapis.com/auth/userinfo.email": {
+     "description": "View your email address"
+    }
+   }
+  }
+ },
+ "schemas": {
+  "CollectionResponse_MpesaIPNMessage": {
+   "id": "CollectionResponse_MpesaIPNMessage",
+   "type": "object",
+   "properties": {
+    "items": {
+     "type": "array",
+     "items": {
+      "$ref": "MpesaIPNMessage"
+     }
+    },
+    "nextPageToken": {
+     "type": "string"
+    }
+   }
+  },
+  "CollectionResponse_MpesaTestIPNMessage": {
+   "id": "CollectionResponse_MpesaTestIPNMessage",
+   "type": "object",
+   "properties": {
+    "items": {
+     "type": "array",
+     "items": {
+      "$ref": "MpesaTestIPNMessage"
+     }
+    },
+    "nextPageToken": {
+     "type": "string"
+    }
+   }
+  },
+  "MpesaIPNMessage": {
+   "id": "MpesaIPNMessage",
+   "type": "object",
+   "properties": {
+    "dest": {
+     "type": "string"
+    },
+    "mpesaIPNMessageID": {
+     "type": "string"
+    },
+    "mpesa_acc": {
+     "type": "string"
+    },
+    "mpesa_amt": {
+     "type": "number",
+     "format": "double"
+    },
+    "mpesa_code": {
+     "type": "string"
+    },
+    "mpesa_msisdn": {
+     "type": "string"
+    },
+    "mpesa_sender": {
+     "type": "string"
+    },
+    "mpesa_trx_date": {
+     "type": "string"
+    },
+    "mpesa_trx_time": {
+     "type": "string"
+    },
+    "orig": {
+     "type": "string"
+    },
+    "pass": {
+     "type": "string"
+    },
+    "status": {
+     "type": "string"
+    },
+    "text": {
+     "type": "string"
+    },
+    "tstamp": {
+     "type": "string"
+    },
+    "user": {
+     "type": "string"
+    }
+   }
+  },
+  "MpesaTestIPNMessage": {
+   "id": "MpesaTestIPNMessage",
+   "type": "object",
+   "properties": {
+    "dest": {
+     "type": "string"
+    },
+    "id": {
+     "type": "string",
+     "format": "int64"
+    },
+    "mpesaIPNMessageID": {
+     "type": "string"
+    },
+    "mpesa_acc": {
+     "type": "string"
+    },
+    "mpesa_amt": {
+     "type": "number",
+     "format": "double"
+    },
+    "mpesa_code": {
+     "type": "string"
+    },
+    "mpesa_msisdn": {
+     "type": "string"
+    },
+    "mpesa_sender": {
+     "type": "string"
+    },
+    "mpesa_trx_date": {
+     "type": "string"
+    },
+    "mpesa_trx_time": {
+     "type": "string"
+    },
+    "orig": {
+     "type": "string"
+    },
+    "pass": {
+     "type": "string"
+    },
+    "status": {
+     "type": "string"
+    },
+    "text": {
+     "type": "string"
+    },
+    "tstamp": {
+     "type": "string"
+    },
+    "user": {
+     "type": "string"
+    }
+   }
+  }
+ },
+ "methods": {
+  "mpesaipnmessageendpoint.getMpesaIPNMessage": {
+   "id": "mpesaipnmessageendpoint.getMpesaIPNMessage",
+   "allowGet": true,
+   "parameters": {
+    "id": {
+     "type": "string",
+     "required": true
+    }
+   },
+   "parameterOrder": [
+    "id"
+   ],
+   "returns": {
+    "$ref": "MpesaIPNMessage"
+   },
+   "scopes": [
+    "https://www.googleapis.com/auth/userinfo.email"
+   ]
+  },
+  "mpesaipnmessageendpoint.getMpesaTestIPNMessage": {
+   "id": "mpesaipnmessageendpoint.getMpesaTestIPNMessage",
+   "allowGet": true,
+   "parameters": {
+    "id": {
+     "type": "string",
+     "required": true,
+     "format": "int64"
+    }
+   },
+   "parameterOrder": [
+    "id"
+   ],
+   "returns": {
+    "$ref": "MpesaTestIPNMessage"
+   },
+   "scopes": [
+    "https://www.googleapis.com/auth/userinfo.email"
+   ]
+  },
+  "mpesaipnmessageendpoint.insertMpesaIPNMessage": {
+   "id": "mpesaipnmessageendpoint.insertMpesaIPNMessage",
+   "parameters": {
+    "resource": {
+     "$ref": "MpesaIPNMessage"
+    }
+   },
+   "parameterOrder": [
+    "resource"
+   ],
+   "returns": {
+    "$ref": "MpesaIPNMessage"
+   },
+   "scopes": [
+    "https://www.googleapis.com/auth/userinfo.email"
+   ]
+  },
+  "mpesaipnmessageendpoint.insertMpesaTestIPNMessage": {
+   "id": "mpesaipnmessageendpoint.insertMpesaTestIPNMessage",
+   "parameters": {
+    "resource": {
+     "$ref": "MpesaTestIPNMessage"
+    }
+   },
+   "parameterOrder": [
+    "resource"
+   ],
+   "returns": {
+    "$ref": "MpesaTestIPNMessage"
+   },
+   "scopes": [
+    "https://www.googleapis.com/auth/userinfo.email"
+   ]
+  },
+  "mpesaipnmessageendpoint.isMpesaIPNMessageExists": {
+   "id": "mpesaipnmessageendpoint.isMpesaIPNMessageExists",
+   "parameters": {
+    "resource": {
+     "$ref": "MpesaIPNMessage"
+    }
+   },
+   "parameterOrder": [
+    "resource"
+   ],
+   "returns": {
+    "$ref": "MpesaIPNMessage"
+   },
+   "scopes": [
+    "https://www.googleapis.com/auth/userinfo.email"
+   ]
+  },
+  "mpesaipnmessageendpoint.isMpesaTestIPNMessageExists": {
+   "id": "mpesaipnmessageendpoint.isMpesaTestIPNMessageExists",
+   "parameters": {
+    "resource": {
+     "$ref": "MpesaTestIPNMessage"
+    }
+   },
+   "parameterOrder": [
+    "resource"
+   ],
+   "returns": {
+    "$ref": "MpesaTestIPNMessage"
+   },
+   "scopes": [
+    "https://www.googleapis.com/auth/userinfo.email"
+   ]
+  },
+  "mpesaipnmessageendpoint.listMpesaIPNMessage": {
+   "id": "mpesaipnmessageendpoint.listMpesaIPNMessage",
+   "allowGet": true,
+   "parameters": {
+    "count": {
+     "type": "integer",
+     "format": "int32"
+    },
+    "cursor": {
+     "type": "string"
+    }
+   },
+   "returns": {
+    "$ref": "CollectionResponse_MpesaIPNMessage"
+   },
+   "scopes": [
+    "https://www.googleapis.com/auth/userinfo.email"
+   ]
+  },
+  "mpesaipnmessageendpoint.listMpesaTestIPNMessage": {
+   "id": "mpesaipnmessageendpoint.listMpesaTestIPNMessage",
+   "allowGet": true,
+   "parameters": {
+    "count": {
+     "type": "integer",
+     "format": "int32"
+    },
+    "cursor": {
+     "type": "string"
+    }
+   },
+   "returns": {
+    "$ref": "CollectionResponse_MpesaTestIPNMessage"
+   },
+   "scopes": [
+    "https://www.googleapis.com/auth/userinfo.email"
+   ]
+  },
+  "mpesaipnmessageendpoint.listNewMpesaIPNMessages": {
+   "id": "mpesaipnmessageendpoint.listNewMpesaIPNMessages",
+   "parameters": {
+    "count": {
+     "type": "integer",
+     "format": "int32"
+    },
+    "cursor": {
+     "type": "string"
+    }
+   },
+   "returns": {
+    "$ref": "CollectionResponse_MpesaIPNMessage"
+   },
+   "scopes": [
+    "https://www.googleapis.com/auth/userinfo.email"
+   ]
+  },
+  "mpesaipnmessageendpoint.listNewMpesaTestIPNMessages": {
+   "id": "mpesaipnmessageendpoint.listNewMpesaTestIPNMessages",
+   "parameters": {
+    "count": {
+     "type": "integer",
+     "format": "int32"
+    },
+    "cursor": {
+     "type": "string"
+    }
+   },
+   "returns": {
+    "$ref": "CollectionResponse_MpesaTestIPNMessage"
+   },
+   "scopes": [
+    "https://www.googleapis.com/auth/userinfo.email"
+   ]
+  },
+  "mpesaipnmessageendpoint.removeMpesaIPNMessage": {
+   "id": "mpesaipnmessageendpoint.removeMpesaIPNMessage",
+   "parameters": {
+    "id": {
+     "type": "string",
+     "required": true
+    }
+   },
+   "parameterOrder": [
+    "id"
+   ],
+   "scopes": [
+    "https://www.googleapis.com/auth/userinfo.email"
+   ]
+  },
+  "mpesaipnmessageendpoint.removeMpesaTestIPNMessage": {
+   "id": "mpesaipnmessageendpoint.removeMpesaTestIPNMessage",
+   "parameters": {
+    "id": {
+     "type": "string",
+     "required": true,
+     "format": "int64"
+    }
+   },
+   "parameterOrder": [
+    "id"
+   ],
+   "scopes": [
+    "https://www.googleapis.com/auth/userinfo.email"
+   ]
+  },
+  "mpesaipnmessageendpoint.updateMpesaIPNMessage": {
+   "id": "mpesaipnmessageendpoint.updateMpesaIPNMessage",
+   "parameters": {
+    "resource": {
+     "$ref": "MpesaIPNMessage"
+    }
+   },
+   "parameterOrder": [
+    "resource"
+   ],
+   "returns": {
+    "$ref": "MpesaIPNMessage"
+   },
+   "scopes": [
+    "https://www.googleapis.com/auth/userinfo.email"
+   ]
+  },
+  "mpesaipnmessageendpoint.updateMpesaTestIPNMessage": {
+   "id": "mpesaipnmessageendpoint.updateMpesaTestIPNMessage",
+   "parameters": {
+    "resource": {
+     "$ref": "MpesaTestIPNMessage"
+    }
+   },
+   "parameterOrder": [
+    "resource"
+   ],
+   "returns": {
+    "$ref": "MpesaTestIPNMessage"
+   },
+   "scopes": [
+    "https://www.googleapis.com/auth/userinfo.email"
+   ]
+  }
+ }
+}

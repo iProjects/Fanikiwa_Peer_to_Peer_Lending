@@ -1,0 +1,16 @@
+==================================================================
+ERROR OCCOURED AT :28/02/2023 14:04:01 PM
+SOURCE:UnitTestProject1
+MESSAGE:Value cannot be null.
+Whole Exception:System.ArgumentNullException: Value cannot be null.
+   at UnitTestProject1.UnitTest1.Test2() in d:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fCommon\UnitTestProject1\UnitTest1.cs:line 41
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :28/02/2023 14:04:07 PM
+SOURCE:UnitTestProject1
+MESSAGE:Value cannot be null.
+Whole Exception:System.ArgumentNullException: Value cannot be null.
+   at UnitTestProject1.UnitTest1.Test2() in d:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fCommon\UnitTestProject1\UnitTest1.cs:line 41
+==================================================================
+

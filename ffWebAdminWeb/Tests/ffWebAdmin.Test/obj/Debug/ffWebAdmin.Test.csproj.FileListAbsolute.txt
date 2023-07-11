@@ -1,0 +1,9 @@
+C:\My Projects\fanikiwa\ffWebAdminWeb\bin\ffWebAdmin.Test.dll
+C:\My Projects\fanikiwa\ffWebAdminWeb\bin\ffWebAdmin.Test.pdb
+C:\My Projects\fanikiwa\ffWebAdminWeb\Tests\ffWebAdmin.Test\obj\Debug\ffWebAdmin.Test.dll
+C:\My Projects\fanikiwa\ffWebAdminWeb\Tests\ffWebAdmin.Test\obj\Debug\ffWebAdmin.Test.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffWebAdminWeb\bin\ffWebAdmin.Test.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffWebAdminWeb\bin\ffWebAdmin.Test.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffWebAdminWeb\Tests\ffWebAdmin.Test\obj\Debug\ffWebAdmin.Test.csprojResolveAssemblyReference.cache
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffWebAdminWeb\Tests\ffWebAdmin.Test\obj\Debug\ffWebAdmin.Test.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffWebAdminWeb\Tests\ffWebAdmin.Test\obj\Debug\ffWebAdmin.Test.pdb

@@ -1,0 +1,19 @@
+C:\Dev\fMessagingSystem\fMessagingSystem\bin\fMessagingSystem.Framework.dll
+C:\Dev\fMessagingSystem\fMessagingSystem\bin\fMessagingSystem.Framework.pdb
+C:\Dev\fMessagingSystem\fMessagingSystem\Shared\fMessagingSystem.Framework\obj\Debug\fMessagingSystem.Framework.dll
+C:\Dev\fMessagingSystem\fMessagingSystem\Shared\fMessagingSystem.Framework\obj\Debug\fMessagingSystem.Framework.pdb
+C:\My Projects\fanikiwa\fMessagingSystem\bin\fMessagingSystem.Framework.dll
+C:\My Projects\fanikiwa\fMessagingSystem\bin\fMessagingSystem.Framework.pdb
+C:\My Projects\fanikiwa\fMessagingSystem\Shared\fMessagingSystem.Framework\obj\Debug\fMessagingSystem.Framework.dll
+C:\My Projects\fanikiwa\fMessagingSystem\Shared\fMessagingSystem.Framework\obj\Debug\fMessagingSystem.Framework.pdb
+C:\My Projects\fanikiwa\fMessagingSystem\Shared\fMessagingSystem.Framework\obj\Debug\fMessagingSystem.Framework.csprojResolveAssemblyReference.cache
+D:\My Projects\fanikiwa\fMessagingSystem\bin\fMessagingSystem.Framework.dll
+D:\My Projects\fanikiwa\fMessagingSystem\bin\fMessagingSystem.Framework.pdb
+D:\My Projects\fanikiwa\fMessagingSystem\Shared\fMessagingSystem.Framework\obj\Debug\fMessagingSystem.Framework.dll
+D:\My Projects\fanikiwa\fMessagingSystem\Shared\fMessagingSystem.Framework\obj\Debug\fMessagingSystem.Framework.pdb
+D:\My Projects\fanikiwa\fMessagingSystem\Shared\fMessagingSystem.Framework\obj\Debug\fMessagingSystem.Framework.csprojResolveAssemblyReference.cache
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\bin\fMessagingSystem.Framework.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\bin\fMessagingSystem.Framework.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\Shared\fMessagingSystem.Framework\obj\Debug\fMessagingSystem.Framework.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\Shared\fMessagingSystem.Framework\obj\Debug\fMessagingSystem.Framework.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\Shared\fMessagingSystem.Framework\obj\Debug\fMessagingSystem.Framework.csprojResolveAssemblyReference.cache

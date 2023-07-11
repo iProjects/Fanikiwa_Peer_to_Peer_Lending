@@ -1,0 +1,13 @@
+C:\Dev\ffWebAdmin\ffWebAdmin\bin\ffWebAdmin.Entities.dll
+C:\Dev\ffWebAdmin\ffWebAdmin\bin\ffWebAdmin.Entities.pdb
+C:\Dev\ffWebAdmin\ffWebAdmin\Shared\ffWebAdmin.Entities\obj\Debug\ffWebAdmin.Entities.dll
+C:\Dev\ffWebAdmin\ffWebAdmin\Shared\ffWebAdmin.Entities\obj\Debug\ffWebAdmin.Entities.pdb
+C:\My Projects\fanikiwa\ffWebAdminWeb\bin\ffWebAdmin.Entities.dll
+C:\My Projects\fanikiwa\ffWebAdminWeb\bin\ffWebAdmin.Entities.pdb
+C:\My Projects\fanikiwa\ffWebAdminWeb\Shared\ffWebAdmin.Entities\obj\Debug\ffWebAdmin.Entities.dll
+C:\My Projects\fanikiwa\ffWebAdminWeb\Shared\ffWebAdmin.Entities\obj\Debug\ffWebAdmin.Entities.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffWebAdminWeb\bin\ffWebAdmin.Entities.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffWebAdminWeb\bin\ffWebAdmin.Entities.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffWebAdminWeb\Shared\ffWebAdmin.Entities\obj\Debug\ffWebAdmin.Entities.csprojResolveAssemblyReference.cache
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffWebAdminWeb\Shared\ffWebAdmin.Entities\obj\Debug\ffWebAdmin.Entities.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffWebAdminWeb\Shared\ffWebAdmin.Entities\obj\Debug\ffWebAdmin.Entities.pdb

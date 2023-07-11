@@ -1,0 +1,58 @@
+C:\My Projects\fanikiwa\fCommissions\Commission.Business\bin\Debug\fCommissions.Commission.Business.dll
+C:\My Projects\fanikiwa\fCommissions\Commission.Business\bin\Debug\fCommissions.Commission.Business.pdb
+C:\My Projects\fanikiwa\fCommissions\Commission.Business\bin\Debug\fanikiwaGL.Business.dll
+C:\My Projects\fanikiwa\fCommissions\Commission.Business\bin\Debug\fanikiwaGL.Entities.dll
+C:\My Projects\fanikiwa\fCommissions\Commission.Business\bin\Debug\fCommissions.Commission.Data.dll
+C:\My Projects\fanikiwa\fCommissions\Commission.Business\bin\Debug\fCommissions.Commission.Entities.dll
+C:\My Projects\fanikiwa\fCommissions\Commission.Business\bin\Debug\fCommissions.Commission.Data.pdb
+C:\My Projects\fanikiwa\fCommissions\Commission.Business\bin\Debug\fCommissions.Commission.Entities.pdb
+C:\My Projects\fanikiwa\fCommissions\Commission.Business\bin\Debug\fanikiwaGL.Business.pdb
+C:\My Projects\fanikiwa\fCommissions\Commission.Business\bin\Debug\fanikiwaGL.Entities.pdb
+C:\My Projects\fanikiwa\fCommissions\Commission.Business\obj\Debug\Commission.Business.csprojResolveAssemblyReference.cache
+C:\My Projects\fanikiwa\fCommissions\Commission.Business\obj\Debug\fCommissions.Commission.Business.dll
+C:\My Projects\fanikiwa\fCommissions\Commission.Business\obj\Debug\fCommissions.Commission.Business.pdb
+C:\My Projects\fanikiwa\fCommissions\Commission.Business\bin\Debug\fanikiwaGL.Framework.dll
+C:\My Projects\fanikiwa\fCommissions\Commission.Business\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+C:\My Projects\fanikiwa\fCommissions\Commission.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+C:\My Projects\fanikiwa\fCommissions\Commission.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\My Projects\fanikiwa\fCommissions\Commission.Business\bin\Debug\Microsoft.Practices.Unity.dll
+C:\My Projects\fanikiwa\fCommissions\Commission.Business\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\My Projects\fanikiwa\fCommissions\Commission.Business\bin\Debug\fanikiwaGL.Framework.pdb
+C:\My Projects\fanikiwa\fCommissions\Commission.Business\bin\Debug\Microsoft.Practices.Unity.Interception.xml
+C:\My Projects\fanikiwa\fCommissions\Commission.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.xml
+C:\My Projects\fanikiwa\fCommissions\Commission.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\My Projects\fanikiwa\fCommissions\Commission.Business\bin\Debug\Microsoft.Practices.Unity.xml
+C:\My Projects\fanikiwa\fCommissions\Commission.Business\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fCommissions\Commission.Business\bin\Debug\fCommissions.Commission.Business.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fCommissions\Commission.Business\bin\Debug\fCommissions.Commission.Business.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fCommissions\Commission.Business\bin\Debug\fanikiwaGL.Data.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fCommissions\Commission.Business\bin\Debug\fanikiwaGL.Framework.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fCommissions\Commission.Business\bin\Debug\fCommissions.Commission.Data.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fCommissions\Commission.Business\bin\Debug\fCommissions.Commission.Entities.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fCommissions\Commission.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fCommissions\Commission.Business\bin\Debug\fCommon.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fCommissions\Commission.Business\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fCommissions\Commission.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fCommissions\Commission.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fCommissions\Commission.Business\bin\Debug\Microsoft.Practices.Unity.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fCommissions\Commission.Business\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fCommissions\Commission.Business\bin\Debug\fCommissions.Commission.Data.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fCommissions\Commission.Business\bin\Debug\fCommissions.Commission.Entities.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fCommissions\Commission.Business\bin\Debug\fanikiwaGL.Business.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fCommissions\Commission.Business\bin\Debug\fanikiwaGL.Data.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fCommissions\Commission.Business\bin\Debug\fanikiwaGL.Entities.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fCommissions\Commission.Business\bin\Debug\fanikiwaGL.Framework.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fCommissions\Commission.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fCommissions\Commission.Business\bin\Debug\fCommon.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fCommissions\Commission.Business\bin\Debug\Microsoft.Practices.Unity.Interception.xml
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fCommissions\Commission.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.xml
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fCommissions\Commission.Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fCommissions\Commission.Business\bin\Debug\Microsoft.Practices.Unity.xml
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fCommissions\Commission.Business\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fCommissions\Commission.Business\obj\Debug\Commission.Business.csprojResolveAssemblyReference.cache
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fCommissions\Commission.Business\obj\Debug\fCommissions.Commission.Business.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fCommissions\Commission.Business\obj\Debug\fCommissions.Commission.Business.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fCommissions\Commission.Business\bin\Debug\fanikiwaGL.Business.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fCommissions\Commission.Business\bin\Debug\fanikiwaGL.Entities.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fCommissions\bin\fCommissions.Commission.Business.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fCommissions\bin\fCommissions.Commission.Business.pdb

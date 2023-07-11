@@ -1,0 +1,172 @@
+﻿@model ffWebAdmin.UI.MVC.Models.RegisterModel
+@{
+    ViewBag.Title = "Register";
+}
+
+
+<hgroup class="title">
+    <h2 class="page-title">@ViewBag.Title.</h2>
+    <h2 class="page-title">Create a new account.</h2>
+</hgroup>
+
+@using (Html.BeginForm("Register", "Account", FormMethod.Post, new { enctype = "multipart/form-data", id = "register-form" }))
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>Registration Form</legend>
+
+        <ol>
+
+            <li>
+                <h3>*UserName(Use Your Email):</h3>
+                <span class="add-on"><i class="icon-envelope"></i></span>
+                @Html.TextBoxFor(m => m.UserName, new { autofocus = "autofocus", type = "email", placeholder = "username@domain.co.ke" })
+                @Html.ValidationMessageFor(m => m.UserName)
+            </li>
+
+            <li>
+                <h3>*SurName:</h3>
+                <span class="add-on"><i class="icon-key"></i></span>
+                @Html.TextBoxFor(m => m.SurName)
+                @Html.ValidationMessageFor(m => m.SurName)
+            </li>
+
+            <li>
+                <h3>*Password:</h3>
+                <span class="add-on"><i class="icon-key"></i></span>
+                @Html.PasswordFor(m => m.Password, new { type = "password", minlength = "6" })
+                @Html.ValidationMessageFor(m => m.Password)
+            </li>
+
+            <li>
+                <h3>*ConfirmPassword:</h3>
+                <span class="add-on"><i class="icon-key"></i></span>
+                @Html.PasswordFor(m => m.ConfirmPassword, new { type = "password", minlength = "6" })
+                @Html.ValidationMessageFor(m => m.ConfirmPassword)
+            </li>
+
+            <li>
+                <h3>*InformBy:</h3>
+                <span class="add-on"><i class="icon-envelope"></i></span>
+                @{
+    List<SelectListItem> infmlistItems = new List<SelectListItem>();
+    infmlistItems.Add(new SelectListItem
+         {
+             Text = "SMS",
+             Value = "SMS",
+
+         });
+    infmlistItems.Add(new SelectListItem
+         {
+             Text = "EMAIL",
+             Value = "EMAIL",
+             Selected = true
+         });
+                }
+                @Html.DropDownListFor(model => model.InformBy, infmlistItems, "-- Select Inform By --", new { id = "cboInformBy", style = "width: 310px;height: 30px;" })
+                @Html.ValidationMessageFor(model => model.InformBy)
+            </li>
+
+            <li>
+
+                <h3>Phone: Must Conform to MPESA format!</h3>
+                <span class="add-on"><i class="icon-envelope"></i></span>
+                @Html.TextBoxFor(m => m.Telephone, new { type = "tel", placeholder = "254717769329" })
+                @Html.ValidationMessageFor(m => m.Telephone)
+            </li>
+
+            <li>
+                @Html.CheckBoxFor(m => m.TermsAccepted) I Accept the Terms and Conditions
+                @Html.ValidationMessageFor(m => m.TermsAccepted)
+            </li>
+
+        </ol>
+
+        <input type="submit" value="Register" id="btnSubmitRegisterForm" />
+
+    </fieldset>
+    
+     
+     
+     
+@*<fieldset class="set optionalFields">
+			<h3>People love to see who's behind the loan.</h3>
+			<div class="set uploadPhoto vBlock">
+				<img src="https://www.kiva.org/rgit05475f8fcf666d8156e7b6730ccbaf51182dad1e-1/img/default_lender.png" class="img" height="100" width="100">
+				<div class="vStuff">
+					<label for="image">Upload your photo (.jpg or.gif)</label>
+					<input name="image" id="image" value="Choose Image" type="file">
+				</div>
+			</div>
+       
+			<div class="cSet">
+				<div>Personal display settings:</div>
+				<ul>
+					<li>
+						<input name="visibility" value="public_prefill" checked="" type="radio">
+						<label>Display my first name and area of residence ( city, state, and country )</label>
+					</li>
+					<li>
+						<input name="visibility" value="public" type="radio">
+						<label>Display my first name only</label>
+					</li>
+					<li>
+						<input name="visibility" value="anonymous" type="radio">
+						<label>I would like to remain anonymous</label>
+					</li>
+				</ul>
+			</div>
+      
+		</fieldset>*@
+    
+}
+
+
+
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+
+            $("#progress").hide();
+
+            $.ajaxSetup({ cache: false });
+
+        });
+
+        $("#btnSubmitRegisterForm").on("click", function (e) {
+
+            e.preventDefault();
+
+            $("#register-form").validate();
+
+            if (!$("#register-form").valid()) {
+                return false;
+            }
+
+            if ($("#register-form").valid()) {
+
+                $("#progress").removeClass('displaynone');
+                $("#progress").addClass('displayblock');
+                $("#progress").show();
+
+                $("#register-form").submit();
+            }
+
+        });
+
+    </script>
+
+}
+
+
+
+
+
+
+

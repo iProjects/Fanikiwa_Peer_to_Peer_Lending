@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cronentries>
+  <cron>
+    <url>/FanikiwaDiary</url>
+    <description>Process Diary every 12:00 midnight</description>
+    <schedule>every day 00:00</schedule>
+  </cron> 
+  <cron>
+    <url>/MpesaProcessServeletCron</url>
+    <description>Process Mpesa Requests every 2 mins</description>
+    <schedule>every 2 minutes</schedule>
+  </cron> 
+</cronentries>

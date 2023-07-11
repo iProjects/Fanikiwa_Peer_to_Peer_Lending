@@ -1,0 +1,4 @@
+C:\Dev\ffWebAdmin\ffWebAdmin\bin\ffWebAdmin.Workflows.Activities.VisualStudio.Design.dll
+C:\Dev\ffWebAdmin\ffWebAdmin\bin\ffWebAdmin.Workflows.Activities.VisualStudio.Design.pdb
+C:\Dev\ffWebAdmin\ffWebAdmin\Business\ffWebAdmin.Workflows.Designers\obj\Release\ffWebAdmin.Workflows.Activities.VisualStudio.Design.dll
+C:\Dev\ffWebAdmin\ffWebAdmin\Business\ffWebAdmin.Workflows.Designers\obj\Release\ffWebAdmin.Workflows.Activities.VisualStudio.Design.pdb

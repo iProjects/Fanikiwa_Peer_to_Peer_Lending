@@ -1,0 +1,5 @@
+C:\Dev\ffWebAdmin\ffWebAdmin\bin\ffWebAdmin.Hosts.Web.dll
+C:\Dev\ffWebAdmin\ffWebAdmin\bin\ffWebAdmin.Hosts.Web.pdb
+C:\Dev\ffWebAdmin\ffWebAdmin\Hosts\ffWebAdmin.Hosts.Web\obj\Release\ffWebAdmin.Hosts.Web.csprojResolveAssemblyReference.cache
+C:\Dev\ffWebAdmin\ffWebAdmin\Hosts\ffWebAdmin.Hosts.Web\obj\Release\ffWebAdmin.Hosts.Web.dll
+C:\Dev\ffWebAdmin\ffWebAdmin\Hosts\ffWebAdmin.Hosts.Web\obj\Release\ffWebAdmin.Hosts.Web.pdb

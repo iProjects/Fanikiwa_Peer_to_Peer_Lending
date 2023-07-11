@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@layout/header_gradient"
+        android:orientation="vertical"
+        android:padding="10dip" >
+
+        <!-- Email Label -->
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/profile_email"
+            android:textColor="#372c24" />
+
+        <EditText
+            android:id="@+id/profile_email"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dip"
+            android:layout_marginTop="5dip" 
+            android:inputType="textEmailAddress"
+            android:textColor="#372c24" />
+
+        <!-- Surname Label -->
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/profile_surname"
+            android:textColor="#372c24" />
+
+        <EditText
+            android:id="@+id/profile_surname"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:inputType="number" 
+            android:textColor="#372c24" />
+
+        <!-- Othernames Label -->
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/profile_othernames"
+            android:textColor="#372c24" />
+
+        <EditText
+            android:id="@+id/profile_othernames"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:inputType="number" 
+            android:textColor="#372c24" />
+
+        <!-- Telephone Label -->
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/profile_telephone"
+            android:textColor="#372c24" />
+
+        <EditText
+            android:id="@+id/profile_telephone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:inputType="number" 
+            android:textColor="#372c24" />
+
+        <!-- NationalId Label -->
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/profile_nationalid"
+            android:textColor="#372c24" />
+
+        <EditText
+            android:id="@+id/profile_nationalid"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dip"
+            android:layout_marginTop="5dip" 
+            android:textColor="#372c24" />
+
+        <!-- Date Of Birth Label -->
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/profile_dateofbirth"
+            android:textColor="#372c24" />
+
+        <EditText
+            android:id="@+id/profile_dateofbirth"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dip"
+            android:layout_marginTop="5dip" 
+            android:textColor="#372c24" />
+
+        <!-- Reffered By Label -->
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/profile_refferedby"
+            android:textColor="#372c24" />
+
+        <EditText
+            android:id="@+id/profile_refferedby"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dip"
+            android:layout_marginTop="5dip" 
+            android:inputType="number"
+            android:textColor="#372c24" />
+
+        <!-- MaxRecordsToDisplay By Label -->
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/profile_maxrecords"
+            android:textColor="#372c24" />
+
+        <EditText
+            android:id="@+id/profile_maxrecords"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dip"
+            android:layout_marginTop="5dip" 
+            android:inputType="number"
+            android:textColor="#372c24" />
+
+        <!-- Gender Label -->
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/profile_gender"
+            android:textColor="#372c24" />
+
+        <Spinner
+            android:id="@+id/profile_gender"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dip"
+            android:layout_marginTop="5dip" 
+            android:textColor="#372c24" />
+
+        <!-- Inform By Label -->
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/profile_informby"
+            android:textColor="#372c24" />
+
+        <Spinner
+            android:id="@+id/profile_informby"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dip"
+            android:layout_marginTop="5dip" 
+            android:textColor="#372c24" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <!-- Create button Start -->
+
+            <Button
+                android:id="@+id/btnUpdateProfile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_weight="1"
+                android:text="@string/btnUpdateProfile" />
+            <!-- Create button Ends -->
+
+
+            <!-- Cancel button Start -->
+
+            <Button
+                android:id="@+id/btnCancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_weight="1"
+                android:text="@string/btnCancel" />
+            <!-- Cancel button Ends -->
+
+
+            <!-- Close button Start -->
+
+            <Button
+                android:id="@+id/btnClose"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_weight="1"
+                android:text="@string/btnClose" />
+            <!-- Close button Ends -->
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

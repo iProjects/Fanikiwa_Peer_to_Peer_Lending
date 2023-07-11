@@ -1,0 +1,750 @@
+==================================================================
+ERROR OCCOURED AT :28/02/2023 14:15:47 PM
+SOURCE:GSMCommunication
+MESSAGE:Unable to open port COM31: Invalid connection settings. Port COM31 does not exist on this system.
+Whole Exception:GsmComm.GsmCommunication.CommException: Unable to open port COM31: Invalid connection settings. Port COM31 does not exist on this system. ---> GsmComm.GsmCommunication.CommException: Invalid connection settings. Port COM31 does not exist on this system.
+   at GsmComm.GsmCommunication.GsmPhone.OpenPort(Int32 portNum, Int32 baudRate, Int32 timeout)
+   at GsmComm.GsmCommunication.GsmPhone.Open()
+   --- End of inner exception stack trace ---
+   at GsmComm.GsmCommunication.GsmPhone.Open()
+   at GsmComm.GsmCommunication.GsmCommMain.Open()
+   at SMSGateway.MyApplicationContext.ConnectSendingModem() in d:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSProcessor\SMSGateway\MyApplicationContext.cs:line 199
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :28/02/2023 14:15:47 PM
+SOURCE:GSMCommunication
+MESSAGE:Unable to open port COM31: Invalid connection settings. Port COM31 does not exist on this system.
+Whole Exception:GsmComm.GsmCommunication.CommException: Unable to open port COM31: Invalid connection settings. Port COM31 does not exist on this system. ---> GsmComm.GsmCommunication.CommException: Invalid connection settings. Port COM31 does not exist on this system.
+   at GsmComm.GsmCommunication.GsmPhone.OpenPort(Int32 portNum, Int32 baudRate, Int32 timeout)
+   at GsmComm.GsmCommunication.GsmPhone.Open()
+   --- End of inner exception stack trace ---
+   at GsmComm.GsmCommunication.GsmPhone.Open()
+   at GsmComm.GsmCommunication.GsmCommMain.Open()
+   at SMSGateway.MyApplicationContext.ConnectSendingModem() in d:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSProcessor\SMSGateway\MyApplicationContext.cs:line 199
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :28/02/2023 14:15:51 PM
+SOURCE:GSMCommunication
+MESSAGE:Unable to open port COM20: Invalid connection settings. Port COM20 does not exist on this system.
+Whole Exception:GsmComm.GsmCommunication.CommException: Unable to open port COM20: Invalid connection settings. Port COM20 does not exist on this system. ---> GsmComm.GsmCommunication.CommException: Invalid connection settings. Port COM20 does not exist on this system.
+   at GsmComm.GsmCommunication.GsmPhone.OpenPort(Int32 portNum, Int32 baudRate, Int32 timeout)
+   at GsmComm.GsmCommunication.GsmPhone.Open()
+   --- End of inner exception stack trace ---
+   at GsmComm.GsmCommunication.GsmPhone.Open()
+   at GsmComm.GsmCommunication.GsmCommMain.Open()
+   at SMSGateway.MyApplicationContext.ConnectRecievingModem() in d:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSProcessor\SMSGateway\MyApplicationContext.cs:line 175
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :28/02/2023 14:15:51 PM
+SOURCE:GSMCommunication
+MESSAGE:Unable to open port COM20: Invalid connection settings. Port COM20 does not exist on this system.
+Whole Exception:GsmComm.GsmCommunication.CommException: Unable to open port COM20: Invalid connection settings. Port COM20 does not exist on this system. ---> GsmComm.GsmCommunication.CommException: Invalid connection settings. Port COM20 does not exist on this system.
+   at GsmComm.GsmCommunication.GsmPhone.OpenPort(Int32 portNum, Int32 baudRate, Int32 timeout)
+   at GsmComm.GsmCommunication.GsmPhone.Open()
+   --- End of inner exception stack trace ---
+   at GsmComm.GsmCommunication.GsmPhone.Open()
+   at GsmComm.GsmCommunication.GsmCommMain.Open()
+   at SMSGateway.MyApplicationContext.ConnectRecievingModem() in d:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSProcessor\SMSGateway\MyApplicationContext.cs:line 175
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :28/02/2023 14:28:38 PM
+SOURCE:GSMCommunication
+MESSAGE:Unable to open port COM150: Invalid connection settings. Port COM150 does not exist on this system.
+Whole Exception:GsmComm.GsmCommunication.CommException: Unable to open port COM150: Invalid connection settings. Port COM150 does not exist on this system. ---> GsmComm.GsmCommunication.CommException: Invalid connection settings. Port COM150 does not exist on this system.
+   at GsmComm.GsmCommunication.GsmPhone.OpenPort(Int32 portNum, Int32 baudRate, Int32 timeout)
+   at GsmComm.GsmCommunication.GsmPhone.Open()
+   --- End of inner exception stack trace ---
+   at GsmComm.GsmCommunication.GsmPhone.Open()
+   at GsmComm.GsmCommunication.GsmCommMain.Open()
+   at SMSGateway.MyApplicationContext.ConnectSendingModem() in d:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSProcessor\SMSGateway\MyApplicationContext.cs:line 199
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :28/02/2023 14:28:39 PM
+SOURCE:GSMCommunication
+MESSAGE:Unable to open port COM150: Invalid connection settings. Port COM150 does not exist on this system.
+Whole Exception:GsmComm.GsmCommunication.CommException: Unable to open port COM150: Invalid connection settings. Port COM150 does not exist on this system. ---> GsmComm.GsmCommunication.CommException: Invalid connection settings. Port COM150 does not exist on this system.
+   at GsmComm.GsmCommunication.GsmPhone.OpenPort(Int32 portNum, Int32 baudRate, Int32 timeout)
+   at GsmComm.GsmCommunication.GsmPhone.Open()
+   --- End of inner exception stack trace ---
+   at GsmComm.GsmCommunication.GsmPhone.Open()
+   at GsmComm.GsmCommunication.GsmCommMain.Open()
+   at SMSGateway.MyApplicationContext.ConnectSendingModem() in d:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSProcessor\SMSGateway\MyApplicationContext.cs:line 199
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :28/02/2023 14:28:44 PM
+SOURCE:GSMCommunication
+MESSAGE:Unable to open port COM120: Invalid connection settings. Port COM120 does not exist on this system.
+Whole Exception:GsmComm.GsmCommunication.CommException: Unable to open port COM120: Invalid connection settings. Port COM120 does not exist on this system. ---> GsmComm.GsmCommunication.CommException: Invalid connection settings. Port COM120 does not exist on this system.
+   at GsmComm.GsmCommunication.GsmPhone.OpenPort(Int32 portNum, Int32 baudRate, Int32 timeout)
+   at GsmComm.GsmCommunication.GsmPhone.Open()
+   --- End of inner exception stack trace ---
+   at GsmComm.GsmCommunication.GsmPhone.Open()
+   at GsmComm.GsmCommunication.GsmCommMain.Open()
+   at SMSGateway.MyApplicationContext.ConnectRecievingModem() in d:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSProcessor\SMSGateway\MyApplicationContext.cs:line 175
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :28/02/2023 14:28:44 PM
+SOURCE:GSMCommunication
+MESSAGE:Unable to open port COM120: Invalid connection settings. Port COM120 does not exist on this system.
+Whole Exception:GsmComm.GsmCommunication.CommException: Unable to open port COM120: Invalid connection settings. Port COM120 does not exist on this system. ---> GsmComm.GsmCommunication.CommException: Invalid connection settings. Port COM120 does not exist on this system.
+   at GsmComm.GsmCommunication.GsmPhone.OpenPort(Int32 portNum, Int32 baudRate, Int32 timeout)
+   at GsmComm.GsmCommunication.GsmPhone.Open()
+   --- End of inner exception stack trace ---
+   at GsmComm.GsmCommunication.GsmPhone.Open()
+   at GsmComm.GsmCommunication.GsmCommMain.Open()
+   at SMSGateway.MyApplicationContext.ConnectRecievingModem() in d:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSProcessor\SMSGateway\MyApplicationContext.cs:line 175
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :28/02/2023 19:41:44 PM
+SOURCE:GSMCommunication
+MESSAGE:Unable to open port COM150: Invalid connection settings. Port COM150 does not exist on this system.
+Whole Exception:GsmComm.GsmCommunication.CommException: Unable to open port COM150: Invalid connection settings. Port COM150 does not exist on this system. ---> GsmComm.GsmCommunication.CommException: Invalid connection settings. Port COM150 does not exist on this system.
+   at GsmComm.GsmCommunication.GsmPhone.OpenPort(Int32 portNum, Int32 baudRate, Int32 timeout)
+   at GsmComm.GsmCommunication.GsmPhone.Open()
+   --- End of inner exception stack trace ---
+   at GsmComm.GsmCommunication.GsmPhone.Open()
+   at GsmComm.GsmCommunication.GsmCommMain.Open()
+   at SMSGateway.MyApplicationContext.ConnectSendingModem() in d:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSProcessor\SMSGateway\MyApplicationContext.cs:line 199
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :28/02/2023 19:41:44 PM
+SOURCE:GSMCommunication
+MESSAGE:Unable to open port COM150: Invalid connection settings. Port COM150 does not exist on this system.
+Whole Exception:GsmComm.GsmCommunication.CommException: Unable to open port COM150: Invalid connection settings. Port COM150 does not exist on this system. ---> GsmComm.GsmCommunication.CommException: Invalid connection settings. Port COM150 does not exist on this system.
+   at GsmComm.GsmCommunication.GsmPhone.OpenPort(Int32 portNum, Int32 baudRate, Int32 timeout)
+   at GsmComm.GsmCommunication.GsmPhone.Open()
+   --- End of inner exception stack trace ---
+   at GsmComm.GsmCommunication.GsmPhone.Open()
+   at GsmComm.GsmCommunication.GsmCommMain.Open()
+   at SMSGateway.MyApplicationContext.ConnectSendingModem() in d:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSProcessor\SMSGateway\MyApplicationContext.cs:line 199
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :28/02/2023 19:41:46 PM
+SOURCE:GSMCommunication
+MESSAGE:Unable to open port COM120: Invalid connection settings. Port COM120 does not exist on this system.
+Whole Exception:GsmComm.GsmCommunication.CommException: Unable to open port COM120: Invalid connection settings. Port COM120 does not exist on this system. ---> GsmComm.GsmCommunication.CommException: Invalid connection settings. Port COM120 does not exist on this system.
+   at GsmComm.GsmCommunication.GsmPhone.OpenPort(Int32 portNum, Int32 baudRate, Int32 timeout)
+   at GsmComm.GsmCommunication.GsmPhone.Open()
+   --- End of inner exception stack trace ---
+   at GsmComm.GsmCommunication.GsmPhone.Open()
+   at GsmComm.GsmCommunication.GsmCommMain.Open()
+   at SMSGateway.MyApplicationContext.ConnectRecievingModem() in d:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSProcessor\SMSGateway\MyApplicationContext.cs:line 175
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :28/02/2023 19:41:46 PM
+SOURCE:GSMCommunication
+MESSAGE:Unable to open port COM120: Invalid connection settings. Port COM120 does not exist on this system.
+Whole Exception:GsmComm.GsmCommunication.CommException: Unable to open port COM120: Invalid connection settings. Port COM120 does not exist on this system. ---> GsmComm.GsmCommunication.CommException: Invalid connection settings. Port COM120 does not exist on this system.
+   at GsmComm.GsmCommunication.GsmPhone.OpenPort(Int32 portNum, Int32 baudRate, Int32 timeout)
+   at GsmComm.GsmCommunication.GsmPhone.Open()
+   --- End of inner exception stack trace ---
+   at GsmComm.GsmCommunication.GsmPhone.Open()
+   at GsmComm.GsmCommunication.GsmCommMain.Open()
+   at SMSGateway.MyApplicationContext.ConnectRecievingModem() in d:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSProcessor\SMSGateway\MyApplicationContext.cs:line 175
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :28/02/2023 19:43:15 PM
+SOURCE:GSMCommunication
+MESSAGE:Unable to open port COM150: Invalid connection settings. Port COM150 does not exist on this system.
+Whole Exception:GsmComm.GsmCommunication.CommException: Unable to open port COM150: Invalid connection settings. Port COM150 does not exist on this system. ---> GsmComm.GsmCommunication.CommException: Invalid connection settings. Port COM150 does not exist on this system.
+   at GsmComm.GsmCommunication.GsmPhone.OpenPort(Int32 portNum, Int32 baudRate, Int32 timeout)
+   at GsmComm.GsmCommunication.GsmPhone.Open()
+   --- End of inner exception stack trace ---
+   at GsmComm.GsmCommunication.GsmPhone.Open()
+   at GsmComm.GsmCommunication.GsmCommMain.Open()
+   at SMSGateway.MyApplicationContext.ConnectSendingModem() in d:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSProcessor\SMSGateway\MyApplicationContext.cs:line 199
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :28/02/2023 19:43:15 PM
+SOURCE:GSMCommunication
+MESSAGE:Unable to open port COM150: Invalid connection settings. Port COM150 does not exist on this system.
+Whole Exception:GsmComm.GsmCommunication.CommException: Unable to open port COM150: Invalid connection settings. Port COM150 does not exist on this system. ---> GsmComm.GsmCommunication.CommException: Invalid connection settings. Port COM150 does not exist on this system.
+   at GsmComm.GsmCommunication.GsmPhone.OpenPort(Int32 portNum, Int32 baudRate, Int32 timeout)
+   at GsmComm.GsmCommunication.GsmPhone.Open()
+   --- End of inner exception stack trace ---
+   at GsmComm.GsmCommunication.GsmPhone.Open()
+   at GsmComm.GsmCommunication.GsmCommMain.Open()
+   at SMSGateway.MyApplicationContext.ConnectSendingModem() in d:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSProcessor\SMSGateway\MyApplicationContext.cs:line 199
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :28/02/2023 19:43:16 PM
+SOURCE:GSMCommunication
+MESSAGE:Unable to open port COM120: Invalid connection settings. Port COM120 does not exist on this system.
+Whole Exception:GsmComm.GsmCommunication.CommException: Unable to open port COM120: Invalid connection settings. Port COM120 does not exist on this system. ---> GsmComm.GsmCommunication.CommException: Invalid connection settings. Port COM120 does not exist on this system.
+   at GsmComm.GsmCommunication.GsmPhone.OpenPort(Int32 portNum, Int32 baudRate, Int32 timeout)
+   at GsmComm.GsmCommunication.GsmPhone.Open()
+   --- End of inner exception stack trace ---
+   at GsmComm.GsmCommunication.GsmPhone.Open()
+   at GsmComm.GsmCommunication.GsmCommMain.Open()
+   at SMSGateway.MyApplicationContext.ConnectRecievingModem() in d:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSProcessor\SMSGateway\MyApplicationContext.cs:line 175
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :28/02/2023 19:43:16 PM
+SOURCE:GSMCommunication
+MESSAGE:Unable to open port COM120: Invalid connection settings. Port COM120 does not exist on this system.
+Whole Exception:GsmComm.GsmCommunication.CommException: Unable to open port COM120: Invalid connection settings. Port COM120 does not exist on this system. ---> GsmComm.GsmCommunication.CommException: Invalid connection settings. Port COM120 does not exist on this system.
+   at GsmComm.GsmCommunication.GsmPhone.OpenPort(Int32 portNum, Int32 baudRate, Int32 timeout)
+   at GsmComm.GsmCommunication.GsmPhone.Open()
+   --- End of inner exception stack trace ---
+   at GsmComm.GsmCommunication.GsmPhone.Open()
+   at GsmComm.GsmCommunication.GsmCommMain.Open()
+   at SMSGateway.MyApplicationContext.ConnectRecievingModem() in d:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSProcessor\SMSGateway\MyApplicationContext.cs:line 175
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :28/02/2023 20:33:28 PM
+SOURCE:GSMCommunication
+MESSAGE:Unable to open port COM150: Invalid connection settings. Port COM150 does not exist on this system.
+Whole Exception:GsmComm.GsmCommunication.CommException: Unable to open port COM150: Invalid connection settings. Port COM150 does not exist on this system. ---> GsmComm.GsmCommunication.CommException: Invalid connection settings. Port COM150 does not exist on this system.
+   at GsmComm.GsmCommunication.GsmPhone.OpenPort(Int32 portNum, Int32 baudRate, Int32 timeout)
+   at GsmComm.GsmCommunication.GsmPhone.Open()
+   --- End of inner exception stack trace ---
+   at GsmComm.GsmCommunication.GsmPhone.Open()
+   at GsmComm.GsmCommunication.GsmCommMain.Open()
+   at SMSGateway.MyApplicationContext.ConnectSendingModem() in d:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSProcessor\SMSGateway\MyApplicationContext.cs:line 199
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :28/02/2023 20:33:28 PM
+SOURCE:GSMCommunication
+MESSAGE:Unable to open port COM150: Invalid connection settings. Port COM150 does not exist on this system.
+Whole Exception:GsmComm.GsmCommunication.CommException: Unable to open port COM150: Invalid connection settings. Port COM150 does not exist on this system. ---> GsmComm.GsmCommunication.CommException: Invalid connection settings. Port COM150 does not exist on this system.
+   at GsmComm.GsmCommunication.GsmPhone.OpenPort(Int32 portNum, Int32 baudRate, Int32 timeout)
+   at GsmComm.GsmCommunication.GsmPhone.Open()
+   --- End of inner exception stack trace ---
+   at GsmComm.GsmCommunication.GsmPhone.Open()
+   at GsmComm.GsmCommunication.GsmCommMain.Open()
+   at SMSGateway.MyApplicationContext.ConnectSendingModem() in d:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSProcessor\SMSGateway\MyApplicationContext.cs:line 199
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :28/02/2023 20:33:29 PM
+SOURCE:GSMCommunication
+MESSAGE:Unable to open port COM120: Invalid connection settings. Port COM120 does not exist on this system.
+Whole Exception:GsmComm.GsmCommunication.CommException: Unable to open port COM120: Invalid connection settings. Port COM120 does not exist on this system. ---> GsmComm.GsmCommunication.CommException: Invalid connection settings. Port COM120 does not exist on this system.
+   at GsmComm.GsmCommunication.GsmPhone.OpenPort(Int32 portNum, Int32 baudRate, Int32 timeout)
+   at GsmComm.GsmCommunication.GsmPhone.Open()
+   --- End of inner exception stack trace ---
+   at GsmComm.GsmCommunication.GsmPhone.Open()
+   at GsmComm.GsmCommunication.GsmCommMain.Open()
+   at SMSGateway.MyApplicationContext.ConnectRecievingModem() in d:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSProcessor\SMSGateway\MyApplicationContext.cs:line 175
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :28/02/2023 20:33:29 PM
+SOURCE:GSMCommunication
+MESSAGE:Unable to open port COM120: Invalid connection settings. Port COM120 does not exist on this system.
+Whole Exception:GsmComm.GsmCommunication.CommException: Unable to open port COM120: Invalid connection settings. Port COM120 does not exist on this system. ---> GsmComm.GsmCommunication.CommException: Invalid connection settings. Port COM120 does not exist on this system.
+   at GsmComm.GsmCommunication.GsmPhone.OpenPort(Int32 portNum, Int32 baudRate, Int32 timeout)
+   at GsmComm.GsmCommunication.GsmPhone.Open()
+   --- End of inner exception stack trace ---
+   at GsmComm.GsmCommunication.GsmPhone.Open()
+   at GsmComm.GsmCommunication.GsmCommMain.Open()
+   at SMSGateway.MyApplicationContext.ConnectRecievingModem() in d:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSProcessor\SMSGateway\MyApplicationContext.cs:line 175
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :28/02/2023 20:49:01 PM
+SOURCE:
+MESSAGE:sendingModem cannot be null
+Whole Exception:System.Exception: sendingModem cannot be null
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :28/02/2023 20:49:03 PM
+SOURCE:
+MESSAGE:receivingModem cannot be null
+Whole Exception:System.Exception: receivingModem cannot be null
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :28/02/2023 20:49:10 PM
+SOURCE:GSMCommunication
+MESSAGE:Unable to open port COM150: Invalid connection settings. Port COM150 does not exist on this system.
+Whole Exception:GsmComm.GsmCommunication.CommException: Unable to open port COM150: Invalid connection settings. Port COM150 does not exist on this system. ---> GsmComm.GsmCommunication.CommException: Invalid connection settings. Port COM150 does not exist on this system.
+   at GsmComm.GsmCommunication.GsmPhone.OpenPort(Int32 portNum, Int32 baudRate, Int32 timeout)
+   at GsmComm.GsmCommunication.GsmPhone.Open()
+   --- End of inner exception stack trace ---
+   at GsmComm.GsmCommunication.GsmPhone.Open()
+   at GsmComm.GsmCommunication.GsmCommMain.Open()
+   at SMSGateway.MyApplicationContext.ConnectSendingModem() in d:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSProcessor\SMSGateway\MyApplicationContext.cs:line 196
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :28/02/2023 20:49:10 PM
+SOURCE:GSMCommunication
+MESSAGE:Unable to open port COM150: Invalid connection settings. Port COM150 does not exist on this system.
+Whole Exception:GsmComm.GsmCommunication.CommException: Unable to open port COM150: Invalid connection settings. Port COM150 does not exist on this system. ---> GsmComm.GsmCommunication.CommException: Invalid connection settings. Port COM150 does not exist on this system.
+   at GsmComm.GsmCommunication.GsmPhone.OpenPort(Int32 portNum, Int32 baudRate, Int32 timeout)
+   at GsmComm.GsmCommunication.GsmPhone.Open()
+   --- End of inner exception stack trace ---
+   at GsmComm.GsmCommunication.GsmPhone.Open()
+   at GsmComm.GsmCommunication.GsmCommMain.Open()
+   at SMSGateway.MyApplicationContext.ConnectSendingModem() in d:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSProcessor\SMSGateway\MyApplicationContext.cs:line 196
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :28/02/2023 20:49:11 PM
+SOURCE:GSMCommunication
+MESSAGE:Unable to open port COM120: Invalid connection settings. Port COM120 does not exist on this system.
+Whole Exception:GsmComm.GsmCommunication.CommException: Unable to open port COM120: Invalid connection settings. Port COM120 does not exist on this system. ---> GsmComm.GsmCommunication.CommException: Invalid connection settings. Port COM120 does not exist on this system.
+   at GsmComm.GsmCommunication.GsmPhone.OpenPort(Int32 portNum, Int32 baudRate, Int32 timeout)
+   at GsmComm.GsmCommunication.GsmPhone.Open()
+   --- End of inner exception stack trace ---
+   at GsmComm.GsmCommunication.GsmPhone.Open()
+   at GsmComm.GsmCommunication.GsmCommMain.Open()
+   at SMSGateway.MyApplicationContext.ConnectRecievingModem() in d:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSProcessor\SMSGateway\MyApplicationContext.cs:line 172
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :28/02/2023 20:49:11 PM
+SOURCE:GSMCommunication
+MESSAGE:Unable to open port COM120: Invalid connection settings. Port COM120 does not exist on this system.
+Whole Exception:GsmComm.GsmCommunication.CommException: Unable to open port COM120: Invalid connection settings. Port COM120 does not exist on this system. ---> GsmComm.GsmCommunication.CommException: Invalid connection settings. Port COM120 does not exist on this system.
+   at GsmComm.GsmCommunication.GsmPhone.OpenPort(Int32 portNum, Int32 baudRate, Int32 timeout)
+   at GsmComm.GsmCommunication.GsmPhone.Open()
+   --- End of inner exception stack trace ---
+   at GsmComm.GsmCommunication.GsmPhone.Open()
+   at GsmComm.GsmCommunication.GsmCommMain.Open()
+   at SMSGateway.MyApplicationContext.ConnectRecievingModem() in d:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSProcessor\SMSGateway\MyApplicationContext.cs:line 172
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :28/02/2023 21:02:53 PM
+SOURCE:
+MESSAGE:sendingModem cannot be null
+Whole Exception:System.Exception: sendingModem cannot be null
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :28/02/2023 21:02:54 PM
+SOURCE:
+MESSAGE:receivingModem cannot be null
+Whole Exception:System.Exception: receivingModem cannot be null
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :28/02/2023 21:02:58 PM
+SOURCE:GSMCommunication
+MESSAGE:Unable to open port COM150: Invalid connection settings. Port COM150 does not exist on this system.
+Whole Exception:GsmComm.GsmCommunication.CommException: Unable to open port COM150: Invalid connection settings. Port COM150 does not exist on this system. ---> GsmComm.GsmCommunication.CommException: Invalid connection settings. Port COM150 does not exist on this system.
+   at GsmComm.GsmCommunication.GsmPhone.OpenPort(Int32 portNum, Int32 baudRate, Int32 timeout)
+   at GsmComm.GsmCommunication.GsmPhone.Open()
+   --- End of inner exception stack trace ---
+   at GsmComm.GsmCommunication.GsmPhone.Open()
+   at GsmComm.GsmCommunication.GsmCommMain.Open()
+   at SMSGateway.MyApplicationContext.ConnectSendingModem() in d:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSProcessor\SMSGateway\MyApplicationContext.cs:line 196
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :28/02/2023 21:02:58 PM
+SOURCE:GSMCommunication
+MESSAGE:Unable to open port COM150: Invalid connection settings. Port COM150 does not exist on this system.
+Whole Exception:GsmComm.GsmCommunication.CommException: Unable to open port COM150: Invalid connection settings. Port COM150 does not exist on this system. ---> GsmComm.GsmCommunication.CommException: Invalid connection settings. Port COM150 does not exist on this system.
+   at GsmComm.GsmCommunication.GsmPhone.OpenPort(Int32 portNum, Int32 baudRate, Int32 timeout)
+   at GsmComm.GsmCommunication.GsmPhone.Open()
+   --- End of inner exception stack trace ---
+   at GsmComm.GsmCommunication.GsmPhone.Open()
+   at GsmComm.GsmCommunication.GsmCommMain.Open()
+   at SMSGateway.MyApplicationContext.ConnectSendingModem() in d:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSProcessor\SMSGateway\MyApplicationContext.cs:line 196
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :28/02/2023 21:03:00 PM
+SOURCE:GSMCommunication
+MESSAGE:Unable to open port COM120: Invalid connection settings. Port COM120 does not exist on this system.
+Whole Exception:GsmComm.GsmCommunication.CommException: Unable to open port COM120: Invalid connection settings. Port COM120 does not exist on this system. ---> GsmComm.GsmCommunication.CommException: Invalid connection settings. Port COM120 does not exist on this system.
+   at GsmComm.GsmCommunication.GsmPhone.OpenPort(Int32 portNum, Int32 baudRate, Int32 timeout)
+   at GsmComm.GsmCommunication.GsmPhone.Open()
+   --- End of inner exception stack trace ---
+   at GsmComm.GsmCommunication.GsmPhone.Open()
+   at GsmComm.GsmCommunication.GsmCommMain.Open()
+   at SMSGateway.MyApplicationContext.ConnectRecievingModem() in d:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSProcessor\SMSGateway\MyApplicationContext.cs:line 172
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :28/02/2023 21:03:00 PM
+SOURCE:GSMCommunication
+MESSAGE:Unable to open port COM120: Invalid connection settings. Port COM120 does not exist on this system.
+Whole Exception:GsmComm.GsmCommunication.CommException: Unable to open port COM120: Invalid connection settings. Port COM120 does not exist on this system. ---> GsmComm.GsmCommunication.CommException: Invalid connection settings. Port COM120 does not exist on this system.
+   at GsmComm.GsmCommunication.GsmPhone.OpenPort(Int32 portNum, Int32 baudRate, Int32 timeout)
+   at GsmComm.GsmCommunication.GsmPhone.Open()
+   --- End of inner exception stack trace ---
+   at GsmComm.GsmCommunication.GsmPhone.Open()
+   at GsmComm.GsmCommunication.GsmCommMain.Open()
+   at SMSGateway.MyApplicationContext.ConnectRecievingModem() in d:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSProcessor\SMSGateway\MyApplicationContext.cs:line 172
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :01/03/2023 17:18:09 PM
+SOURCE:
+MESSAGE:sendingModem cannot be null
+Whole Exception:System.Exception: sendingModem cannot be null
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :01/03/2023 17:18:10 PM
+SOURCE:
+MESSAGE:receivingModem cannot be null
+Whole Exception:System.Exception: receivingModem cannot be null
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :01/03/2023 17:18:16 PM
+SOURCE:GSMCommunication
+MESSAGE:Unable to open port COM150: Invalid connection settings. Port COM150 does not exist on this system.
+Whole Exception:GsmComm.GsmCommunication.CommException: Unable to open port COM150: Invalid connection settings. Port COM150 does not exist on this system. ---> GsmComm.GsmCommunication.CommException: Invalid connection settings. Port COM150 does not exist on this system.
+   at GsmComm.GsmCommunication.GsmPhone.OpenPort(Int32 portNum, Int32 baudRate, Int32 timeout)
+   at GsmComm.GsmCommunication.GsmPhone.Open()
+   --- End of inner exception stack trace ---
+   at GsmComm.GsmCommunication.GsmPhone.Open()
+   at GsmComm.GsmCommunication.GsmCommMain.Open()
+   at SMSGateway.MyApplicationContext.ConnectSendingModem() in d:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSProcessor\SMSGateway\MyApplicationContext.cs:line 196
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :01/03/2023 17:18:16 PM
+SOURCE:GSMCommunication
+MESSAGE:Unable to open port COM150: Invalid connection settings. Port COM150 does not exist on this system.
+Whole Exception:GsmComm.GsmCommunication.CommException: Unable to open port COM150: Invalid connection settings. Port COM150 does not exist on this system. ---> GsmComm.GsmCommunication.CommException: Invalid connection settings. Port COM150 does not exist on this system.
+   at GsmComm.GsmCommunication.GsmPhone.OpenPort(Int32 portNum, Int32 baudRate, Int32 timeout)
+   at GsmComm.GsmCommunication.GsmPhone.Open()
+   --- End of inner exception stack trace ---
+   at GsmComm.GsmCommunication.GsmPhone.Open()
+   at GsmComm.GsmCommunication.GsmCommMain.Open()
+   at SMSGateway.MyApplicationContext.ConnectSendingModem() in d:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSProcessor\SMSGateway\MyApplicationContext.cs:line 196
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :01/03/2023 17:18:25 PM
+SOURCE:GSMCommunication
+MESSAGE:Unable to open port COM120: Invalid connection settings. Port COM120 does not exist on this system.
+Whole Exception:GsmComm.GsmCommunication.CommException: Unable to open port COM120: Invalid connection settings. Port COM120 does not exist on this system. ---> GsmComm.GsmCommunication.CommException: Invalid connection settings. Port COM120 does not exist on this system.
+   at GsmComm.GsmCommunication.GsmPhone.OpenPort(Int32 portNum, Int32 baudRate, Int32 timeout)
+   at GsmComm.GsmCommunication.GsmPhone.Open()
+   --- End of inner exception stack trace ---
+   at GsmComm.GsmCommunication.GsmPhone.Open()
+   at GsmComm.GsmCommunication.GsmCommMain.Open()
+   at SMSGateway.MyApplicationContext.ConnectRecievingModem() in d:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSProcessor\SMSGateway\MyApplicationContext.cs:line 172
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :01/03/2023 17:18:25 PM
+SOURCE:GSMCommunication
+MESSAGE:Unable to open port COM120: Invalid connection settings. Port COM120 does not exist on this system.
+Whole Exception:GsmComm.GsmCommunication.CommException: Unable to open port COM120: Invalid connection settings. Port COM120 does not exist on this system. ---> GsmComm.GsmCommunication.CommException: Invalid connection settings. Port COM120 does not exist on this system.
+   at GsmComm.GsmCommunication.GsmPhone.OpenPort(Int32 portNum, Int32 baudRate, Int32 timeout)
+   at GsmComm.GsmCommunication.GsmPhone.Open()
+   --- End of inner exception stack trace ---
+   at GsmComm.GsmCommunication.GsmPhone.Open()
+   at GsmComm.GsmCommunication.GsmCommMain.Open()
+   at SMSGateway.MyApplicationContext.ConnectRecievingModem() in d:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSProcessor\SMSGateway\MyApplicationContext.cs:line 172
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :05/03/2023 19:40:47 PM
+SOURCE:
+MESSAGE:sendingModem cannot be null
+Whole Exception:System.Exception: sendingModem cannot be null
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :05/03/2023 19:40:48 PM
+SOURCE:
+MESSAGE:receivingModem cannot be null
+Whole Exception:System.Exception: receivingModem cannot be null
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :05/03/2023 19:40:58 PM
+SOURCE:GSMCommunication
+MESSAGE:Unable to open port COM150: Invalid connection settings. Port COM150 does not exist on this system.
+Whole Exception:GsmComm.GsmCommunication.CommException: Unable to open port COM150: Invalid connection settings. Port COM150 does not exist on this system. ---> GsmComm.GsmCommunication.CommException: Invalid connection settings. Port COM150 does not exist on this system.
+   at GsmComm.GsmCommunication.GsmPhone.OpenPort(Int32 portNum, Int32 baudRate, Int32 timeout)
+   at GsmComm.GsmCommunication.GsmPhone.Open()
+   --- End of inner exception stack trace ---
+   at GsmComm.GsmCommunication.GsmPhone.Open()
+   at GsmComm.GsmCommunication.GsmCommMain.Open()
+   at SMSGateway.MyApplicationContext.ConnectSendingModem() in d:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSProcessor\SMSGateway\MyApplicationContext.cs:line 196
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :05/03/2023 19:40:58 PM
+SOURCE:GSMCommunication
+MESSAGE:Unable to open port COM150: Invalid connection settings. Port COM150 does not exist on this system.
+Whole Exception:GsmComm.GsmCommunication.CommException: Unable to open port COM150: Invalid connection settings. Port COM150 does not exist on this system. ---> GsmComm.GsmCommunication.CommException: Invalid connection settings. Port COM150 does not exist on this system.
+   at GsmComm.GsmCommunication.GsmPhone.OpenPort(Int32 portNum, Int32 baudRate, Int32 timeout)
+   at GsmComm.GsmCommunication.GsmPhone.Open()
+   --- End of inner exception stack trace ---
+   at GsmComm.GsmCommunication.GsmPhone.Open()
+   at GsmComm.GsmCommunication.GsmCommMain.Open()
+   at SMSGateway.MyApplicationContext.ConnectSendingModem() in d:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSProcessor\SMSGateway\MyApplicationContext.cs:line 196
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :05/03/2023 19:41:00 PM
+SOURCE:GSMCommunication
+MESSAGE:Unable to open port COM120: Invalid connection settings. Port COM120 does not exist on this system.
+Whole Exception:GsmComm.GsmCommunication.CommException: Unable to open port COM120: Invalid connection settings. Port COM120 does not exist on this system. ---> GsmComm.GsmCommunication.CommException: Invalid connection settings. Port COM120 does not exist on this system.
+   at GsmComm.GsmCommunication.GsmPhone.OpenPort(Int32 portNum, Int32 baudRate, Int32 timeout)
+   at GsmComm.GsmCommunication.GsmPhone.Open()
+   --- End of inner exception stack trace ---
+   at GsmComm.GsmCommunication.GsmPhone.Open()
+   at GsmComm.GsmCommunication.GsmCommMain.Open()
+   at SMSGateway.MyApplicationContext.ConnectRecievingModem() in d:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSProcessor\SMSGateway\MyApplicationContext.cs:line 172
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :05/03/2023 19:41:00 PM
+SOURCE:GSMCommunication
+MESSAGE:Unable to open port COM120: Invalid connection settings. Port COM120 does not exist on this system.
+Whole Exception:GsmComm.GsmCommunication.CommException: Unable to open port COM120: Invalid connection settings. Port COM120 does not exist on this system. ---> GsmComm.GsmCommunication.CommException: Invalid connection settings. Port COM120 does not exist on this system.
+   at GsmComm.GsmCommunication.GsmPhone.OpenPort(Int32 portNum, Int32 baudRate, Int32 timeout)
+   at GsmComm.GsmCommunication.GsmPhone.Open()
+   --- End of inner exception stack trace ---
+   at GsmComm.GsmCommunication.GsmPhone.Open()
+   at GsmComm.GsmCommunication.GsmCommMain.Open()
+   at SMSGateway.MyApplicationContext.ConnectRecievingModem() in d:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSProcessor\SMSGateway\MyApplicationContext.cs:line 172
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :05/03/2023 20:00:55 PM
+SOURCE:
+MESSAGE:sendingModem cannot be null
+Whole Exception:System.Exception: sendingModem cannot be null
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :05/03/2023 20:00:56 PM
+SOURCE:
+MESSAGE:receivingModem cannot be null
+Whole Exception:System.Exception: receivingModem cannot be null
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :05/03/2023 20:00:57 PM
+SOURCE:GSMCommunication
+MESSAGE:Unable to open port COM150: Invalid connection settings. Port COM150 does not exist on this system.
+Whole Exception:GsmComm.GsmCommunication.CommException: Unable to open port COM150: Invalid connection settings. Port COM150 does not exist on this system. ---> GsmComm.GsmCommunication.CommException: Invalid connection settings. Port COM150 does not exist on this system.
+   at GsmComm.GsmCommunication.GsmPhone.OpenPort(Int32 portNum, Int32 baudRate, Int32 timeout)
+   at GsmComm.GsmCommunication.GsmPhone.Open()
+   --- End of inner exception stack trace ---
+   at GsmComm.GsmCommunication.GsmPhone.Open()
+   at GsmComm.GsmCommunication.GsmCommMain.Open()
+   at SMSGateway.MyApplicationContext.ConnectSendingModem() in d:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSProcessor\SMSGateway\MyApplicationContext.cs:line 196
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :05/03/2023 20:00:57 PM
+SOURCE:GSMCommunication
+MESSAGE:Unable to open port COM150: Invalid connection settings. Port COM150 does not exist on this system.
+Whole Exception:GsmComm.GsmCommunication.CommException: Unable to open port COM150: Invalid connection settings. Port COM150 does not exist on this system. ---> GsmComm.GsmCommunication.CommException: Invalid connection settings. Port COM150 does not exist on this system.
+   at GsmComm.GsmCommunication.GsmPhone.OpenPort(Int32 portNum, Int32 baudRate, Int32 timeout)
+   at GsmComm.GsmCommunication.GsmPhone.Open()
+   --- End of inner exception stack trace ---
+   at GsmComm.GsmCommunication.GsmPhone.Open()
+   at GsmComm.GsmCommunication.GsmCommMain.Open()
+   at SMSGateway.MyApplicationContext.ConnectSendingModem() in d:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSProcessor\SMSGateway\MyApplicationContext.cs:line 196
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :05/03/2023 20:00:58 PM
+SOURCE:GSMCommunication
+MESSAGE:Unable to open port COM120: Invalid connection settings. Port COM120 does not exist on this system.
+Whole Exception:GsmComm.GsmCommunication.CommException: Unable to open port COM120: Invalid connection settings. Port COM120 does not exist on this system. ---> GsmComm.GsmCommunication.CommException: Invalid connection settings. Port COM120 does not exist on this system.
+   at GsmComm.GsmCommunication.GsmPhone.OpenPort(Int32 portNum, Int32 baudRate, Int32 timeout)
+   at GsmComm.GsmCommunication.GsmPhone.Open()
+   --- End of inner exception stack trace ---
+   at GsmComm.GsmCommunication.GsmPhone.Open()
+   at GsmComm.GsmCommunication.GsmCommMain.Open()
+   at SMSGateway.MyApplicationContext.ConnectRecievingModem() in d:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSProcessor\SMSGateway\MyApplicationContext.cs:line 172
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :05/03/2023 20:00:58 PM
+SOURCE:GSMCommunication
+MESSAGE:Unable to open port COM120: Invalid connection settings. Port COM120 does not exist on this system.
+Whole Exception:GsmComm.GsmCommunication.CommException: Unable to open port COM120: Invalid connection settings. Port COM120 does not exist on this system. ---> GsmComm.GsmCommunication.CommException: Invalid connection settings. Port COM120 does not exist on this system.
+   at GsmComm.GsmCommunication.GsmPhone.OpenPort(Int32 portNum, Int32 baudRate, Int32 timeout)
+   at GsmComm.GsmCommunication.GsmPhone.Open()
+   --- End of inner exception stack trace ---
+   at GsmComm.GsmCommunication.GsmPhone.Open()
+   at GsmComm.GsmCommunication.GsmCommMain.Open()
+   at SMSGateway.MyApplicationContext.ConnectRecievingModem() in d:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSProcessor\SMSGateway\MyApplicationContext.cs:line 172
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :13/03/2023 16:31:01 PM
+SOURCE:
+MESSAGE:sendingModem cannot be null
+Whole Exception:System.Exception: sendingModem cannot be null
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :13/03/2023 16:31:03 PM
+SOURCE:
+MESSAGE:receivingModem cannot be null
+Whole Exception:System.Exception: receivingModem cannot be null
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :13/03/2023 16:31:29 PM
+SOURCE:GSMCommunication
+MESSAGE:Unable to open port COM150: Invalid connection settings. Port COM150 does not exist on this system.
+Whole Exception:GsmComm.GsmCommunication.CommException: Unable to open port COM150: Invalid connection settings. Port COM150 does not exist on this system. ---> GsmComm.GsmCommunication.CommException: Invalid connection settings. Port COM150 does not exist on this system.
+   at GsmComm.GsmCommunication.GsmPhone.OpenPort(Int32 portNum, Int32 baudRate, Int32 timeout)
+   at GsmComm.GsmCommunication.GsmPhone.Open()
+   --- End of inner exception stack trace ---
+   at GsmComm.GsmCommunication.GsmPhone.Open()
+   at GsmComm.GsmCommunication.GsmCommMain.Open()
+   at SMSGateway.MyApplicationContext.ConnectSendingModem() in d:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSProcessor\SMSGateway\MyApplicationContext.cs:line 171
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :13/03/2023 16:31:29 PM
+SOURCE:GSMCommunication
+MESSAGE:Unable to open port COM150: Invalid connection settings. Port COM150 does not exist on this system.
+Whole Exception:GsmComm.GsmCommunication.CommException: Unable to open port COM150: Invalid connection settings. Port COM150 does not exist on this system. ---> GsmComm.GsmCommunication.CommException: Invalid connection settings. Port COM150 does not exist on this system.
+   at GsmComm.GsmCommunication.GsmPhone.OpenPort(Int32 portNum, Int32 baudRate, Int32 timeout)
+   at GsmComm.GsmCommunication.GsmPhone.Open()
+   --- End of inner exception stack trace ---
+   at GsmComm.GsmCommunication.GsmPhone.Open()
+   at GsmComm.GsmCommunication.GsmCommMain.Open()
+   at SMSGateway.MyApplicationContext.ConnectSendingModem() in d:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSProcessor\SMSGateway\MyApplicationContext.cs:line 171
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :13/03/2023 16:31:46 PM
+SOURCE:GSMCommunication
+MESSAGE:Unable to open port COM120: Invalid connection settings. Port COM120 does not exist on this system.
+Whole Exception:GsmComm.GsmCommunication.CommException: Unable to open port COM120: Invalid connection settings. Port COM120 does not exist on this system. ---> GsmComm.GsmCommunication.CommException: Invalid connection settings. Port COM120 does not exist on this system.
+   at GsmComm.GsmCommunication.GsmPhone.OpenPort(Int32 portNum, Int32 baudRate, Int32 timeout)
+   at GsmComm.GsmCommunication.GsmPhone.Open()
+   --- End of inner exception stack trace ---
+   at GsmComm.GsmCommunication.GsmPhone.Open()
+   at GsmComm.GsmCommunication.GsmCommMain.Open()
+   at SMSGateway.MyApplicationContext.ConnectRecievingModem() in d:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSProcessor\SMSGateway\MyApplicationContext.cs:line 196
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :13/03/2023 16:31:46 PM
+SOURCE:GSMCommunication
+MESSAGE:Unable to open port COM120: Invalid connection settings. Port COM120 does not exist on this system.
+Whole Exception:GsmComm.GsmCommunication.CommException: Unable to open port COM120: Invalid connection settings. Port COM120 does not exist on this system. ---> GsmComm.GsmCommunication.CommException: Invalid connection settings. Port COM120 does not exist on this system.
+   at GsmComm.GsmCommunication.GsmPhone.OpenPort(Int32 portNum, Int32 baudRate, Int32 timeout)
+   at GsmComm.GsmCommunication.GsmPhone.Open()
+   --- End of inner exception stack trace ---
+   at GsmComm.GsmCommunication.GsmPhone.Open()
+   at GsmComm.GsmCommunication.GsmCommMain.Open()
+   at SMSGateway.MyApplicationContext.ConnectRecievingModem() in d:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSProcessor\SMSGateway\MyApplicationContext.cs:line 196
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :10/04/2023 20:28:12 PM
+SOURCE:
+MESSAGE:sendingModem cannot be null
+Whole Exception:System.Exception: sendingModem cannot be null
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :10/04/2023 20:28:13 PM
+SOURCE:
+MESSAGE:receivingModem cannot be null
+Whole Exception:System.Exception: receivingModem cannot be null
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :10/04/2023 20:31:53 PM
+SOURCE:GSMCommunication
+MESSAGE:Unable to open port COM150: Invalid connection settings. Port COM150 does not exist on this system.
+Whole Exception:GsmComm.GsmCommunication.CommException: Unable to open port COM150: Invalid connection settings. Port COM150 does not exist on this system. ---> GsmComm.GsmCommunication.CommException: Invalid connection settings. Port COM150 does not exist on this system.
+   at GsmComm.GsmCommunication.GsmPhone.OpenPort(Int32 portNum, Int32 baudRate, Int32 timeout)
+   at GsmComm.GsmCommunication.GsmPhone.Open()
+   --- End of inner exception stack trace ---
+   at GsmComm.GsmCommunication.GsmPhone.Open()
+   at GsmComm.GsmCommunication.GsmCommMain.Open()
+   at SMSGateway.MyApplicationContext.ConnectSendingModem() in d:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSProcessor\SMSGateway\MyApplicationContext.cs:line 171
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :10/04/2023 20:31:53 PM
+SOURCE:GSMCommunication
+MESSAGE:Unable to open port COM150: Invalid connection settings. Port COM150 does not exist on this system.
+Whole Exception:GsmComm.GsmCommunication.CommException: Unable to open port COM150: Invalid connection settings. Port COM150 does not exist on this system. ---> GsmComm.GsmCommunication.CommException: Invalid connection settings. Port COM150 does not exist on this system.
+   at GsmComm.GsmCommunication.GsmPhone.OpenPort(Int32 portNum, Int32 baudRate, Int32 timeout)
+   at GsmComm.GsmCommunication.GsmPhone.Open()
+   --- End of inner exception stack trace ---
+   at GsmComm.GsmCommunication.GsmPhone.Open()
+   at GsmComm.GsmCommunication.GsmCommMain.Open()
+   at SMSGateway.MyApplicationContext.ConnectSendingModem() in d:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSProcessor\SMSGateway\MyApplicationContext.cs:line 171
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :10/04/2023 20:37:51 PM
+SOURCE:GSMCommunication
+MESSAGE:Unable to open port COM120: Invalid connection settings. Port COM120 does not exist on this system.
+Whole Exception:GsmComm.GsmCommunication.CommException: Unable to open port COM120: Invalid connection settings. Port COM120 does not exist on this system. ---> GsmComm.GsmCommunication.CommException: Invalid connection settings. Port COM120 does not exist on this system.
+   at GsmComm.GsmCommunication.GsmPhone.OpenPort(Int32 portNum, Int32 baudRate, Int32 timeout)
+   at GsmComm.GsmCommunication.GsmPhone.Open()
+   --- End of inner exception stack trace ---
+   at GsmComm.GsmCommunication.GsmPhone.Open()
+   at GsmComm.GsmCommunication.GsmCommMain.Open()
+   at SMSGateway.MyApplicationContext.ConnectRecievingModem() in d:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSProcessor\SMSGateway\MyApplicationContext.cs:line 196
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :10/04/2023 20:37:51 PM
+SOURCE:GSMCommunication
+MESSAGE:Unable to open port COM120: Invalid connection settings. Port COM120 does not exist on this system.
+Whole Exception:GsmComm.GsmCommunication.CommException: Unable to open port COM120: Invalid connection settings. Port COM120 does not exist on this system. ---> GsmComm.GsmCommunication.CommException: Invalid connection settings. Port COM120 does not exist on this system.
+   at GsmComm.GsmCommunication.GsmPhone.OpenPort(Int32 portNum, Int32 baudRate, Int32 timeout)
+   at GsmComm.GsmCommunication.GsmPhone.Open()
+   --- End of inner exception stack trace ---
+   at GsmComm.GsmCommunication.GsmPhone.Open()
+   at GsmComm.GsmCommunication.GsmCommMain.Open()
+   at SMSGateway.MyApplicationContext.ConnectRecievingModem() in d:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSProcessor\SMSGateway\MyApplicationContext.cs:line 196
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :10/04/2023 21:35:34 PM
+SOURCE:
+MESSAGE:sendingModem cannot be null
+Whole Exception:System.Exception: sendingModem cannot be null
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :10/04/2023 21:35:36 PM
+SOURCE:
+MESSAGE:receivingModem cannot be null
+Whole Exception:System.Exception: receivingModem cannot be null
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :10/04/2023 21:37:52 PM
+SOURCE:
+MESSAGE:sendingModem cannot be null
+Whole Exception:System.Exception: sendingModem cannot be null
+==================================================================
+
+==================================================================
+ERROR OCCOURED AT :10/04/2023 21:37:53 PM
+SOURCE:
+MESSAGE:receivingModem cannot be null
+Whole Exception:System.Exception: receivingModem cannot be null
+==================================================================
+

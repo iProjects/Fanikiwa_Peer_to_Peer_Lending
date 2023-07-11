@@ -1,0 +1,191 @@
+D:\My Projects\fanikiwa\fMessagingSystem\SMSServer\bin\SMSServer.dll
+D:\My Projects\fanikiwa\fMessagingSystem\SMSServer\bin\SMSServer.pdb
+D:\My Projects\fanikiwa\fMessagingSystem\SMSServer\bin\Antlr3.Runtime.dll
+D:\My Projects\fanikiwa\fMessagingSystem\SMSServer\bin\EntityFramework.dll
+D:\My Projects\fanikiwa\fMessagingSystem\SMSServer\bin\Microsoft.Web.Infrastructure.dll
+D:\My Projects\fanikiwa\fMessagingSystem\SMSServer\bin\Newtonsoft.Json.dll
+D:\My Projects\fanikiwa\fMessagingSystem\SMSServer\bin\System.Net.Http.Formatting.dll
+D:\My Projects\fanikiwa\fMessagingSystem\SMSServer\bin\System.Web.Helpers.dll
+D:\My Projects\fanikiwa\fMessagingSystem\SMSServer\bin\System.Web.Http.dll
+D:\My Projects\fanikiwa\fMessagingSystem\SMSServer\bin\System.Web.Http.WebHost.dll
+D:\My Projects\fanikiwa\fMessagingSystem\SMSServer\bin\System.Web.Mvc.dll
+D:\My Projects\fanikiwa\fMessagingSystem\SMSServer\bin\System.Web.Optimization.dll
+D:\My Projects\fanikiwa\fMessagingSystem\SMSServer\bin\System.Web.Providers.dll
+D:\My Projects\fanikiwa\fMessagingSystem\SMSServer\bin\System.Web.Razor.dll
+D:\My Projects\fanikiwa\fMessagingSystem\SMSServer\bin\System.Web.WebPages.Deployment.dll
+D:\My Projects\fanikiwa\fMessagingSystem\SMSServer\bin\System.Web.WebPages.dll
+D:\My Projects\fanikiwa\fMessagingSystem\SMSServer\bin\System.Web.WebPages.Razor.dll
+D:\My Projects\fanikiwa\fMessagingSystem\SMSServer\bin\WebGrease.dll
+D:\My Projects\fanikiwa\fMessagingSystem\SMSServer\bin\EntityFramework.xml
+D:\My Projects\fanikiwa\fMessagingSystem\SMSServer\bin\Newtonsoft.Json.xml
+D:\My Projects\fanikiwa\fMessagingSystem\SMSServer\bin\System.Net.Http.Formatting.xml
+D:\My Projects\fanikiwa\fMessagingSystem\SMSServer\bin\System.Web.Helpers.xml
+D:\My Projects\fanikiwa\fMessagingSystem\SMSServer\bin\System.Web.Http.xml
+D:\My Projects\fanikiwa\fMessagingSystem\SMSServer\bin\System.Web.Http.WebHost.xml
+D:\My Projects\fanikiwa\fMessagingSystem\SMSServer\bin\System.Web.Mvc.xml
+D:\My Projects\fanikiwa\fMessagingSystem\SMSServer\bin\System.Web.Razor.xml
+D:\My Projects\fanikiwa\fMessagingSystem\SMSServer\bin\System.Web.WebPages.xml
+D:\My Projects\fanikiwa\fMessagingSystem\SMSServer\bin\System.Web.WebPages.Deployment.xml
+D:\My Projects\fanikiwa\fMessagingSystem\SMSServer\bin\System.Web.WebPages.Razor.xml
+D:\My Projects\fanikiwa\fMessagingSystem\SMSServer\obj\Debug\SMSServer.csprojResolveAssemblyReference.cache
+D:\My Projects\fanikiwa\fMessagingSystem\SMSServer\obj\Debug\SMSServer.dll
+D:\My Projects\fanikiwa\fMessagingSystem\SMSServer\obj\Debug\SMSServer.pdb
+D:\My Projects\fanikiwa\fMessagingSystem\SMSServer\bin\fMessagingSystem.Entities.dll
+D:\My Projects\fanikiwa\fMessagingSystem\SMSServer\bin\SMSGateway.exe
+D:\My Projects\fanikiwa\fMessagingSystem\SMSServer\bin\GSMCommunication.dll
+D:\My Projects\fanikiwa\fMessagingSystem\SMSServer\bin\log4net.dll
+D:\My Projects\fanikiwa\fMessagingSystem\SMSServer\bin\fPeerLending.MessageProcessor.dll
+D:\My Projects\fanikiwa\fMessagingSystem\SMSServer\bin\fCommon.dll
+D:\My Projects\fanikiwa\fMessagingSystem\SMSServer\bin\fMessagingSystem.Services.dll
+D:\My Projects\fanikiwa\fMessagingSystem\SMSServer\bin\fMessagingSystem.Data.dll
+D:\My Projects\fanikiwa\fMessagingSystem\SMSServer\bin\PDUConverter.dll
+D:\My Projects\fanikiwa\fMessagingSystem\SMSServer\bin\fMessagingSystem.Framework.dll
+D:\My Projects\fanikiwa\fMessagingSystem\SMSServer\bin\fanikiwaGL.Framework.dll
+D:\My Projects\fanikiwa\fMessagingSystem\SMSServer\bin\fPeerLending.Framework.dll
+D:\My Projects\fanikiwa\fMessagingSystem\SMSServer\bin\fMessagingSystem.Business.dll
+D:\My Projects\fanikiwa\fMessagingSystem\SMSServer\bin\MutexManager.dll
+D:\My Projects\fanikiwa\fMessagingSystem\SMSServer\bin\GSMCommShared.dll
+D:\My Projects\fanikiwa\fMessagingSystem\SMSServer\bin\fPeerLending.Entities.dll
+D:\My Projects\fanikiwa\fMessagingSystem\SMSServer\bin\fanikiwaGL.Business.dll
+D:\My Projects\fanikiwa\fMessagingSystem\SMSServer\bin\fanikiwaGL.Entities.dll
+D:\My Projects\fanikiwa\fMessagingSystem\SMSServer\bin\fPeerLending.Business.dll
+D:\My Projects\fanikiwa\fMessagingSystem\SMSServer\bin\fMessagingSystem.Services.Contracts.dll
+D:\My Projects\fanikiwa\fMessagingSystem\SMSServer\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\My Projects\fanikiwa\fMessagingSystem\SMSServer\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\My Projects\fanikiwa\fMessagingSystem\SMSServer\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\My Projects\fanikiwa\fMessagingSystem\SMSServer\bin\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\My Projects\fanikiwa\fMessagingSystem\SMSServer\bin\Microsoft.Practices.Unity.Interception.dll
+D:\My Projects\fanikiwa\fMessagingSystem\SMSServer\bin\fanikiwaGL.Data.dll
+D:\My Projects\fanikiwa\fMessagingSystem\SMSServer\bin\fPeerLending.Data.dll
+D:\My Projects\fanikiwa\fMessagingSystem\SMSServer\bin\fCommissions.Commission.Business.dll
+D:\My Projects\fanikiwa\fMessagingSystem\SMSServer\bin\Microsoft.Practices.Unity.dll
+D:\My Projects\fanikiwa\fMessagingSystem\SMSServer\bin\fCommissions.Commission.Entities.dll
+D:\My Projects\fanikiwa\fMessagingSystem\SMSServer\bin\Microsoft.Practices.ServiceLocation.dll
+D:\My Projects\fanikiwa\fMessagingSystem\SMSServer\bin\fMessagingSystem.Entities.pdb
+D:\My Projects\fanikiwa\fMessagingSystem\SMSServer\bin\SMSGateway.pdb
+D:\My Projects\fanikiwa\fMessagingSystem\SMSServer\bin\log4net.xml
+D:\My Projects\fanikiwa\fMessagingSystem\SMSServer\bin\fPeerLending.MessageProcessor.pdb
+D:\My Projects\fanikiwa\fMessagingSystem\SMSServer\bin\fCommon.pdb
+D:\My Projects\fanikiwa\fMessagingSystem\SMSServer\bin\fMessagingSystem.Services.pdb
+D:\My Projects\fanikiwa\fMessagingSystem\SMSServer\bin\fMessagingSystem.Data.pdb
+D:\My Projects\fanikiwa\fMessagingSystem\SMSServer\bin\fMessagingSystem.Framework.pdb
+D:\My Projects\fanikiwa\fMessagingSystem\SMSServer\bin\fanikiwaGL.Framework.pdb
+D:\My Projects\fanikiwa\fMessagingSystem\SMSServer\bin\fPeerLending.Framework.pdb
+D:\My Projects\fanikiwa\fMessagingSystem\SMSServer\bin\fMessagingSystem.Business.pdb
+D:\My Projects\fanikiwa\fMessagingSystem\SMSServer\bin\MutexManager.pdb
+D:\My Projects\fanikiwa\fMessagingSystem\SMSServer\bin\fPeerLending.Entities.pdb
+D:\My Projects\fanikiwa\fMessagingSystem\SMSServer\bin\fanikiwaGL.Business.pdb
+D:\My Projects\fanikiwa\fMessagingSystem\SMSServer\bin\fanikiwaGL.Entities.pdb
+D:\My Projects\fanikiwa\fMessagingSystem\SMSServer\bin\fPeerLending.Business.pdb
+D:\My Projects\fanikiwa\fMessagingSystem\SMSServer\bin\fMessagingSystem.Services.Contracts.pdb
+D:\My Projects\fanikiwa\fMessagingSystem\SMSServer\bin\Microsoft.Practices.EnterpriseLibrary.Data.xml
+D:\My Projects\fanikiwa\fMessagingSystem\SMSServer\bin\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\My Projects\fanikiwa\fMessagingSystem\SMSServer\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.xml
+D:\My Projects\fanikiwa\fMessagingSystem\SMSServer\bin\Microsoft.Practices.EnterpriseLibrary.Logging.xml
+D:\My Projects\fanikiwa\fMessagingSystem\SMSServer\bin\Microsoft.Practices.Unity.Interception.xml
+D:\My Projects\fanikiwa\fMessagingSystem\SMSServer\bin\fanikiwaGL.Data.pdb
+D:\My Projects\fanikiwa\fMessagingSystem\SMSServer\bin\fPeerLending.Data.pdb
+D:\My Projects\fanikiwa\fMessagingSystem\SMSServer\bin\fCommissions.Commission.Business.pdb
+D:\My Projects\fanikiwa\fMessagingSystem\SMSServer\bin\Microsoft.Practices.Unity.xml
+D:\My Projects\fanikiwa\fMessagingSystem\SMSServer\bin\fCommissions.Commission.Entities.pdb
+D:\My Projects\fanikiwa\fMessagingSystem\SMSServer\bin\Microsoft.Practices.ServiceLocation.pdb
+D:\My Projects\fanikiwa\fMessagingSystem\SMSServer\bin\Microsoft.Practices.ServiceLocation.xml
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\obj\Debug\SMSServer.csprojResolveAssemblyReference.cache
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\bin\Resources\BDG.ICO
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\bin\Resources\Delete.ico
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\bin\Resources\donuts.ico
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\bin\Resources\Icon.ico
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\bin\Resources\powermage.jpg
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\bin\Resources\settings.ICO
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\bin\Resources\splogo.ico
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\bin\Resources\signal-green.gif
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\bin\Resources\signal-red.gif
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\bin\Resources\signal-yellow.gif
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\bin\Resources\weight.png
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\bin\Resources\TrayIcon.ico
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\bin\SMSServer.dll.config
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\bin\SMSServer.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\bin\SMSServer.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\bin\Antlr3.Runtime.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\bin\EntityFramework.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\bin\fMessagingSystem.Entities.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\bin\Microsoft.Web.Infrastructure.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\bin\Newtonsoft.Json.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\bin\SMSGateway.exe
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\bin\System.Web.Helpers.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\bin\System.Web.Mvc.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\bin\System.Web.Optimization.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\bin\System.Web.Providers.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\bin\System.Web.Razor.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\bin\System.Web.WebPages.Deployment.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\bin\System.Web.WebPages.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\bin\System.Web.WebPages.Razor.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\bin\WebGrease.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\bin\fCommon.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\bin\GSMCommunication.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\bin\fPeerLending.MessageProcessor.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\bin\fMessagingSystem.Services.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\bin\PDUConverter.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\bin\fMessagingSystem.Framework.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\bin\fMessagingSystem.Data.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\bin\fanikiwaGL.Framework.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\bin\fPeerLending.Framework.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\bin\fMessagingSystem.Business.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\bin\MutexManager.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\bin\GSMCommShared.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\bin\fPeerLending.Entities.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\bin\fanikiwaGL.Business.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\bin\fanikiwaGL.Entities.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\bin\fPeerLending.Business.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\bin\fMessagingSystem.Services.Contracts.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\bin\log4net.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\bin\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\bin\Microsoft.Practices.Unity.Interception.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\bin\fanikiwaGL.Data.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\bin\fPeerLending.Data.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\bin\fCommissions.Commission.Business.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\bin\Microsoft.Practices.Unity.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\bin\fCommissions.Commission.Entities.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\bin\Microsoft.Practices.ServiceLocation.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\bin\fMessagingSystem.Entities.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\bin\SMSGateway.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\bin\EntityFramework.xml
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\bin\Newtonsoft.Json.xml
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\bin\System.Web.Helpers.xml
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\bin\System.Web.Mvc.xml
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\bin\System.Web.Razor.xml
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\bin\System.Web.WebPages.xml
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\bin\System.Web.WebPages.Deployment.xml
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\bin\System.Web.WebPages.Razor.xml
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\bin\fCommon.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\bin\fPeerLending.MessageProcessor.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\bin\fMessagingSystem.Services.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\bin\fMessagingSystem.Framework.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\bin\fMessagingSystem.Data.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\bin\fanikiwaGL.Framework.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\bin\fPeerLending.Framework.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\bin\fMessagingSystem.Business.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\bin\MutexManager.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\bin\fPeerLending.Entities.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\bin\fanikiwaGL.Business.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\bin\fanikiwaGL.Entities.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\bin\fPeerLending.Business.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\bin\fMessagingSystem.Services.Contracts.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\bin\log4net.xml
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\bin\Microsoft.Practices.EnterpriseLibrary.Data.xml
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\bin\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.xml
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\bin\Microsoft.Practices.EnterpriseLibrary.Logging.xml
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\bin\Microsoft.Practices.Unity.Interception.xml
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\bin\fanikiwaGL.Data.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\bin\fPeerLending.Data.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\bin\fCommissions.Commission.Business.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\bin\Microsoft.Practices.Unity.xml
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\bin\fCommissions.Commission.Entities.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\bin\Microsoft.Practices.ServiceLocation.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\bin\Microsoft.Practices.ServiceLocation.xml
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\obj\Debug\SMSServer.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSServer\obj\Debug\SMSServer.pdb

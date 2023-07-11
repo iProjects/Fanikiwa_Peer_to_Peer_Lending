@@ -1,0 +1,10 @@
+C:\Dev\fMessagingSystem\fMessagingSystem\bin\fMessagingSystem.Services.Contracts.dll
+C:\Dev\fMessagingSystem\fMessagingSystem\bin\fMessagingSystem.Services.Contracts.pdb
+C:\Dev\fMessagingSystem\fMessagingSystem\Services\fMessagingSystem.Services.Contracts\obj\Release\fMessagingSystem.Services.Contracts.csprojResolveAssemblyReference.cache
+C:\Dev\fMessagingSystem\fMessagingSystem\Services\fMessagingSystem.Services.Contracts\obj\Release\fMessagingSystem.Services.Contracts.dll
+C:\Dev\fMessagingSystem\fMessagingSystem\Services\fMessagingSystem.Services.Contracts\obj\Release\fMessagingSystem.Services.Contracts.pdb
+C:\My Projects\fanikiwa\fMessagingSystem\bin\fMessagingSystem.Services.Contracts.dll
+C:\My Projects\fanikiwa\fMessagingSystem\bin\fMessagingSystem.Services.Contracts.pdb
+C:\My Projects\fanikiwa\fMessagingSystem\Services\fMessagingSystem.Services.Contracts\obj\Release\fMessagingSystem.Services.Contracts.csprojResolveAssemblyReference.cache
+C:\My Projects\fanikiwa\fMessagingSystem\Services\fMessagingSystem.Services.Contracts\obj\Release\fMessagingSystem.Services.Contracts.dll
+C:\My Projects\fanikiwa\fMessagingSystem\Services\fMessagingSystem.Services.Contracts\obj\Release\fMessagingSystem.Services.Contracts.pdb

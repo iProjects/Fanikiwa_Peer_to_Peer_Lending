@@ -1,0 +1,47 @@
+C:\My Projects\fanikiwa\fCommon\Commission.Business\obj\Release\Commission.Business.csprojResolveAssemblyReference.cache
+C:\My Projects\fanikiwa\fCommissions\Commission.Business\bin\Release\fCommissions.Commission.Business.dll
+C:\My Projects\fanikiwa\fCommissions\Commission.Business\bin\Release\fCommissions.Commission.Business.pdb
+C:\My Projects\fanikiwa\fCommissions\Commission.Business\bin\Release\fanikiwaGL.Business.dll
+C:\My Projects\fanikiwa\fCommissions\Commission.Business\bin\Release\fanikiwaGL.Data.dll
+C:\My Projects\fanikiwa\fCommissions\Commission.Business\bin\Release\fanikiwaGL.Entities.dll
+C:\My Projects\fanikiwa\fCommissions\Commission.Business\bin\Release\fCommissions.Commission.Data.dll
+C:\My Projects\fanikiwa\fCommissions\Commission.Business\bin\Release\fCommissions.Commission.Entities.dll
+C:\My Projects\fanikiwa\fCommissions\Commission.Business\bin\Release\fCommissions.Commission.Data.pdb
+C:\My Projects\fanikiwa\fCommissions\Commission.Business\bin\Release\fCommissions.Commission.Entities.pdb
+C:\My Projects\fanikiwa\fCommissions\Commission.Business\bin\Release\fanikiwaGL.Business.pdb
+C:\My Projects\fanikiwa\fCommissions\Commission.Business\bin\Release\fanikiwaGL.Data.pdb
+C:\My Projects\fanikiwa\fCommissions\Commission.Business\bin\Release\fanikiwaGL.Entities.pdb
+C:\My Projects\fanikiwa\fCommissions\Commission.Business\obj\Release\Commission.Business.csprojResolveAssemblyReference.cache
+C:\My Projects\fanikiwa\fCommissions\Commission.Business\obj\Release\fCommissions.Commission.Business.dll
+C:\My Projects\fanikiwa\fCommissions\Commission.Business\obj\Release\fCommissions.Commission.Business.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fCommissions\Commission.Business\obj\Release\Commission.Business.csprojResolveAssemblyReference.cache
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fCommissions\Commission.Business\obj\Release\fCommissions.Commission.Business.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fCommissions\Commission.Business\bin\Release\fCommissions.Commission.Business.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fCommissions\Commission.Business\bin\Release\fCommissions.Commission.Business.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fCommissions\Commission.Business\bin\Release\fanikiwaGL.Business.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fCommissions\Commission.Business\bin\Release\fanikiwaGL.Data.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fCommissions\Commission.Business\bin\Release\fanikiwaGL.Entities.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fCommissions\Commission.Business\bin\Release\fanikiwaGL.Framework.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fCommissions\Commission.Business\bin\Release\fCommissions.Commission.Data.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fCommissions\Commission.Business\bin\Release\fCommissions.Commission.Entities.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fCommissions\Commission.Business\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fCommissions\Commission.Business\bin\Release\fCommon.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fCommissions\Commission.Business\bin\Release\Microsoft.Practices.Unity.Interception.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fCommissions\Commission.Business\bin\Release\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fCommissions\Commission.Business\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fCommissions\Commission.Business\bin\Release\Microsoft.Practices.Unity.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fCommissions\Commission.Business\bin\Release\Microsoft.Practices.ServiceLocation.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fCommissions\Commission.Business\bin\Release\fCommissions.Commission.Data.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fCommissions\Commission.Business\bin\Release\fCommissions.Commission.Entities.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fCommissions\Commission.Business\bin\Release\fanikiwaGL.Business.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fCommissions\Commission.Business\bin\Release\fanikiwaGL.Data.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fCommissions\Commission.Business\bin\Release\fanikiwaGL.Entities.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fCommissions\Commission.Business\bin\Release\fanikiwaGL.Framework.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fCommissions\Commission.Business\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.xml
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fCommissions\Commission.Business\bin\Release\fCommon.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fCommissions\Commission.Business\bin\Release\Microsoft.Practices.Unity.Interception.xml
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fCommissions\Commission.Business\bin\Release\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.xml
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fCommissions\Commission.Business\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fCommissions\Commission.Business\bin\Release\Microsoft.Practices.Unity.xml
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fCommissions\Commission.Business\bin\Release\Microsoft.Practices.ServiceLocation.xml
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fCommissions\Commission.Business\obj\Release\fCommissions.Commission.Business.pdb

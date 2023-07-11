@@ -1,0 +1,97 @@
+﻿@model IEnumerable<fanikiwaGL.Entities.Account>
+
+
+@{
+    ViewBag.Title = "Fanikiwa Accounts";
+    int FanikiwaAccounts = Model.Count();
+}
+
+<h2 class="page-title">Fanikiwa Accounts [ @FanikiwaAccounts ] </h2>
+
+<p>
+    @Html.ActionLink("Create New", "CreateAccount")
+</p>
+
+
+<table>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.AccountID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AccountName)
+        </th> 
+        <th>
+            @Html.DisplayNameFor(model => model.BookBalance)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ClearedBalance)
+        </th> 
+        <th>
+            @Html.DisplayNameFor(model => model.Limit)
+        </th> 
+        <th>
+            @Html.DisplayNameFor(model => model.Closed)
+        </th> 
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.AccountID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.AccountName)
+        </td> 
+        <td>
+            @string.Format(System.Globalization.CultureInfo.InvariantCulture, "{0:N2}", item.BookBalance)   
+        </td>
+        <td>
+             @string.Format(System.Globalization.CultureInfo.InvariantCulture, "{0:N2}", item.ClearedBalance)  
+        </td> 
+        <td>
+             @string.Format(System.Globalization.CultureInfo.InvariantCulture, "{0:N2}", item.Limit)  
+        </td>   
+        <td>
+            @Html.DisplayFor(modelItem => item.Closed)
+        </td> 
+        <td>
+            @Html.ActionLink("Edit", "EditAccount", new { id=item.AccountID }) |
+            @Html.ActionLink("Details", "AccountDetails", new { id=item.AccountID }) |
+            @Html.ActionLink("Delete", "DeleteAccount", new { id=item.AccountID, description=item.AccountName })
+        </td>
+    </tr>
+}
+
+</table>
+
+
+
+
+
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+
+            $("#progress").hide();
+
+            $.ajaxSetup({ cache: false });
+
+        });
+        </script>
+ 
+}
+
+
+
+
+
+
+
+
+

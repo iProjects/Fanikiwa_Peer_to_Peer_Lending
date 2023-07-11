@@ -1,0 +1,10 @@
+C:\My Projects\fanikiwa\fanikiwaGL\bin\fanikiwaGL.Data.dll
+C:\My Projects\fanikiwa\fanikiwaGL\bin\fanikiwaGL.Data.pdb
+C:\My Projects\fanikiwa\fanikiwaGL\Data\fanikiwaGL.Data\obj\Debug\fanikiwaGL.Data.csprojResolveAssemblyReference.cache
+C:\My Projects\fanikiwa\fanikiwaGL\Data\fanikiwaGL.Data\obj\Debug\fanikiwaGL.Data.dll
+C:\My Projects\fanikiwa\fanikiwaGL\Data\fanikiwaGL.Data\obj\Debug\fanikiwaGL.Data.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fanikiwaGL\bin\fanikiwaGL.Data.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fanikiwaGL\bin\fanikiwaGL.Data.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fanikiwaGL\Data\fanikiwaGL.Data\obj\Debug\fanikiwaGL.Data.csprojResolveAssemblyReference.cache
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fanikiwaGL\Data\fanikiwaGL.Data\obj\Debug\fanikiwaGL.Data.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fanikiwaGL\Data\fanikiwaGL.Data\obj\Debug\fanikiwaGL.Data.pdb

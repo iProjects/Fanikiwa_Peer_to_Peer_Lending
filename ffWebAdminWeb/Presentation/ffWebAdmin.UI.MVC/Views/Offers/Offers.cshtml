@@ -1,0 +1,116 @@
+﻿@model IEnumerable<fPeerLending.Entities.Offer>
+
+@{
+    ViewBag.Title = "Offers";
+    int Offers = Model.Count();
+    decimal TotalOffersValue = Model.Sum(i => i.Amount);
+}
+
+<h2 class="page-title">Total Offers Value [ @string.Format(System.Globalization.CultureInfo.InvariantCulture, "{0:N0}", TotalOffersValue)  ]  </h2>
+
+<h2 class="page-title">Offers [ @Offers ]  </h2>
+
+<table>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Description)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Amount)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Term)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Status)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.OfferType)
+        </th>        
+         <th>
+            @Html.DisplayNameFor(model => model.PublicOffer)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PartialPay)
+        </th>
+         <th>
+           OfferOwner
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ExpiryDate)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+               @string.Format(System.Globalization.CultureInfo.InvariantCulture, "{0:N2}", item.Amount)  
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Term)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Status)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OfferType)
+            </td>            
+            <td>
+                @Html.DisplayFor(modelItem => item.PublicOffer)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PartialPay)
+            </td>
+             <td>
+                @ViewBag.OfferOwner
+            </td> 
+            <td>
+                @{
+                        var dateAsString = item.ExpiryDate;
+                }
+
+                @Html.TextBoxFor(model => item.ExpiryDate, new { Value = dateAsString.ToString("yyyy-MM-dd"), @readonly = "readonly", @class = "datepicker", type = "date" })
+                 
+            </td>
+
+        </tr>
+    }
+
+</table>
+
+
+
+
+
+
+
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+
+            $("#progress").hide();
+
+            $.ajaxSetup({ cache: false });
+
+        });
+    </script>
+
+}
+
+
+
+
+
+
+
+
+

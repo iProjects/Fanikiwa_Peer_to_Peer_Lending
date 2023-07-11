@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Accept Lend Offer">
+  <logicalClassDesignerModelMoniker Id="8a2febe3-4964-48fc-8678-22e92c3d3ce0" />
+  <nestedChildShapes>
+    <classShape Id="5dd0fb42-4b2b-44f2-84aa-f7d084e91567" absoluteBounds="0.5, 0.5, 3, 1.3828124701976776" hideQualifiedName="false" increaseHeight="0" customColor="181, 193, 223">
+      <classMoniker Id="6d16961a-0dba-4035-a816-06961c2b00dd" LastKnownName="AcceptLendOfferController" />
+      <nestedChildShapes>
+        <AttributeElementListCompartment Id="2fc50af9-0dd7-45c1-b870-f09669c313a2" absoluteBounds="0.515, 0.89, 2.9699999999999998, 0.2011718675494194" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="d10cb58f-3e69-41c0-947f-4dfdba2a2160" absoluteBounds="0.515, 1.1011718675494193, 2.9699999999999998, 0.6816406026482581" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d78ee160-4b61-4b51-bc7f-2ead5e188f7b" absoluteBounds="0.5, 1.875, 1.5, 1.9886168446143469" hideQualifiedName="false" increaseHeight="0.18800345897674561" customColor="181, 193, 223">
+      <classMoniker Id="339704a8-5fe2-4d4c-9114-e9344f9e87e2" LastKnownName="OfferBook" />
+      <nestedChildShapes>
+        <AttributeElementListCompartment Id="ed8686f1-7d93-48f1-9894-e7ef662ebfd3" absoluteBounds="0.51499999999999968, 2.3903356393178306, 1.4700000000000002, 0.2011718675494194" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="614a4c61-c2e9-4396-8fb5-3eae1b082e70" absoluteBounds="0.51499999999999968, 2.6015075068672497, 1.4700000000000002, 1.162109337747097" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="947e8939-0428-4e45-8516-f662713b357d" absoluteBounds="2.5, 2, 2.625, 1.3828124701976776" hideQualifiedName="false" increaseHeight="0" customColor="181, 193, 223">
+      <classMoniker Id="28965d85-1d76-45eb-a4ee-b699a2ba4cdf" LastKnownName="LoanBook" />
+      <nestedChildShapes>
+        <AttributeElementListCompartment Id="70ea61f4-7ef2-440b-a1b9-74414e273ace" absoluteBounds="2.515, 2.39, 2.5949999999999998, 0.2011718675494194" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="37e24bc5-56fd-4450-9ee4-f14d13dc8f54" absoluteBounds="2.515, 2.6011718675494193, 2.5949999999999998, 0.6816406026482581" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="26955c6a-d486-437b-bd25-d00f821277ae" absoluteBounds="0.5, 3.625, 1.5, 1.0624999801317849" hideQualifiedName="false" increaseHeight="0" customColor="181, 193, 223">
+      <classMoniker Id="76f9a759-7eb7-4db5-b9f7-069e8ab09582" LastKnownName="Loan" />
+      <nestedChildShapes>
+        <AttributeElementListCompartment Id="c7e61c62-6f87-404a-aec4-9c657c2f219e" absoluteBounds="0.51499999999999968, 4.0150000000000006, 1.4700000000000002, 0.2011718675494194" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="6971a521-bc21-4411-baf8-9c78fbec4d96" absoluteBounds="0.51499999999999968, 4.22617186754942, 1.4700000000000002, 0.36132811258236563" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <interfaceShape Id="57c51337-c5d2-4c6f-a316-0b78cc59bf55" absoluteBounds="3.75, 0.5, 2.375, 1.0624999801317849" hideQualifiedName="false" increaseHeight="0" customColor="207, 223, 191">
+      <interfaceMoniker Id="0634e9e7-f377-4d83-bfc4-5db0f5d4a53b" LastKnownName="IDiary" />
+      <nestedChildShapes>
+        <AttributeElementListCompartment Id="2fed3e4d-c7e5-4f48-a22b-f786773f9e1d" absoluteBounds="3.765, 0.89, 2.3449999999999998, 0.2011718675494194" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="90efec50-432d-4da7-a96d-999c3e6c42e8" absoluteBounds="3.765, 1.1011718675494193, 2.3449999999999998, 0.36132811258236563" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </interfaceShape>
+    <classShape Id="d148b0c2-3832-4c4e-b4fc-70656d4244f1" absoluteBounds="6.25, 0.5, 1.75, 2.3437499403953557" hideQualifiedName="false" increaseHeight="0" customColor="181, 193, 223">
+      <classMoniker Id="5504b17f-206f-4e90-a78e-634c704efe8c" LastKnownName="RepaymentSchedule" />
+      <nestedChildShapes>
+        <AttributeElementListCompartment Id="9e49358f-ffcd-4051-84f7-488e0b16e3fc" absoluteBounds="6.265, 0.89, 1.7200000000000002, 1.6425780728459358" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="8156725b-c983-4f5c-bbb9-46aca91d730e" absoluteBounds="6.265, 2.5425780728459357, 1.7200000000000002, 0.20117186754941985" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c8615da7-2f0e-423a-b5a6-8e7516825d95" absoluteBounds="2.375, 3.625, 2.75, 1.2226562251647311" hideQualifiedName="false" increaseHeight="0" customColor="181, 193, 223">
+      <classMoniker Id="98e62dec-8edc-49ab-b3c9-23277966b318" LastKnownName="ContractBuilder" />
+      <nestedChildShapes>
+        <AttributeElementListCompartment Id="9efd3a7b-ce08-4fc5-8606-ebc7c644dd51" absoluteBounds="2.39, 4.015, 2.7199999999999998, 0.2011718675494194" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="037d1c31-2914-418b-8e4d-59d59d572390" absoluteBounds="2.39, 4.22617186754942, 2.7199999999999998, 0.521484357615312" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <interfaceShape Id="c04985cf-3ebe-4f27-b074-25af41da54b4" absoluteBounds="5.375, 3.75, 2.375, 1.5708159291744233" hideQualifiedName="false" increaseHeight="0.18800345897674564" customColor="207, 223, 191">
+      <interfaceMoniker Id="91f3f5b9-621e-45ba-9ab7-6d59f3eb1088" LastKnownName="IAccountingSystem" />
+      <nestedChildShapes>
+        <AttributeElementListCompartment Id="289f29a5-de82-4b47-a488-6bd2d5e4d5bc" absoluteBounds="5.39, 4.3280034589767453, 2.3449999999999998, 0.2011718675494194" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="16f732da-7a46-4683-ab7c-e4ce4ae2adec" absoluteBounds="5.39, 4.5391753265261654, 2.3449999999999998, 0.68164060264825821" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </interfaceShape>
+    <classShape Id="ac2ef94c-5f7e-40b5-91de-317abe9adddc" absoluteBounds="8.25, 3.125, 1.875, 2.3437499403953552" hideQualifiedName="false" increaseHeight="0" customColor="181, 193, 223">
+      <classMoniker Id="6c0f430d-e904-4f10-8a63-c5106645e7c9" LastKnownName="Transaction" />
+      <nestedChildShapes>
+        <AttributeElementListCompartment Id="f734ce33-8132-4863-942d-7869208713a0" absoluteBounds="8.265, 3.515, 1.8450000000000002, 1.6425780728459358" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="c7fc6aef-c86c-4f90-89e0-2af59017f67c" absoluteBounds="8.265, 5.1675780728459362, 1.8450000000000002, 0.2011718675494194" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d83d2b59-9914-47b6-a6ce-62a1a7a0d3a9" absoluteBounds="3.25, 5.25, 1.5, 0.90234373509883881" hideQualifiedName="false" increaseHeight="0" customColor="181, 193, 223">
+      <classMoniker Id="6eec5d27-f2f5-41c1-91a6-51552359e104" LastKnownName="LoanContract" />
+      <nestedChildShapes>
+        <AttributeElementListCompartment Id="7355005b-28bd-48a2-a51c-0478c6f033e3" absoluteBounds="3.265, 5.64, 1.4700000000000002, 0.2011718675494194" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="4711824e-0c75-4f22-a768-b389439c8be6" absoluteBounds="3.265, 5.85117186754942, 1.4700000000000002, 0.2011718675494194" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</logicalClassDesignerDiagram>

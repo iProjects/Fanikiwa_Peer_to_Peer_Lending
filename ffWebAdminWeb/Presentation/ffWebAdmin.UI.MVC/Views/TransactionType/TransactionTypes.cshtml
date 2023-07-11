@@ -1,0 +1,79 @@
+﻿@model IEnumerable<fanikiwaGL.Entities.TransactionType>
+
+@{
+    ViewBag.Title = "Transaction Types";
+    int TransactionTypes = Model.Count();
+}
+
+<h2 class="page-title">Transaction Types [ @TransactionTypes ] </h2>
+
+<p>
+    @Html.ActionLink("Create New", "CreateTransactionType")
+</p>
+
+
+<table>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.TransactionTypeID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ShortCode)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Description)
+        </th> 
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.TransactionTypeID)
+        </td>
+         <td>
+            @Html.DisplayFor(modelItem => item.ShortCode)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Description)
+        </td> 
+        <td>
+            @Html.ActionLink("Edit", "EditTransactionType", new { id=item.TransactionTypeID }) |
+            @Html.ActionLink("Details", "TransactionTypeDetails", new { id=item.TransactionTypeID }) |
+            @Html.ActionLink("Delete", "DeleteTransactionType", new { id=item.TransactionTypeID, description=item.Description })
+        </td>
+    </tr>
+}
+
+</table>
+
+
+
+
+
+
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+
+            $("#progress").hide();
+
+            $.ajaxSetup({ cache: false });
+
+        });
+        </script>
+ 
+}
+
+
+
+
+
+
+
+
+

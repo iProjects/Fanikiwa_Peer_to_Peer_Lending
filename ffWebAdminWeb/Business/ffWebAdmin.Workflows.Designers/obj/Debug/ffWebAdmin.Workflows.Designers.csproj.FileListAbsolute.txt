@@ -1,0 +1,9 @@
+C:\My Projects\fanikiwa\ffWebAdminWeb\bin\ffWebAdmin.Workflows.Activities.VisualStudio.Design.dll
+C:\My Projects\fanikiwa\ffWebAdminWeb\bin\ffWebAdmin.Workflows.Activities.VisualStudio.Design.pdb
+C:\My Projects\fanikiwa\ffWebAdminWeb\Business\ffWebAdmin.Workflows.Designers\obj\Debug\ffWebAdmin.Workflows.Activities.VisualStudio.Design.dll
+C:\My Projects\fanikiwa\ffWebAdminWeb\Business\ffWebAdmin.Workflows.Designers\obj\Debug\ffWebAdmin.Workflows.Activities.VisualStudio.Design.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffWebAdminWeb\bin\ffWebAdmin.Workflows.Activities.VisualStudio.Design.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffWebAdminWeb\bin\ffWebAdmin.Workflows.Activities.VisualStudio.Design.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffWebAdminWeb\Business\ffWebAdmin.Workflows.Designers\obj\Debug\ffWebAdmin.Workflows.Designers.csprojResolveAssemblyReference.cache
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffWebAdminWeb\Business\ffWebAdmin.Workflows.Designers\obj\Debug\ffWebAdmin.Workflows.Activities.VisualStudio.Design.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffWebAdminWeb\Business\ffWebAdmin.Workflows.Designers\obj\Debug\ffWebAdmin.Workflows.Activities.VisualStudio.Design.pdb

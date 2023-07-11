@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SequenceDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/UseCaseModel" xmlns:dm11="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" dslVersion="1.0.0.0" Id="1e1b6d08-ef7f-4137-a159-bd6b9df4d470" name="Deposit Via Mpesa" linkedPackageId="23aca2f0-85f3-466c-880d-25e9fd6132cb" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner">
+  <appliedStereotypesInternal>
+    <stereotypeInstance Id="1f71a31b-e39c-4618-81aa-6e4d9205f7f9" name="namespace" profile="CSharpProfile">
+      <elementDefinition Id="661a6133-9c4f-4851-9b61-5f9bca3fb9bc" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="ca1b273c-cc7c-41ea-8385-f729079ea934">
+          <propertyInstance Id="05be7add-d2ae-4c9f-beee-989107c6f9df" name="BaseName">
+            <elementDefinition Id="2237431b-6227-4b6c-98d8-575bce8284d7" />
+          </propertyInstance>
+          <elementDefinition Id="bb5607fd-0b66-4c32-9224-664fa586f30d" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="42252524-0db0-4bae-ac2d-11f6e61e90b3">
+          <propertyInstance Id="e57338a8-71c2-4e9a-a687-8e42f5a549c9" name="ClrAttributes">
+            <elementDefinition Id="e4c8e8e3-e587-42e5-b84a-5beb666cccd3" />
+          </propertyInstance>
+          <elementDefinition Id="d1291114-48aa-43dd-a6a6-ced4445f69b7" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="d7c0d170-9989-4efb-9ad2-8c7380d2c1d3">
+          <propertyInstance Id="eb0e7bd4-6ccf-46ed-a3af-1cbc6af204ed" name="Usings">
+            <elementDefinition Id="262f56bc-ebf3-462a-a1d8-72042cc779e4" />
+          </propertyInstance>
+          <elementDefinition Id="469d0985-fa16-4f27-9c31-66122a1c411b" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+    <stereotypeInstance Id="1a16ccd8-9336-44f5-88cc-c8a9f48f2d5c" name="TextTemplateBindings" profile="TextTemplateBindings">
+      <elementDefinition Id="7ac97e40-946c-4ce2-a13f-9d6e3a52afea" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="e9c55525-5827-4484-bab0-14b4ce14843e">
+          <propertyInstance Id="0c8274bb-65fe-40ce-8b33-407538562955" name="Alias" value="ClassTemplate|EnumTemplate|InterfaceTemplate|StructTemplate">
+            <elementDefinition Id="567d5712-cfcf-48f4-bc12-84d5a7a96029" />
+          </propertyInstance>
+          <elementDefinition Id="db385eef-682f-4a85-9701-897d3afe16f7" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="15fb056f-ca31-4a48-be45-c622dd5350bd">
+          <propertyInstance Id="b7638e2f-758e-411f-923a-c146b829ee50" name="TemplateFilePath" value="ClassTemplate=D:\PROGRAM FILES\MICROSOFT VISUAL STUDIO 11.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4|EnumTemplate=D:\PROGRAM FILES\MICROSOFT VISUAL STUDIO 11.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\EnumTemplate.t4|InterfaceTemplate=D:\PROGRAM FILES\MICROSOFT VISUAL STUDIO 11.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\InterfaceTemplate.t4|StructTemplate=D:\PROGRAM FILES\MICROSOFT VISUAL STUDIO 11.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4">
+            <elementDefinition Id="5fe4dd62-11f3-40b0-ae37-82cb3bd8032b" />
+          </propertyInstance>
+          <elementDefinition Id="6f6618ce-4aa9-4796-899a-6e630905c406" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="0f3d3787-cc23-4a1b-a405-1360c66cfb4f">
+          <propertyInstance Id="5e2a2e38-15c9-4091-b22a-209f0be28262" name="ProjectPath" value="ClassTemplate=..\Peer Lending ModelLib\Peer Lending ModelLib.csproj|EnumTemplate=..\Peer Lending ModelLib\Peer Lending ModelLib.csproj|InterfaceTemplate=..\Peer Lending ModelLib\Peer Lending ModelLib.csproj|StructTemplate=..\Peer Lending ModelLib\Peer Lending ModelLib.csproj">
+            <elementDefinition Id="c4941fe7-9508-4c66-ae67-bc0d9c0e8cf5" />
+          </propertyInstance>
+          <elementDefinition Id="dab5d9ce-67a4-4dc1-a694-acbf8db5c2a7" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="1efeb34c-0167-4977-952f-eb018482fe85">
+          <propertyInstance Id="eb57e72e-a2a4-48dc-b3bd-d2124266c3bd" name="TargetDirectory" value="ClassTemplate=GeneratedCode\{PackageStructure}|EnumTemplate=GeneratedCode\{PackageStructure}|InterfaceTemplate=GeneratedCode\{PackageStructure}|StructTemplate=GeneratedCode\{PackageStructure}">
+            <elementDefinition Id="efb1ba2f-8ae4-4dab-aaa2-5d072f41dc36" />
+          </propertyInstance>
+          <elementDefinition Id="b72c25ea-f639-42ce-b7b2-44ba7369a311" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="9f7c6b6e-f8c9-40d4-8ff0-95a4a2b8e8da">
+          <propertyInstance Id="9a9a668f-8a95-48b3-b967-a84c2fd23809" name="TargetName" value="ClassTemplate={Name}|EnumTemplate={Name}|InterfaceTemplate={Name}|StructTemplate={Name}">
+            <elementDefinition Id="73a6f63c-ddf8-4e91-9e15-2b41bfbe80b2" />
+          </propertyInstance>
+          <elementDefinition Id="b7b31f3d-07f7-458c-b61b-b64da9a7b2b2" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="38ebd6bd-4390-4cba-92cf-3a73b9cc6cbf">
+          <propertyInstance Id="989e60c7-e78a-4dd7-88c2-57fbe4d86edb" name="Overwrite" value="ClassTemplate=True|EnumTemplate=True|InterfaceTemplate=True|StructTemplate=True">
+            <elementDefinition Id="4b09ebd2-decb-4151-b145-e6a3fa3fb92c" />
+          </propertyInstance>
+          <elementDefinition Id="add2ebbf-bf76-4a9e-adee-72b39b5f50fe" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="da7087d2-eb7a-46dc-93b8-a9616a9b9e2a">
+          <propertyInstance Id="3aeb9c87-010e-4bb5-9022-b857a024411e" name="Parameters">
+            <elementDefinition Id="09ec6e6c-2526-41c3-ae8b-738f6f2fd00c" />
+          </propertyInstance>
+          <elementDefinition Id="1f4fd6a8-dcb6-4110-93c4-4579cd5a2b9b" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+  </appliedStereotypesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <interaction Id="b136e565-22db-4383-ac3a-8b919e4da6a7" name="Deposit Via Mpesa" collapseFragmentsFlag="false" isActiveClass="false" isAbstract="false" isLeaf="false" isReentrant="false">
+        <elementDefinition Id="bcbf0f17-5360-4bcc-b245-feca311e251a" />
+        <lifelines>
+          <lifeline Id="253b16be-bb90-457d-a875-cc6d66dd774f" name="Lender" isActor="true" lifelineDisplayName="Lender">
+            <elementDefinition Id="b2e901c0-10c9-411d-98fc-d8dcdddf5c08" />
+            <represents>
+              <propertyMoniker Id="7aacc4e9-73fb-4566-8720-b14b244864db" />
+            </represents>
+          </lifeline>
+          <lifeline Id="61a422d8-bd46-41a8-adeb-95b0981cb142" name="DepositViaMpesaController" isActor="false" lifelineDisplayName="DepositViaMpesaController">
+            <elementDefinition Id="07568796-4904-48a1-aba5-983808cc7a26" />
+            <represents>
+              <propertyMoniker Id="7a21e440-9405-47a9-a41e-9835621224de" />
+            </represents>
+          </lifeline>
+          <lifeline Id="3406adf3-5602-4996-b82e-b0ca7894d3e2" name="IAccountingSystem" isActor="false" lifelineDisplayName="IAccountingSystem">
+            <elementDefinition Id="7a66718b-777e-42c4-a3ec-312b2c628d66" />
+            <represents>
+              <propertyMoniker Id="05563e07-5c01-49c7-a1d8-09b24ec49cbb" />
+            </represents>
+          </lifeline>
+          <lifeline Id="08f587ea-fb3c-415d-a0c7-742e72d241a5" name="IMessagingSystem" isActor="false" lifelineDisplayName="IMessagingSystem">
+            <elementDefinition Id="8aabac8c-2d30-4a5d-a8b1-b58b09fedca8" />
+            <represents>
+              <propertyMoniker Id="fb7880cc-bb06-4be1-b959-ccfa312de1ed" />
+            </represents>
+          </lifeline>
+          <lifeline Id="966934e4-e555-4f8e-a9c9-1e8074f4c332" name="IMpesaSystem" isActor="false" lifelineDisplayName="IMpesaSystem">
+            <elementDefinition Id="afdebcd8-dbf8-4669-b145-40d05972f196" />
+            <represents>
+              <propertyMoniker Id="0cb4e7f7-cef9-47e8-8c9e-1474668a7c35" />
+            </represents>
+          </lifeline>
+        </lifelines>
+        <ownedAttributesInternal>
+          <property Id="7aacc4e9-73fb-4566-8720-b14b244864db" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="aef8e014-a15a-402b-94f9-71791286a717" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="1cf35023-4b17-44d3-979f-a942bdf3a620" LastKnownName="Lender" />
+            </type_NamedElement>
+          </property>
+          <property Id="7a21e440-9405-47a9-a41e-9835621224de" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="ef15cf54-f51f-4075-833e-232def8b7bb6" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="8ee22bd1-b3ca-423a-9aa9-e1093292dc32" LastKnownName="DepositViaMpesaController" />
+            </type_NamedElement>
+          </property>
+          <property Id="05563e07-5c01-49c7-a1d8-09b24ec49cbb" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="dcc4a75d-0454-45ee-a9c9-7189cfe0411c" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="a507d5f9-0b90-49de-b537-dc2d95753d6c" LastKnownName="IAccountingSystem" />
+            </type_NamedElement>
+          </property>
+          <property Id="fb7880cc-bb06-4be1-b959-ccfa312de1ed" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="0c6c14be-3174-4e96-ae98-3d072f23fbf5" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="e3e27912-0a77-4418-840e-ac9365e96b21" LastKnownName="IMessagingSystem" />
+            </type_NamedElement>
+          </property>
+          <property Id="0cb4e7f7-cef9-47e8-8c9e-1474668a7c35" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="759869c7-9cf4-465d-b2fc-dd3609cce507" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="9a94f224-78eb-4086-aea1-d51a31b7383f" LastKnownName="IMpesaSystem" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </interaction>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="1cf35023-4b17-44d3-979f-a942bdf3a620" name="Lender" isAbstract="false" isLeaf="false" cachedFullName="Peer Lending Model::Lender">
+        <elementDefinition Id="d2c346e5-8d43-445e-88ca-efdf333a5883" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="8ee22bd1-b3ca-423a-9aa9-e1093292dc32" name="DepositViaMpesaController" isAbstract="false" isLeaf="false" cachedFullName="Peer Lending Model::DepositViaMpesaController">
+        <elementDefinition Id="9307e117-3f51-45db-bb6c-fce5b2a73538" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="a507d5f9-0b90-49de-b537-dc2d95753d6c" name="IAccountingSystem" isAbstract="false" isLeaf="false" cachedFullName="Peer Lending Model::IAccountingSystem">
+        <elementDefinition Id="d48c87d1-8f4a-4602-8d5f-0edd5039e932" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="e3e27912-0a77-4418-840e-ac9365e96b21" name="IMessagingSystem" isAbstract="false" isLeaf="false" cachedFullName="Peer Lending Model::IMessagingSystem">
+        <elementDefinition Id="4da67950-0754-4a34-809d-61f6b3732581" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="9a94f224-78eb-4086-aea1-d51a31b7383f" name="IMpesaSystem" isAbstract="false" isLeaf="false" cachedFullName="Peer Lending Model::IMpesaSystem">
+        <elementDefinition Id="9ea729e8-0bd7-49c1-84b2-922051d48c9f" />
+      </referencedType>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="23aca2f0-85f3-466c-880d-25e9fd6132cb" name="Peer Lending Model">
+    <elementDefinition Id="22b964ca-a57b-46b5-83f2-c6e96b4483dc" />
+    <profileInstances>
+      <packageHasProfileInstances Id="521f6f7b-e10f-470a-b71d-78f71fb94cd0">
+        <profileInstance Id="ff4c8a93-5d48-4d71-8be2-add62aade13a" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="0a319f18-b7fd-4df7-9334-09fab4a77e26">
+        <profileInstance Id="040c2fdf-808a-4efb-8b99-fd2b81292e54" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="c1421801-2525-48e1-b24d-05fa432948cd">
+        <profileInstance Id="ec08df4c-6b39-4483-89c7-d8142a507be1" name="TextTemplateBindings">
+          <elementDefinition Id="42191351-c377-4bb8-afd1-f558307aee8e" />
+        </profileInstance>
+        <elementDefinition Id="b7f371cf-921d-4ecc-97ba-7de607e7b0c1" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="ba1bcfdf-744e-4c14-bdfc-fc122d3208b0">
+        <profileInstance Id="a56a73de-d84a-41d9-ba98-22336ed09d90" name="CSharpProfile">
+          <elementDefinition Id="777e4276-4229-4ce5-937c-5516daf53db9" />
+        </profileInstance>
+        <elementDefinition Id="5bfde2ae-29ba-4e1e-b5c5-62a419e750a9" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</SequenceDesignerModel>

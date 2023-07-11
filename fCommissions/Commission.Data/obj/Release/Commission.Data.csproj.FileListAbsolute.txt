@@ -1,0 +1,12 @@
+C:\My Projects\fanikiwa\fCommon\Commission.Data\bin\Release\Commission.Data.dll
+C:\My Projects\fanikiwa\fCommon\Commission.Data\bin\Release\Commission.Data.pdb
+C:\My Projects\fanikiwa\fCommon\Commission.Data\obj\Release\Commission.Data.dll
+C:\My Projects\fanikiwa\fCommon\Commission.Data\obj\Release\Commission.Data.pdb
+C:\My Projects\fanikiwa\fCommissions\Commission.Data\bin\Release\fCommissions.Commission.Data.dll
+C:\My Projects\fanikiwa\fCommissions\Commission.Data\bin\Release\fCommissions.Commission.Data.pdb
+C:\My Projects\fanikiwa\fCommissions\Commission.Data\obj\Release\fCommissions.Commission.Data.dll
+C:\My Projects\fanikiwa\fCommissions\Commission.Data\obj\Release\fCommissions.Commission.Data.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fCommissions\Commission.Data\bin\Release\fCommissions.Commission.Data.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fCommissions\Commission.Data\bin\Release\fCommissions.Commission.Data.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fCommissions\Commission.Data\obj\Release\fCommissions.Commission.Data.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fCommissions\Commission.Data\obj\Release\fCommissions.Commission.Data.pdb

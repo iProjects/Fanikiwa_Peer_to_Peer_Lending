@@ -1,0 +1,12 @@
+C:\My Projects\fanikiwa\fanikiwaGL\bin\fanikiwaGL.Business.dll.config
+C:\My Projects\fanikiwa\fanikiwaGL\bin\fanikiwaGL.Business.dll
+C:\My Projects\fanikiwa\fanikiwaGL\bin\fanikiwaGL.Business.pdb
+C:\My Projects\fanikiwa\fanikiwaGL\Business\fanikiwaGL.Business\obj\Debug\fanikiwaGL.Business.csprojResolveAssemblyReference.cache
+C:\My Projects\fanikiwa\fanikiwaGL\Business\fanikiwaGL.Business\obj\Debug\fanikiwaGL.Business.dll
+C:\My Projects\fanikiwa\fanikiwaGL\Business\fanikiwaGL.Business\obj\Debug\fanikiwaGL.Business.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fanikiwaGL\bin\fanikiwaGL.Business.dll.config
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fanikiwaGL\bin\fanikiwaGL.Business.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fanikiwaGL\bin\fanikiwaGL.Business.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fanikiwaGL\Business\fanikiwaGL.Business\obj\Debug\fanikiwaGL.Business.csprojResolveAssemblyReference.cache
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fanikiwaGL\Business\fanikiwaGL.Business\obj\Debug\fanikiwaGL.Business.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fanikiwaGL\Business\fanikiwaGL.Business\obj\Debug\fanikiwaGL.Business.pdb

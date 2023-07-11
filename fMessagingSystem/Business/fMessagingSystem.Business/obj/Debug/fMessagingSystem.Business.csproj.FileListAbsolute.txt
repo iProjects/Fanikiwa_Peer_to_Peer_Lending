@@ -1,0 +1,12 @@
+D:\My Projects\fanikiwa\fMessagingSystem\bin\fMessagingSystem.Business.dll.config
+D:\My Projects\fanikiwa\fMessagingSystem\bin\fMessagingSystem.Business.dll
+D:\My Projects\fanikiwa\fMessagingSystem\bin\fMessagingSystem.Business.pdb
+D:\My Projects\fanikiwa\fMessagingSystem\Business\fMessagingSystem.Business\obj\Debug\fMessagingSystem.Business.csprojResolveAssemblyReference.cache
+D:\My Projects\fanikiwa\fMessagingSystem\Business\fMessagingSystem.Business\obj\Debug\fMessagingSystem.Business.dll
+D:\My Projects\fanikiwa\fMessagingSystem\Business\fMessagingSystem.Business\obj\Debug\fMessagingSystem.Business.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\bin\fMessagingSystem.Business.dll.config
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\bin\fMessagingSystem.Business.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\bin\fMessagingSystem.Business.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\Business\fMessagingSystem.Business\obj\Debug\fMessagingSystem.Business.csprojResolveAssemblyReference.cache
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\Business\fMessagingSystem.Business\obj\Debug\fMessagingSystem.Business.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\Business\fMessagingSystem.Business\obj\Debug\fMessagingSystem.Business.pdb

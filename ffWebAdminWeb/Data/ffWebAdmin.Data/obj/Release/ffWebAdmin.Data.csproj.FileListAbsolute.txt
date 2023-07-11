@@ -1,0 +1,5 @@
+C:\Dev\ffWebAdmin\ffWebAdmin\bin\ffWebAdmin.Data.dll
+C:\Dev\ffWebAdmin\ffWebAdmin\bin\ffWebAdmin.Data.pdb
+C:\Dev\ffWebAdmin\ffWebAdmin\Data\ffWebAdmin.Data\obj\Release\ffWebAdmin.Data.csprojResolveAssemblyReference.cache
+C:\Dev\ffWebAdmin\ffWebAdmin\Data\ffWebAdmin.Data\obj\Release\ffWebAdmin.Data.dll
+C:\Dev\ffWebAdmin\ffWebAdmin\Data\ffWebAdmin.Data\obj\Release\ffWebAdmin.Data.pdb

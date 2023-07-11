@@ -1,0 +1,10 @@
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fanikiwaGL\bin\DiaryProcessing.exe.config
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fanikiwaGL\bin\DiaryProcessing.exe.manifest
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fanikiwaGL\bin\DiaryProcessing.application
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fanikiwaGL\bin\DiaryProcessing.exe
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fanikiwaGL\bin\DiaryProcessing.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fanikiwaGL\Apps\DiaryProcessing\obj\Release\DiaryProcessing.csprojResolveAssemblyReference.cache
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fanikiwaGL\Apps\DiaryProcessing\obj\Release\DiaryProcessing.exe.manifest
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fanikiwaGL\Apps\DiaryProcessing\obj\Release\DiaryProcessing.application
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fanikiwaGL\Apps\DiaryProcessing\obj\Release\DiaryProcessing.exe
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fanikiwaGL\Apps\DiaryProcessing\obj\Release\DiaryProcessing.pdb

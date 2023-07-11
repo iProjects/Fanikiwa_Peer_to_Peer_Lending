@@ -1,0 +1,5 @@
+C:\Dev\ffWebAdmin\ffWebAdmin\bin\ffWebAdmin.Workflows.Activities.dll
+C:\Dev\ffWebAdmin\ffWebAdmin\bin\ffWebAdmin.Workflows.Activities.pdb
+C:\Dev\ffWebAdmin\ffWebAdmin\Business\ffWebAdmin.Workflows.Activities\obj\Release\ffWebAdmin.Workflows.Activities.csprojResolveAssemblyReference.cache
+C:\Dev\ffWebAdmin\ffWebAdmin\Business\ffWebAdmin.Workflows.Activities\obj\Release\ffWebAdmin.Workflows.Activities.dll
+C:\Dev\ffWebAdmin\ffWebAdmin\Business\ffWebAdmin.Workflows.Activities\obj\Release\ffWebAdmin.Workflows.Activities.pdb

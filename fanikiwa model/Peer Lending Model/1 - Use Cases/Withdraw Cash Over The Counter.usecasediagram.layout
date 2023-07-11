@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Withdraw Cash Over The Counter">
+  <useCaseModelRootMoniker Id="c692e18e-c827-4183-83f7-f5f6e7fda1cb" />
+  <nestedChildShapes>
+    <actorShape Id="edf4ef1f-226a-4d2c-b6ab-a49da3af48e8" absoluteBounds="1, 0.875, 0.5, 0.5" isReference="false" heightOffset="0">
+      <actorMoniker Id="f8615e3b-9e59-4788-b6f1-090177886a5c" LastKnownName="Borrower" />
+      <relativeChildShapes />
+    </actorShape>
+    <useCaseAssociationConnector edgePoints="[(1.25 : 1.125); (1.25 : 1.125)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="2031337e-b656-4b56-81b0-1773f472225f" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="edf4ef1f-226a-4d2c-b6ab-a49da3af48e8" />
+        <actorShapeMoniker Id="edf4ef1f-226a-4d2c-b6ab-a49da3af48e8" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="a7537bcd-457d-4388-9a98-bbe2ed6b82e3" absoluteBounds="2.125, 1.125, 1, 0.75" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="4a4ce958-c547-4967-83ff-bb415ae08b0c" LastKnownName="Withdraw Cash Over The Counter" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(1.5 : 1.19318181818182); (2.15510328825578 : 1.37184635134249)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="469ecd00-96b9-4a72-a488-568f7ad02c63" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="edf4ef1f-226a-4d2c-b6ab-a49da3af48e8" />
+        <useCaseShapeMoniker Id="a7537bcd-457d-4388-9a98-bbe2ed6b82e3" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <actorShape Id="a61f47d1-75cb-42a3-aeec-85b9f7492372" absoluteBounds="4.25, 0.75, 0.5, 0.5" isReference="false" heightOffset="0">
+      <actorMoniker Id="8c53e490-5bfc-4421-a5ac-383fb1495ddc" LastKnownName="Accounting System" />
+      <relativeChildShapes />
+    </actorShape>
+    <useCaseAssociationConnector edgePoints="[(3.09610734513957 : 1.37437137462945); (4.25 : 1.06666666666667)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="3a25409e-1e04-4d42-a772-b778c987e5b4" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="a7537bcd-457d-4388-9a98-bbe2ed6b82e3" />
+        <actorShapeMoniker Id="a61f47d1-75cb-42a3-aeec-85b9f7492372" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <actorShape Id="593b210f-e10f-4c34-9c6e-734192f99c25" absoluteBounds="4.375, 1.75, 0.5, 0.5" isReference="false" heightOffset="0">
+      <actorMoniker Id="457fa0ec-d557-4b7d-9bb6-0fdf2ff66639" LastKnownName="Messaging System" />
+      <relativeChildShapes />
+    </actorShape>
+    <useCaseAssociationConnector edgePoints="[(3.0599738535111 : 1.68492899327434); (4.375 : 2.24401193455144)]" fixedFrom="Algorithm" fixedTo="Caller" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="a9c5386a-5d7b-44a3-b8b6-c0dffbf3e0cd" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="a7537bcd-457d-4388-9a98-bbe2ed6b82e3" />
+        <actorShapeMoniker Id="593b210f-e10f-4c34-9c6e-734192f99c25" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <actorShape Id="3a6c27d2-dd83-4412-8952-4d89069414ab" absoluteBounds="4.375, 3, 0.5, 0.5" isReference="false" heightOffset="0">
+      <actorMoniker Id="16150e40-b6ae-4816-b210-45816beca581" LastKnownName="Teller Module" />
+      <relativeChildShapes />
+    </actorShape>
+    <useCaseAssociationConnector edgePoints="[(2.89860757850868 : 1.8138719919055); (4.375 : 3.20354836082905)]" fixedFrom="Caller" fixedTo="Caller" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="2512ab4c-8833-4322-8ed1-3d3f4ad97638" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="a7537bcd-457d-4388-9a98-bbe2ed6b82e3" />
+        <actorShapeMoniker Id="3a6c27d2-dd83-4412-8952-4d89069414ab" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <artifactShape Id="c32d7ea3-b374-4f71-8be8-e6416535ce97" absoluteBounds="2.25, 3.25, 1.5, 0.75" customColor="161, 199, 231">
+      <artifactMoniker Id="0e31d5a3-e1fe-4a97-8d74-f6e29fa22cc8" LastKnownName="8.1.Withdraw Cash Over The Counter.docx" />
+    </artifactShape>
+    <useCaseDependencyConnector edgePoints="[(2.69060435951404 : 1.87175803724624); (2.93382352941176 : 3.25)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black">
+      <dependencyMoniker Id="cc8bc450-7b9e-451a-9af1-d882ed74ec5d" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="a7537bcd-457d-4388-9a98-bbe2ed6b82e3" />
+        <artifactShapeMoniker Id="c32d7ea3-b374-4f71-8be8-e6416535ce97" />
+      </nodes>
+    </useCaseDependencyConnector>
+  </nestedChildShapes>
+</useCaseDiagram>

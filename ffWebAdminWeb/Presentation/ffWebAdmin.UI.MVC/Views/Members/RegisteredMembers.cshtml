@@ -1,0 +1,51 @@
+﻿@model IEnumerable<ffWebAdmin.UI.MVC.Models.RegisteredMembers>
+
+@{
+    ViewBag.Title = "Registered Members";
+    int RegisteredMembers = Model.Count();
+}
+
+<h2 class="page-title">Registered Members [ @RegisteredMembers ] </h2>
+ 
+<table>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.EmailAddress)
+        </th> 
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.EmailAddress)
+        </td> 
+    </tr>
+}
+
+</table>
+
+
+
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+    <script type="text/javascript">
+
+        $(document).ready(function () { 
+
+            $("#progress").hide();
+
+            $.ajaxSetup({ cache: false });
+
+        });
+        </script>
+ 
+}
+
+
+
+
+
+
+

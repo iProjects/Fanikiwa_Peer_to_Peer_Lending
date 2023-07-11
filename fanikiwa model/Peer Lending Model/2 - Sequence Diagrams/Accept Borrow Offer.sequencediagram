@@ -1,0 +1,511 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SequenceDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm11="http://schemas.microsoft.com/dsltools/UseCaseModel" dslVersion="1.0.0.0" Id="8329c87c-a156-47aa-8c74-7d6f13644dc0" name="Accept Borrow Offer" linkedPackageId="90a5132e-9b2c-4a45-aa9c-af090bdaf891" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner">
+  <appliedStereotypesInternal>
+    <stereotypeInstance Id="b6c44f2d-e986-474a-9d39-a45ecca9f349" name="namespace" profile="CSharpProfile">
+      <elementDefinition Id="661a6133-9c4f-4851-9b61-5f9bca3fb9bc" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="4c0ca3c8-d5d1-4eb1-ad60-d375dd451bc2">
+          <propertyInstance Id="c8cf1392-4602-4a5b-af14-191a81a33ae9" name="BaseName">
+            <elementDefinition Id="2237431b-6227-4b6c-98d8-575bce8284d7" />
+          </propertyInstance>
+          <elementDefinition Id="bb5607fd-0b66-4c32-9224-664fa586f30d" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="bc5c3064-85be-44cc-b705-8c78e2651050">
+          <propertyInstance Id="011407c4-29a9-45ee-b4a9-4138a11f02fc" name="ClrAttributes">
+            <elementDefinition Id="e4c8e8e3-e587-42e5-b84a-5beb666cccd3" />
+          </propertyInstance>
+          <elementDefinition Id="d1291114-48aa-43dd-a6a6-ced4445f69b7" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="03344a22-15ca-4b03-badc-8bd2f920a94a">
+          <propertyInstance Id="23bc3590-4b74-4f6f-b60e-24519246b5da" name="Usings">
+            <elementDefinition Id="262f56bc-ebf3-462a-a1d8-72042cc779e4" />
+          </propertyInstance>
+          <elementDefinition Id="469d0985-fa16-4f27-9c31-66122a1c411b" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+    <stereotypeInstance Id="64ba6c66-91d0-403d-ac9d-2082c3530d59" name="TextTemplateBindings" profile="TextTemplateBindings">
+      <elementDefinition Id="7ac97e40-946c-4ce2-a13f-9d6e3a52afea" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="187c59b5-7d2e-4565-8d60-bf6cd9550816">
+          <propertyInstance Id="4ca72557-a4c3-4b99-9199-b0a323e4024c" name="Alias" value="ClassTemplate|EnumTemplate|InterfaceTemplate|StructTemplate">
+            <elementDefinition Id="567d5712-cfcf-48f4-bc12-84d5a7a96029" />
+          </propertyInstance>
+          <elementDefinition Id="db385eef-682f-4a85-9701-897d3afe16f7" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="d96c2e1a-78eb-4466-8849-0d702568704f">
+          <propertyInstance Id="a89e0e76-45c1-4fe0-9752-5a7937e91df7" name="TemplateFilePath" value="ClassTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 11.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4|EnumTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 11.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\EnumTemplate.t4|InterfaceTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 11.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\InterfaceTemplate.t4|StructTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 11.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4">
+            <elementDefinition Id="5fe4dd62-11f3-40b0-ae37-82cb3bd8032b" />
+          </propertyInstance>
+          <elementDefinition Id="6f6618ce-4aa9-4796-899a-6e630905c406" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="64e9b49e-f842-4cff-8765-103941fc7a5a">
+          <propertyInstance Id="d148bdb0-d1ae-4a57-82d0-bbbdffbeceed" name="ProjectPath" value="ClassTemplate=..\Peer Lending ModelLib\Peer Lending ModelLib.csproj|EnumTemplate=..\Peer Lending ModelLib\Peer Lending ModelLib.csproj|InterfaceTemplate=..\Peer Lending ModelLib\Peer Lending ModelLib.csproj|StructTemplate=..\Peer Lending ModelLib\Peer Lending ModelLib.csproj">
+            <elementDefinition Id="c4941fe7-9508-4c66-ae67-bc0d9c0e8cf5" />
+          </propertyInstance>
+          <elementDefinition Id="dab5d9ce-67a4-4dc1-a694-acbf8db5c2a7" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="7152a97a-5508-446a-bcc8-f45ddc6724da">
+          <propertyInstance Id="0fd6ac17-f02c-4fe4-a642-afec9b613de7" name="TargetDirectory" value="ClassTemplate=GeneratedCode\{PackageStructure}|EnumTemplate=GeneratedCode\{PackageStructure}|InterfaceTemplate=GeneratedCode\{PackageStructure}|StructTemplate=GeneratedCode\{PackageStructure}">
+            <elementDefinition Id="efb1ba2f-8ae4-4dab-aaa2-5d072f41dc36" />
+          </propertyInstance>
+          <elementDefinition Id="b72c25ea-f639-42ce-b7b2-44ba7369a311" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="07045869-1e5a-49b7-8aae-9b9ab3bfc9cf">
+          <propertyInstance Id="ae29d249-6807-4250-bcc7-80f3519bd99a" name="TargetName" value="ClassTemplate={Name}|EnumTemplate={Name}|InterfaceTemplate={Name}|StructTemplate={Name}">
+            <elementDefinition Id="73a6f63c-ddf8-4e91-9e15-2b41bfbe80b2" />
+          </propertyInstance>
+          <elementDefinition Id="b7b31f3d-07f7-458c-b61b-b64da9a7b2b2" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="83bcb339-87d0-4ef9-b684-e51fdc6fa07f">
+          <propertyInstance Id="4363db84-b334-4c8d-9a05-2b514e0c3a13" name="Overwrite" value="ClassTemplate=True|EnumTemplate=True|InterfaceTemplate=True|StructTemplate=True">
+            <elementDefinition Id="4b09ebd2-decb-4151-b145-e6a3fa3fb92c" />
+          </propertyInstance>
+          <elementDefinition Id="add2ebbf-bf76-4a9e-adee-72b39b5f50fe" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="584d840e-0cef-4f48-9372-4672d07bb7bf">
+          <propertyInstance Id="517a51a9-8411-403b-8aab-e36ee739704b" name="Parameters">
+            <elementDefinition Id="09ec6e6c-2526-41c3-ae8b-738f6f2fd00c" />
+          </propertyInstance>
+          <elementDefinition Id="1f4fd6a8-dcb6-4110-93c4-4579cd5a2b9b" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+  </appliedStereotypesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <interaction Id="907078d0-92f2-4216-bcf8-309e95edd6da" name="Accept Borrow Offer" collapseFragmentsFlag="false" isActiveClass="false" isAbstract="false" isLeaf="false" isReentrant="false">
+        <elementDefinition Id="90ffe20b-3b9f-4537-8122-ae8a0ad6e8ba" />
+        <fragments>
+          <behaviorExecutionSpecification Id="c9023cb8-ab88-41e0-805b-ee4bd15fcbaf" name="BehaviorExecutionSpecification1">
+            <elementDefinition Id="f1a13064-b93d-4816-a397-2d96cef7fe6e" />
+            <coveredLifelines>
+              <lifelineMoniker Id="fd542823-08fa-4fde-ba2f-7cddadc1bedc" LastKnownName="AcceptBorrowOfferController" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="a11a375a-ef37-4ce0-ba7e-ed8fa7182115" LastKnownName="ExecutionOccurrenceSpecification2" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="55c73232-00dc-4551-8432-fcec3dbfe615" LastKnownName="ExecutionOccurrenceSpecification1" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="235e7be8-7ee0-49e9-b799-2eac5ef4f605" LastKnownName="MessageOccurrenceSpecification2" />
+              <messageOccurrenceSpecificationMoniker Id="d37b5cdb-94d2-4373-a7d7-b1a6c47f0123" LastKnownName="MessageOccurrenceSpecification5" />
+              <messageOccurrenceSpecificationMoniker Id="83a0dd6f-5f26-46b4-8904-0ffeb8b73695" LastKnownName="MessageOccurrenceSpecification8" />
+              <messageOccurrenceSpecificationMoniker Id="8582b4b3-be42-47a8-8b66-bd3fff2ef77c" LastKnownName="MessageOccurrenceSpecification3" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="55c73232-00dc-4551-8432-fcec3dbfe615" name="ExecutionOccurrenceSpecification1">
+            <elementDefinition Id="75e6e9f2-c90d-4fe1-91c6-1731f57b889a" />
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="79c52580-3ea7-4873-ae4e-167556b1d143" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="fd542823-08fa-4fde-ba2f-7cddadc1bedc" LastKnownName="AcceptBorrowOfferController" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="8741e1b2-021c-47af-b513-749ec87dd306" name="MessageOccurrenceSpecification1">
+            <elementDefinition Id="12ebebfe-7583-4a8c-ba5f-85207a81934d" />
+            <covered>
+              <lifelineMoniker Id="34ca5a30-3760-4efb-b767-3c1e5df461d7" LastKnownName="Lender" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="235e7be8-7ee0-49e9-b799-2eac5ef4f605" name="MessageOccurrenceSpecification2">
+            <elementDefinition Id="fe85396a-6a98-43e0-83fc-158aafc81546" />
+            <covered>
+              <lifelineMoniker Id="fd542823-08fa-4fde-ba2f-7cddadc1bedc" LastKnownName="AcceptBorrowOfferController" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification Id="05756943-4498-43b8-a051-982ff3ad55fc" name="BehaviorExecutionSpecification2">
+            <elementDefinition Id="5ac94d25-7b7a-466e-9b98-618d359f3fe9" />
+            <coveredLifelines>
+              <lifelineMoniker Id="1dd14f72-542b-4130-b9b1-cd2b5ea524f5" LastKnownName="OfferBook" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="eda0d36a-d06e-43e2-b517-708cfc14799c" LastKnownName="ExecutionOccurrenceSpecification4" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="0011fa61-cce4-46d7-bd29-6d56f267ad5c" LastKnownName="ExecutionOccurrenceSpecification3" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="f7498a1e-8aa6-4093-91a3-56f4707fc342" LastKnownName="MessageOccurrenceSpecification6" />
+              <messageOccurrenceSpecificationMoniker Id="7fc1925e-7cae-4dca-ad40-b6c07c6f1734" LastKnownName="MessageOccurrenceSpecification9" />
+              <messageOccurrenceSpecificationMoniker Id="d5b1baba-70d1-41ed-a434-046b647aba6b" LastKnownName="MessageOccurrenceSpecification12" />
+              <messageOccurrenceSpecificationMoniker Id="6a4b5edf-6b2f-438a-9145-ab54f79ef426" LastKnownName="MessageOccurrenceSpecification7" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="0011fa61-cce4-46d7-bd29-6d56f267ad5c" name="ExecutionOccurrenceSpecification3">
+            <elementDefinition Id="63ed1cf9-e524-47b4-8041-b37c4bdbf40d" />
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="80f27d25-672c-4835-92a1-b0f73ece2d76" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="1dd14f72-542b-4130-b9b1-cd2b5ea524f5" LastKnownName="OfferBook" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="d37b5cdb-94d2-4373-a7d7-b1a6c47f0123" name="MessageOccurrenceSpecification5">
+            <elementDefinition Id="80cc176e-f5dd-40bb-a563-86dfe4682de6" />
+            <covered>
+              <lifelineMoniker Id="fd542823-08fa-4fde-ba2f-7cddadc1bedc" LastKnownName="AcceptBorrowOfferController" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="f7498a1e-8aa6-4093-91a3-56f4707fc342" name="MessageOccurrenceSpecification6">
+            <elementDefinition Id="b04e1e5d-157f-428f-a8fa-8c86b1bf8c77" />
+            <covered>
+              <lifelineMoniker Id="1dd14f72-542b-4130-b9b1-cd2b5ea524f5" LastKnownName="OfferBook" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification Id="48f042c6-6aa4-4954-bf8f-bf8f63250718" name="BehaviorExecutionSpecification3">
+            <elementDefinition Id="6e5a3400-6a99-4ebd-a286-13f5229f582c" />
+            <coveredLifelines>
+              <lifelineMoniker Id="d341974d-c7d2-4cbd-8b5a-c6ee5da1cf28" LastKnownName="Offer" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="a20ccabf-7c39-4c62-8f80-3e53e19a1f2a" LastKnownName="ExecutionOccurrenceSpecification6" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="66a978c1-e593-41a6-8518-ca0ded4027f3" LastKnownName="ExecutionOccurrenceSpecification5" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="beb4e031-101d-42c4-bba5-6a9f9908273c" LastKnownName="MessageOccurrenceSpecification10" />
+              <messageOccurrenceSpecificationMoniker Id="ae54e118-93e3-4681-804d-753aaceef09e" LastKnownName="MessageOccurrenceSpecification11" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="66a978c1-e593-41a6-8518-ca0ded4027f3" name="ExecutionOccurrenceSpecification5">
+            <elementDefinition Id="2d914432-ad44-49c5-b3d0-00eb4fafdbbd" />
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="5e7000f9-5d83-4f29-be2d-3212a1c32da2" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="d341974d-c7d2-4cbd-8b5a-c6ee5da1cf28" LastKnownName="Offer" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="beb4e031-101d-42c4-bba5-6a9f9908273c" name="MessageOccurrenceSpecification10">
+            <elementDefinition Id="5c962eef-e299-4b6f-9576-75c274b15178" />
+            <covered>
+              <lifelineMoniker Id="d341974d-c7d2-4cbd-8b5a-c6ee5da1cf28" LastKnownName="Offer" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="7fc1925e-7cae-4dca-ad40-b6c07c6f1734" name="MessageOccurrenceSpecification9">
+            <elementDefinition Id="6cfe3852-687b-490b-ae2a-edf3d0a6d20e" />
+            <covered>
+              <lifelineMoniker Id="1dd14f72-542b-4130-b9b1-cd2b5ea524f5" LastKnownName="OfferBook" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="d5b1baba-70d1-41ed-a434-046b647aba6b" name="MessageOccurrenceSpecification12">
+            <elementDefinition Id="a5158b99-925b-470b-8087-340f38925ecc" />
+            <covered>
+              <lifelineMoniker Id="1dd14f72-542b-4130-b9b1-cd2b5ea524f5" LastKnownName="OfferBook" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="ae54e118-93e3-4681-804d-753aaceef09e" name="MessageOccurrenceSpecification11">
+            <elementDefinition Id="cb5ce4a3-4d30-4511-8532-f7ca09cefa03" />
+            <covered>
+              <lifelineMoniker Id="d341974d-c7d2-4cbd-8b5a-c6ee5da1cf28" LastKnownName="Offer" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="a20ccabf-7c39-4c62-8f80-3e53e19a1f2a" name="ExecutionOccurrenceSpecification6">
+            <elementDefinition Id="0363a5fb-5770-4326-8b1a-d20acc15bdf9" />
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="fc8f9c5f-b888-4d2f-b005-3c2f99388a8a" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="d341974d-c7d2-4cbd-8b5a-c6ee5da1cf28" LastKnownName="Offer" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="83a0dd6f-5f26-46b4-8904-0ffeb8b73695" name="MessageOccurrenceSpecification8">
+            <elementDefinition Id="5f841d95-79f9-4494-ac2d-9264a4e3d70c" />
+            <covered>
+              <lifelineMoniker Id="fd542823-08fa-4fde-ba2f-7cddadc1bedc" LastKnownName="AcceptBorrowOfferController" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="6a4b5edf-6b2f-438a-9145-ab54f79ef426" name="MessageOccurrenceSpecification7">
+            <elementDefinition Id="36471749-4b8d-4d62-a823-eaa16a951493" />
+            <covered>
+              <lifelineMoniker Id="1dd14f72-542b-4130-b9b1-cd2b5ea524f5" LastKnownName="OfferBook" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="eda0d36a-d06e-43e2-b517-708cfc14799c" name="ExecutionOccurrenceSpecification4">
+            <elementDefinition Id="afd78eae-7c98-4e87-b19b-d1e97e60b0a3" />
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="7771b6b2-cb40-418f-a09a-0e21e65b5b95" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="1dd14f72-542b-4130-b9b1-cd2b5ea524f5" LastKnownName="OfferBook" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="8582b4b3-be42-47a8-8b66-bd3fff2ef77c" name="MessageOccurrenceSpecification3">
+            <elementDefinition Id="ed8fa607-84cf-4c0e-85b6-713b8babef11" />
+            <covered>
+              <lifelineMoniker Id="fd542823-08fa-4fde-ba2f-7cddadc1bedc" LastKnownName="AcceptBorrowOfferController" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="ee5f6161-4091-4a92-9278-f74717870b6f" name="MessageOccurrenceSpecification4">
+            <elementDefinition Id="220ef7af-a6c3-437b-91f2-afd8431931ec" />
+            <covered>
+              <lifelineMoniker Id="34ca5a30-3760-4efb-b767-3c1e5df461d7" LastKnownName="Lender" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="a11a375a-ef37-4ce0-ba7e-ed8fa7182115" name="ExecutionOccurrenceSpecification2">
+            <elementDefinition Id="adc87dd8-87be-4206-bbe4-06e34aa4f703" />
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="5fb241e8-e858-4dda-bfdd-9ceae3431901" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="fd542823-08fa-4fde-ba2f-7cddadc1bedc" LastKnownName="AcceptBorrowOfferController" />
+            </covered>
+          </executionOccurrenceSpecification>
+        </fragments>
+        <lifelines>
+          <lifeline Id="34ca5a30-3760-4efb-b767-3c1e5df461d7" name="Lender" isActor="true" lifelineDisplayName="Lender">
+            <elementDefinition Id="7274f507-02ab-43f8-ad22-d9c05dd9b13f" />
+            <represents>
+              <propertyMoniker Id="d0bac705-51da-404b-ac2e-064ea9acca34" />
+            </represents>
+            <topLevelOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="8741e1b2-021c-47af-b513-749ec87dd306" LastKnownName="MessageOccurrenceSpecification1" />
+              <messageOccurrenceSpecificationMoniker Id="ee5f6161-4091-4a92-9278-f74717870b6f" LastKnownName="MessageOccurrenceSpecification4" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline Id="fd542823-08fa-4fde-ba2f-7cddadc1bedc" name="AcceptBorrowOfferController" isActor="false" lifelineDisplayName="AcceptBorrowOfferController">
+            <elementDefinition Id="bd2c3588-6a89-477c-9085-4ed12d366c10" />
+            <represents>
+              <propertyMoniker Id="b7817761-0679-4c69-b7cb-a9b8a63d2a00" />
+            </represents>
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker Id="55c73232-00dc-4551-8432-fcec3dbfe615" LastKnownName="ExecutionOccurrenceSpecification1" />
+              <executionOccurrenceSpecificationMoniker Id="a11a375a-ef37-4ce0-ba7e-ed8fa7182115" LastKnownName="ExecutionOccurrenceSpecification2" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline Id="1dd14f72-542b-4130-b9b1-cd2b5ea524f5" name="OfferBook" isActor="false" lifelineDisplayName="OfferBook">
+            <elementDefinition Id="d657848e-5ef8-495e-9278-9b6e22a2705e" />
+            <represents>
+              <propertyMoniker Id="7640268c-559d-4c1e-b870-bd5e2a68f3a7" />
+            </represents>
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker Id="0011fa61-cce4-46d7-bd29-6d56f267ad5c" LastKnownName="ExecutionOccurrenceSpecification3" />
+              <executionOccurrenceSpecificationMoniker Id="eda0d36a-d06e-43e2-b517-708cfc14799c" LastKnownName="ExecutionOccurrenceSpecification4" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline Id="d341974d-c7d2-4cbd-8b5a-c6ee5da1cf28" name="Offer" isActor="false" lifelineDisplayName="Offer">
+            <elementDefinition Id="5b02b149-111d-4a6e-85fe-aa6eeb755b00" />
+            <represents>
+              <propertyMoniker Id="d69c176f-eb2a-4ec5-99e9-f171a09d5be2" />
+            </represents>
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker Id="66a978c1-e593-41a6-8518-ca0ded4027f3" LastKnownName="ExecutionOccurrenceSpecification5" />
+              <executionOccurrenceSpecificationMoniker Id="a20ccabf-7c39-4c62-8f80-3e53e19a1f2a" LastKnownName="ExecutionOccurrenceSpecification6" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline Id="fd3e563c-d6f5-40f8-bfd9-e91beb5e7d66" name="LoanBook" isActor="false" lifelineDisplayName="LoanBook">
+            <elementDefinition Id="ade17fc9-6f98-4205-a59d-fd84394f4c41" />
+            <represents>
+              <propertyMoniker Id="45aeadb2-d157-4780-a3cf-170b8c4bcda3" />
+            </represents>
+          </lifeline>
+          <lifeline Id="1d8b98f4-7bf8-4bf9-b02e-56dea4870184" name="Loan" isActor="false" lifelineDisplayName="Loan">
+            <elementDefinition Id="504149c6-3e8b-43bb-a42f-7a32c16044b0" />
+            <represents>
+              <propertyMoniker Id="73073d2a-835f-487e-962e-e6bbf26fd54a" />
+            </represents>
+          </lifeline>
+        </lifelines>
+        <messages>
+          <message Id="e6ee59d1-89dd-44a6-bb64-8a1e2268b02d" name="Accept Borrow Offer" messageKind="Complete" messageSort="SynchCall" createSelfMessage="false" signatureText="+ AcceptBorrowOffer(memberId : int, offerId : int)">
+            <elementDefinition Id="63ffeb5d-4745-45fa-91bf-12e87cb22cb2" />
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="8741e1b2-021c-47af-b513-749ec87dd306" LastKnownName="MessageOccurrenceSpecification1" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="235e7be8-7ee0-49e9-b799-2eac5ef4f605" LastKnownName="MessageOccurrenceSpecification2" />
+            </receiveEvent>
+          </message>
+          <message Id="bd341c9b-5bca-4381-8eeb-ccf3c7441a68" name="Create borrow offer and disperse it to recipients" messageKind="Complete" messageSort="SynchCall" createSelfMessage="false" signatureText="+ BlockAnOffer(offerid : int) : bool">
+            <elementDefinition Id="ca363524-9299-4a9c-a5d9-bf59f0630d70" />
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="d37b5cdb-94d2-4373-a7d7-b1a6c47f0123" LastKnownName="MessageOccurrenceSpecification5" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="f7498a1e-8aa6-4093-91a3-56f4707fc342" LastKnownName="MessageOccurrenceSpecification6" />
+            </receiveEvent>
+          </message>
+          <message Id="bb5abad8-cffc-4627-b315-fcc2b99af9fd" name="Message1" messageKind="Complete" messageSort="SynchCall" createSelfMessage="false">
+            <elementDefinition Id="eca76af1-4c33-4b73-a34f-742dbedd14b1" />
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="7fc1925e-7cae-4dca-ad40-b6c07c6f1734" LastKnownName="MessageOccurrenceSpecification9" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="beb4e031-101d-42c4-bba5-6a9f9908273c" LastKnownName="MessageOccurrenceSpecification10" />
+            </receiveEvent>
+          </message>
+          <message Id="40771252-516d-4413-af00-2574a6c38e59" name="&lt;&lt;return&gt;&gt;" messageKind="Complete" messageSort="Reply" createSelfMessage="false">
+            <elementDefinition Id="274970c1-f5eb-4781-9bce-9ee13c35e989" />
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="ae54e118-93e3-4681-804d-753aaceef09e" LastKnownName="MessageOccurrenceSpecification11" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="d5b1baba-70d1-41ed-a434-046b647aba6b" LastKnownName="MessageOccurrenceSpecification12" />
+            </receiveEvent>
+          </message>
+          <message Id="b48b6db7-f0ad-4ee2-b041-2dd558da9496" name="&lt;&lt;return&gt;&gt;" messageKind="Complete" messageSort="Reply" createSelfMessage="false">
+            <elementDefinition Id="b3bca8c2-6e9d-4298-9e80-288943253772" />
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="6a4b5edf-6b2f-438a-9145-ab54f79ef426" LastKnownName="MessageOccurrenceSpecification7" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="83a0dd6f-5f26-46b4-8904-0ffeb8b73695" LastKnownName="MessageOccurrenceSpecification8" />
+            </receiveEvent>
+          </message>
+          <message Id="4cc111d8-fe2c-4b14-a256-7a3e53fab67c" name="&lt;&lt;return&gt;&gt;" messageKind="Complete" messageSort="Reply" createSelfMessage="false">
+            <elementDefinition Id="fedf765e-f0c6-4143-968d-05e32e87a1a2" />
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="8582b4b3-be42-47a8-8b66-bd3fff2ef77c" LastKnownName="MessageOccurrenceSpecification3" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="ee5f6161-4091-4a92-9278-f74717870b6f" LastKnownName="MessageOccurrenceSpecification4" />
+            </receiveEvent>
+          </message>
+        </messages>
+        <ownedAttributesInternal>
+          <property Id="d0bac705-51da-404b-ac2e-064ea9acca34" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="4c6d6faf-ecf3-4989-82bf-dffe4c574392" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="e82d5b7b-77ab-45de-9512-bed3d79a66ca" LastKnownName="Lender" />
+            </type_NamedElement>
+          </property>
+          <property Id="b7817761-0679-4c69-b7cb-a9b8a63d2a00" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="6f467579-ce31-44a2-bb47-ced7bdf0a562" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="5adbd878-4f2e-4bdc-9ad7-8950bbc5face" LastKnownName="AcceptBorrowOfferController" />
+            </type_NamedElement>
+          </property>
+          <property Id="7640268c-559d-4c1e-b870-bd5e2a68f3a7" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="8dcfb33b-4d87-4021-93bb-3208f8c7636f" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="3ec504fa-399f-4d89-a8e9-d3fb1c2a6251" LastKnownName="OfferBook" />
+            </type_NamedElement>
+          </property>
+          <property Id="45aeadb2-d157-4780-a3cf-170b8c4bcda3" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="b0615477-fc6f-48d4-9169-711a6742ae8b" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="6a4ba797-0086-4825-ae90-477e86485079" LastKnownName="LoanBook" />
+            </type_NamedElement>
+          </property>
+          <property Id="d69c176f-eb2a-4ec5-99e9-f171a09d5be2" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="742ea26e-f545-4d9a-a693-dbe06fd71ac3" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="0d8f8d85-da92-4f9f-b58b-264388494185" LastKnownName="Offer" />
+            </type_NamedElement>
+          </property>
+          <property Id="73073d2a-835f-487e-962e-e6bbf26fd54a" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="c18e922d-fe67-4164-b3a5-bc6f03384a65" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="344f1d75-01b2-48f8-a787-094c7c02c2f6" LastKnownName="Loan" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </interaction>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="e82d5b7b-77ab-45de-9512-bed3d79a66ca" name="Lender" isAbstract="false" isLeaf="false" cachedFullName="Peer Lending Model::Lender">
+        <elementDefinition Id="d2c346e5-8d43-445e-88ca-efdf333a5883" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="5adbd878-4f2e-4bdc-9ad7-8950bbc5face" name="AcceptBorrowOfferController" isAbstract="false" isLeaf="false" cachedFullName="Peer Lending Model::AcceptBorrowOfferController">
+        <elementDefinition Id="d6fa1c04-8927-48e2-8512-38904c6ae6a5" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="79c52580-3ea7-4873-ae4e-167556b1d143" name="ExecutionEvent">
+        <elementDefinition Id="a2594095-a0d2-41ad-85a5-d513149fbe47" />
+      </executionEvent>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="5fb241e8-e858-4dda-bfdd-9ceae3431901" name="ExecutionEvent">
+        <elementDefinition Id="25c8a949-6bf8-463b-83b3-4512570b1f31" />
+      </executionEvent>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="3ec504fa-399f-4d89-a8e9-d3fb1c2a6251" name="OfferBook" isAbstract="false" isLeaf="false" cachedFullName="Peer Lending Model::OfferBook">
+        <elementDefinition Id="000d8b1c-ef62-4b03-8504-31e8287f7b2c" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="80f27d25-672c-4835-92a1-b0f73ece2d76" name="ExecutionEvent">
+        <elementDefinition Id="1db30881-3d05-4e95-8c1a-2f13cb92bb97" />
+      </executionEvent>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="7771b6b2-cb40-418f-a09a-0e21e65b5b95" name="ExecutionEvent">
+        <elementDefinition Id="6b2ddab1-71a9-49aa-88bb-8b6f4dba1b59" />
+      </executionEvent>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="6a4ba797-0086-4825-ae90-477e86485079" name="LoanBook" isAbstract="false" isLeaf="false" cachedFullName="Peer Lending Model::LoanBook">
+        <elementDefinition Id="565f99ca-cbe2-4653-a45d-791cf55cd273" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="0d8f8d85-da92-4f9f-b58b-264388494185" name="Offer" isAbstract="false" isLeaf="false" cachedFullName="Peer Lending Model::Offer">
+        <elementDefinition Id="57a1b491-4ccc-42e9-9bde-7732ab7d3127" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="5e7000f9-5d83-4f29-be2d-3212a1c32da2" name="ExecutionEvent">
+        <elementDefinition Id="9ea39004-9783-4605-8e0e-315c382cd9ad" />
+      </executionEvent>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="fc8f9c5f-b888-4d2f-b005-3c2f99388a8a" name="ExecutionEvent">
+        <elementDefinition Id="cf395443-da31-4091-9680-4f4659be25bb" />
+      </executionEvent>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="344f1d75-01b2-48f8-a787-094c7c02c2f6" name="Loan" isAbstract="false" isLeaf="false" cachedFullName="Peer Lending Model::Loan">
+        <elementDefinition Id="ba99887b-eb20-4497-aba9-5718c42fcb7c" />
+      </referencedType>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="90a5132e-9b2c-4a45-aa9c-af090bdaf891" name="Peer Lending Model">
+    <elementDefinition Id="22b964ca-a57b-46b5-83f2-c6e96b4483dc" />
+    <profileInstances>
+      <packageHasProfileInstances Id="020a7b81-169a-4d80-afd8-e4816908d1ff">
+        <profileInstance Id="1f88151d-a8ad-4785-9264-ead2b39847f8" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="eccafc6d-f8c7-4400-8eeb-5caae8147a47">
+        <profileInstance Id="7ddac99c-941c-451a-8da4-5d9da14fc7ba" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="2e3d7e23-faf7-40cb-b07e-be7aeaff7199">
+        <profileInstance Id="d244855d-cab1-462d-9452-5bc7cfffaad5" name="TextTemplateBindings">
+          <elementDefinition Id="42191351-c377-4bb8-afd1-f558307aee8e" />
+        </profileInstance>
+        <elementDefinition Id="b7f371cf-921d-4ecc-97ba-7de607e7b0c1" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="bdc39368-1ce5-4184-a9ba-28722a85ddfc">
+        <profileInstance Id="38840a24-5e92-4dce-9122-209d7557ba96" name="CSharpProfile">
+          <elementDefinition Id="777e4276-4229-4ce5-937c-5516daf53db9" />
+        </profileInstance>
+        <elementDefinition Id="5bfde2ae-29ba-4e1e-b5c5-62a419e750a9" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</SequenceDesignerModel>

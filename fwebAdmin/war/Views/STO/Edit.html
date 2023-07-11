@@ -1,0 +1,320 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Edit Standing Order | Fanikiwa - Administrator</title>
+<link href="/Images/Dollar.ico" rel="shortcut icon" type="image/x-icon" />
+<link rel="stylesheet" href="/Content/Site.css" type="text/css" />
+<script src="/Scripts/jquery-2.0.3.js" type="text/javascript"></script>
+<script src="/Scripts/MainMenu.js"></script>
+<script src="/Scripts/fanikiwa.js"></script>
+<script src="/Scripts/CustomScripts.js" type="text/javascript"></script>
+<script src="/Scripts/EditSTO.js"></script>
+
+
+</head>
+
+
+<body>
+
+	<header>
+		<div class="content-wrapper">
+
+			<div class="float-left">
+				<p class="site-title" title="Fanikiwa - Administrator">Fanikiwa
+					- Administrator</p>
+			</div>
+
+
+			<div class="float-right">
+				<section id="login">
+					<text> Welcome To Fanikiwa, <a id="lnkloggedinuser"
+						style="cursor: pointer;" href="#" onclick="ManageProfile()"
+						title="Manage Profile"></a> <a id="lnklogoff"
+						style="cursor: pointer;" href="#" onclick="LogOff()"
+						title="Log Off">Log off</a> </text>
+				</section>
+			</div>
+
+			<div id="MainMenu"></div>
+			<div id="SubMenu"></div>
+
+		</div>
+
+
+	</header>
+
+
+
+	<div id="body">
+
+
+		<section class="content-wrapper main-content clear-fix">
+
+			<div id="error-display-div" class="displaynone"></div>
+
+
+			<hgroup class="title">
+				<h2 class="page-title">Edit Standing Order</h2>
+			</hgroup>
+
+			<div style="float: left; clear: both">
+				<input id="btnUpdate" type="submit" value="Loading please wait..."
+					style="cursor: wait; background-color: grey; color: red;" disabled />
+				<input type="button" value="Back"
+					onclick="window.history.go(-1); return false;" />
+			</div>
+
+			<div id="apiResults" style="float: left; clear: both"></div>
+			<div id="successmessage" style="float: left; clear: both"></div>
+			<div id="errormessage" style="float: left; clear: both"></div>
+
+			<div style="float: left; clear: both">
+
+				<form action="javascript:void(0);">
+
+					<fieldset>
+						<legend>Edit Standing Order</legend>
+
+						<div id="column-div" class="clearboth">
+
+							<article class="col1">
+								<div class="pad">
+
+									<div>
+										<label for="txtid">ID</label> <input id="txtid"
+											placeholder="ID" autofocus type="number" min="0" disabled></input>
+									</div>
+
+									<div>
+										<label for="txtcrAccount">Credit Account</label> <input
+											id="txtcrAccount" placeholder="Credit Account" type="number"
+											min="0" disabled></input>
+									</div>
+
+									<div>
+										<label for="txtdrAccount">Debit Account</label> <input
+											id="txtdrAccount" placeholder="Debit Account" type="number"
+											min="0" disabled></input>
+									</div>
+
+									<div>
+										<label for="txtcommissionAccount">Commission Account</label> <input
+											id="txtcommissionAccount" placeholder="Commission Account"
+											type="number" min="0" disabled></input>
+									</div>
+
+									<div>
+										<label for="txtcrTxnType">Credit Transaction Type</label> <input
+											id="txtcrTxnType" placeholder="Credit Transaction Type"
+											type="number" min="0"></input>
+									</div>
+
+									<div>
+										<label for="txtdrTxnType">Debit Transaction Type</label> <input
+											id="txtdrTxnType" placeholder="Debit Transaction Type"
+											type="number" min="0"></input>
+									</div>
+
+									<div>
+										<label for="txtloanId">Loan Id</label> <input id="txtloanId"
+											placeholder="Loan Id" type="number" min="0"></input>
+									</div>
+
+									<div>
+										<label for="dtpnextPayDate">Next Pay Date</label> <input
+											id="dtpnextPayDate" placeholder="Next Pay Date" type="date"></input>
+									</div>
+
+									<div>
+										<label for="dtpstartDate">Start Date</label> <input
+											id="dtpstartDate" placeholder="Start Date" type="date"></input>
+									</div>
+
+									<div>
+										<label for="dtpcreateDate">Create Date</label> <input
+											id="dtpcreateDate" placeholder="Create Date" type="date"></input>
+									</div>
+
+									<div>
+										<label for="dtpendDate">End Date</label> <input
+											id="dtpendDate" placeholder="End Date" type="date"></input>
+									</div>
+
+								</div>
+							</article>
+
+							<article class="col2">
+								<div class="pad">
+
+									<div>
+										<label for="txttotalToPay">Total To Pay</label> <input
+											id="txttotalToPay" placeholder="Total To Pay" type="number"
+											min="0"></input>
+									</div>
+
+									<div>
+										<label for="txtpayAmount">Pay Amount</label> <input
+											id="txtpayAmount" placeholder="Pay Amount" type="number"
+											min="0"></input>
+									</div>
+
+									<div>
+										<label for="txtinterestAmount">Interest Amount</label> <input
+											id="txtinterestAmount" placeholder="Interest Amount"
+											type="number" min="0"></input>
+									</div>
+
+									<div>
+										<label for="txtamountPaid">Amount Paid</label> <input
+											autocomplete id="txtamountPaid" placeholder="Amount Paid"
+											type="number" min="0"></input>
+									</div>
+
+									<div>
+										<label for="txtnoOfPayments">No Of Payments</label> <input
+											id="txtnoOfPayments" placeholder="No Of Payments"
+											type="number" min="0"></input>
+									</div>
+
+									<div>
+										<label for="txtnoOfPaymentsMade">No Of Payments Made</label> <input
+											id="txtnoOfPaymentsMade" placeholder="No Of Payments Made"
+											type="number" min="0"></input>
+									</div>
+
+									<div>
+										<label for="txtamountDefaulted">Amount Defaulted</label> <input
+											id="txtamountDefaulted" placeholder="Amount Defaulted"
+											type="number" min="0"></input>
+									</div>
+
+									<div>
+										<label for="txtnoOfDefaults">No Of Defaults</label> <input
+											id="txtnoOfDefaults" placeholder="No Of Defaults"
+											type="number" min="0"></input>
+									</div>
+
+									<div>
+										<label for="txtlimitFlag">Limit Flag</label> <input
+											id="txtlimitFlag" placeholder="Limit Flag" type="number"
+											min="0"></input>
+									</div>
+
+									<div>
+										<label for="txtinterval">Interval</label> <input
+											id="txtinterval" placeholder="Interval" type="text"></input>
+									</div>
+
+									<div>
+										<label for="txtfeesFlag">Fees Flag</label> <input
+											id="txtfeesFlag" placeholder="Fees Flag" type="number"
+											min="0"></input>
+									</div>
+
+								</div>
+							</article>
+
+							<article class="col3">
+								<div class="pad">
+
+									<div>
+										<label for="txtchargeWho">Charge Who</label> <input
+											id="txtchargeWho" placeholder="Charge Who" type="number"
+											min="0"></input>
+									</div>
+
+									<div>
+										<label for="txtcommFreqFlag">Commission Frequency Flag</label>
+										<input id="txtcommFreqFlag"
+											placeholder="Commission Frequency Flag" type="number" min="0"></input>
+									</div>
+
+									<div>
+										<label for="txtcommSourceFlag">Commission Source Flag</label>
+										<input id="txtcommSourceFlag"
+											placeholder="Commission Source Flag" type="text"></input>
+									</div>
+
+									<div>
+										<label for="txtstoaccType">STO Account Type</label> <input
+											id="txtstoaccType" placeholder="STO Account Type" type="text"></input>
+									</div>
+
+									<div>
+										<label for="txtstotype">STO Type</label> <input
+											id="txtstotype" placeholder="STO Type" type="text"></input>
+									</div>
+
+									<div>
+										<label for="chkpartialPay">Partial Pay</label> <input
+											id="chkpartialPay" placeholder="Partial Pay" type="checkbox"></input>
+									</div>
+
+									<div>
+										<label for="chkchargeCommFlag">Charge Commission Flag</label>
+										<input id="chkchargeCommFlag"
+											placeholder="Charge Commission Flag" type="checkbox"></input>
+									</div>
+
+									<div>
+										<label for="chkcommissionPaidFlag">Commission Paid
+											Flag</label> <input id="chkcommissionPaidFlag"
+											placeholder="Commission Paid Flag" type="checkbox"></input>
+									</div>
+
+								</div>
+							</article>
+
+						</div>
+					</fieldset>
+
+
+				</form>
+
+			</div>
+
+		</section>
+
+
+	</div>
+
+
+
+	<footer>
+
+		<hr />
+
+		<div style="margin-left: 30%;">
+			<span style="float: left; padding-left: 2px; padding-right: 2px;">Copyright
+				&copy;</span> <span id="footerdate"
+				style="float: left; padding-left: 2px; padding-right: 2px;"></span>
+			<span style="float: left; padding-left: 2px; padding-right: 2px;">
+				Software Providers Limited.</span> <span
+				style="float: left; padding-left: 2px; padding-right: 2px;">All
+				Rights Reserved.</span>
+		</div>
+
+	</footer>
+
+
+
+	<script type="text/javascript">
+	function init() {
+		fanikiwa.stoendpoint.editsto.init(GETROOT());
+	}
+</script>
+
+	<script src="https://apis.google.com/js/client.js?onload=init"></script>
+
+
+
+</body>
+
+
+</html>

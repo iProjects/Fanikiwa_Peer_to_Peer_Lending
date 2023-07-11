@@ -1,0 +1,15 @@
+C:\Dev\ffWebAdmin\ffWebAdmin\bin\ffWebAdmin.Framework.dll
+C:\Dev\ffWebAdmin\ffWebAdmin\bin\ffWebAdmin.Framework.pdb
+C:\Dev\ffWebAdmin\ffWebAdmin\Shared\ffWebAdmin.Framework\obj\Debug\ffWebAdmin.Framework.csprojResolveAssemblyReference.cache
+C:\Dev\ffWebAdmin\ffWebAdmin\Shared\ffWebAdmin.Framework\obj\Debug\ffWebAdmin.Framework.dll
+C:\Dev\ffWebAdmin\ffWebAdmin\Shared\ffWebAdmin.Framework\obj\Debug\ffWebAdmin.Framework.pdb
+C:\My Projects\fanikiwa\ffWebAdminWeb\bin\ffWebAdmin.Framework.dll
+C:\My Projects\fanikiwa\ffWebAdminWeb\bin\ffWebAdmin.Framework.pdb
+C:\My Projects\fanikiwa\ffWebAdminWeb\Shared\ffWebAdmin.Framework\obj\Debug\ffWebAdmin.Framework.dll
+C:\My Projects\fanikiwa\ffWebAdminWeb\Shared\ffWebAdmin.Framework\obj\Debug\ffWebAdmin.Framework.pdb
+C:\My Projects\fanikiwa\ffWebAdminWeb\Shared\ffWebAdmin.Framework\obj\Debug\ffWebAdmin.Framework.csprojResolveAssemblyReference.cache
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffWebAdminWeb\bin\ffWebAdmin.Framework.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffWebAdminWeb\bin\ffWebAdmin.Framework.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffWebAdminWeb\Shared\ffWebAdmin.Framework\obj\Debug\ffWebAdmin.Framework.csprojResolveAssemblyReference.cache
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffWebAdminWeb\Shared\ffWebAdmin.Framework\obj\Debug\ffWebAdmin.Framework.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffWebAdminWeb\Shared\ffWebAdmin.Framework\obj\Debug\ffWebAdmin.Framework.pdb

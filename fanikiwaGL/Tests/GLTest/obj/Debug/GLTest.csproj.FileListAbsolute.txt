@@ -1,0 +1,12 @@
+C:\My Projects\fanikiwa\fanikiwaGL\bin\GLTest.dll.config
+C:\My Projects\fanikiwa\fanikiwaGL\bin\GLTest.dll
+C:\My Projects\fanikiwa\fanikiwaGL\bin\GLTest.pdb
+C:\My Projects\fanikiwa\fanikiwaGL\Tests\GLTest\obj\Debug\GLTest.csprojResolveAssemblyReference.cache
+C:\My Projects\fanikiwa\fanikiwaGL\Tests\GLTest\obj\Debug\GLTest.dll
+C:\My Projects\fanikiwa\fanikiwaGL\Tests\GLTest\obj\Debug\GLTest.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fanikiwaGL\bin\GLTest.dll.config
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fanikiwaGL\bin\GLTest.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fanikiwaGL\bin\GLTest.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fanikiwaGL\Tests\GLTest\obj\Debug\GLTest.csprojResolveAssemblyReference.cache
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fanikiwaGL\Tests\GLTest\obj\Debug\GLTest.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fanikiwaGL\Tests\GLTest\obj\Debug\GLTest.pdb

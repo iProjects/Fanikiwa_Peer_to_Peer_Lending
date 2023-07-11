@@ -1,0 +1,265 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Fanikiwa - Administrator</title>
+<link href="/Images/Dollar.ico" rel="shortcut icon" type="image/x-icon" />
+<link rel="stylesheet" href="/Content/Site.css" type="text/css" />
+<script src="/Scripts/jquery-2.0.3.js" type="text/javascript"></script>
+<script src="/Scripts/MainMenu.js"></script>
+<script src="/Scripts/fanikiwa.js"></script>
+<script src="/Scripts/CustomScripts.js" type="text/javascript"></script>
+<script src="/Scripts/DetailMembers.js"></script>
+
+
+</head>
+
+
+<body>
+
+	<header>
+		<div class="content-wrapper">
+
+			<div class="float-left">
+				<p class="site-title" title="Fanikiwa - Peer - To - Peer Lending">
+					Fanikiwa - Administrator</p>
+			</div>
+
+
+			<div class="float-right">
+				<section id="login">
+					<text> Welcome To Fanikiwa, <a id="lnkloggedinuser"
+						style="cursor: pointer;" href="#" onclick="ManageProfile()"
+						title="Manage Profile"></a> <a id="lnklogoff"
+						style="cursor: pointer;" href="#" onclick="LogOff()"
+						title="Log Off">Log off</a> </text>
+				</section>
+			</div>
+
+			<div id="MainMenu"></div>
+			<div id="SubMenu"></div>
+
+		</div>
+
+
+	</header>
+
+
+
+
+	<div id="body">
+
+
+		<section class="content-wrapper main-content clear-fix">
+
+			<div id="error-display-div" class="displaynone"></div>
+
+			<hgroup class="title">
+				<h2 class="page-title">Member Details</h2>
+			</hgroup>
+
+			<div style="float: left; clear: both">
+				<input type="button" value="Back"
+					onclick="window.history.go(-1); return false;" />
+			</div>
+
+			<div id="apiResults" style="float: left; clear: both"></div>
+			<div id="successmessage" style="float: left; clear: both"></div>
+			<div id="errormessage" style="float: left; clear: both"></div>
+
+			<div style="float: left; clear: both">
+
+				<form action="javascript:void(0);">
+
+					<fieldset>
+						<legend>Member Details</legend>
+
+						<article class="col1">
+							<div class="pad">
+
+								<div>
+									<label for="txtmemberId">Member Id</label> <input
+										id="txtmemberId" placeholder="member Id" type="number" min="0"
+										autofocus></input>
+								</div>
+
+								<div>
+									<label for="txtemail">Email</label> <input id="txtemail"
+										placeholder="Email" type="text"></input>
+								</div>
+
+								<div>
+									<label for="txttelephone">Telephone</label> <input
+										id="txttelephone" placeholder="Telephone" type="text"></input>
+								</div>
+
+								<div>
+									<label for="txtsurname">Surname</label> <input id="txtsurname"
+										placeholder="Surname" type="text"></input>
+								</div>
+
+								<div>
+									<label for="txtotherNames">OtherNames</label> <input
+										id="txtotherNames" placeholder="OtherNames" type="text"></input>
+								</div>
+
+								<div>
+									<label for="txtnationalID">National ID</label> <input
+										id="txtnationalID" placeholder="National ID" type="text"></input>
+								</div>
+
+								<div>
+									<label for="txtinvestmentAccount">Investment Account ID</label>
+									<input id="txtinvestmentAccount"
+										placeholder="Investment Account ID" type="number" min="0"></input>
+								</div>
+
+								<div>
+									<label for="txtloanAccount">Loan Account ID</label> <input
+										id="txtloanAccount" placeholder="Loan Account ID"
+										type="number" min="0"></input>
+								</div>
+
+								<div>
+									<label for="txtcurrentAccount">Current Account ID</label> <input
+										id="txtcurrentAccount" placeholder="Current Account ID"
+										type="number" min="0"></input>
+								</div>
+
+								<div>
+									<label for="txtinterestIncAccount">Interest Income
+										Account ID</label> <input id="txtinterestIncAccount"
+										placeholder="Interest Income Account ID" type="number" min="0"></input>
+								</div>
+
+								<div>
+									<label for="txtinterestExpAccount">Interest Expense
+										Account ID</label> <input id="txtinterestExpAccount"
+										placeholder="Interest Expense Account ID" type="number"
+										min="0"></input>
+								</div>
+
+								<div>
+									<label for="txtcustomer">Customer ID</label> <input
+										id="txtcustomer" placeholder="Customer ID" type="number"
+										min="0"></input>
+								</div>
+
+							</div>
+						</article>
+
+						<article class="col2">
+							<div class="pad">
+
+								<div>
+									<label for="txtphoto">Photo</label> <input id="txtphoto"
+										placeholder="Photo" type="text"></input>
+								</div>
+
+								<div>
+									<label for="txtrefferedBy">Reffered By</label> <input
+										id="txtrefferedBy" placeholder="Reffered By" type="number"
+										min="0"></input>
+								</div>
+
+								<div>
+									<label for="txtmaxRecordsToDisplay">Max Records To
+										Display</label> <input id="txtmaxRecordsToDisplay"
+										placeholder="Max Records To Display" type="number" min="0"></input>
+								</div>
+
+								<div>
+									<label for="dtpdateActivated">Date Activated</label> <input
+										id="dtpdateActivated" placeholder="Date Activated" type="date"></input>
+								</div>
+
+								<div>
+									<label for="dtpdateJoined">Date Joined</label> <input
+										id="dtpdateJoined" placeholder="Date Joined" type="date"></input>
+								</div>
+
+								<div>
+									<label for="dtpdateOfBirth">Date Of Birth</label> <input
+										id="dtpdateOfBirth" placeholder="Date Of Birth" type="date"></input>
+								</div>
+
+								<div>
+									<label for="cbogender">Gender</label> <select id="cbogender"
+										style="width: 50%;">
+										<option value="-1" selected="selected">(Select
+											Gender)</option>
+									</select>
+								</div>
+
+								<div>
+									<label for="cboinformBy">InformBy</label> <select
+										id="cboinformBy" style="width: 50%;">
+										<option value="-1" selected="selected">(Select
+											InformBy)</option>
+									</select>
+								</div>
+
+								<div>
+									<label for="cbostatus">Status</label> <select id="cbostatus"
+										style="width: 50%;">
+										<option value="-1" selected="selected">(Select
+											Status)</option>
+									</select>
+								</div>
+
+							</div>
+						</article>
+
+					</fieldset>
+
+				</form>
+
+			</div>
+
+		</section>
+
+
+	</div>
+
+
+
+
+	<footer>
+
+		<hr />
+
+		<div style="margin-left: 180px;">
+			<span style="float: left; padding-left: 2px; padding-right: 2px;">Copyright
+				&copy;</span> <span id="footerdate"
+				style="float: left; padding-left: 2px; padding-right: 2px;"></span>
+			<span style="float: left; padding-left: 2px; padding-right: 2px;">
+				Software Providers Limited.</span> <span
+				style="float: left; padding-left: 2px; padding-right: 2px;">All
+				Rights Reserved.</span>
+		</div>
+
+	</footer>
+
+
+
+
+	<script type="text/javascript">
+		function init() {
+			fanikiwa.memberendpoint.memberdetail.init(GETROOT());
+		} 
+	</script>
+
+	<script src="https://apis.google.com/js/client.js?onload=init"></script>
+
+
+
+
+</body>
+
+
+</html>

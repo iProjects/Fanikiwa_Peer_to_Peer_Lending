@@ -1,0 +1,357 @@
+{
+  "extends" : "thirdParty.api",
+  "abstract" : false,
+  "root" : "https://fanikiwaweb.appspot.com/_ah/api",
+  "name" : "transactiontypeendpoint",
+  "version" : "v1",
+  "defaultVersion" : false,
+  "adapter" : {
+    "bns" : "https://fanikiwaweb.appspot.com/_ah/spi",
+    "deadline" : 65.0,
+    "type" : "lily"
+  },
+  "auth" : {
+    "allowCookieAuth" : false
+  },
+  "frontendLimits" : {
+    "unregisteredUserQps" : -1,
+    "unregisteredQps" : -1,
+    "unregisteredDaily" : -1,
+    "rules" : [ ]
+  },
+  "cacheControl" : {
+    "type" : "no-cache",
+    "maxAge" : 0
+  },
+  "ownerDomain" : "sp.com",
+  "ownerName" : "sp.com",
+  "packagePath" : "fanikiwa.entity",
+  "methods" : {
+    "transactiontypeendpoint.getTransactionType" : {
+      "path" : "transactiontype/{id}",
+      "httpMethod" : "GET",
+      "authLevel" : "NONE",
+      "scopes" : [ "https://www.googleapis.com/auth/userinfo.email" ],
+      "audiences" : [ ],
+      "clientIds" : [ "292824132082.apps.googleusercontent.com" ],
+      "rosyMethod" : "com.sp.fanikiwa.api.TransactionTypeEndpoint.getTransactionType",
+      "request" : {
+        "parameters" : {
+          "id" : {
+            "type" : "int64",
+            "required" : true
+          }
+        },
+        "body" : "empty"
+      },
+      "response" : {
+        "body" : "autoTemplate(backendResponse)"
+      }
+    },
+    "transactiontypeendpoint.listTransactionType" : {
+      "path" : "transactiontype",
+      "httpMethod" : "GET",
+      "authLevel" : "NONE",
+      "scopes" : [ "https://www.googleapis.com/auth/userinfo.email" ],
+      "audiences" : [ ],
+      "clientIds" : [ "292824132082.apps.googleusercontent.com" ],
+      "rosyMethod" : "com.sp.fanikiwa.api.TransactionTypeEndpoint.listTransactionType",
+      "request" : {
+        "parameters" : {
+          "cursor" : {
+            "type" : "string",
+            "required" : false
+          },
+          "count" : {
+            "type" : "int32",
+            "required" : false
+          }
+        },
+        "body" : "empty"
+      },
+      "response" : {
+        "body" : "autoTemplate(backendResponse)"
+      }
+    },
+    "transactiontypeendpoint.retrieveTransactionType" : {
+      "path" : "retrieveTransactionType/{id}",
+      "httpMethod" : "POST",
+      "authLevel" : "NONE",
+      "scopes" : [ "https://www.googleapis.com/auth/userinfo.email" ],
+      "audiences" : [ ],
+      "clientIds" : [ "292824132082.apps.googleusercontent.com" ],
+      "rosyMethod" : "com.sp.fanikiwa.api.TransactionTypeEndpoint.retrieveTransactionType",
+      "request" : {
+        "parameters" : {
+          "id" : {
+            "type" : "int64",
+            "required" : true
+          }
+        },
+        "body" : "empty"
+      },
+      "response" : {
+        "body" : "autoTemplate(backendResponse)"
+      }
+    },
+    "transactiontypeendpoint.insertTransactionType" : {
+      "path" : "requestresult",
+      "httpMethod" : "POST",
+      "authLevel" : "NONE",
+      "scopes" : [ "https://www.googleapis.com/auth/userinfo.email" ],
+      "audiences" : [ ],
+      "clientIds" : [ "292824132082.apps.googleusercontent.com" ],
+      "rosyMethod" : "com.sp.fanikiwa.api.TransactionTypeEndpoint.insertTransactionType",
+      "request" : {
+        "body" : "autoTemplate(backendRequest)",
+        "bodyName" : "resource"
+      },
+      "response" : {
+        "body" : "autoTemplate(backendResponse)"
+      }
+    },
+    "transactiontypeendpoint.updateTransactionType" : {
+      "path" : "requestresult",
+      "httpMethod" : "PUT",
+      "authLevel" : "NONE",
+      "scopes" : [ "https://www.googleapis.com/auth/userinfo.email" ],
+      "audiences" : [ ],
+      "clientIds" : [ "292824132082.apps.googleusercontent.com" ],
+      "rosyMethod" : "com.sp.fanikiwa.api.TransactionTypeEndpoint.updateTransactionType",
+      "request" : {
+        "body" : "autoTemplate(backendRequest)",
+        "bodyName" : "resource"
+      },
+      "response" : {
+        "body" : "autoTemplate(backendResponse)"
+      }
+    },
+    "transactiontypeendpoint.removeTransactionType" : {
+      "path" : "transactiontype/{id}",
+      "httpMethod" : "DELETE",
+      "authLevel" : "NONE",
+      "scopes" : [ "https://www.googleapis.com/auth/userinfo.email" ],
+      "audiences" : [ ],
+      "clientIds" : [ "292824132082.apps.googleusercontent.com" ],
+      "rosyMethod" : "com.sp.fanikiwa.api.TransactionTypeEndpoint.removeTransactionType",
+      "request" : {
+        "parameters" : {
+          "id" : {
+            "type" : "int64",
+            "required" : true
+          }
+        },
+        "body" : "empty"
+      },
+      "response" : {
+        "body" : "autoTemplate(backendResponse)"
+      }
+    }
+  },
+  "descriptor" : {
+    "schemas" : {
+      "TransactionType" : {
+        "id" : "TransactionType",
+        "type" : "object",
+        "properties" : {
+          "transactionTypeID" : {
+            "type" : "string",
+            "format" : "int64"
+          },
+          "absolute" : {
+            "type" : "boolean"
+          },
+          "amountExpression" : {
+            "type" : "string"
+          },
+          "canSuspend" : {
+            "type" : "boolean"
+          },
+          "chargeCommission" : {
+            "type" : "boolean"
+          },
+          "chargeCommissionToTransaction" : {
+            "type" : "boolean"
+          },
+          "chargeWho" : {
+            "type" : "string"
+          },
+          "commComputationMethod" : {
+            "type" : "string"
+          },
+          "commissionAmount" : {
+            "type" : "number"
+          },
+          "commissionAmountExpression" : {
+            "type" : "string"
+          },
+          "commissionContraNarrative" : {
+            "type" : "string"
+          },
+          "commissionCrAccount" : {
+            "type" : "string",
+            "format" : "int64"
+          },
+          "commissionDrAccount" : {
+            "type" : "string",
+            "format" : "int64"
+          },
+          "commissionDrAnotherAccount" : {
+            "type" : "boolean"
+          },
+          "commissionMainNarrative" : {
+            "type" : "string"
+          },
+          "commissionNarrativeFlag" : {
+            "type" : "integer"
+          },
+          "commissionTransactionType" : {
+            "type" : "string",
+            "format" : "int64"
+          },
+          "crCommCalcMethod" : {
+            "type" : "string"
+          },
+          "debitCredit" : {
+            "type" : "string"
+          },
+          "defaultAmount" : {
+            "type" : "number"
+          },
+          "defaultContraAccount" : {
+            "type" : "string",
+            "format" : "int64"
+          },
+          "defaultContraNarrative" : {
+            "type" : "string"
+          },
+          "defaultMainAccount" : {
+            "type" : "string",
+            "format" : "int64"
+          },
+          "defaultMainNarrative" : {
+            "type" : "string"
+          },
+          "description" : {
+            "type" : "string"
+          },
+          "dialogFlag" : {
+            "type" : "integer"
+          },
+          "drCommCalcMethod" : {
+            "type" : "string"
+          },
+          "forcePost" : {
+            "type" : "boolean"
+          },
+          "narrativeFlag" : {
+            "type" : "integer"
+          },
+          "shortCode" : {
+            "type" : "string"
+          },
+          "statFlag" : {
+            "type" : "boolean"
+          },
+          "suspenseCrAccount" : {
+            "type" : "string",
+            "format" : "int64"
+          },
+          "suspenseDrAccount" : {
+            "type" : "string",
+            "format" : "int64"
+          },
+          "tieredTableId" : {
+            "type" : "string",
+            "format" : "int64"
+          },
+          "txnClass" : {
+            "type" : "integer"
+          },
+          "txnTypeView" : {
+            "type" : "integer"
+          },
+          "valueDateOffset" : {
+            "type" : "integer"
+          }
+        }
+      },
+      "CollectionResponse_TransactionType" : {
+        "id" : "CollectionResponse_TransactionType",
+        "type" : "object",
+        "properties" : {
+          "items" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "TransactionType"
+            }
+          },
+          "nextPageToken" : {
+            "type" : "string"
+          }
+        }
+      },
+      "RequestResult" : {
+        "id" : "RequestResult",
+        "type" : "object",
+        "properties" : {
+          "id" : {
+            "type" : "string",
+            "format" : "int64"
+          },
+          "success" : {
+            "type" : "boolean"
+          },
+          "clientToken" : {
+            "$ref" : "_any"
+          },
+          "resultMessage" : {
+            "type" : "string"
+          }
+        }
+      },
+      "_any" : {
+        "id" : "_any",
+        "type" : "any"
+      }
+    },
+    "methods" : {
+      "com.sp.fanikiwa.api.TransactionTypeEndpoint.getTransactionType" : {
+        "response" : {
+          "$ref" : "TransactionType"
+        }
+      },
+      "com.sp.fanikiwa.api.TransactionTypeEndpoint.listTransactionType" : {
+        "response" : {
+          "$ref" : "CollectionResponse_TransactionType"
+        }
+      },
+      "com.sp.fanikiwa.api.TransactionTypeEndpoint.retrieveTransactionType" : {
+        "response" : {
+          "$ref" : "RequestResult"
+        }
+      },
+      "com.sp.fanikiwa.api.TransactionTypeEndpoint.insertTransactionType" : {
+        "request" : {
+          "$ref" : "TransactionType"
+        },
+        "response" : {
+          "$ref" : "RequestResult"
+        }
+      },
+      "com.sp.fanikiwa.api.TransactionTypeEndpoint.updateTransactionType" : {
+        "request" : {
+          "$ref" : "TransactionType"
+        },
+        "response" : {
+          "$ref" : "RequestResult"
+        }
+      },
+      "com.sp.fanikiwa.api.TransactionTypeEndpoint.removeTransactionType" : {
+        "response" : {
+          "$ref" : "RequestResult"
+        }
+      }
+    }
+  }
+}

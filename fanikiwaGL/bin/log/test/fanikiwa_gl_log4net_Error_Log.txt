@@ -1,0 +1,12 @@
+-------------------------------------------------------------- 
+								   
+
+ Message: Processing started for [27/02/2023 19:50:49 PM]
+ Method: RunDiary
+ Date: 2023-02-27 19:50:49,976
+ Time Elapsed: 10739 milliseconds
+ Thread Id: 4264
+ Level: INFO
+ Line: 59
+ Location: DiaryProcessing.DiaryPostingComponent.RunDiary(d:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fanikiwaGL\Apps\DiaryProcessing\DiaryPostingComponent.cs:59)
+

@@ -1,0 +1,4 @@
+C:\Dev\ffWebAdmin\ffWebAdmin\bin\ffWebAdmin.Test.dll
+C:\Dev\ffWebAdmin\ffWebAdmin\bin\ffWebAdmin.Test.pdb
+C:\Dev\ffWebAdmin\ffWebAdmin\Tests\ffWebAdmin.Test\obj\Release\ffWebAdmin.Test.dll
+C:\Dev\ffWebAdmin\ffWebAdmin\Tests\ffWebAdmin.Test\obj\Release\ffWebAdmin.Test.pdb

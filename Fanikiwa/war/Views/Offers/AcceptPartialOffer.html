@@ -1,0 +1,167 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Fanikiwa - Peer-to-Peer Lending</title>
+<link href="/Images/Dollar.ico" rel="shortcut icon" type="image/x-icon" />
+<link rel="stylesheet" href="/Content/Site.css" type="text/css" />
+<script src="/Scripts/jquery-2.0.3.js" type="text/javascript"></script>
+<script src="/Scripts/MainMenu.js"></script>
+<script src="/Scripts/fanikiwa.js"></script>
+<script src="/Scripts/CustomScripts.js" type="text/javascript"></script>
+<script src="AcceptPartialOffer.js"></script>
+
+
+</head>
+
+
+<body>
+
+	<header>
+		<div class="content-wrapper">
+
+			<div class="float-left">
+				<p class="site-title" title="Fanikiwa - Peer - To - Peer Lending">
+					Fanikiwa - Peer - To - Peer Lending</p>
+			</div>
+
+
+			<div class="float-right">
+				<section id="login">
+					<text> Welcome To Fanikiwa, <a id="lnkloggedinuser"
+						style="cursor: pointer;" href="#" onclick="ManageProfile()"
+						title="Manage Profile"></a> <a id="lnklogoff"
+						style="cursor: pointer;" href="#" onclick="LogOff()"
+						title="Log Off">Log off</a> </text>
+				</section>
+			</div>
+
+			<div id="MainMenu"></div>
+			<div id="SubMenu"></div>
+
+		</div>
+
+
+	</header>
+
+
+
+
+	<div id="body">
+
+
+		<section class="content-wrapper main-content clear-fix">
+
+			<div id="error-display-div" class="displaynone"></div>
+
+
+			<hgroup class="title">
+				<h2 class="page-title">Accept Partial Offer</h2>
+			</hgroup>
+
+			<form action="javascript:void(0);">
+
+				<fieldset>
+					<legend>Accept Partial Offer</legend>
+
+					<article class="col1">
+						<div class="pad">
+
+							<div>
+								<label for="txtDescription">Description</label> <input
+									id="txtDescription" placeholder="Description" autofocus
+									type="text"></input>
+							</div>
+
+							<div>
+								<label for="txtAmount">Amount</label> <input id="txtAmount"
+									placeholder="Amount" type="number" min="0"></input>
+							</div>
+
+						</div>
+					</article>
+
+					<div style="float: left; clear: both">
+						<input id="btnCreate" type="submit" value="Loading please wait..."
+							style="cursor: wait; background-color: grey; color: red;"
+							disabled /> <input type="button" value="Back"
+							onclick="window.history.go(-1); return false;" />
+					</div>
+
+				</fieldset>
+
+
+			</form>
+
+			<div id="apiResults" style="float: left; clear: both"></div>
+			<div id="successmessage" style="float: left; clear: both"></div>
+			<div id="errormessage" style="float: left; clear: both"></div>
+
+		</section>
+
+
+	</div>
+
+
+
+	<footer>
+
+		<hr />
+
+		<div id="div-mpesapaybill">
+			<span id="mpesapaybill">Mpesa Paybill Number</span> <span
+				id="mpesapaybillnumber">882600</span>
+		</div>
+
+		<div id="div-copyright">
+			<span id="copyright">Copyright &copy;</span> <span id="footerdate"></span>
+			<span id="companyname"> Software Providers Limited.</span> <span
+				id="rightsreserved">All Rights Reserved.</span>
+		</div>
+
+		<div id="div-androiddownload">
+			<img id="android" src="/Images/android.png"
+				alt="Fanikiwa in your pocket!" /> <span id="pocket">Fanikiwa
+				in your pocket!</span> <span id="ourapp">Get our app and invest on
+				the go.</span><span id="freedownload">Free download now</span>
+			<div id="androiddownload">
+				<a id="androiddownloadlink" target="_blank" href="#"> </a>
+			</div>
+		</div>
+
+	</footer>
+
+
+
+	<script type="text/javascript">
+		function init() {
+			fanikiwa.offerendpoint.createoffer.init(GETROOT());
+		}
+
+		$('#chkPublicOffer').change(function() {
+			if ($(this).is(":checked")) {
+				$("#divOfferees").removeClass('displaynone');
+				$("#divOfferees").addClass('displayblock');
+				$("#divOfferees").show();
+			} else {
+				$("#divOfferees").removeClass('displayblock');
+				$("#divOfferees").addClass('displaynone');
+				$("#divOfferees").hide();
+			}
+		});
+	</script>
+
+	<script src="https://apis.google.com/js/client.js?onload=init"></script>
+
+
+
+
+</body>
+
+
+</html>

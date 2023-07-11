@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Accept Borrow Offer">
+  <logicalClassDesignerModelMoniker Id="e8579e81-afc3-4b06-834b-8ca1adac46ad" />
+  <nestedChildShapes>
+    <classShape Id="d1d7d7f8-0f30-431e-a385-313e4bfac3a4" absoluteBounds="0.5, 0.625, 3.25, 1.5429687152306237" hideQualifiedName="false" increaseHeight="0" customColor="181, 193, 223">
+      <classMoniker Id="efbd20a5-fa43-4c3e-ae75-881ce174111d" LastKnownName="AcceptBorrowOfferController" />
+      <nestedChildShapes>
+        <AttributeElementListCompartment Id="90187ef6-c946-4a82-9aa4-736c1ec890d3" absoluteBounds="0.515, 1.0150000000000001, 3.2199999999999998, 0.2011718675494194" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="9271bcd4-90e4-45d1-9730-b12db7eb4dcb" absoluteBounds="0.515, 1.2261718675494193, 3.2199999999999998, 0.84179684768120444" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7c14de4e-8aaa-4bb0-b8d6-c382e9b5a2ae" absoluteBounds="3.875, 0.625, 2.5, 1.9886168446143469" hideQualifiedName="false" increaseHeight="0.18800345897674561" customColor="181, 193, 223">
+      <classMoniker Id="fca33db4-3f01-420c-bac9-dd1f506d839d" LastKnownName="OfferBook" />
+      <nestedChildShapes>
+        <AttributeElementListCompartment Id="cb72c720-38e0-478c-9ae3-10da1b6df172" absoluteBounds="3.8899999999999997, 1.1403356393178306, 2.4699999999999998, 0.2011718675494194" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="1a7cf3dd-8234-4256-8d9b-a6fc92c4095a" absoluteBounds="3.8899999999999997, 1.3515075068672497, 2.4699999999999998, 1.162109337747097" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="654816ed-41af-4f28-bb17-5a8a40ecf087" absoluteBounds="0.625, 2.375, 3.875, 1.3828124701976776" hideQualifiedName="false" increaseHeight="0" customColor="181, 193, 223">
+      <classMoniker Id="e5893ee4-a3a8-439c-89b6-6841575461ce" LastKnownName="LoanBook" />
+      <nestedChildShapes>
+        <AttributeElementListCompartment Id="2757901f-d1d7-42b7-a98a-f0d931e95f25" absoluteBounds="0.64, 2.765, 3.8449999999999998, 0.2011718675494194" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="540564b4-b16c-491a-b68a-9d3c23c257c4" absoluteBounds="0.64, 2.9761718675494193, 3.8449999999999998, 0.6816406026482581" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</logicalClassDesignerDiagram>

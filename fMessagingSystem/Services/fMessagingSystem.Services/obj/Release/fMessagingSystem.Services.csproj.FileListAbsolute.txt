@@ -1,0 +1,10 @@
+C:\Dev\fMessagingSystem\fMessagingSystem\bin\fMessagingSystem.Services.dll
+C:\Dev\fMessagingSystem\fMessagingSystem\bin\fMessagingSystem.Services.pdb
+C:\Dev\fMessagingSystem\fMessagingSystem\Services\fMessagingSystem.Services\obj\Release\fMessagingSystem.Services.csprojResolveAssemblyReference.cache
+C:\Dev\fMessagingSystem\fMessagingSystem\Services\fMessagingSystem.Services\obj\Release\fMessagingSystem.Services.dll
+C:\Dev\fMessagingSystem\fMessagingSystem\Services\fMessagingSystem.Services\obj\Release\fMessagingSystem.Services.pdb
+C:\My Projects\fanikiwa\fMessagingSystem\bin\fMessagingSystem.Services.dll
+C:\My Projects\fanikiwa\fMessagingSystem\bin\fMessagingSystem.Services.pdb
+C:\My Projects\fanikiwa\fMessagingSystem\Services\fMessagingSystem.Services\obj\Release\fMessagingSystem.Services.csprojResolveAssemblyReference.cache
+C:\My Projects\fanikiwa\fMessagingSystem\Services\fMessagingSystem.Services\obj\Release\fMessagingSystem.Services.dll
+C:\My Projects\fanikiwa\fMessagingSystem\Services\fMessagingSystem.Services\obj\Release\fMessagingSystem.Services.pdb

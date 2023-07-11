@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Deposit Cash Over The Counter">
+  <logicalClassDesignerModelMoniker Id="92fa9fbd-0b31-414d-8f90-004fb1984040" />
+  <nestedChildShapes>
+    <classShape Id="d2939fd8-df28-4f6b-8da9-f44729feb3a4" absoluteBounds="1.5, 1.25, 1.5, 0.90234373509883881" hideQualifiedName="false" increaseHeight="0" customColor="181, 193, 223">
+      <classMoniker Id="774634e3-5301-420e-8a58-c97318049e41" LastKnownName="DepositCashOverTheCounter" />
+      <nestedChildShapes>
+        <AttributeElementListCompartment Id="79f1f754-e3fa-413f-83da-98ed25192fd4" absoluteBounds="1.515, 1.6400000000000001, 1.4700000000000002, 0.2011718675494194" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="8fa0544d-fed3-4820-8989-eff87df2481c" absoluteBounds="1.515, 1.8511718675494193, 1.4700000000000002, 0.2011718675494194" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <interfaceShape Id="58bef696-b4fb-41ba-b789-789fccada810" absoluteBounds="3.5, 1.875, 1.5, 0.90234373509883881" hideQualifiedName="false" increaseHeight="0" customColor="207, 223, 191">
+      <interfaceMoniker Id="b50d13ad-c179-43e5-8ca9-2f2d57b21711" LastKnownName="ITellerModule" />
+      <nestedChildShapes>
+        <AttributeElementListCompartment Id="d302981c-61d0-44de-9808-8932b471b2aa" absoluteBounds="3.515, 2.265, 1.4700000000000002, 0.2011718675494194" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="f85a36eb-4711-4308-9d12-246625395f9e" absoluteBounds="3.515, 2.4761718675494193, 1.4700000000000002, 0.2011718675494194" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </interfaceShape>
+  </nestedChildShapes>
+</logicalClassDesignerDiagram>

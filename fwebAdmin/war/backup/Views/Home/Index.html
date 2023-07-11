@@ -1,0 +1,564 @@
+﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Fanikiwa - Administrator</title>
+<link href="/Images/Dollar.ico" rel="shortcut icon" type="image/x-icon" />
+<link rel="stylesheet" href="/Content/Site.css" type="text/css" />
+<script src="/Scripts/jquery-2.0.3.js" type="text/javascript"></script>
+<script src="/Scripts/CustomScripts.js" type="text/javascript"></script>
+
+
+</head>
+
+
+<body>
+
+	<header>
+		<div class="content-wrapper">
+
+			<div class="float-left">
+				<p class="site-title" title="Fanikiwa - Administrator">Fanikiwa
+					- Administrator</p>
+			</div>
+
+
+			<div class="float-right">
+				<section id="login"></section>
+			</div>
+
+
+			<div id="nav">
+				<ul id="menu">
+
+					<li>
+
+						<div class="floatleft">
+
+							<div>
+								<a id="btnSubmitIndexForm" style="cursor: pointer;"
+									href="/Views/Home/Index.html">Home</a>
+							</div>
+
+						</div>
+
+					</li>
+
+					<li id="subMenuSettings">
+
+						<div class="floatleft">
+
+							<div>
+								<a id="btnSubmitSettingsForm" style="cursor: pointer;"
+									href="/Views/Setting/List.html">Settings</a>
+							</div>
+
+						</div>
+
+					</li>
+
+					<li id="subMenuFanikiwaAccounts">
+
+						<div class="floatleft">
+
+							<div>
+								<a id="btnSubmitGetAllAccountsForm" style="cursor: pointer;"
+									href="/Views/Account/List.html">Accounts</a>
+							</div>
+
+						</div>
+
+					</li>
+
+					<li id="subMenuTransactionTypes">
+
+						<div class="floatleft">
+
+							<div>
+								<a id="btnSubmitGetAllTransactionTypesForm"
+									style="cursor: pointer;"
+									href="/Views/TransactionType/List.html">Transaction Types</a>
+							</div>
+
+						</div>
+
+					</li>
+
+
+					<li id="subMenuAccountTypes">
+
+						<div class="floatleft">
+
+							<div>
+								<a id="btnSubmitAccountTypesForm" style="cursor: pointer;"
+									href="/Views/AccountType/List.html">Account Types</a>
+							</div>
+
+						</div>
+
+					</li>
+
+
+					<li id="subMenuCoa">
+
+						<div class="floatleft">
+
+							<div>
+								<a id="btnSubmitCoaForm" style="cursor: pointer;"
+									href="/Views/Coa/List.html">Coa</a>
+							</div>
+
+						</div>
+
+					</li>
+
+
+					<li id="subMenuCoaDet">
+
+						<div class="floatleft">
+
+							<div>
+								<a id="btnSubmitCoaDetForm" style="cursor: pointer;"
+									href="/Views/CoaDet/List.html">Coa Details</a>
+							</div>
+
+						</div>
+
+					</li>
+
+
+
+					<li id="subMenuTieredtable">
+
+						<div class="floatleft">
+
+							<div>
+								<a id="btnSubmitTieredtableForm" style="cursor: pointer;"
+									href="/Views/Tieredtable/List.html">Tiered Table</a>
+							</div>
+
+						</div>
+
+					</li>
+
+
+					<li id="subMenuTieredDet">
+
+						<div class="floatleft">
+
+							<div>
+								<a id="btnSubmitTieredDetForm" style="cursor: pointer;"
+									href="/Views/TieredDet/List.html">Tiered Details</a>
+							</div>
+
+						</div>
+
+					</li>
+
+
+					<li id="subMenuOrganization">
+
+						<div class="floatleft">
+
+							<div>
+								<a id="btnSubmitOrganizationForm" style="cursor: pointer;"
+									href="/Views/Organization/List.html">Organizations</a>
+							</div>
+
+						</div>
+
+					</li>
+
+					<li id="subMenuCustomer">
+
+						<div class="floatleft">
+
+							<div>
+								<a id="btnSubmitCustomerForm" style="cursor: pointer;"
+									href="/Views/Customer/List.html">Customers</a>
+							</div>
+
+						</div>
+
+					</li>
+
+
+					<li id="subMenuOffers">
+
+						<div class="floatleft">
+
+							<div>
+								<a id="btnSubmitGetAllOffersForm" style="cursor: pointer;"
+									href="/Views/Offer/List.html">Offers</a>
+							</div>
+
+						</div>
+
+					</li>
+
+
+					<li id="subMenuAllLoans">
+
+
+						<div class="floatleft">
+
+							<div>
+								<a id="btnSubmitListAllLoansForm" style="cursor: pointer;"
+									href="/Views/Loan/List.html">Loans</a>
+							</div>
+
+						</div>
+
+					</li>
+
+					<li id="subMenuSTO">
+
+
+						<div class="floatleft">
+
+							<div>
+								<a id="btnSubmitListSTOForm" style="cursor: pointer;"
+									href="/Views/STO/List.html">Sheduled Transactions</a>
+							</div>
+
+						</div>
+
+					</li>
+
+					<li id="subMenuValueDatedTransaction">
+
+
+						<div class="floatleft">
+
+							<div>
+								<a id="btnSubmitListValueDatedTransactionForm"
+									style="cursor: pointer;"
+									href="/Views/ValueDatedTransaction/List.html">Value Dated
+									Transactions</a>
+							</div>
+
+						</div>
+
+					</li>
+
+					<li id="subMenuUserprofile">
+
+
+						<div class="floatleft">
+
+							<div>
+								<a id="btnSubmitListUserprofileForm" style="cursor: pointer;"
+									href="/Views/Userprofile/List.html">Users</a>
+							</div>
+
+						</div>
+
+					</li>
+
+					<li id="subMenuAllRegisteredMembers">
+
+						<div class="floatleft">
+
+							<div>
+								<a id="btnSubmitGetAllRegisteredMembersForm"
+									style="cursor: pointer;" href="/Views/Member/List.html">Members</a>
+							</div>
+
+						</div>
+
+					</li>
+
+
+					<li id="subMenuAllOfferGroups">
+
+
+						<div class="floatleft">
+
+							<div>
+								<a id="btnSubmitGetAllOfferGroupsForm" style="cursor: pointer;"
+									href="/Views/MailingGroup/List.html">Offer Groups</a>
+							</div>
+
+						</div>
+
+					</li>
+
+					<li id="subMenuTransactions">
+
+						<div class="floatleft">
+
+							<div>
+								<a id="btnSubmitGetAllTransactionsForm" style="cursor: pointer;"
+									href="/Views/Transaction/List.html">Transactions</a>
+							</div>
+
+						</div>
+
+					</li>
+
+
+					<li id="subMenuDeposit">
+
+
+						<div class="floatleft">
+
+							<div>
+								<a id="btnSubmitDepositCashForm" style="cursor: pointer;"
+									href="/Views/Deposit/Deposit.html">Deposit</a>
+							</div>
+
+						</div>
+
+					</li>
+
+
+					<li id="subMenuWithDrawCash">
+
+						<div class="floatleft">
+
+							<div>
+								<a id="btnSubmitWithDrawCashForm" style="cursor: pointer;"
+									href="/Views/Withdraw/Withdraw.html">WithDraw</a>
+							</div>
+
+						</div>
+
+					</li>
+
+
+					<li>
+
+						<div class="floatleft">
+
+							<div>
+								<a id="btnSubmitHelpForm" style="cursor: pointer;"
+									href="/Views/Home/Help.html">Help</a>
+							</div>
+
+						</div>
+
+					</li>
+
+
+					<li>
+
+						<div class="floatleft">
+
+							<div>
+								<a id="btnSubmitContactsForm" style="cursor: pointer;"
+									href="/Views/Home/Contact.html">Contacts</a>
+							</div>
+
+						</div>
+
+					</li>
+
+
+					<li>
+
+						<div class="floatleft">
+
+							<div>
+								<a id="btnSubmitAboutForm" style="cursor: pointer;"
+									href="/Views/Home/About.html">About</a>
+							</div>
+
+						</div>
+
+					</li>
+
+
+				</ul>
+			</div>
+
+
+		</div>
+
+
+	</header>
+
+
+
+
+	<div id="body">
+
+
+		<section class="content-wrapper main-content clear-fix">
+
+			<div id="error-display-div" class="displaynone"></div>
+
+
+
+			<section class="featured">
+				<div class="content-wrapper">
+
+					<hgroup class="title">
+						<h1>Fanikiwa Administrator.</h1>
+					</hgroup>
+
+					<hgroup class="title">
+						<h2>How peer-to-peer lending work.</h2>
+					</hgroup>
+
+					<div style="float: left; clear: both">
+						<input type="submit" value="SMSTest" id="btnTest" /> <input
+							type="submit" value="Mpesa Deposit" id="btnMpesaDeposit" />
+					</div>
+
+
+					<div class="clearboth">
+
+						<p>
+							Also known as social lending or lend-to-save, peer-to-peer
+							lending works by individual lenders and borrowers coming together
+							to get better rates. <br /> Fanikiwa's peer-to-peer loans offer
+							borrowers competitive low rates and flexible terms. <br />
+							Lenders earn higher returns by lending to borrowers. <br />
+							Peer-to-peer lending sites match up savers, who are willing to
+							lend, with borrowers - either individuals or small businesses. <br />
+							Rates can be better than those offered by banks - as high as
+							about 16% for savers, and as low as about 5% for borrowers on a
+							five-year loan.<br /> Peer-To-Peer Lending, which is a concept
+							that has been around for a very long time, but the method as to
+							how it was carried out was not always efficient at all. It went a
+							little something like this:<br /> Friend #1: Hey best friend,
+							can I borrow 100,000 to get a new car?<br /> Friend #2: Do you
+							promise to pay me back?<br /> Friend #1: Of course, you know
+							that I am good for it!<br /> Friend #2: Ok fine, I will get the
+							money to you by next week.<br /> The truth is that these
+							situations are very common. <br /> We enter into
+							lending/borrowing agreements with friends and families all the
+							time, and the lender enters into a situation with unlimited risk
+							and no reward for their risk.<br /> This is where a website like
+							Fanikiwa comes into play. <br /> Fanikiwa is a peer-to-peer
+							lending network that brings investors and borrowers together to
+							satisfy both parties needs by offering a secure, legal, and
+							efficient service. Those people who wish to take more control of
+							their investments can lend money to borrowers, and borrowers who
+							are tired of having limited options for choosing a personal loan
+							product can try Fanikiwa .
+
+						</p>
+
+					</div>
+
+
+
+					<div class="clearboth">
+
+						<hgroup class="title">
+							<h2 class="title">Why Fanikiwa</h2>
+						</hgroup>
+
+						<ul>
+							<li>
+								<h5>Low fixed rates</h5>
+							</li>
+							<li>
+								<h5>Fast and easy online application</h5>
+							</li>
+							<li>
+								<h5>No teaser rates or hidden fees</h5>
+							</li>
+							<li>
+								<h5>Rates from 5% to 20% APR</h5>
+							</li>
+							<li>
+								<h5>
+									No early repayment fees <br /> (flexibility to repay loan
+									early or make extra payments)
+								</h5>
+							</li>
+							<li>
+								<h5>Borrow between Ksh1,000 and Ksh100,000</h5>
+							</li>
+							<li>
+								<h5>Loans available over 1, 2, 3, 4 or 5 years</h5>
+							</li>
+						</ul>
+
+					</div>
+
+					<div class="clearboth">
+
+						<hgroup class="title">
+							<h2 class="title">How to apply for Fanikiwa loans</h2>
+						</hgroup>
+
+						<ul class="round">
+							<li class="one">
+								<h5>Check the rates</h5>
+							</li>
+
+							<li class="two">
+								<h5>Get a quote</h5>
+							</li>
+
+							<li class="three">
+								<h5>Accept the quote and apply online</h5>
+							</li>
+
+							<li class="four">
+								<h5>Approval within 24 hours (Mon to Fri)</h5>
+							</li>
+
+							<li class="five">
+								<h5>Money transferred on approval</h5>
+							</li>
+
+						</ul>
+
+					</div>
+
+
+				</div>
+			</section>
+
+
+
+		</section>
+
+
+	</div>
+
+
+
+
+	<footer>
+
+		<hr />
+
+		<div style="margin-left: 180px;">
+			<span style="float: left; padding-left: 2px; padding-right: 2px;">Copyright
+				&copy;</span> <span id="footerdate"
+				style="float: left; padding-left: 2px; padding-right: 2px;"></span>
+			<span style="float: left; padding-left: 2px; padding-right: 2px;">
+				Software Providers Limited.</span> <span
+				style="float: left; padding-left: 2px; padding-right: 2px;">All
+				Rights Reserved.</span>
+		</div>
+
+	</footer>
+
+
+	<script type="text/javascript">
+	document.getElementById('btnTest').onclick = function() {
+    	window.location.href = "/Views/Test/SMSTest.html";
+          }
+    
+    document.getElementById('btnMpesaDeposit').onclick = function() {
+    	window.location.href = "/Views/Test/MpesaTest.html";
+          }
+    </script>
+
+
+
+</body>
+
+
+</html>

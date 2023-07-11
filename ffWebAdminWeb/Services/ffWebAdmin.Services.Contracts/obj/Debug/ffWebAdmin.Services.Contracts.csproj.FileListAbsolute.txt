@@ -1,0 +1,8 @@
+C:\My Projects\fanikiwa\ffWebAdminWeb\bin\ffWebAdmin.Services.Contracts.dll
+C:\My Projects\fanikiwa\ffWebAdminWeb\bin\ffWebAdmin.Services.Contracts.pdb
+C:\My Projects\fanikiwa\ffWebAdminWeb\Services\ffWebAdmin.Services.Contracts\obj\Debug\ffWebAdmin.Services.Contracts.dll
+C:\My Projects\fanikiwa\ffWebAdminWeb\Services\ffWebAdmin.Services.Contracts\obj\Debug\ffWebAdmin.Services.Contracts.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffWebAdminWeb\bin\ffWebAdmin.Services.Contracts.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffWebAdminWeb\bin\ffWebAdmin.Services.Contracts.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffWebAdminWeb\Services\ffWebAdmin.Services.Contracts\obj\Debug\ffWebAdmin.Services.Contracts.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffWebAdminWeb\Services\ffWebAdmin.Services.Contracts\obj\Debug\ffWebAdmin.Services.Contracts.pdb

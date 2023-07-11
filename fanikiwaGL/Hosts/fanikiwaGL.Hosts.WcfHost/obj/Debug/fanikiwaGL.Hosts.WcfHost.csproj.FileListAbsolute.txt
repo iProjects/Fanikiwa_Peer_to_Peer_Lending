@@ -1,0 +1,11 @@
+C:\My Projects\fanikiwa\fanikiwaGL\bin\fanikiwaGL.Hosts.WcfHost.dll
+C:\My Projects\fanikiwa\fanikiwaGL\bin\fanikiwaGL.Hosts.WcfHost.pdb
+C:\My Projects\fanikiwa\fanikiwaGL\Hosts\fanikiwaGL.Hosts.WcfHost\obj\Debug\fanikiwaGL.Hosts.WcfHost.csprojResolveAssemblyReference.cache
+C:\My Projects\fanikiwa\fanikiwaGL\Hosts\fanikiwaGL.Hosts.WcfHost\obj\Debug\fanikiwaGL.Hosts.WcfHost.dll
+C:\My Projects\fanikiwa\fanikiwaGL\Hosts\fanikiwaGL.Hosts.WcfHost\obj\Debug\fanikiwaGL.Hosts.WcfHost.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fanikiwaGL\bin\fanikiwaGL.Hosts.WcfHost.dll.config
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fanikiwaGL\bin\fanikiwaGL.Hosts.WcfHost.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fanikiwaGL\bin\fanikiwaGL.Hosts.WcfHost.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fanikiwaGL\Hosts\fanikiwaGL.Hosts.WcfHost\obj\Debug\fanikiwaGL.Hosts.WcfHost.csprojResolveAssemblyReference.cache
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fanikiwaGL\Hosts\fanikiwaGL.Hosts.WcfHost\obj\Debug\fanikiwaGL.Hosts.WcfHost.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fanikiwaGL\Hosts\fanikiwaGL.Hosts.WcfHost\obj\Debug\fanikiwaGL.Hosts.WcfHost.pdb

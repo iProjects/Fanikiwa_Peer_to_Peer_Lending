@@ -1,0 +1,10 @@
+C:\My Projects\fanikiwa\ffWebAdminWeb\bin\ffWebAdmin.Hosts.Web.dll
+C:\My Projects\fanikiwa\ffWebAdminWeb\bin\ffWebAdmin.Hosts.Web.pdb
+C:\My Projects\fanikiwa\ffWebAdminWeb\Hosts\ffWebAdmin.Hosts.Web\obj\Debug\ffWebAdmin.Hosts.Web.dll
+C:\My Projects\fanikiwa\ffWebAdminWeb\Hosts\ffWebAdmin.Hosts.Web\obj\Debug\ffWebAdmin.Hosts.Web.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffWebAdminWeb\bin\ffWebAdmin.Hosts.Web.dll.config
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffWebAdminWeb\bin\ffWebAdmin.Hosts.Web.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffWebAdminWeb\bin\ffWebAdmin.Hosts.Web.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffWebAdminWeb\Hosts\ffWebAdmin.Hosts.Web\obj\Debug\ffWebAdmin.Hosts.Web.csprojResolveAssemblyReference.cache
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffWebAdminWeb\Hosts\ffWebAdmin.Hosts.Web\obj\Debug\ffWebAdmin.Hosts.Web.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffWebAdminWeb\Hosts\ffWebAdmin.Hosts.Web\obj\Debug\ffWebAdmin.Hosts.Web.pdb

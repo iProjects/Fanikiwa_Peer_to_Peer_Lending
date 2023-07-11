@@ -1,0 +1,497 @@
+﻿@model ffWebAdmin.UI.MVC.Models.AccountsDetsModel
+
+@{
+    ViewBag.Title = "My Accounts";
+}
+
+
+<h2 class="page-title">Accounts Balance </h2>
+
+
+<div class="clearboth editor-label">
+
+    @using (Html.BeginForm("GetCurrentAccountTransactions", "Account", FormMethod.Post, new { enctype = "multipart/form-data", id = "current-account-transactions-form" }))
+    { 
+        <div id="current-account-transactions-div" class="clearboth editor-label">
+
+            <b style="color: black; font-size: 20px;">1. Current Account</b><br />
+            <br />
+
+            <b style="color: black; font-size: 30px;">@string.Format(System.Globalization.CultureInfo.InvariantCulture, "{0:N0}", Model.CurrentAcc)  </b>
+            <br />
+
+            @Html.HiddenFor(model => model.CurrentAccid, new { id = "CurrentAccid" })<br />
+
+            <a id="CurrentAcc" style="cursor: pointer;">Current Account Transactions</a><br />
+            <br />
+
+            @*<input type="submit" value="Current Account Transactions" id="btnSubmitCurrentAccountTransactionsForm" />*@
+            <div id="currentsearchControls-div" class="displaynone">
+            </div>
+        </div>          
+                    
+    }
+
+</div>
+
+
+<div class="clearboth editor-label">
+
+    @using (Html.BeginForm("GetLoanAccountTransactions", "Account", FormMethod.Post, new { enctype = "multipart/form-data", id = "loan-account-transactions-form" }))
+    { 
+        <div id="loan-account-transactions-div" class="clearboth editor-label">
+
+            <b style="color: black; font-size: 20px;">2. Loan Account</b><br />
+            <br />
+
+            <b style="color: black; font-size: 30px;">@string.Format(System.Globalization.CultureInfo.InvariantCulture, "{0:N0}", Model.LoanAcc) </b>
+            <br />
+
+            @Html.HiddenFor(model => model.LoanAccid, new { id = "LoanAccid" })<br />
+
+            <a id="LoanAcc" style="cursor: pointer;">Loan Account Transactions</a><br />
+
+            @*<input type="submit" value="Current Account Transactions" id="btnSubmitLoanAccountTransactionsForm" />*@
+            <div id="loansearchControls-div" class="displaynone">
+            </div>
+        </div>          
+                    
+    }
+
+</div>
+
+
+<div class="clearboth editor-label">
+
+    @using (Html.BeginForm("GetInvestmentAccountTransactions", "Account", FormMethod.Post, new { enctype = "multipart/form-data", id = "investment-account-transactions-form" }))
+    { 
+        <div id="investment-account-transactions-div" class="clearboth editor-label">
+
+            <b style="color: black; font-size: 20px;">3. Investment Account</b><br />
+            <br />
+
+            <b style="color: black; font-size: 30px;">@string.Format(System.Globalization.CultureInfo.InvariantCulture, "{0:N0}", Model.InvestmentAcc)  </b>
+            <br />
+
+            @Html.HiddenFor(model => model.InvestmentAccid, new { id = "InvestmentAccid" })<br />
+
+            <a id="InvestmentAcc" style="cursor: pointer;">Investment Account Transactions</a><br />
+
+            @*<input type="submit" value="Investment Account Transactions" id="btnSubmitInvestmentAccountTransactionsForm" />*@
+            <div id="investmentsearchControls-div" class="displaynone">
+            </div>
+        </div>          
+                    
+    }
+
+</div>
+
+
+
+<div id="SearchTransactionsByDate-div" class="displaynone">
+
+    <label for="datefrom">Date From</label>
+    <input type="date" name="datefrom" id="datefrom" value="" class="datepicker text ui-widget-content ui-corner-all" autofocus="autofocus">
+    <br />
+    <label for="dateto">Date To</label>
+    <input type="date" name="dateto" id="dateto" value="" class="datepicker text ui-widget-content ui-corner-all" autofocus="autofocus">
+</div>
+
+
+
+
+
+
+
+
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+
+            $("#progress").hide();
+
+            $.ajaxSetup({ cache: false });
+
+        });
+
+        $("#CurrentAcc").on("click", function (e) {
+
+            e.preventDefault();
+
+            $("#progress").removeClass('displaynone');
+            $("#progress").addClass('displayblock');
+            $("#progress").show();
+
+            $("#current-account-transactions-form").submit();
+
+        });
+
+        $("#LoanAcc").on("click", function (e) {
+
+            e.preventDefault();
+
+            $("#progress").removeClass('displaynone');
+            $("#progress").addClass('displayblock');
+            $("#progress").show();
+
+            $("#loan-account-transactions-form").submit();
+
+        });
+
+        $("#InvestmentAcc").on("click", function (e) {
+
+            e.preventDefault();
+
+            $("#progress").removeClass('displaynone');
+            $("#progress").addClass('displayblock');
+            $("#progress").show();
+
+            $("#investment-account-transactions-form").submit();
+
+        });
+        
+        //$("#btnOffersByMember").on("click", function (e) {
+
+        //    e.preventDefault();
+
+        //    $("#searchControls-div").show();
+        //    $("#searchControls-div").removeClass('displaynone');
+        //    $("#searchControls-div").addClass('displayblock');
+        //    $("#SearchOffersByMember-div").show();
+        //    $("#SearchOffersByMember-div").removeClass('displaynone');
+        //    $("#SearchOffersByMember-div").addClass('displayblock');
+        //    $("#SearchOffersByOfferType-div").hide();
+        //    $("#SearchOffersByOfferType-div").removeClass('displayblock');
+        //    $("#SearchOffersByOfferType-div").addClass('displaynone');
+        //    $("#SearchOffersByDate-div").hide();
+        //    $("#SearchOffersByDate-div").removeClass('displayblock');
+        //    $("#SearchOffersByDate-div").addClass('displaynone');
+        //    $("#searchControls-div").prepend($("#SearchOffersByMember-div"));
+
+        //    return false;
+        //});
+
+
+        //$("#CurrentAcc").on("click", function (e) {
+        //    e.preventDefault();
+        //    //Start-Convert div form to model dialog
+        //    //var CurrentAccdialog = $("#accounts-dialog-form-div").dialog({
+        //    //    autoOpen: false,
+        //    //    title: 'Account Transactions Details',
+        //    //    height: 'auto',
+        //    //    width: 'auto',
+        //    //    toolbar: true,
+        //    //    scrollbars: true,
+        //    //    statusbar: true,
+        //    //    menubar: true,
+        //    //    resizable: true,
+        //    //    closeText: 'Close',
+        //    //    closeOnEscape: true,
+        //    //    appendTo: $("form:first"),
+        //    //    //dialogClass: 'ui-dialog-osx',
+        //    //    draggable: true,
+        //    //    show: { effect: 'slide', direction: "left", delay: 1000 },
+        //    //    hide: { effect: 'slide', direction: "right", delay: 1000 },
+        //    //    modal: true,
+        //    //    buttons: {
+        //    //        //"Search": function () {
+        //    //        //    var _accountid = $(); 
+        //    //        //    _accountid = $("#CurrentAccid").val();
+        //    //        //    alert(_accountid); 
+        //    //        //    GetCurrentAccountTransactionsfunction(_accountid);
+        //    //        //    //SearchStocksByProductsfunction();
+        //    //        //    $(this).dialog("close");
+        //    //        //},
+        //    //        Close: function () {
+        //    //            $(this).dialog("close");
+        //    //        }
+        //    //    },
+        //    //    open: function () {
+        //    //        //var _accountid = $();
+        //    //        //_accountid = $("#CurrentAccid").val();
+        //    //        //alert(_accountid);
+        //    //        ////GetCurrentAccountTransactionsfunction(_accountid);
+        //    //        //$(this).load("/Account/GetAccountTransactions  + '?_accountid=' + id ", { _accountid: _accountid });
+        //    //    },
+        //    //    close: function () {
+        //    //        //CloseproductdialogForm();
+        //    //        //$("#product-dialog-form").empty();
+        //    //        //$("#form-dialog-product")[0].reset();
+        //    //        //productFields.removeClass("ui-state-error");
+        //    //        //$("#productdescription").val("");
+        //    //        //$("#form-dialog-product").clearForm();
+        //    //        //$(this).dialog("destroy");
+        //    //        //$("#product-dialog-form").remove();
+        //    //    }
+        //    //});
+        //    ////End-Convert div form to model dialog
+        //    //CurrentAccdialog.dialog("open");
+        //    ////productdialog.parent().appendTo($("form:first"));
+
+
+        //    var _accountid = $();
+        //    _accountid = $("#CurrentAccid").val();
+
+        //    $.ajax({
+        //        url: "/Account/GetAccountTransactions",
+        //        data: { _accountid: _accountid },
+        //        dataType: "html",
+        //        cache: false,
+        //        type: "POST",
+        //        success: function (result) {
+        //            //load data  
+        //            $("#accounts-dialog-form-div").removeClass('displaynone');
+        //            $("#accounts-dialog-form-div").addClass('displayblock');
+        //            $("#accounts-dialog-form-div").empty();
+        //            $("#accounts-dialog-form-div").html(result);
+        //        },
+        //        error: function (xhr, status, error) {
+        //$("#error-display-div").empty();
+        //$("#error-display-div").append(error.toString() + xhr.responseText.toString() + status.toString());
+        //$("#error-display-div").removeClass('displaynone');
+        //$("#error-display-div").addClass('displayblock');
+        //$("#error-display-div").show();
+        //        },
+        //        complete: function (XMLHttpRequest, textStatus) {
+        //        }
+        //    });
+
+
+
+        //    return false;
+        //});
+        //$("#LoanAcc").on("click", function (e) {
+        //    e.preventDefault();
+        //    //Start-Convert div form to model dialog
+        //    //var LoanAccdialog = $("#accounts-dialog-form").dialog({
+        //    //    autoOpen: false,
+        //    //    title: 'Account Transactions Details',
+        //    //    height: 'auto',
+        //    //    width: 'auto',
+        //    //    toolbar: true,
+        //    //    scrollbars: true,
+        //    //    statusbar: true,
+        //    //    menubar: true,
+        //    //    resizable: true,
+        //    //    closeText: 'Close',
+        //    //    closeOnEscape: true,
+        //    //    appendTo: $("form:first"),
+        //    //    //dialogClass: 'ui-dialog-osx',
+        //    //    draggable: true,
+        //    //    show: { effect: 'slide', direction: "left", delay: 100 },
+        //    //    hide: { effect: 'slide', direction: "right", delay: 100 },
+        //    //    modal: true,
+        //    //    buttons: {
+        //    //        //"Search": function () {
+        //    //        //    var _accountid = $();
+        //    //        //    _accountid = $("#LoanAccid").val();
+        //    //        //    alert(_accountid);
+        //    //        //    GetLoanAccountTransactionsfunction(_accountid);
+        //    //        //    $(this).dialog("close");
+        //    //        //},
+        //    //        Close: function () {
+        //    //            $(this).dialog("close");
+        //    //        }
+        //    //    },
+        //    //    open: function () {
+        //    //        var _accountid = $();
+        //    //        _accountid = $("#LoanAccid").val();
+        //    //        alert(_accountid);
+        //    //        GetLoanAccountTransactionsfunction(_accountid);
+        //    //    },
+        //    //    close: function () {
+        //    //        //measureform[0].reset();
+        //    //        //measureFields.removeClass("ui-state-error");
+        //    //        //$("#measuredescription").val("");
+        //    //        //$("#form-dialog-measure").clearForm();
+        //    //        //measuredialog.dialog("destroy");
+        //    //        //$("#measure-dialog-form").remove();
+        //    //    }
+        //    //});
+        //    ////End-Convert div form to model dialog
+        //    //LoanAccdialog.dialog("open");
+
+
+        //    var _accountid = $();
+        //    _accountid = $("#LoanAccid").val();
+
+        //    $.ajax({
+        //        url: "/Account/GetAccountTransactions",
+        //        data: { _accountid: _accountid },
+        //        dataType: "html",
+        //        cache: false,
+        //        type: "POST",
+        //        success: function (result) {
+        //            //load data  
+        //            $("#accounts-dialog-form-div").removeClass('displaynone');
+        //            $("#accounts-dialog-form-div").addClass('displayblock');
+        //            $("#accounts-dialog-form-div").empty();
+        //            $("#accounts-dialog-form-div").html(result);
+        //        },
+        ////         error: function (xhr, status, error) {
+        //$("#error-display-div").empty();
+        //$("#error-display-div").append(error.toString() + xhr.responseText.toString() + status.toString());
+        //$("#error-display-div").removeClass('displaynone');
+        //$("#error-display-div").addClass('displayblock');
+        //$("#error-display-div").show();
+        //        },
+        //        complete: function (XMLHttpRequest, textStatus) {
+        //        }
+        //    });
+
+
+
+        //    return false;
+        //});
+        //$("#InvestmentAcc").on("click", function (e) {
+        //    e.preventDefault();
+        //    //Start-Convert div form to model dialog
+        //    //var InvestmentAccdialog = $("#accounts-dialog-form").dialog({
+        //    //    autoOpen: false,
+        //    //    title: 'Account Transactions Details',
+        //    //    height: 'auto',
+        //    //    width: 'auto',
+        //    //    toolbar: true,
+        //    //    scrollbars: true,
+        //    //    statusbar: true,
+        //    //    menubar: true,
+        //    //    resizable: true,
+        //    //    closeText: 'Close',
+        //    //    closeOnEscape: true,
+        //    //    appendTo: $("form:first"),
+        //    //    //dialogClass: 'ui-dialog-osx',
+        //    //    draggable: true,
+        //    //    show: { effect: 'slide', direction: "left", delay: 100 },
+        //    //    hide: { effect: 'slide', direction: "right", delay: 100 },
+        //    //    modal: true,
+        //    //    buttons: {
+        //    //        //"Search": function () {
+        //    //        //    var _accountid = $();
+        //    //        //    _accountid = $("#InvestmentAccid").val();
+        //    //        //    alert(_accountid);
+        //    //        //    GetInvestmentAccountTransactionsfunction(_accountid);
+        //    //        //    $(this).dialog("close");
+        //    //        //},
+        //    //        Close: function () {
+        //    //            $(this).dialog("close");
+        //    //        }
+        //    //    },
+        //    //    open: function () {
+        //    //        var _accountid = $();
+        //    //        _accountid = $("#InvestmentAccid").val();
+        //    //        alert(_accountid);
+        //    //        GetInvestmentAccountTransactionsfunction(_accountid);
+        //    //    },
+        //    //    close: function () {
+        //    //        //categoryform[0].reset();
+        //    //        //categoryFields.removeClass("ui-state-error");
+        //    //        //$("#categorydescription").val("");
+        //    //        //$("#form-dialog-category").clearForm();
+        //    //        //categorydialog.dialog("destroy");
+        //    //        //$("#category-dialog-form").remove();
+        //    //    }
+        //    //});
+        //    ////End-Convert div form to model dialog
+        //    //InvestmentAccdialog.dialog("open");
+
+
+        //    var _accountid = $();
+        //    _accountid = $("#InvestmentAccid").val();
+
+        //    $.ajax({
+        //        url: "/Account/GetAccountTransactions",
+        //        data: { _accountid: _accountid },
+        //        dataType: "html",
+        //        cache: false,
+        //        type: "POST",
+        //        success: function (result) {
+        //            //load data  
+        //            $("#accounts-dialog-form-div").removeClass('displaynone');
+        //            $("#accounts-dialog-form-div").addClass('displayblock');
+        //            $("#accounts-dialog-form-div").empty();
+        //            $("#accounts-dialog-form-div").html(result);
+        //        },
+        //        error: function (XMLHttpRequest, textStatus, errorThrown) {
+        //            $("#accounts-dialog-form-div").html(errorThrown);
+        //        },
+        //        complete: function (XMLHttpRequest, textStatus) {
+        //        }
+        //    });
+
+
+
+        //    return false;
+        //});
+        //function GetCurrentAccountTransactionsfunction(_accountid) {
+        //    $.ajax({
+        //        url: "/Deposit/GetAccountTransactions",
+        //        data: { _accountid: _accountid },
+        //        dataType: "html",
+        //        cache: false,
+        //        type: "POST",
+        //        success: function (result) {
+        //            //load data  
+        //            $("#accounts-dialog-form").removeClass('displaynone');
+        //            $("#accounts-dialog-form").addClass('displayblock');
+        //            $("#accountsTransactions").empty();
+        //            $("#accountsTransactions").html(result);
+        //        },
+        //        error: function (XMLHttpRequest, textStatus, errorThrown) {
+        //            $("#accounts-dialog-form").html(errorThrown);
+        //        },
+        //        complete: function (XMLHttpRequest, textStatus) {
+        //        }
+        //    });
+        //}
+        //function GetLoanAccountTransactionsfunction(_accountid) {
+        //    $.ajax({
+        //        url: "/Deposit/GetAccountTransactions",
+        //        data: { _accountid: _accountid },
+        //        dataType: "html",
+        //        cache: false,
+        //        type: "POST",
+        //        success: function (result) {
+        //            //load data  
+        //            $("#accounts-dialog-form").removeClass('displaynone');
+        //            $("#accounts-dialog-form").addClass('displayblock');
+        //            $("#accounts-dialog-form").empty();
+        //            $("#accounts-dialog-form").html(result);
+        //        },
+        //        error: function (XMLHttpRequest, textStatus, errorThrown) {
+        //            $("#accountsTransactions").html(errorThrown);
+        //        },
+        //        complete: function (XMLHttpRequest, textStatus) {
+        //        }
+        //    });
+        //}
+        //function GetInvestmentAccountTransactionsfunction(_accountid) {
+        //    $.ajax({
+        //        url: "/Deposit/GetAccountTransactions",
+        //        data: { _accountid: _accountid },
+        //        dataType: "html",
+        //        cache: false,
+        //        type: "POST",
+        //        success: function (result) {
+        //            //load data  
+        //            $("#accounts-dialog-form").removeClass('displaynone');
+        //            $("#accounts-dialog-form").addClass('displayblock');
+        //            $("#accounts-dialog-form").empty();
+        //            $("#accounts-dialog-form").html(result);
+        //        },
+        //        error: function (XMLHttpRequest, textStatus, errorThrown) {
+        //            $("#accounts-dialog-form").html(errorThrown);
+        //        },
+        //        complete: function (XMLHttpRequest, textStatus) {
+        //        }
+        //    });
+        //}
+
+
+
+
+    </script>
+}

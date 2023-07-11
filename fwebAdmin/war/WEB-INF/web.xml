@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+
+	<display-name>Fanikiwa</display-name>
+
+	<servlet>
+		<servlet-name>MpesaIPNServlet</servlet-name>
+		<servlet-class>com.sp.fanikiwa.MpesaIPNServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>MpesaIPNServlet</servlet-name>
+		<url-pattern>/Mpesa</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>MpesaProcessServelet</servlet-name>
+		<servlet-class>com.sp.fanikiwa.MpesaProcessServelet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>MpesaProcessServelet</servlet-name>
+		<url-pattern>/MpesaProcessServeletCron</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>MpesaIPNTestServlet</servlet-name>
+		<servlet-class>com.sp.fanikiwa.MpesaIPNTestServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>MpesaIPNTestServlet</servlet-name>
+		<url-pattern>/MpesaTest</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>APITestServlet</servlet-name>
+		<servlet-class>com.sp.fanikiwa.APITestServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>APITestServlet</servlet-name>
+		<url-pattern>/APITestServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Fanikiwa</servlet-name>
+		<servlet-class>com.sp.fanikiwa.FanikiwaServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Fanikiwa</servlet-name>
+		<url-pattern>/fanikiwa</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>FanikiwaSMS</servlet-name>
+		<servlet-class>com.sp.fanikiwa.SMSReceiveServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>FanikiwaSMS</servlet-name>
+		<url-pattern>/FanikiwaSMS</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>FanikiwaDiary</servlet-name>
+		<servlet-class>com.sp.fanikiwa.DiaryServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>FanikiwaDiary</servlet-name>
+		<url-pattern>/FanikiwaDiary</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>SystemServiceServlet</servlet-name>
+		<servlet-class>com.google.api.server.spi.SystemServiceServlet</servlet-class>
+		<init-param>
+			<param-name>services</param-name>
+			<param-value>com.sp.fanikiwa.api.AccountEndpoint,com.sp.fanikiwa.api.AccountTypeEndpoint,com.sp.fanikiwa.api.CoaEndpoint,com.sp.fanikiwa.api.CoadetEndpoint,com.sp.fanikiwa.api.ContactEndpoint,com.sp.fanikiwa.api.CustomerEndpoint,com.sp.fanikiwa.api.DiaryprogramcontrolEndpoint,com.sp.fanikiwa.api.InformdbEndpoint,com.sp.fanikiwa.api.LendingGroupEndpoint,com.sp.fanikiwa.api.LendingGroupMemberEndpoint,com.sp.fanikiwa.api.LoanEndpoint,com.sp.fanikiwa.api.MemberEndpoint,com.sp.fanikiwa.api.MpesaIPNMessageEndpoint,com.sp.fanikiwa.api.MpesaIPNTestMessageEndpoint,com.sp.fanikiwa.api.OfferEndpoint,com.sp.fanikiwa.api.OfferReceipientEndpoint,com.sp.fanikiwa.api.OrganizationEndpoint,com.sp.fanikiwa.api.QuoteEndpoint,com.sp.fanikiwa.api.STOEndpoint,com.sp.fanikiwa.api.SettingsEndpoint,com.sp.fanikiwa.api.TieredDetEndpoint,com.sp.fanikiwa.api.TieredtableEndpoint,com.sp.fanikiwa.api.TransactionEndpoint,com.sp.fanikiwa.api.TransactionModelEndpoint,com.sp.fanikiwa.api.TransactionTypeEndpoint,com.sp.fanikiwa.api.UserprofileEndpoint,com.sp.fanikiwa.api.ValueDatedTransactionEndpoint,com.sp.fanikiwa.api.WithdrawalMessageEndpoint</param-value>
+		</init-param>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>SystemServiceServlet</servlet-name>
+		<url-pattern>/_ah/spi/*</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>mailhandler</servlet-name>
+		<servlet-class>com.sp.fanikiwa.MailHandlerServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>mailhandler</servlet-name>
+		<url-pattern>/_ah/mail/*</url-pattern>
+	</servlet-mapping>
+
+	<filter>
+		<filter-name>ObjectifyFilter</filter-name>
+		<filter-class>com.googlecode.objectify.ObjectifyFilter</filter-class>
+	</filter>
+
+	<filter-mapping>
+		<filter-name>ObjectifyFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+		<url-pattern>/offers/all</url-pattern>
+	</filter-mapping>
+
+	<welcome-file-list>
+		<welcome-file>Views/Account/Login.html</welcome-file>
+	</welcome-file-list>
+
+</web-app>

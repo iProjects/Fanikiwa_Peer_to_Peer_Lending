@@ -1,0 +1,125 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>My Investments | Fanikiwa - Peer-to-Peer Lending</title>
+<link href="/Images/Dollar.ico" rel="shortcut icon" type="image/x-icon" />
+<link rel="stylesheet" href="/Content/jquery.dataTables.css"
+	type="text/css" media="all" />
+<link rel="stylesheet" href="/Content/Site.css" type="text/css"
+	media="all" />
+<script src="/Scripts/jquery-2.0.3.js" type="text/javascript"></script>
+<script src="/Scripts/MainMenu.js"></script>
+<script src="/Scripts/fanikiwa.js"></script>
+<script src="/Scripts/CustomScripts.js" type="text/javascript"></script>
+<script src="/Scripts/MyInvestments.js"></script>
+<script src="/Scripts/jquery.dataTables.min.js"></script>
+
+</head>
+
+
+<body>
+
+	<header>
+		<div class="content-wrapper">
+
+			<div class="float-left">
+				<p class="site-title" title="Fanikiwa - Peer - To - Peer Lending">
+					Fanikiwa - Peer - To - Peer Lending</p>
+			</div>
+
+
+			<div class="float-right">
+				<section id="login">
+					<text> Welcome To Fanikiwa, <a id="lnkloggedinuser"
+						style="cursor: pointer;" href="#" onclick="ManageProfile()"
+						title="Manage Profile"></a> <a id="lnklogoff"
+						style="cursor: pointer;" href="#" onclick="LogOff()"
+						title="Log Off">Log off</a> </text>
+				</section>
+			</div>
+
+			<div id="MainMenu"></div>
+			<div id="SubMenu"></div>
+
+		</div>
+
+
+	</header>
+
+
+
+
+	<div id="body">
+
+
+		<section class="content-wrapper main-content clear-fix">
+
+			<div id="error-display-div" class="displaynone"></div>
+
+			<hgroup class="title">
+				<h2 class="page-title">My Investments</h2>
+			</hgroup>
+
+
+			<div id="listLoansResult" style="clear: both">loading...</div>
+
+
+
+		</section>
+
+
+	</div>
+
+
+
+
+	<footer>
+
+		<hr />
+
+		<div id="div-mpesapaybill">
+			<span id="mpesapaybill">Mpesa Paybill Number</span> <span
+				id="mpesapaybillnumber">882600</span>
+		</div>
+
+		<div id="div-copyright">
+			<span id="copyright">Copyright &copy;</span> <span id="footerdate"></span>
+			<span id="companyname"> Software Providers Limited.</span> <span
+				id="rightsreserved">All Rights Reserved.</span>
+		</div>
+
+		<div id="div-androiddownload">
+			<img id="android" src="/Images/android.png"
+				alt="Fanikiwa in your pocket!" /> <span id="pocket">Fanikiwa
+				in your pocket!</span> <span id="ourapp">Get our app and invest on
+				the go.</span><span id="freedownload">Free download now</span>
+			<div id="androiddownload">
+				<a id="androiddownloadlink" target="_blank" href="#"> </a>
+			</div>
+		</div>
+
+	</footer>
+
+
+
+
+	<script type="text/javascript">
+	function init() {
+		fanikiwa.loanendpoint.myinvestments.init(GETROOT());
+	}
+	</script>
+
+	<script src="https://apis.google.com/js/client.js?onload=init"></script>
+
+
+
+</body>
+
+
+</html>

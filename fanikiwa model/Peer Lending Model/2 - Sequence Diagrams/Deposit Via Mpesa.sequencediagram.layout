@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sequenceDesignerDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Deposit Via Mpesa">
+  <SequenceDesignerModelMoniker Id="1e1b6d08-ef7f-4137-a159-bd6b9df4d470" />
+  <nestedChildShapes>
+    <lifelineShape Id="4bf9134e-c40b-43a4-9c3b-93d2e559e6ab" absoluteBounds="1.025, 1, 0.15, 7" visible="true" visualStyleMode="Modified">
+      <lifelineMoniker Id="253b16be-bb90-457d-a875-cc6d66dd774f" LastKnownName="Lender" />
+      <relativeChildShapes>
+        <umlLifelineHeadShape Id="6a90c86a-223d-4780-a8c2-1dccf3dade4a" absoluteBounds="0.59999999999999987, 0.6, 1, 0.4" customColor="White" visualStyleMode="Modified">
+          <lifelineMoniker Id="253b16be-bb90-457d-a875-cc6d66dd774f" LastKnownName="Lender" />
+          <relativeChildShapes />
+        </umlLifelineHeadShape>
+        <lifelineHoverShape Id="0007dabf-7411-45bf-90a8-05906bcdeef7" absoluteBounds="1.025, 1, 0, 7">
+          <lifelineMoniker Id="253b16be-bb90-457d-a875-cc6d66dd774f" LastKnownName="Lender" />
+        </lifelineHoverShape>
+      </relativeChildShapes>
+    </lifelineShape>
+    <lifelineShape Id="a1f94514-ca67-4746-96e3-45672f548aea" absoluteBounds="2.489583333333333, 1, 0.15, 7" visible="true" visualStyleMode="Modified">
+      <lifelineMoniker Id="61a422d8-bd46-41a8-adeb-95b0981cb142" LastKnownName="DepositViaMpesaController" />
+      <relativeChildShapes>
+        <umlLifelineHeadShape Id="db5a4dcc-65b7-496d-a001-a7d79c2eb7be" absoluteBounds="1.6595164450009661, 0.6, 1.8101337766647339, 0.4" customColor="White" visualStyleMode="Modified">
+          <lifelineMoniker Id="61a422d8-bd46-41a8-adeb-95b0981cb142" LastKnownName="DepositViaMpesaController" />
+          <relativeChildShapes />
+        </umlLifelineHeadShape>
+        <lifelineHoverShape Id="8d341559-cba8-4a8e-b9e9-12243fde4519" absoluteBounds="2.489583333333333, 1, 0, 7">
+          <lifelineMoniker Id="61a422d8-bd46-41a8-adeb-95b0981cb142" LastKnownName="DepositViaMpesaController" />
+        </lifelineHoverShape>
+      </relativeChildShapes>
+    </lifelineShape>
+    <lifelineShape Id="66f9518b-4260-4d81-b6d1-66b807e83a7a" absoluteBounds="4.125, 1, 0.15, 7" visible="true" visualStyleMode="Modified">
+      <lifelineMoniker Id="3406adf3-5602-4996-b82e-b0ca7894d3e2" LastKnownName="IAccountingSystem" />
+      <relativeChildShapes>
+        <umlLifelineHeadShape Id="e32b4436-3198-454d-81d3-e697dcc91886" absoluteBounds="3.5160702776908872, 0.6, 1.3678594446182251, 0.4" customColor="White" visualStyleMode="Modified">
+          <lifelineMoniker Id="3406adf3-5602-4996-b82e-b0ca7894d3e2" LastKnownName="IAccountingSystem" />
+          <relativeChildShapes />
+        </umlLifelineHeadShape>
+        <lifelineHoverShape Id="2e5e8628-08ab-41df-b602-f364cbbe2112" absoluteBounds="4.125, 1, 0, 7">
+          <lifelineMoniker Id="3406adf3-5602-4996-b82e-b0ca7894d3e2" LastKnownName="IAccountingSystem" />
+        </lifelineHoverShape>
+      </relativeChildShapes>
+    </lifelineShape>
+    <lifelineShape Id="95cbced9-c191-4fc2-884d-a63ab58816a9" absoluteBounds="5.5416666666666661, 1, 0.15, 7" visible="true" visualStyleMode="Modified">
+      <lifelineMoniker Id="08f587ea-fb3c-415d-a0c7-742e72d241a5" LastKnownName="IMessagingSystem" />
+      <relativeChildShapes>
+        <umlLifelineHeadShape Id="1175cb27-ca0d-4ec2-943f-aedce361975e" absoluteBounds="4.9503150693575533, 0.6, 1.3327031946182251, 0.4" customColor="White" visualStyleMode="Modified">
+          <lifelineMoniker Id="08f587ea-fb3c-415d-a0c7-742e72d241a5" LastKnownName="IMessagingSystem" />
+          <relativeChildShapes />
+        </umlLifelineHeadShape>
+        <lifelineHoverShape Id="41b6b5c1-7dd2-4f69-991d-f94ca35d808a" absoluteBounds="5.5416666666666661, 1, 0, 7">
+          <lifelineMoniker Id="08f587ea-fb3c-415d-a0c7-742e72d241a5" LastKnownName="IMessagingSystem" />
+        </lifelineHoverShape>
+      </relativeChildShapes>
+    </lifelineShape>
+    <lifelineShape Id="54f104a4-ab0f-45a4-a3c4-e13647108901" absoluteBounds="7.1796875, 1, 0.15, 7" visible="true" visualStyleMode="Modified">
+      <lifelineMoniker Id="966934e4-e555-4f8e-a9c9-1e8074f4c332" LastKnownName="IMpesaSystem" />
+      <relativeChildShapes>
+        <umlLifelineHeadShape Id="5f14b005-6158-4238-aeac-85d98bdf89be" absoluteBounds="6.7077206683158872, 0.6, 1.0939336633682251, 0.4" customColor="White" visualStyleMode="Modified">
+          <lifelineMoniker Id="966934e4-e555-4f8e-a9c9-1e8074f4c332" LastKnownName="IMpesaSystem" />
+          <relativeChildShapes />
+        </umlLifelineHeadShape>
+        <lifelineHoverShape Id="98cea04c-d8e4-44d0-aaeb-91fbc3ee2461" absoluteBounds="7.1796875, 1, 0, 7">
+          <lifelineMoniker Id="966934e4-e555-4f8e-a9c9-1e8074f4c332" LastKnownName="IMpesaSystem" />
+        </lifelineHoverShape>
+      </relativeChildShapes>
+    </lifelineShape>
+  </nestedChildShapes>
+</sequenceDesignerDiagram>

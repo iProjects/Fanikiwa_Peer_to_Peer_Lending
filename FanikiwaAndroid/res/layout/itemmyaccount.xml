@@ -1,0 +1,94 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/button_gplus_gb"
+    android:gravity="center"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/button_fb_gb"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="10dp" >
+
+            <TextView
+                android:id="@+id/account_id"
+                style="@style/TextViewText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#fff" />
+
+            <TextView
+                android:id="@+id/account_name"
+                style="@style/TextViewText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#fff" />
+
+            <TextView
+                android:id="@+id/account_clearedbalance"
+                style="@style/TextViewText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#fff" />
+
+            <TextView
+                android:id="@+id/account_bookbalance"
+                style="@style/TextViewText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#fff" />
+
+            <TextView
+                android:id="@+id/account_limit"
+                style="@style/TextViewText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#fff" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:background="@drawable/button_fb_gb"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="10dp" >
+
+            <Button
+                android:id="@+id/btnMiniStatement"
+                style="@style/ButtonText"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:layout_weight="1"
+                android:background="@drawable/button_gplus_gb"
+                android:onClick="LoadMiniStatement"
+                android:text="@string/btnMiniStatement"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/btnStatement"
+                style="@style/ButtonText"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                android:layout_weight="1"
+                android:background="@drawable/button_gplus_gb"
+                android:onClick="LoadStatement"
+                android:text="@string/btnStatement"
+                android:textColor="#fff" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

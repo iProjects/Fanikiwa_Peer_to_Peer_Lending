@@ -1,0 +1,5 @@
+C:\Dev\ffWebAdmin\ffWebAdmin\bin\ffWebAdmin.Entities.dll
+C:\Dev\ffWebAdmin\ffWebAdmin\bin\ffWebAdmin.Entities.pdb
+C:\Dev\ffWebAdmin\ffWebAdmin\Shared\ffWebAdmin.Entities\obj\Release\ffWebAdmin.Entities.dll
+C:\Dev\ffWebAdmin\ffWebAdmin\Shared\ffWebAdmin.Entities\obj\Release\ffWebAdmin.Entities.pdb
+C:\Dev\ffWebAdmin\ffWebAdmin\Shared\ffWebAdmin.Entities\obj\Release\ffWebAdmin.Entities.csprojResolveAssemblyReference.cache

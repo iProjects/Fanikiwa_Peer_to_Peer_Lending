@@ -1,0 +1,6 @@
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\bin\fMessagingSystem.Hosts.WcfHost.dll.config
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\bin\fMessagingSystem.Hosts.WcfHost.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\bin\fMessagingSystem.Hosts.WcfHost.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\Hosts\fMessagingSystem.Hosts.WcfHost\obj\Debug\fMessagingSystem.Hosts.WcfHost.csprojResolveAssemblyReference.cache
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\Hosts\fMessagingSystem.Hosts.WcfHost\obj\Debug\fMessagingSystem.Hosts.WcfHost.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\Hosts\fMessagingSystem.Hosts.WcfHost\obj\Debug\fMessagingSystem.Hosts.WcfHost.pdb

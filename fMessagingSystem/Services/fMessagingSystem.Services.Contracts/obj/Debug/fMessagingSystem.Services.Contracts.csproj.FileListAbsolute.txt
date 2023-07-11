@@ -1,0 +1,20 @@
+C:\Dev\fMessagingSystem\fMessagingSystem\bin\fMessagingSystem.Services.Contracts.dll
+C:\Dev\fMessagingSystem\fMessagingSystem\bin\fMessagingSystem.Services.Contracts.pdb
+C:\Dev\fMessagingSystem\fMessagingSystem\Services\fMessagingSystem.Services.Contracts\obj\Debug\fMessagingSystem.Services.Contracts.csprojResolveAssemblyReference.cache
+C:\Dev\fMessagingSystem\fMessagingSystem\Services\fMessagingSystem.Services.Contracts\obj\Debug\fMessagingSystem.Services.Contracts.dll
+C:\Dev\fMessagingSystem\fMessagingSystem\Services\fMessagingSystem.Services.Contracts\obj\Debug\fMessagingSystem.Services.Contracts.pdb
+C:\My Projects\fanikiwa\fMessagingSystem\bin\fMessagingSystem.Services.Contracts.dll
+C:\My Projects\fanikiwa\fMessagingSystem\bin\fMessagingSystem.Services.Contracts.pdb
+C:\My Projects\fanikiwa\fMessagingSystem\Services\fMessagingSystem.Services.Contracts\obj\Debug\fMessagingSystem.Services.Contracts.csprojResolveAssemblyReference.cache
+C:\My Projects\fanikiwa\fMessagingSystem\Services\fMessagingSystem.Services.Contracts\obj\Debug\fMessagingSystem.Services.Contracts.dll
+C:\My Projects\fanikiwa\fMessagingSystem\Services\fMessagingSystem.Services.Contracts\obj\Debug\fMessagingSystem.Services.Contracts.pdb
+D:\My Projects\fanikiwa\fMessagingSystem\bin\fMessagingSystem.Services.Contracts.dll
+D:\My Projects\fanikiwa\fMessagingSystem\bin\fMessagingSystem.Services.Contracts.pdb
+D:\My Projects\fanikiwa\fMessagingSystem\Services\fMessagingSystem.Services.Contracts\obj\Debug\fMessagingSystem.Services.Contracts.csprojResolveAssemblyReference.cache
+D:\My Projects\fanikiwa\fMessagingSystem\Services\fMessagingSystem.Services.Contracts\obj\Debug\fMessagingSystem.Services.Contracts.dll
+D:\My Projects\fanikiwa\fMessagingSystem\Services\fMessagingSystem.Services.Contracts\obj\Debug\fMessagingSystem.Services.Contracts.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\bin\fMessagingSystem.Services.Contracts.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\bin\fMessagingSystem.Services.Contracts.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\Services\fMessagingSystem.Services.Contracts\obj\Debug\fMessagingSystem.Services.Contracts.csprojResolveAssemblyReference.cache
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\Services\fMessagingSystem.Services.Contracts\obj\Debug\fMessagingSystem.Services.Contracts.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\Services\fMessagingSystem.Services.Contracts\obj\Debug\fMessagingSystem.Services.Contracts.pdb

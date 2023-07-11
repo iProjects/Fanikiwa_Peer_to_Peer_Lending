@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@layout/header_gradient"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <CheckBox
+            android:id="@+id/chk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true" />
+
+        <TextView
+            android:id="@+id/account_txtPostDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#025f7c" />
+
+        <TextView
+            android:id="@+id/account_txtNarrative"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#025f7c" />
+
+        <TextView
+            android:id="@+id/account_txtDebit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#025f7c" />
+
+        <TextView
+            android:id="@+id/account_txtCredit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#025f7c" />
+
+        <TextView
+            android:id="@+id/account_txtBalance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#025f7c" />
+    </LinearLayout>
+
+</LinearLayout>

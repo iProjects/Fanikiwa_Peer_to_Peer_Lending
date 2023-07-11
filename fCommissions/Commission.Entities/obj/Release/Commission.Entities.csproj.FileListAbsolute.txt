@@ -1,0 +1,12 @@
+C:\My Projects\fanikiwa\fCommon\Commission.Entities\bin\Release\Commission.Entities.dll
+C:\My Projects\fanikiwa\fCommon\Commission.Entities\bin\Release\Commission.Entities.pdb
+C:\My Projects\fanikiwa\fCommon\Commission.Entities\obj\Release\Commission.Entities.dll
+C:\My Projects\fanikiwa\fCommon\Commission.Entities\obj\Release\Commission.Entities.pdb
+C:\My Projects\fanikiwa\fCommissions\Commission.Entities\bin\Release\fCommissions.Commission.Entities.dll
+C:\My Projects\fanikiwa\fCommissions\Commission.Entities\bin\Release\fCommissions.Commission.Entities.pdb
+C:\My Projects\fanikiwa\fCommissions\Commission.Entities\obj\Release\fCommissions.Commission.Entities.dll
+C:\My Projects\fanikiwa\fCommissions\Commission.Entities\obj\Release\fCommissions.Commission.Entities.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fCommissions\Commission.Entities\bin\Release\fCommissions.Commission.Entities.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fCommissions\Commission.Entities\bin\Release\fCommissions.Commission.Entities.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fCommissions\Commission.Entities\obj\Release\fCommissions.Commission.Entities.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fCommissions\Commission.Entities\obj\Release\fCommissions.Commission.Entities.pdb

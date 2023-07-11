@@ -1,0 +1,20 @@
+C:\Dev\fMessagingSystem\fMessagingSystem\bin\fMessagingSystem.Services.dll
+C:\Dev\fMessagingSystem\fMessagingSystem\bin\fMessagingSystem.Services.pdb
+C:\Dev\fMessagingSystem\fMessagingSystem\Services\fMessagingSystem.Services\obj\Debug\fMessagingSystem.Services.csprojResolveAssemblyReference.cache
+C:\Dev\fMessagingSystem\fMessagingSystem\Services\fMessagingSystem.Services\obj\Debug\fMessagingSystem.Services.dll
+C:\Dev\fMessagingSystem\fMessagingSystem\Services\fMessagingSystem.Services\obj\Debug\fMessagingSystem.Services.pdb
+C:\My Projects\fanikiwa\fMessagingSystem\bin\fMessagingSystem.Services.dll
+C:\My Projects\fanikiwa\fMessagingSystem\bin\fMessagingSystem.Services.pdb
+C:\My Projects\fanikiwa\fMessagingSystem\Services\fMessagingSystem.Services\obj\Debug\fMessagingSystem.Services.csprojResolveAssemblyReference.cache
+C:\My Projects\fanikiwa\fMessagingSystem\Services\fMessagingSystem.Services\obj\Debug\fMessagingSystem.Services.dll
+C:\My Projects\fanikiwa\fMessagingSystem\Services\fMessagingSystem.Services\obj\Debug\fMessagingSystem.Services.pdb
+D:\My Projects\fanikiwa\fMessagingSystem\bin\fMessagingSystem.Services.dll
+D:\My Projects\fanikiwa\fMessagingSystem\bin\fMessagingSystem.Services.pdb
+D:\My Projects\fanikiwa\fMessagingSystem\Services\fMessagingSystem.Services\obj\Debug\fMessagingSystem.Services.csprojResolveAssemblyReference.cache
+D:\My Projects\fanikiwa\fMessagingSystem\Services\fMessagingSystem.Services\obj\Debug\fMessagingSystem.Services.dll
+D:\My Projects\fanikiwa\fMessagingSystem\Services\fMessagingSystem.Services\obj\Debug\fMessagingSystem.Services.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\bin\fMessagingSystem.Services.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\bin\fMessagingSystem.Services.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\Services\fMessagingSystem.Services\obj\Debug\fMessagingSystem.Services.csprojResolveAssemblyReference.cache
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\Services\fMessagingSystem.Services\obj\Debug\fMessagingSystem.Services.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\Services\fMessagingSystem.Services\obj\Debug\fMessagingSystem.Services.pdb

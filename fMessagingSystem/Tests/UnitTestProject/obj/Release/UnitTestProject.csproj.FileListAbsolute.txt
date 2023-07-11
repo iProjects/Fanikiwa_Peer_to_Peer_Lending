@@ -1,0 +1,12 @@
+C:\Dev\fMessagingSystem\bin\UnitTestProject.dll.config
+C:\Dev\fMessagingSystem\bin\UnitTestProject.dll
+C:\Dev\fMessagingSystem\bin\UnitTestProject.pdb
+C:\Dev\fMessagingSystem\fMessagingSystem\UnitTestProject\obj\Release\UnitTestProject.csprojResolveAssemblyReference.cache
+C:\Dev\fMessagingSystem\fMessagingSystem\UnitTestProject\obj\Release\UnitTestProject.dll
+C:\Dev\fMessagingSystem\fMessagingSystem\UnitTestProject\obj\Release\UnitTestProject.pdb
+C:\My Projects\fanikiwa\bin\UnitTestProject.dll.config
+C:\My Projects\fanikiwa\bin\UnitTestProject.dll
+C:\My Projects\fanikiwa\bin\UnitTestProject.pdb
+C:\My Projects\fanikiwa\fMessagingSystem\UnitTestProject\obj\Release\UnitTestProject.csprojResolveAssemblyReference.cache
+C:\My Projects\fanikiwa\fMessagingSystem\UnitTestProject\obj\Release\UnitTestProject.dll
+C:\My Projects\fanikiwa\fMessagingSystem\UnitTestProject\obj\Release\UnitTestProject.pdb

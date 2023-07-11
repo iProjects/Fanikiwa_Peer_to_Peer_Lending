@@ -1,0 +1,483 @@
+﻿@model fanikiwaGL.Entities.TransactionType
+
+@{
+    ViewBag.Title = "Create TransactionType";
+}
+
+<h2 class="page-title">Create TransactionType</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>Create TransactionType</legend>
+        
+        <div id="column-div" class="clearboth">
+
+
+            <article class="col1">
+                <div class="pad">
+
+                   <h5>Transaction Type Info</h5>
+
+                    <ol>
+
+                        <li>
+                            @Html.ValidationMessageFor(model => model.ShortCode)
+                        </li>
+                        <li>
+                            @Html.ValidationMessageFor(model => model.Description)
+                        </li>
+                        <li>
+                            @Html.ValidationMessageFor(model => model.TxnTypeView)
+                        </li>
+                        <li>
+                            @Html.ValidationMessageFor(model => model.TxnClass)
+                        </li>
+                        <li>
+                            @Html.ValidationMessageFor(model => model.AmountExpression)
+                        </li>
+                        <li>
+                            @Html.ValidationMessageFor(model => model.DialogFlag)
+                        </li>
+                        <li>
+                            @Html.ValidationMessageFor(model => model.NarrativeFlag)
+                        </li>
+                        <li>
+                            @Html.ValidationMessageFor(model => model.ChargeWho)
+                        </li>
+                        <li>
+                            @Html.ValidationMessageFor(model => model.ForcePost)
+                        </li>
+                        <li>
+                            @Html.ValidationMessageFor(model => model.CanSuspend)
+                        </li>
+                        <li>
+                            @Html.ValidationMessageFor(model => model.SuspenseCrAccount)
+                        </li>
+                        <li>
+                            @Html.ValidationMessageFor(model => model.SuspenseDrAccount)
+                        </li>
+
+                    </ol>
+
+
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.ShortCode)
+                    </div>
+                    <div class="editor-field">
+                        @Html.EditorFor(model => model.ShortCode)
+                    </div>
+
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.Description)
+                    </div>
+                    <div class="editor-field">
+                        @Html.EditorFor(model => model.Description)
+                    </div>
+
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.TxnTypeView)
+                    </div>
+                    <div class="editor-field">
+                        @Html.EditorFor(model => model.TxnTypeView)
+                    </div>
+
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.TxnClass)
+                    </div>
+                    <div class="editor-field">
+                        @Html.EditorFor(model => model.TxnClass)
+                    </div>
+
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.AmountExpression)
+                    </div>
+                    <div class="editor-field">
+                        @Html.EditorFor(model => model.AmountExpression)
+                    </div>
+
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.DialogFlag)
+                    </div>
+                    <div class="editor-field">
+                        @Html.EditorFor(model => model.DialogFlag)
+                    </div>
+
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.NarrativeFlag)
+                    </div>
+                    <div class="editor-field">
+                        @Html.EditorFor(model => model.NarrativeFlag)
+                    </div>
+
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.ChargeWho)
+                    </div>
+                    <div class="editor-field">
+                        @Html.EditorFor(model => model.ChargeWho)
+                    </div>
+
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.ForcePost)
+                    </div>
+                    <div class="editor-field">
+                        @Html.EditorFor(model => model.ForcePost)
+                    </div>
+
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.CanSuspend)
+                    </div>
+                    <div class="editor-field">
+                        @Html.EditorFor(model => model.CanSuspend)
+                    </div>
+
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.SuspenseCrAccount)
+                    </div>
+                    <div class="editor-field">
+                        @Html.EditorFor(model => model.SuspenseCrAccount)
+                    </div>
+
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.SuspenseDrAccount)
+                    </div>
+                    <div class="editor-field">
+                        @Html.EditorFor(model => model.SuspenseDrAccount)
+                    </div>
+
+
+                </div>
+            </article>
+
+            <article class="col2">
+                <div class="pad">
+
+                    <h5>Defaults Info</h5>
+
+                    <ol>
+
+                        <li>
+                            @Html.ValidationMessageFor(model => model.DefaultAmount)
+                        </li>
+                        <li>
+                            @Html.ValidationMessageFor(model => model.DefaultMainAccount)
+                        </li>
+                        <li>
+                            @Html.ValidationMessageFor(model => model.DefaultContraAccount)
+                        </li>
+                        <li>
+                            @Html.ValidationMessageFor(model => model.DefaultMainNarrative)
+                        </li>
+                        <li>
+                            @Html.ValidationMessageFor(model => model.DefaultContraNarrative)
+                        </li>
+
+                    </ol>
+
+
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.DefaultAmount)
+                    </div>
+                    <div class="editor-field">
+                        @Html.EditorFor(model => model.DefaultAmount)
+                    </div>
+
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.DefaultMainAccount)
+                    </div>
+                    <div class="editor-field">
+                        @Html.EditorFor(model => model.DefaultMainAccount)
+                    </div>
+
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.DefaultContraAccount)
+                    </div>
+                    <div class="editor-field">
+                        @Html.EditorFor(model => model.DefaultContraAccount)
+                    </div>
+
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.DefaultMainNarrative)
+                    </div>
+                    <div class="editor-field">
+                        @Html.EditorFor(model => model.DefaultMainNarrative)
+                    </div>
+
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.DefaultContraNarrative)
+                    </div>
+                    <div class="editor-field">
+                        @Html.EditorFor(model => model.DefaultContraNarrative)
+                    </div>
+
+
+                </div>
+            </article>
+
+            <article class="col3">
+                <div class="pad">
+
+                    <h5>Commission Info</h5>
+
+                    <ol>
+
+                        <li>
+                            @Html.ValidationMessageFor(model => model.ChargeCommission)
+                        </li>
+                        <li>
+                            @Html.ValidationMessageFor(model => model.ChargeCommissionToTransaction)
+                        </li>
+                        <li>
+                            @Html.ValidationMessageFor(model => model.CommissionDrAccount)
+                        </li>
+                        <li>
+                            @Html.ValidationMessageFor(model => model.CommissionDrAnotherAccount)
+                        </li>
+                        <li>
+                            @Html.ValidationMessageFor(model => model.CommissionCrAccount)
+                        </li>
+                        <li>
+                            @Html.ValidationMessageFor(model => model.CommissionTransactionType)
+                        </li>
+                        <li>
+                            @Html.ValidationMessageFor(model => model.CommissionAmountExpression)
+                        </li>
+                        <li>
+                            @Html.ValidationMessageFor(model => model.CommissionNarrativeFlag)
+                        </li>
+                        <li>
+                            @Html.ValidationMessageFor(model => model.CommissionMainNarrative)
+                        </li>
+                        <li>
+                            @Html.ValidationMessageFor(model => model.CommissionContraNarrative)
+                        </li>
+                        <li>
+                            @Html.ValidationMessageFor(model => model.CommComputationMethod)
+                        </li>
+                        <li>
+                            @Html.ValidationMessageFor(model => model.Absolute)
+                        </li>
+                        <li>
+                            @Html.ValidationMessageFor(model => model.TieredTableId)
+                        </li>
+                        <li>
+                            @Html.ValidationMessageFor(model => model.CommissionAmount)
+                        </li>
+                        <li>
+                            @Html.ValidationMessageFor(model => model.DrCommCalcMethod)
+                        </li>
+                        <li>
+                            @Html.ValidationMessageFor(model => model.CrCommCalcMethod)
+                        </li>
+
+                    </ol>
+
+
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.ChargeCommission)
+                    </div>
+                    <div class="editor-field">
+                        @Html.EditorFor(model => model.ChargeCommission)
+                    </div>
+
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.ChargeCommissionToTransaction)
+                    </div>
+                    <div class="editor-field">
+                        @Html.EditorFor(model => model.ChargeCommissionToTransaction)
+                    </div>
+
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.CommissionDrAccount)
+                    </div>
+                    <div class="editor-field">
+                        @Html.EditorFor(model => model.CommissionDrAccount)
+                    </div>
+
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.CommissionDrAnotherAccount)
+                    </div>
+                    <div class="editor-field">
+                        @Html.EditorFor(model => model.CommissionDrAnotherAccount)
+                    </div>
+
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.CommissionCrAccount)
+                    </div>
+                    <div class="editor-field">
+                        @Html.EditorFor(model => model.CommissionCrAccount)
+                    </div>
+
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.CommissionTransactionType)
+                    </div>
+                    <div class="editor-field">
+                        @Html.EditorFor(model => model.CommissionTransactionType)
+                    </div>
+
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.CommissionAmountExpression)
+                    </div>
+                    <div class="editor-field">
+                        @Html.EditorFor(model => model.CommissionAmountExpression)
+                    </div>
+
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.CommissionNarrativeFlag)
+                    </div>
+                    <div class="editor-field">
+                        @Html.EditorFor(model => model.CommissionNarrativeFlag)
+                    </div>
+
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.CommissionMainNarrative)
+                    </div>
+                    <div class="editor-field">
+                        @Html.EditorFor(model => model.CommissionMainNarrative)
+                    </div>
+
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.CommissionContraNarrative)
+                    </div>
+                    <div class="editor-field">
+                        @Html.EditorFor(model => model.CommissionContraNarrative)
+                    </div>
+
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.CommComputationMethod)
+                    </div>
+                    <div class="editor-field">
+                        @Html.EditorFor(model => model.CommComputationMethod)
+                    </div>
+
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.Absolute)
+                    </div>
+                    <div class="editor-field">
+                        @Html.EditorFor(model => model.Absolute)
+                    </div>
+
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.TieredTableId)
+                    </div>
+                    <div class="editor-field">
+                        @Html.EditorFor(model => model.TieredTableId)
+                    </div>
+
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.CommissionAmount)
+                    </div>
+                    <div class="editor-field">
+                        @Html.EditorFor(model => model.CommissionAmount)
+                    </div>
+
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.DrCommCalcMethod)
+                    </div>
+                    <div class="editor-field">
+                        @Html.EditorFor(model => model.DrCommCalcMethod)
+                    </div>
+
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.CrCommCalcMethod)
+                    </div>
+                    <div class="editor-field">
+                        @Html.EditorFor(model => model.CrCommCalcMethod)
+                    </div>
+
+
+                </div>
+            </article>
+
+            <article class="col4">
+                <div class="pad">
+
+                    <h5>Receipts Info</h5>
+
+                    <ol>
+
+                        <li>
+                            @Html.ValidationMessageFor(model => model.StatFlag)
+                        </li>
+                        <li>
+                            @Html.ValidationMessageFor(model => model.Screen)
+                        </li>
+                        <li>
+                            @Html.ValidationMessageFor(model => model.ValueDateOffset)
+                        </li>
+                        <li>
+                            @Html.ValidationMessageFor(model => model.PrintReceiptPrompt)
+                        </li>
+                        <li>
+                            @Html.ValidationMessageFor(model => model.PrintReceipt)
+                        </li>
+                        <li>
+                            @Html.ValidationMessageFor(model => model.ReceiptLayout)
+                        </li>
+
+                    </ol>
+
+
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.StatFlag)
+                    </div>
+                    <div class="editor-field">
+                        @Html.EditorFor(model => model.StatFlag)
+                    </div>
+
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.Screen)
+                    </div>
+                    <div class="editor-field">
+                        @Html.EditorFor(model => model.Screen)
+                    </div>
+
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.ValueDateOffset)
+                    </div>
+                    <div class="editor-field">
+                        @Html.EditorFor(model => model.ValueDateOffset)
+                    </div>
+
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.PrintReceiptPrompt)
+                    </div>
+                    <div class="editor-field">
+                        @Html.EditorFor(model => model.PrintReceiptPrompt)
+                    </div>
+
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.PrintReceipt)
+                    </div>
+                    <div class="editor-field">
+                        @Html.EditorFor(model => model.PrintReceipt)
+                    </div>
+
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.ReceiptLayout)
+                    </div>
+                    <div class="editor-field">
+                        @Html.EditorFor(model => model.ReceiptLayout)
+                    </div>
+
+
+
+                </div>
+            </article>
+
+        </div>
+
+        <p>
+            <input type="submit" value="Create" id="btnSubmitCreateTransactionTypeeForm" style="float: left; clear: both" />
+        </p>
+
+    </fieldset>
+}
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

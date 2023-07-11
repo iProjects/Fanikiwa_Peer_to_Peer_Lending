@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{e8d10fcd-1565-4a2e-8d19-b0f4c00b60b0}</ProjectGuid>
+    <ArchitectureToolsVersion>2.0.0.0</ArchitectureToolsVersion>
+    <Name>Peer Lending Model</Name>
+    <RootNamespace>Peer Lending Model</RootNamespace>
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\ArchitectureTools\Microsoft.VisualStudio.TeamArchitect.ModelingProject.targets" Condition="'$(VSToolsPath)' != ''" />
+  <ItemGroup>
+    <Content Include="1 - Use Cases\1.Register.docx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="1 - Use Cases\2.Deregister.docx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="1 - Use Cases\3.Make Borrow Offer.docx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="1 - Use Cases\4.Accept lend offer.docx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="1 - Use Cases\6.Accept borrow offer.docx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="1 - Use Cases\7.1.Deposit Over The Counter.docx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="1 - Use Cases\7.2.Deposit Via Mpesa.docx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="1 - Use Cases\8.1.Withdraw Cash Over The Counter.docx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="1 - Use Cases\8.2.WithDraw Via Mpesa.docx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="1 - Use Cases\9.Partial Accept Borrow.docx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="1 - Use Cases\Accept Borrow Offer.usecasediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="1 - Use Cases\Accept Borrow Offer.usecasediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>1 - Use Cases\Accept Borrow Offer.usecasediagram</DependentUpon>
+    </Content>
+    <Content Include="1 - Use Cases\Deposit Over The Counter.usecasediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="1 - Use Cases\Deposit Over The Counter.usecasediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>1 - Use Cases\Deposit Over The Counter.usecasediagram</DependentUpon>
+    </Content>
+    <Content Include="1 - Use Cases\Deposit Via Mpesa.usecasediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="1 - Use Cases\Deposit Via Mpesa.usecasediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>1 - Use Cases\Deposit Via Mpesa.usecasediagram</DependentUpon>
+    </Content>
+    <Content Include="1 - Use Cases\Make Borrow Offer.usecasediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="1 - Use Cases\Make Borrow Offer.usecasediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>1 - Use Cases\Make Borrow Offer.usecasediagram</DependentUpon>
+    </Content>
+    <Content Include="1 - Use Cases\Partial Accept Borrow Offer.usecasediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="1 - Use Cases\Partial Accept Borrow Offer.usecasediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>1 - Use Cases\Partial Accept Borrow Offer.usecasediagram</DependentUpon>
+    </Content>
+    <Content Include="1 - Use Cases\Withdraw Cash Over The Counter.usecasediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="1 - Use Cases\Withdraw Cash Over The Counter.usecasediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>1 - Use Cases\Withdraw Cash Over The Counter.usecasediagram</DependentUpon>
+    </Content>
+    <Content Include="1 - Use Cases\WithDraw Via Mpesa.usecasediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="1 - Use Cases\WithDraw Via Mpesa.usecasediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>1 - Use Cases\WithDraw Via Mpesa.usecasediagram</DependentUpon>
+    </Content>
+    <Content Include="2 - Sequence Diagrams\Accept Borrow Offer.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="2 - Sequence Diagrams\Accept Borrow Offer.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>2 - Sequence Diagrams\Accept Borrow Offer.sequencediagram</DependentUpon>
+    </Content>
+    <Content Include="2 - Sequence Diagrams\Deposit Cash Over The Counter.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="2 - Sequence Diagrams\Deposit Cash Over The Counter.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>2 - Sequence Diagrams\Deposit Cash Over The Counter.sequencediagram</DependentUpon>
+    </Content>
+    <Content Include="2 - Sequence Diagrams\Deposit Via Mpesa.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="2 - Sequence Diagrams\Deposit Via Mpesa.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>2 - Sequence Diagrams\Deposit Via Mpesa.sequencediagram</DependentUpon>
+    </Content>
+    <Content Include="2 - Sequence Diagrams\Make Borrow Offer.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="2 - Sequence Diagrams\Make Borrow Offer.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>2 - Sequence Diagrams\Make Borrow Offer.sequencediagram</DependentUpon>
+    </Content>
+    <Content Include="2 - Sequence Diagrams\Partial Accept Borrow Offer.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="2 - Sequence Diagrams\Partial Accept Borrow Offer.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>2 - Sequence Diagrams\Partial Accept Borrow Offer.sequencediagram</DependentUpon>
+    </Content>
+    <Content Include="2 - Sequence Diagrams\Withdraw Cash Over The Counter.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="2 - Sequence Diagrams\Withdraw Cash Over The Counter.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>2 - Sequence Diagrams\Withdraw Cash Over The Counter.sequencediagram</DependentUpon>
+    </Content>
+    <Content Include="2 - Sequence Diagrams\Withdraw Via Mpesa.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="2 - Sequence Diagrams\Withdraw Via Mpesa.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>2 - Sequence Diagrams\Withdraw Via Mpesa.sequencediagram</DependentUpon>
+    </Content>
+    <Content Include="3 - Class Diagrams\Accept Borrow Offer.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="3 - Class Diagrams\Accept Borrow Offer.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>3 - Class Diagrams\Accept Borrow Offer.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="3 - Class Diagrams\Accept Lend Offer.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="3 - Class Diagrams\Accept Lend Offer.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>3 - Class Diagrams\Accept Lend Offer.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="3 - Class Diagrams\Deposit Cash Over The Counter.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="3 - Class Diagrams\Deposit Cash Over The Counter.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>3 - Class Diagrams\Deposit Cash Over The Counter.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="3 - Class Diagrams\Deposit Via Mpesa.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="3 - Class Diagrams\Deposit Via Mpesa.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>3 - Class Diagrams\Deposit Via Mpesa.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="3 - Class Diagrams\Make Borrow Offer.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="3 - Class Diagrams\Make Borrow Offer.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>3 - Class Diagrams\Make Borrow Offer.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="3 - Class Diagrams\Make Lend Offer.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="3 - Class Diagrams\Make Lend Offer.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>3 - Class Diagrams\Make Lend Offer.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="2 - Sequence Diagrams\Accept Lend Offer.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="2 - Sequence Diagrams\Accept Lend Offer.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>2 - Sequence Diagrams\Accept Lend Offer.sequencediagram</DependentUpon>
+    </Content>
+    <Content Include="2 - Sequence Diagrams\Make Lend Offer.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="2 - Sequence Diagrams\Make Lend Offer.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>2 - Sequence Diagrams\Make Lend Offer.sequencediagram</DependentUpon>
+    </Content>
+    <Content Include="1 - Use Cases\5.Make Lend Offer.docx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="1 - Use Cases\AcceptLendOffer.usecasediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="1 - Use Cases\AcceptLendOffer.usecasediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>1 - Use Cases\AcceptLendOffer.usecasediagram</DependentUpon>
+    </Content>
+    <Content Include="1 - Use Cases\Context Diagram.usecasediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="1 - Use Cases\Context Diagram.usecasediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>1 - Use Cases\Context Diagram.usecasediagram</DependentUpon>
+    </Content>
+    <Content Include="1 - Use Cases\Make Lend Offer.usecasediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="1 - Use Cases\Make Lend Offer.usecasediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>1 - Use Cases\Make Lend Offer.usecasediagram</DependentUpon>
+    </Content>
+    <Folder Include="ModelDefinition\" />
+    <Content Include="3 - Class Diagrams\Partial Accept Borrow Offer.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="3 - Class Diagrams\Partial Accept Borrow Offer.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>3 - Class Diagrams\Partial Accept Borrow Offer.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="3 - Class Diagrams\Withdraw Cash Over The Counter.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="3 - Class Diagrams\Withdraw Cash Over The Counter.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>3 - Class Diagrams\Withdraw Cash Over The Counter.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="3 - Class Diagrams\Withdraw Via Mpesa.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="3 - Class Diagrams\Withdraw Via Mpesa.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>3 - Class Diagrams\Withdraw Via Mpesa.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="ModelDefinition\Peer Lending Model.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Folder Include="3 - Class Diagrams" />
+    <Folder Include="2 - Sequence Diagrams" />
+    <Folder Include="1 - Use Cases" />
+  </ItemGroup>
+</Project>

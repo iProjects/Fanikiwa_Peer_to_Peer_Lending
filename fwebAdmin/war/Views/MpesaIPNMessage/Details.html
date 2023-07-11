@@ -1,0 +1,227 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Mpesa IPN Messages | Fanikiwa - Administrator</title>
+<link href="/Images/Dollar.ico" rel="shortcut icon" type="image/x-icon" />
+<link rel="stylesheet" href="/Content/Site.css" type="text/css" />
+<script src="/Scripts/jquery-2.0.3.js" type="text/javascript"></script>
+<script src="/Scripts/MainMenu.js"></script>
+<script src="/Scripts/fanikiwa.js"></script>
+<script src="/Scripts/CustomScripts.js" type="text/javascript"></script>
+<script src="/Scripts/DetailMpesaIPNMessage.js"></script>
+
+
+</head>
+
+
+<body>
+
+<header>
+		<div class="content-wrapper">
+
+			<div class="float-left">
+				<p class="site-title" title="Fanikiwa - Administrator">Fanikiwa
+					- Administrator</p>
+			</div>
+
+
+			<div class="float-right">
+				<section id="login">
+					<text> Welcome To Fanikiwa, <a id="lnkloggedinuser"
+						style="cursor: pointer;" href="#" onclick="ManageProfile()"
+						title="Manage Profile"></a> <a id="lnklogoff"
+						style="cursor: pointer;" href="#" onclick="LogOff()"
+						title="Log Off">Log off</a> </text>
+				</section>
+			</div>
+
+			<div id="MainMenu"></div>
+			<div id="SubMenu"></div>
+
+		</div>
+
+
+	</header>
+
+
+
+	<div id="body">
+
+
+		<section class="content-wrapper main-content clear-fix">
+
+			<div id="error-display-div" class="displaynone"></div>
+
+
+			<hgroup class="title">
+				<h2 class="page-title">Mpesa IPN Message Details</h2>
+			</hgroup>
+
+			<div style="float: left; clear: both">
+				<input type="button" value="Back"
+					onclick="window.history.go(-1); return false;" />
+			</div>
+
+			<div id="apiResults" style="float: left; clear: both"></div>
+			<div id="successmessage" style="float: left; clear: both"></div>
+			<div id="errormessage" style="float: left; clear: both"></div>
+
+			<div style="float: left; clear: both">
+
+				<form action="javascript:void(0);">
+
+					<fieldset>
+						<legend>Mpesa IPN Message Details</legend>
+
+						<div id="column-div" class="clearboth">
+
+							<article class="col1">
+								<div class="pad">
+
+									<div>
+										<label for="txtid">ID</label> <input id="txtid"
+											placeholder="ID" autofocus type="text" disabled></input>
+									</div>
+
+									<div>
+										<label for="txtmpesa_code">Code</label> <input
+											id="txtmpesa_code" placeholder="Code" type="text" disabled></input>
+									</div>
+
+									<div>
+										<label for="txtmpesa_acc">Account</label> <input
+											id="txtmpesa_acc" placeholder="Account" type="text" disabled></input>
+									</div>
+
+									<div>
+										<label for="txtmpesa_amt">Amount</label> <input
+											id="txtmpesa_amt" placeholder="Amount" type="text" disabled></input>
+									</div>
+
+									<div>
+										<label for="txtmpesa_msisdn">MSISDN</label> <input
+											id="txtmpesa_msisdn" placeholder="MSISDN" type="text"
+											disabled></input>
+									</div>
+
+									<div>
+										<label for="txtmpesa_sender">Sender</label> <input
+											id="txtmpesa_sender" placeholder="Sender" type="text"
+											disabled></input>
+									</div>
+
+									<div>
+										<label for="txttext">Text</label>
+										<textarea id="txttext" disabled
+											style="overflow: auto; word-wrap: break-word; height: 130px; width: 93%;"></textarea>
+									</div>
+
+								</div>
+							</article>
+
+							<article class="col2">
+								<div class="pad">
+
+									<div>
+										<label for="txtmpesaIPNMessageID">IPN Message ID</label> <input
+											id="txtmpesaIPNMessageID" placeholder="IPN Message ID"
+											type="text" disabled></input>
+									</div>
+
+									<div>
+										<label for="txtorig">Origin</label> <input autocomplete
+											id="txtorig" placeholder="Origin" type="text" disabled></input>
+									</div>
+
+									<div>
+										<label for="txtdest">Destination</label> <input id="txtdest"
+											placeholder="Destination" type="text" disabled></input>
+									</div>
+
+									<div>
+										<label for="txttstamp">Time Stamp</label> <input
+											id="txttstamp" placeholder="Time Stamp" type="text" disabled></input>
+									</div>
+
+									<div>
+										<label for="txtuser">User</label> <input id="txtuser"
+											placeholder="User" type="text" disabled></input>
+									</div>
+
+									<div>
+										<label for="txtpass">Password</label> <input id="txtpass"
+											placeholder="Password" type="text" disabled></input>
+									</div>
+
+									<div>
+										<label for="txtmpesa_trx_date">Transaction Date</label> <input
+											id="txtmpesa_trx_date" placeholder="Transaction Date"
+											type="text" disabled></input>
+									</div>
+
+									<div>
+										<label for="txtmpesa_trx_time">Transaction Time</label> <input
+											id="txtmpesa_trx_time" placeholder="Transaction Time"
+											type="text" disabled></input>
+									</div>
+
+									<div>
+										<label for="txtstatus">Status</label> <input id="txtstatus"
+											placeholder="Status" type="text" disabled></input>
+									</div>
+
+								</div>
+							</article>
+
+						</div>
+					</fieldset>
+
+				</form>
+
+			</div>
+
+		</section>
+
+
+	</div>
+
+
+
+	<footer>
+
+		<hr />
+
+		<div style="margin-left: 30%;">
+			<span style="float: left; padding-left: 2px; padding-right: 2px;">Copyright
+				&copy;</span> <span id="footerdate"
+				style="float: left; padding-left: 2px; padding-right: 2px;"></span>
+			<span style="float: left; padding-left: 2px; padding-right: 2px;">
+				Software Providers Limited.</span> <span
+				style="float: left; padding-left: 2px; padding-right: 2px;">All
+				Rights Reserved.</span>
+		</div>
+
+	</footer>
+
+
+
+	<script type="text/javascript">
+		function init() {
+			fanikiwa.mpesaipnmessageendpoint.mpesaipnmessagedetail.init(GETROOT());
+		}
+   </script>
+
+	<script src="https://apis.google.com/js/client.js?onload=init"></script>
+
+
+
+</body>
+
+
+</html>

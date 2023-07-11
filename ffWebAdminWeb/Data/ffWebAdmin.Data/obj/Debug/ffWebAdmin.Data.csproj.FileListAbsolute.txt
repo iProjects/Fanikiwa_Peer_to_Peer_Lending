@@ -1,0 +1,8 @@
+C:\My Projects\fanikiwa\ffWebAdminWeb\bin\ffWebAdmin.Data.dll
+C:\My Projects\fanikiwa\ffWebAdminWeb\bin\ffWebAdmin.Data.pdb
+C:\My Projects\fanikiwa\ffWebAdminWeb\Data\ffWebAdmin.Data\obj\Debug\ffWebAdmin.Data.dll
+C:\My Projects\fanikiwa\ffWebAdminWeb\Data\ffWebAdmin.Data\obj\Debug\ffWebAdmin.Data.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffWebAdminWeb\bin\ffWebAdmin.Data.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffWebAdminWeb\bin\ffWebAdmin.Data.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffWebAdminWeb\Data\ffWebAdmin.Data\obj\Debug\ffWebAdmin.Data.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffWebAdminWeb\Data\ffWebAdmin.Data\obj\Debug\ffWebAdmin.Data.pdb

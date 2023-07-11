@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Deposit Via Mpesa">
+  <logicalClassDesignerModelMoniker Id="25664b84-ef59-40d9-9e8d-1c7a0f8081f2" />
+  <nestedChildShapes>
+    <classShape Id="00a45dc0-7fba-4ecf-9c03-bb67c20e73fb" absoluteBounds="0.875, 0.875, 1.5, 0.90234373509883881" hideQualifiedName="false" increaseHeight="0" customColor="181, 193, 223">
+      <classMoniker Id="509d976c-a5f9-423b-8209-b121251b5bd3" LastKnownName="DepositViaMpesaController" />
+      <nestedChildShapes>
+        <AttributeElementListCompartment Id="c782b966-dbcf-4a86-8a86-7fcdc4b1405a" absoluteBounds="0.89, 1.2650000000000001, 1.4700000000000002, 0.2011718675494194" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="a177d4cb-6ab3-4823-a2ea-45941443d2a5" absoluteBounds="0.89, 1.4761718675494193, 1.4700000000000002, 0.2011718675494194" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <interfaceShape Id="58e2485f-8583-4bc3-8f53-9195ab42a0a5" absoluteBounds="3.25, 1.5, 1.5, 0.90234373509883881" hideQualifiedName="false" increaseHeight="0" customColor="207, 223, 191">
+      <interfaceMoniker Id="508584d0-7fc5-4342-8f4d-59229932cd10" LastKnownName="IMpesaSystem" />
+      <nestedChildShapes>
+        <AttributeElementListCompartment Id="489de6f4-75a6-45a4-8b95-8f4f6982a3db" absoluteBounds="3.265, 1.8900000000000001, 1.4700000000000002, 0.2011718675494194" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="adb4b557-347e-4c6a-856e-601f3787838b" absoluteBounds="3.265, 2.1011718675494193, 1.4700000000000002, 0.2011718675494194" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </interfaceShape>
+  </nestedChildShapes>
+</logicalClassDesignerDiagram>

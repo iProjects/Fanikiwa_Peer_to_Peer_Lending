@@ -1,0 +1,6 @@
+C:\Dev\ffWebAdmin\ffWebAdmin\bin\ffWebAdmin.UI.MVC.Tests.dll.config
+C:\Dev\ffWebAdmin\ffWebAdmin\bin\ffWebAdmin.UI.MVC.Tests.dll
+C:\Dev\ffWebAdmin\ffWebAdmin\bin\ffWebAdmin.UI.MVC.Tests.pdb
+C:\Dev\ffWebAdmin\ffWebAdmin\Presentation\ffWebAdmin.UI.MVC.Tests\obj\Release\ffWebAdmin.UI.MVC.Tests.csprojResolveAssemblyReference.cache
+C:\Dev\ffWebAdmin\ffWebAdmin\Presentation\ffWebAdmin.UI.MVC.Tests\obj\Release\ffWebAdmin.UI.MVC.Tests.dll
+C:\Dev\ffWebAdmin\ffWebAdmin\Presentation\ffWebAdmin.UI.MVC.Tests\obj\Release\ffWebAdmin.UI.MVC.Tests.pdb

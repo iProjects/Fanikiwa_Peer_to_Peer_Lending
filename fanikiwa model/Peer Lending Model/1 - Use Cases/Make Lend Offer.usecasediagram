@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="2d7e03df-365d-4e82-a948-3ffd49b9c510" name="Make Lend Offer" linkedPackageId="1b55d621-ffc5-4bbb-901e-0313afd9be96" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <appliedStereotypesInternal>
+    <stereotypeInstance Id="a9283ccd-094d-450a-a34f-fab42e665ef1" name="namespace" profile="CSharpProfile">
+      <elementDefinition Id="661a6133-9c4f-4851-9b61-5f9bca3fb9bc" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="5564e678-4178-456e-b6df-8c52d4155aa2">
+          <propertyInstance Id="0f8d4933-3e16-4baa-a0b3-9128df359db9" name="BaseName">
+            <elementDefinition Id="2237431b-6227-4b6c-98d8-575bce8284d7" />
+          </propertyInstance>
+          <elementDefinition Id="bb5607fd-0b66-4c32-9224-664fa586f30d" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="836a2898-da58-4c04-bbe7-0aa742032fad">
+          <propertyInstance Id="5cee7203-3c8d-459a-a5cd-59d9eccf0dd8" name="ClrAttributes">
+            <elementDefinition Id="e4c8e8e3-e587-42e5-b84a-5beb666cccd3" />
+          </propertyInstance>
+          <elementDefinition Id="d1291114-48aa-43dd-a6a6-ced4445f69b7" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="03f5e1d7-c01d-4c19-98b0-b3639c7e65dd">
+          <propertyInstance Id="a9bf2f75-b819-4551-9946-41de7717fa14" name="Usings">
+            <elementDefinition Id="262f56bc-ebf3-462a-a1d8-72042cc779e4" />
+          </propertyInstance>
+          <elementDefinition Id="469d0985-fa16-4f27-9c31-66122a1c411b" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+    <stereotypeInstance Id="81d48c81-ea5a-4652-a1a4-2435baebe9e7" name="TextTemplateBindings" profile="TextTemplateBindings">
+      <elementDefinition Id="7ac97e40-946c-4ce2-a13f-9d6e3a52afea" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="dcbcba16-d574-4a54-bd08-4f6d8f40200c">
+          <propertyInstance Id="c4037d29-447e-4042-9fb6-852d00448429" name="Alias" value="ClassTemplate|EnumTemplate|InterfaceTemplate|StructTemplate">
+            <elementDefinition Id="567d5712-cfcf-48f4-bc12-84d5a7a96029" />
+          </propertyInstance>
+          <elementDefinition Id="db385eef-682f-4a85-9701-897d3afe16f7" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="8abcc339-6c5a-4182-a644-7f2228dd59f2">
+          <propertyInstance Id="68f070f9-616e-43b8-944f-0cdd205219db" name="TemplateFilePath" value="ClassTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 11.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4|EnumTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 11.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\EnumTemplate.t4|InterfaceTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 11.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\InterfaceTemplate.t4|StructTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 11.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4">
+            <elementDefinition Id="5fe4dd62-11f3-40b0-ae37-82cb3bd8032b" />
+          </propertyInstance>
+          <elementDefinition Id="6f6618ce-4aa9-4796-899a-6e630905c406" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="b1bea542-1cd4-4f2e-ab96-d9c8fb6dd4b5">
+          <propertyInstance Id="bdeafb04-e380-4934-a9f7-4f09fcb72207" name="ProjectPath" value="ClassTemplate=..\Peer Lending ModelLib\Peer Lending ModelLib.csproj|EnumTemplate=..\Peer Lending ModelLib\Peer Lending ModelLib.csproj|InterfaceTemplate=..\Peer Lending ModelLib\Peer Lending ModelLib.csproj|StructTemplate=..\Peer Lending ModelLib\Peer Lending ModelLib.csproj">
+            <elementDefinition Id="c4941fe7-9508-4c66-ae67-bc0d9c0e8cf5" />
+          </propertyInstance>
+          <elementDefinition Id="dab5d9ce-67a4-4dc1-a694-acbf8db5c2a7" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="6e0b88b6-138e-46e2-8d77-2fee0118f18a">
+          <propertyInstance Id="86d9e8d9-0af3-47cf-9a61-9f58e3c05d32" name="TargetDirectory" value="ClassTemplate=GeneratedCode\{PackageStructure}|EnumTemplate=GeneratedCode\{PackageStructure}|InterfaceTemplate=GeneratedCode\{PackageStructure}|StructTemplate=GeneratedCode\{PackageStructure}">
+            <elementDefinition Id="efb1ba2f-8ae4-4dab-aaa2-5d072f41dc36" />
+          </propertyInstance>
+          <elementDefinition Id="b72c25ea-f639-42ce-b7b2-44ba7369a311" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="4d7d8648-6a43-4550-a9a9-cabe741ac437">
+          <propertyInstance Id="08796f68-0f21-4b67-b1bf-93067887d3a0" name="TargetName" value="ClassTemplate={Name}|EnumTemplate={Name}|InterfaceTemplate={Name}|StructTemplate={Name}">
+            <elementDefinition Id="73a6f63c-ddf8-4e91-9e15-2b41bfbe80b2" />
+          </propertyInstance>
+          <elementDefinition Id="b7b31f3d-07f7-458c-b61b-b64da9a7b2b2" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="004e6782-1f97-4225-be1e-aaf0925af317">
+          <propertyInstance Id="e908da72-ea9a-4746-b8a3-d68a0dc1185d" name="Overwrite" value="ClassTemplate=True|EnumTemplate=True|InterfaceTemplate=True|StructTemplate=True">
+            <elementDefinition Id="4b09ebd2-decb-4151-b145-e6a3fa3fb92c" />
+          </propertyInstance>
+          <elementDefinition Id="add2ebbf-bf76-4a9e-adee-72b39b5f50fe" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="e829356b-6b10-40e1-9e0a-7fc7ff38514b">
+          <propertyInstance Id="709706a0-6ce7-48db-a7cd-6aac7e95c698" name="Parameters">
+            <elementDefinition Id="09ec6e6c-2526-41c3-ae8b-738f6f2fd00c" />
+          </propertyInstance>
+          <elementDefinition Id="1f4fd6a8-dcb6-4110-93c4-4579cd5a2b9b" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+  </appliedStereotypesInternal>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="266ba362-99b7-4a6c-a40b-88fc70314299" name="Lender" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="d2c346e5-8d43-445e-88ca-efdf333a5883" />
+        <targetEnds>
+          <association Id="ea2ada05-11ff-446f-a92a-582b9f308f57" isDerived="false" sourceEndRoleName="Lender" targetEndRoleName="Make Lend Offer" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="0758c6aa-8acf-45db-a8b8-2264b8ee11bc" LastKnownName="Make Lend Offer" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="203d82eb-3e21-463b-adb7-c3b413f6ac0c" name="Lender" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="81e095a1-5cab-4218-9f9e-92f7c3bf89cf" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a55a50a2-7a4a-462e-ac4c-0e61e6f83276" name="Make Lend Offer" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="f4528e42-4538-4e21-b123-1e85b042a9ea" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="ebd134af-a878-45ba-b29a-6b2590dcacb1" />
+          </association>
+          <association Id="ceb47595-587d-4666-80b4-a40e4cb0c684" isDerived="false" sourceEndRoleName="Lender" targetEndRoleName="Lender" isLeaf="false" isAbstract="false">
+            <actorMoniker Id="266ba362-99b7-4a6c-a40b-88fc70314299" LastKnownName="Lender" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="99221a25-711f-4fcf-a7c2-0847ae728bb7" name="Lender" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="ae7a0341-c4ce-4d3b-b27d-4162742b0242" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="52d94f86-9ac6-46a7-b698-1393613f1ecf" name="Lender" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="9fe29723-7168-4f47-aaf3-3ad8c9fd7cf6" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="71670d07-8cf7-438e-96d3-175b557925c0" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="0758c6aa-8acf-45db-a8b8-2264b8ee11bc" name="Make Lend Offer" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="724280f6-fbe5-481d-b0c7-2457643a4215" />
+        <suppliersInternal>
+          <dependency Id="44964622-046c-4382-b8e3-d6188a24251f">
+            <artifactMoniker Id="7a66d01a-df46-47ad-adf0-6027ea5d10cd" LastKnownName="5.Make Lend Offer.docx" />
+            <elementDefinition Id="72e909b2-da8f-421b-a16d-15c0b9df3697" />
+          </dependency>
+        </suppliersInternal>
+        <targetEnds>
+          <association Id="230f71f4-5f10-4c35-93fc-50f15f527b9c" isDerived="false" sourceEndRoleName="Make Lend Offer" targetEndRoleName="Messaging System" isLeaf="false" isAbstract="false">
+            <actorMoniker Id="70c73771-3576-482d-9cfe-c2608abca37c" LastKnownName="Messaging System" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="400c0798-4d1d-43e3-9c6e-96c266dc6267" name="Make Lend Offer" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="7c15d564-7150-455e-bbf9-a39d7d78f56c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="31da9074-fbd5-4140-bd2a-cfa7acb15519" name="Messaging System" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="7bab2db7-d1a2-423a-a3ea-d8195e91ffd3" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="bfec99c2-4198-4c45-b61d-f450aaf98892" />
+          </association>
+          <association Id="f7ef836e-9b9a-44f6-9223-9aab64bb18ec" isDerived="false" sourceEndRoleName="Make Lend Offer" targetEndRoleName="Accounting System" isLeaf="false" isAbstract="false">
+            <actorMoniker Id="d8de28df-2e69-4077-bcd6-fcb82c10cebe" LastKnownName="Accounting System" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="47335cd4-f89e-4b02-b535-d35ff708e1f5" name="Make Lend Offer" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="0e2c4a8d-0d82-4ab9-8334-2e58a79ca33b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="3968c48d-c7dd-46ea-885d-c4c4a17ec4a1" name="Accounting System" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="86260f60-f6ad-46f7-8967-3c2d9b1a858d" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="38aba58a-028b-43f7-bfb2-a3f841ad2d01" />
+          </association>
+        </targetEnds>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="70c73771-3576-482d-9cfe-c2608abca37c" name="Messaging System" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="624da1bf-9dab-495c-891c-bdec13453bc7" />
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="d8de28df-2e69-4077-bcd6-fcb82c10cebe" name="Accounting System" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="f2c35054-33b3-4942-9963-dfc6db857579" />
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <artifact Id="7a66d01a-df46-47ad-adf0-6027ea5d10cd" name="5.Make Lend Offer.docx" isAbstract="false" isLeaf="false" fileName="Peer Lending Model\Use Cases\5.Make Lend Offer.docx">
+        <elementDefinition Id="52ced813-f661-4383-b6ec-88aaebd454ff" />
+      </artifact>
+    </useCaseModelRootHasTypes>
+  </packagedElements>
+  <package Id="1b55d621-ffc5-4bbb-901e-0313afd9be96" name="Peer Lending Model">
+    <elementDefinition Id="22b964ca-a57b-46b5-83f2-c6e96b4483dc" />
+    <profileInstances>
+      <packageHasProfileInstances Id="d4a6fd74-c007-43bf-b5ae-1d50d14fe653">
+        <profileInstance Id="0c8b4461-a9fb-4c79-b9d7-db2365912961" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="47aae3bb-4c2f-474a-9acf-cf056374374e">
+        <profileInstance Id="c6989281-a525-418d-87d9-0e01bee80703" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="8b424038-32c7-4ad3-928e-c1fa110d2b61">
+        <profileInstance Id="55ba28f1-4bd8-4eba-923a-2ce356a47ff1" name="TextTemplateBindings">
+          <elementDefinition Id="42191351-c377-4bb8-afd1-f558307aee8e" />
+        </profileInstance>
+        <elementDefinition Id="b7f371cf-921d-4ecc-97ba-7de607e7b0c1" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="fb4a88ac-ae67-4b23-b594-dc7b054bda35">
+        <profileInstance Id="d764feb3-2db0-438d-aa07-d17557ab7c0e" name="CSharpProfile">
+          <elementDefinition Id="777e4276-4229-4ce5-937c-5516daf53db9" />
+        </profileInstance>
+        <elementDefinition Id="5bfde2ae-29ba-4e1e-b5c5-62a419e750a9" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</useCaseModelRoot>

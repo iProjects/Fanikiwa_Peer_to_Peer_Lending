@@ -1,0 +1,10 @@
+D:\My Projects\fanikiwa\fMessagingSystem\bin\fMessagingSystem.Entities.dll
+D:\My Projects\fanikiwa\fMessagingSystem\bin\fMessagingSystem.Entities.pdb
+D:\My Projects\fanikiwa\fMessagingSystem\Business\fMessagingSystem.Entities\obj\Debug\fMessagingSystem.Entities.dll
+D:\My Projects\fanikiwa\fMessagingSystem\Business\fMessagingSystem.Entities\obj\Debug\fMessagingSystem.Entities.pdb
+D:\My Projects\fanikiwa\fMessagingSystem\Business\fMessagingSystem.Entities\obj\Debug\fMessagingSystem.Entities.csprojResolveAssemblyReference.cache
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\bin\fMessagingSystem.Entities.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\bin\fMessagingSystem.Entities.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\Business\fMessagingSystem.Entities\obj\Debug\fMessagingSystem.Entities.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\Business\fMessagingSystem.Entities\obj\Debug\fMessagingSystem.Entities.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\Business\fMessagingSystem.Entities\obj\Debug\fMessagingSystem.Entities.csprojResolveAssemblyReference.cache

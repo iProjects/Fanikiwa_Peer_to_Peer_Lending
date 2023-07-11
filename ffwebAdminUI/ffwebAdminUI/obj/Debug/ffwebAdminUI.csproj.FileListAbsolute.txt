@@ -1,0 +1,160 @@
+C:\My Projects\fanikiwa\ffwebAdminUI\ffwebAdminUI\bin\Debug\ffwebAdminUI.exe.config
+C:\My Projects\fanikiwa\ffwebAdminUI\ffwebAdminUI\bin\Debug\ffwebAdminUI.exe
+C:\My Projects\fanikiwa\ffwebAdminUI\ffwebAdminUI\bin\Debug\ffwebAdminUI.pdb
+C:\My Projects\fanikiwa\ffwebAdminUI\ffwebAdminUI\bin\Debug\fanikiwaGL.Data.dll
+C:\My Projects\fanikiwa\ffwebAdminUI\ffwebAdminUI\bin\Debug\fanikiwaGL.Entities.dll
+C:\My Projects\fanikiwa\ffwebAdminUI\ffwebAdminUI\bin\Debug\fPeerLending.Business.dll
+C:\My Projects\fanikiwa\ffwebAdminUI\ffwebAdminUI\bin\Debug\fPeerLending.Entities.dll
+C:\My Projects\fanikiwa\ffwebAdminUI\ffwebAdminUI\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\My Projects\fanikiwa\ffwebAdminUI\ffwebAdminUI\bin\Debug\fMessagingSystem.Entities.dll
+C:\My Projects\fanikiwa\ffwebAdminUI\ffwebAdminUI\bin\Debug\fanikiwaGL.Framework.dll
+C:\My Projects\fanikiwa\ffwebAdminUI\ffwebAdminUI\bin\Debug\fPeerLending.Data.dll
+C:\My Projects\fanikiwa\ffwebAdminUI\ffwebAdminUI\bin\Debug\fanikiwaGL.Business.dll
+C:\My Projects\fanikiwa\ffwebAdminUI\ffwebAdminUI\bin\Debug\fCommon.dll
+C:\My Projects\fanikiwa\ffwebAdminUI\ffwebAdminUI\bin\Debug\fCommissions.Commission.Business.dll
+C:\My Projects\fanikiwa\ffwebAdminUI\ffwebAdminUI\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+C:\My Projects\fanikiwa\ffwebAdminUI\ffwebAdminUI\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+C:\My Projects\fanikiwa\ffwebAdminUI\ffwebAdminUI\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\My Projects\fanikiwa\ffwebAdminUI\ffwebAdminUI\bin\Debug\fCommissions.Commission.Entities.dll
+C:\My Projects\fanikiwa\ffwebAdminUI\ffwebAdminUI\bin\Debug\Microsoft.Practices.Unity.dll
+C:\My Projects\fanikiwa\ffwebAdminUI\ffwebAdminUI\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\My Projects\fanikiwa\ffwebAdminUI\ffwebAdminUI\bin\Debug\fanikiwaGL.Data.pdb
+C:\My Projects\fanikiwa\ffwebAdminUI\ffwebAdminUI\bin\Debug\fanikiwaGL.Entities.pdb
+C:\My Projects\fanikiwa\ffwebAdminUI\ffwebAdminUI\bin\Debug\fPeerLending.Business.pdb
+C:\My Projects\fanikiwa\ffwebAdminUI\ffwebAdminUI\bin\Debug\fPeerLending.Entities.pdb
+C:\My Projects\fanikiwa\ffwebAdminUI\ffwebAdminUI\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\My Projects\fanikiwa\ffwebAdminUI\ffwebAdminUI\bin\Debug\fMessagingSystem.Entities.pdb
+C:\My Projects\fanikiwa\ffwebAdminUI\ffwebAdminUI\bin\Debug\fanikiwaGL.Framework.pdb
+C:\My Projects\fanikiwa\ffwebAdminUI\ffwebAdminUI\bin\Debug\fPeerLending.Data.pdb
+C:\My Projects\fanikiwa\ffwebAdminUI\ffwebAdminUI\bin\Debug\fanikiwaGL.Business.pdb
+C:\My Projects\fanikiwa\ffwebAdminUI\ffwebAdminUI\bin\Debug\fCommon.pdb
+C:\My Projects\fanikiwa\ffwebAdminUI\ffwebAdminUI\bin\Debug\fCommissions.Commission.Business.pdb
+C:\My Projects\fanikiwa\ffwebAdminUI\ffwebAdminUI\bin\Debug\Microsoft.Practices.Unity.Interception.xml
+C:\My Projects\fanikiwa\ffwebAdminUI\ffwebAdminUI\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.xml
+C:\My Projects\fanikiwa\ffwebAdminUI\ffwebAdminUI\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\My Projects\fanikiwa\ffwebAdminUI\ffwebAdminUI\bin\Debug\fCommissions.Commission.Entities.pdb
+C:\My Projects\fanikiwa\ffwebAdminUI\ffwebAdminUI\bin\Debug\Microsoft.Practices.Unity.xml
+C:\My Projects\fanikiwa\ffwebAdminUI\ffwebAdminUI\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\My Projects\fanikiwa\ffwebAdminUI\ffwebAdminUI\obj\Debug\ffwebAdminUI.csprojResolveAssemblyReference.cache
+C:\My Projects\fanikiwa\ffwebAdminUI\ffwebAdminUI\obj\Debug\ffwebAdminUI.AboutBox.resources
+C:\My Projects\fanikiwa\ffwebAdminUI\ffwebAdminUI\obj\Debug\ffwebAdminUI.AccountsListForm.resources
+C:\My Projects\fanikiwa\ffwebAdminUI\ffwebAdminUI\obj\Debug\ffwebAdminUI.AddAccountForm.resources
+C:\My Projects\fanikiwa\ffwebAdminUI\ffwebAdminUI\obj\Debug\ffwebAdminUI.AddTieredTableForm.resources
+C:\My Projects\fanikiwa\ffwebAdminUI\ffwebAdminUI\obj\Debug\ffwebAdminUI.AddTransactionTypeForm.resources
+C:\My Projects\fanikiwa\ffwebAdminUI\ffwebAdminUI\obj\Debug\ffwebAdminUI.EditAccountForm.resources
+C:\My Projects\fanikiwa\ffwebAdminUI\ffwebAdminUI\obj\Debug\ffwebAdminUI.EditTransactionTypeForm.resources
+C:\My Projects\fanikiwa\ffwebAdminUI\ffwebAdminUI\obj\Debug\ffwebAdminUI.EnquiryViewForm.resources
+C:\My Projects\fanikiwa\ffwebAdminUI\ffwebAdminUI\obj\Debug\ffwebAdminUI.LoansForm.resources
+C:\My Projects\fanikiwa\ffwebAdminUI\ffwebAdminUI\obj\Debug\ffwebAdminUI.Main.resources
+C:\My Projects\fanikiwa\ffwebAdminUI\ffwebAdminUI\obj\Debug\ffwebAdminUI.OffersForm.resources
+C:\My Projects\fanikiwa\ffwebAdminUI\ffwebAdminUI\obj\Debug\ffwebAdminUI.FormFieldSelector.resources
+C:\My Projects\fanikiwa\ffwebAdminUI\ffwebAdminUI\obj\Debug\ffwebAdminUI.PostScreen.resources
+C:\My Projects\fanikiwa\ffwebAdminUI\ffwebAdminUI\obj\Debug\ffwebAdminUI.UserControlDoublePost.resources
+C:\My Projects\fanikiwa\ffwebAdminUI\ffwebAdminUI\obj\Debug\ffwebAdminUI.UserControlMultiPost.resources
+C:\My Projects\fanikiwa\ffwebAdminUI\ffwebAdminUI\obj\Debug\ffwebAdminUI.UserControlSinglePost.resources
+C:\My Projects\fanikiwa\ffwebAdminUI\ffwebAdminUI\obj\Debug\ffwebAdminUI.SearchAccountsSimpleForm.resources
+C:\My Projects\fanikiwa\ffwebAdminUI\ffwebAdminUI\obj\Debug\ffwebAdminUI.SearchCustomersSimpleForm.resources
+C:\My Projects\fanikiwa\ffwebAdminUI\ffwebAdminUI\obj\Debug\ffwebAdminUI.SplashScreen.resources
+C:\My Projects\fanikiwa\ffwebAdminUI\ffwebAdminUI\obj\Debug\ffwebAdminUI.TransactionTypesListForm.resources
+C:\My Projects\fanikiwa\ffwebAdminUI\ffwebAdminUI\obj\Debug\ffwebAdminUI.Properties.Resources.resources
+C:\My Projects\fanikiwa\ffwebAdminUI\ffwebAdminUI\obj\Debug\ffwebAdminUI.csproj.GenerateResource.Cache
+C:\My Projects\fanikiwa\ffwebAdminUI\ffwebAdminUI\obj\Debug\ffwebAdminUI.exe
+C:\My Projects\fanikiwa\ffwebAdminUI\ffwebAdminUI\obj\Debug\ffwebAdminUI.pdb
+C:\My Projects\fanikiwa\ffwebAdminUI\ffwebAdminUI\obj\Debug\ffwebAdminUI.LoanDetailsForm.resources
+C:\My Projects\fanikiwa\ffwebAdminUI\ffwebAdminUI\obj\Debug\ffwebAdminUI.AccountTypesForm.resources
+C:\My Projects\fanikiwa\ffwebAdminUI\ffwebAdminUI\obj\Debug\ffwebAdminUI.AddAccountTypeForm.resources
+C:\My Projects\fanikiwa\ffwebAdminUI\ffwebAdminUI\obj\Debug\ffwebAdminUI.AddCOAForm.resources
+C:\My Projects\fanikiwa\ffwebAdminUI\ffwebAdminUI\obj\Debug\ffwebAdminUI.COAForm.resources
+C:\My Projects\fanikiwa\ffwebAdminUI\ffwebAdminUI\obj\Debug\ffwebAdminUI.EditAccountTypeForm.resources
+C:\My Projects\fanikiwa\ffwebAdminUI\ffwebAdminUI\obj\Debug\ffwebAdminUI.EditCOAForm.resources
+C:\My Projects\fanikiwa\ffwebAdminUI\ffwebAdminUI\bin\Debug\fPeerLending.Framework.dll
+C:\My Projects\fanikiwa\ffwebAdminUI\ffwebAdminUI\bin\Debug\fPeerLending.Framework.pdb
+C:\My Projects\fanikiwa\ffwebAdminUI\ffwebAdminUI\obj\Debug\ffwebAdminUI.Forms.EditSTOForm.resources
+C:\My Projects\fanikiwa\ffwebAdminUI\ffwebAdminUI\obj\Debug\ffwebAdminUI.Forms.RunDiary.resources
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffwebAdminUI\ffwebAdminUI\bin\Debug\ffwebAdminUI.exe.config
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffwebAdminUI\ffwebAdminUI\bin\Debug\ffwebAdminUI.exe
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffwebAdminUI\ffwebAdminUI\bin\Debug\ffwebAdminUI.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffwebAdminUI\ffwebAdminUI\bin\Debug\fanikiwaGL.Data.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffwebAdminUI\ffwebAdminUI\bin\Debug\fanikiwaGL.Entities.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffwebAdminUI\ffwebAdminUI\bin\Debug\fCommon.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffwebAdminUI\ffwebAdminUI\bin\Debug\fPeerLending.Business.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffwebAdminUI\ffwebAdminUI\bin\Debug\fPeerLending.Entities.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffwebAdminUI\ffwebAdminUI\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffwebAdminUI\ffwebAdminUI\bin\Debug\fMessagingSystem.Entities.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffwebAdminUI\ffwebAdminUI\bin\Debug\fanikiwaGL.Framework.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffwebAdminUI\ffwebAdminUI\bin\Debug\fPeerLending.Data.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffwebAdminUI\ffwebAdminUI\bin\Debug\fPeerLending.Framework.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffwebAdminUI\ffwebAdminUI\bin\Debug\fanikiwaGL.Business.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffwebAdminUI\ffwebAdminUI\bin\Debug\fCommissions.Commission.Business.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffwebAdminUI\ffwebAdminUI\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffwebAdminUI\ffwebAdminUI\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffwebAdminUI\ffwebAdminUI\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffwebAdminUI\ffwebAdminUI\bin\Debug\fCommissions.Commission.Entities.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffwebAdminUI\ffwebAdminUI\bin\Debug\Microsoft.Practices.Unity.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffwebAdminUI\ffwebAdminUI\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffwebAdminUI\ffwebAdminUI\bin\Debug\fanikiwaGL.Data.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffwebAdminUI\ffwebAdminUI\bin\Debug\fanikiwaGL.Entities.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffwebAdminUI\ffwebAdminUI\bin\Debug\fCommon.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffwebAdminUI\ffwebAdminUI\bin\Debug\fPeerLending.Business.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffwebAdminUI\ffwebAdminUI\bin\Debug\fPeerLending.Entities.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffwebAdminUI\ffwebAdminUI\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffwebAdminUI\ffwebAdminUI\bin\Debug\fMessagingSystem.Entities.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffwebAdminUI\ffwebAdminUI\bin\Debug\fanikiwaGL.Framework.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffwebAdminUI\ffwebAdminUI\bin\Debug\fPeerLending.Data.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffwebAdminUI\ffwebAdminUI\bin\Debug\fPeerLending.Framework.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffwebAdminUI\ffwebAdminUI\bin\Debug\fanikiwaGL.Business.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffwebAdminUI\ffwebAdminUI\bin\Debug\fCommissions.Commission.Business.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffwebAdminUI\ffwebAdminUI\bin\Debug\Microsoft.Practices.Unity.Interception.xml
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffwebAdminUI\ffwebAdminUI\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.xml
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffwebAdminUI\ffwebAdminUI\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffwebAdminUI\ffwebAdminUI\bin\Debug\fCommissions.Commission.Entities.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffwebAdminUI\ffwebAdminUI\bin\Debug\Microsoft.Practices.Unity.xml
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffwebAdminUI\ffwebAdminUI\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffwebAdminUI\ffwebAdminUI\obj\Debug\ffwebAdminUI.AboutBox.resources
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffwebAdminUI\ffwebAdminUI\obj\Debug\ffwebAdminUI.AccountsListForm.resources
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffwebAdminUI\ffwebAdminUI\obj\Debug\ffwebAdminUI.AccountTypesForm.resources
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffwebAdminUI\ffwebAdminUI\obj\Debug\ffwebAdminUI.AddAccountForm.resources
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffwebAdminUI\ffwebAdminUI\obj\Debug\ffwebAdminUI.AddAccountTypeForm.resources
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffwebAdminUI\ffwebAdminUI\obj\Debug\ffwebAdminUI.AddCOAForm.resources
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffwebAdminUI\ffwebAdminUI\obj\Debug\ffwebAdminUI.AddTieredTableForm.resources
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffwebAdminUI\ffwebAdminUI\obj\Debug\ffwebAdminUI.AddTransactionTypeForm.resources
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffwebAdminUI\ffwebAdminUI\obj\Debug\ffwebAdminUI.COAForm.resources
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffwebAdminUI\ffwebAdminUI\obj\Debug\ffwebAdminUI.EditAccountForm.resources
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffwebAdminUI\ffwebAdminUI\obj\Debug\ffwebAdminUI.EditAccountTypeForm.resources
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffwebAdminUI\ffwebAdminUI\obj\Debug\ffwebAdminUI.EditCOAForm.resources
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffwebAdminUI\ffwebAdminUI\obj\Debug\ffwebAdminUI.Forms.EditSTOForm.resources
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffwebAdminUI\ffwebAdminUI\obj\Debug\ffwebAdminUI.EditTransactionTypeForm.resources
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffwebAdminUI\ffwebAdminUI\obj\Debug\ffwebAdminUI.EnquiryViewForm.resources
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffwebAdminUI\ffwebAdminUI\obj\Debug\ffwebAdminUI.LoanDetailsForm.resources
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffwebAdminUI\ffwebAdminUI\obj\Debug\ffwebAdminUI.LoansForm.resources
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffwebAdminUI\ffwebAdminUI\obj\Debug\ffwebAdminUI.MainForm.resources
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffwebAdminUI\ffwebAdminUI\obj\Debug\ffwebAdminUI.OffersForm.resources
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffwebAdminUI\ffwebAdminUI\obj\Debug\ffwebAdminUI.FormFieldSelector.resources
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffwebAdminUI\ffwebAdminUI\obj\Debug\ffwebAdminUI.PostScreen.resources
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffwebAdminUI\ffwebAdminUI\obj\Debug\ffwebAdminUI.UserControlDoublePost.resources
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffwebAdminUI\ffwebAdminUI\obj\Debug\ffwebAdminUI.UserControlMultiPost.resources
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffwebAdminUI\ffwebAdminUI\obj\Debug\ffwebAdminUI.UserControlSinglePost.resources
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffwebAdminUI\ffwebAdminUI\obj\Debug\ffwebAdminUI.Forms.RunDiary.resources
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffwebAdminUI\ffwebAdminUI\obj\Debug\ffwebAdminUI.SearchAccountsSimpleForm.resources
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffwebAdminUI\ffwebAdminUI\obj\Debug\ffwebAdminUI.SearchCustomersSimpleForm.resources
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffwebAdminUI\ffwebAdminUI\obj\Debug\ffwebAdminUI.TransactionTypesListForm.resources
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffwebAdminUI\ffwebAdminUI\obj\Debug\ffwebAdminUI.Properties.Resources.resources
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffwebAdminUI\ffwebAdminUI\obj\Debug\ffwebAdminUI.csproj.GenerateResource.Cache
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffwebAdminUI\ffwebAdminUI\obj\Debug\ffwebAdminUI.exe
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffwebAdminUI\ffwebAdminUI\obj\Debug\ffwebAdminUI.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffwebAdminUI\bin\ffwebAdminUI.exe.config
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffwebAdminUI\bin\ffwebAdminUI.exe
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffwebAdminUI\bin\ffwebAdminUI.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffwebAdminUI\bin\Resources\background.png
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffwebAdminUI\bin\Resources\BDG.ICO
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffwebAdminUI\bin\Resources\Delete.ico
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffwebAdminUI\bin\Resources\Dollar.ico
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffwebAdminUI\bin\Resources\donuts.ico
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffwebAdminUI\bin\Resources\Icon.ico
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffwebAdminUI\bin\Resources\powermage.jpg
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffwebAdminUI\bin\Resources\settings.ICO
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffwebAdminUI\bin\Resources\weight.png
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffwebAdminUI\bin\Resources\spicon.ico
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffwebAdminUI\bin\Resources\statusimg.jpg
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffwebAdminUI\bin\Resources\aboutimg.png
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\ffwebAdminUI\ffwebAdminUI\obj\Debug\ffwebAdminUI.csprojResolveAssemblyReference.cache

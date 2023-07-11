@@ -1,0 +1,13 @@
+<!-- Indices written at Wed, 17 Jun 2015 18:30:16 EAT -->
+
+<datastore-indexes>
+
+    <!-- Used 8 times in query history -->
+    <datastore-index kind="Offer" ancestor="false" source="auto">
+        <property name="offerType" direction="asc"/>
+        <property name="privateOffer" direction="asc"/>
+        <property name="status" direction="asc"/>
+        <property name="member" direction="asc"/>
+    </datastore-index>
+
+</datastore-indexes>

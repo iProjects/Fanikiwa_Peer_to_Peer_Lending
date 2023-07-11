@@ -1,0 +1,916 @@
+{
+ "kind": "discovery#rpcDescription",
+ "etag": "\"u_zXkMELIlX4ktyNbM2XKD4vK8E/wFuTec9IVrS0dY3AXexeCV0Gzvc\"",
+ "discoveryVersion": "v1",
+ "id": "memberendpoint:v1",
+ "name": "memberendpoint",
+ "version": "v1",
+ "description": "This is an API",
+ "ownerDomain": "sp.com",
+ "ownerName": "sp.com",
+ "packagePath": "fanikiwa.entity",
+ "icons": {
+  "x16": "http://www.google.com/images/icons/product/search-16.gif",
+  "x32": "http://www.google.com/images/icons/product/search-32.gif"
+ },
+ "protocol": "rpc",
+ "rootUrl": "https://fanikiwaweb.appspot.com/_ah/api/",
+ "rpcUrl": "https://fanikiwaweb.appspot.com/_ah/api/rpc",
+ "rpcPath": "/_ah/api/rpc",
+ "parameters": {
+  "alt": {
+   "type": "string",
+   "description": "Data format for the response.",
+   "default": "json",
+   "enum": [
+    "json"
+   ],
+   "enumDescriptions": [
+    "Responses with Content-Type of application/json"
+   ],
+   "location": "query"
+  },
+  "fields": {
+   "type": "string",
+   "description": "Selector specifying which fields to include in a partial response.",
+   "location": "query"
+  },
+  "key": {
+   "type": "string",
+   "description": "API key. Your API key identifies your project and provides you with API access, quota, and reports. Required unless you provide an OAuth 2.0 token.",
+   "location": "query"
+  },
+  "oauth_token": {
+   "type": "string",
+   "description": "OAuth 2.0 token for the current user.",
+   "location": "query"
+  },
+  "prettyPrint": {
+   "type": "boolean",
+   "description": "Returns response with indentations and line breaks.",
+   "default": "true",
+   "location": "query"
+  },
+  "quotaUser": {
+   "type": "string",
+   "description": "Available to use for quota purposes for server-side applications. Can be any arbitrary string assigned to a user, but should not exceed 40 characters. Overrides userIp if both are provided.",
+   "location": "query"
+  },
+  "userIp": {
+   "type": "string",
+   "description": "IP address of the site where the request originates. Use this if you want to enforce per-user limits.",
+   "location": "query"
+  }
+ },
+ "auth": {
+  "oauth2": {
+   "scopes": {
+    "https://www.googleapis.com/auth/userinfo.email": {
+     "description": "View your email address"
+    }
+   }
+  }
+ },
+ "schemas": {
+  "Account": {
+   "id": "Account",
+   "type": "object",
+   "properties": {
+    "accountID": {
+     "type": "string",
+     "format": "int64"
+    },
+    "accountName": {
+     "type": "string"
+    },
+    "accountNo": {
+     "type": "string"
+    },
+    "accounttype": {
+     "$ref": "AccountType"
+    },
+    "accrueInSusp": {
+     "type": "boolean"
+    },
+    "accruedInt": {
+     "type": "number",
+     "format": "double"
+    },
+    "accruedIntInSusp": {
+     "type": "number",
+     "format": "double"
+    },
+    "bookBalance": {
+     "type": "number",
+     "format": "double"
+    },
+    "branch": {
+     "type": "string"
+    },
+    "clearedBalance": {
+     "type": "number",
+     "format": "double"
+    },
+    "closed": {
+     "type": "boolean"
+    },
+    "coadet": {
+     "$ref": "Coadet"
+    },
+    "createDate": {
+     "type": "string",
+     "format": "date-time"
+    },
+    "customer": {
+     "$ref": "Customer"
+    },
+    "intPayAccount": {
+     "type": "string",
+     "format": "int64"
+    },
+    "interestAccrualInterval": {
+     "type": "string"
+    },
+    "interestApplicationMethod": {
+     "type": "string"
+    },
+    "interestComputationMethod": {
+     "type": "string"
+    },
+    "interestComputationTerm": {
+     "type": "string"
+    },
+    "interestRate": {
+     "type": "number",
+     "format": "double"
+    },
+    "interestRateSusp": {
+     "type": "number",
+     "format": "double"
+    },
+    "lastIntAccrualDate": {
+     "type": "string",
+     "format": "date-time"
+    },
+    "lastIntAppDate": {
+     "type": "string",
+     "format": "date-time"
+    },
+    "limit": {
+     "type": "number",
+     "format": "double"
+    },
+    "limitCheckFlag": {
+     "type": "integer",
+     "format": "int32"
+    },
+    "limitFlag": {
+     "type": "string"
+    },
+    "maturityDate": {
+     "type": "string",
+     "format": "date-time"
+    },
+    "nextIntAccrualDate": {
+     "type": "string",
+     "format": "date-time"
+    },
+    "nextIntAppDate": {
+     "type": "string",
+     "format": "date-time"
+    },
+    "passFlag": {
+     "type": "string"
+    }
+   }
+  },
+  "AccountType": {
+   "id": "AccountType",
+   "type": "object",
+   "properties": {
+    "description": {
+     "type": "string"
+    },
+    "id": {
+     "type": "string",
+     "format": "int64"
+    },
+    "shortCode": {
+     "type": "string"
+    }
+   }
+  },
+  "Coa": {
+   "id": "Coa",
+   "type": "object",
+   "properties": {
+    "description": {
+     "type": "string"
+    },
+    "id": {
+     "type": "string",
+     "format": "int64"
+    }
+   }
+  },
+  "Coadet": {
+   "id": "Coadet",
+   "type": "object",
+   "properties": {
+    "coa": {
+     "$ref": "Coa"
+    },
+    "coalevel": {
+     "type": "integer",
+     "format": "int32"
+    },
+    "description": {
+     "type": "string"
+    },
+    "id": {
+     "type": "string",
+     "format": "int64"
+    },
+    "rorder": {
+     "type": "integer",
+     "format": "int32"
+    },
+    "shortCode": {
+     "type": "string"
+    }
+   }
+  },
+  "CollectionResponse_Account": {
+   "id": "CollectionResponse_Account",
+   "type": "object",
+   "properties": {
+    "items": {
+     "type": "array",
+     "items": {
+      "$ref": "Account"
+     }
+    },
+    "nextPageToken": {
+     "type": "string"
+    }
+   }
+  },
+  "CollectionResponse_Member": {
+   "id": "CollectionResponse_Member",
+   "type": "object",
+   "properties": {
+    "items": {
+     "type": "array",
+     "items": {
+      "$ref": "Member"
+     }
+    },
+    "nextPageToken": {
+     "type": "string"
+    }
+   }
+  },
+  "Customer": {
+   "id": "Customer",
+   "type": "object",
+   "properties": {
+    "address": {
+     "type": "string"
+    },
+    "billToAddress": {
+     "type": "string"
+    },
+    "billToEmail": {
+     "type": "string"
+    },
+    "billToName": {
+     "type": "string"
+    },
+    "billToTelephone": {
+     "type": "string"
+    },
+    "branch": {
+     "type": "string"
+    },
+    "createdDate": {
+     "type": "string",
+     "format": "date-time"
+    },
+    "customerId": {
+     "type": "string",
+     "format": "int64"
+    },
+    "customerNo": {
+     "type": "string"
+    },
+    "email": {
+     "type": "string"
+    },
+    "memberId": {
+     "type": "string",
+     "format": "int64"
+    },
+    "name": {
+     "type": "string"
+    },
+    "organization": {
+     "$ref": "Organization"
+    },
+    "telephone": {
+     "type": "string"
+    }
+   }
+  },
+  "Member": {
+   "id": "Member",
+   "type": "object",
+   "properties": {
+    "currentAccount": {
+     "$ref": "Account"
+    },
+    "customer": {
+     "$ref": "Customer"
+    },
+    "dateActivated": {
+     "type": "string",
+     "format": "date-time"
+    },
+    "dateJoined": {
+     "type": "string",
+     "format": "date-time"
+    },
+    "dateOfBirth": {
+     "type": "string",
+     "format": "date-time"
+    },
+    "email": {
+     "type": "string"
+    },
+    "gender": {
+     "type": "string"
+    },
+    "informBy": {
+     "type": "string"
+    },
+    "interestExpAccount": {
+     "$ref": "Account"
+    },
+    "interestIncAccount": {
+     "$ref": "Account"
+    },
+    "investmentAccount": {
+     "$ref": "Account"
+    },
+    "loanAccount": {
+     "$ref": "Account"
+    },
+    "maxRecordsToDisplay": {
+     "type": "integer",
+     "format": "int32"
+    },
+    "memberId": {
+     "type": "string",
+     "format": "int64"
+    },
+    "nationalID": {
+     "type": "string"
+    },
+    "otherNames": {
+     "type": "string"
+    },
+    "photo": {
+     "type": "string"
+    },
+    "pwd": {
+     "type": "string"
+    },
+    "refferedBy": {
+     "type": "integer",
+     "format": "int32"
+    },
+    "status": {
+     "type": "string"
+    },
+    "surname": {
+     "type": "string"
+    },
+    "telephone": {
+     "type": "string"
+    }
+   }
+  },
+  "MemberDTO": {
+   "id": "MemberDTO",
+   "type": "object",
+   "properties": {
+    "currentAccount": {
+     "type": "string",
+     "format": "int64"
+    },
+    "customer": {
+     "type": "string",
+     "format": "int64"
+    },
+    "dateActivated": {
+     "type": "string",
+     "format": "date-time"
+    },
+    "dateJoined": {
+     "type": "string",
+     "format": "date-time"
+    },
+    "dateOfBirth": {
+     "type": "string",
+     "format": "date-time"
+    },
+    "email": {
+     "type": "string"
+    },
+    "gender": {
+     "type": "string"
+    },
+    "informBy": {
+     "type": "string"
+    },
+    "interestExpAccount": {
+     "type": "string",
+     "format": "int64"
+    },
+    "interestIncAccount": {
+     "type": "string",
+     "format": "int64"
+    },
+    "investmentAccount": {
+     "type": "string",
+     "format": "int64"
+    },
+    "loanAccount": {
+     "type": "string",
+     "format": "int64"
+    },
+    "maxRecordsToDisplay": {
+     "type": "integer",
+     "format": "int32"
+    },
+    "memberId": {
+     "type": "string",
+     "format": "int64"
+    },
+    "nationalID": {
+     "type": "string"
+    },
+    "otherNames": {
+     "type": "string"
+    },
+    "photo": {
+     "type": "string"
+    },
+    "pwd": {
+     "type": "string"
+    },
+    "refferedBy": {
+     "type": "integer",
+     "format": "int32"
+    },
+    "status": {
+     "type": "string"
+    },
+    "surname": {
+     "type": "string"
+    },
+    "telephone": {
+     "type": "string"
+    }
+   }
+  },
+  "Organization": {
+   "id": "Organization",
+   "type": "object",
+   "properties": {
+    "address": {
+     "type": "string"
+    },
+    "email": {
+     "type": "string"
+    },
+    "name": {
+     "type": "string"
+    },
+    "organizationID": {
+     "type": "string",
+     "format": "int64"
+    }
+   }
+  },
+  "RequestResult": {
+   "id": "RequestResult",
+   "type": "object",
+   "properties": {
+    "clientToken": {
+     "$ref": "_any"
+    },
+    "id": {
+     "type": "string",
+     "format": "int64"
+    },
+    "resultMessage": {
+     "type": "string"
+    },
+    "success": {
+     "type": "boolean"
+    }
+   }
+  },
+  "UserDTO": {
+   "id": "UserDTO",
+   "type": "object",
+   "properties": {
+    "dateActivated": {
+     "type": "string",
+     "format": "date-time"
+    },
+    "dateJoined": {
+     "type": "string",
+     "format": "date-time"
+    },
+    "email": {
+     "type": "string"
+    },
+    "informBy": {
+     "type": "string"
+    },
+    "nationalID": {
+     "type": "string"
+    },
+    "pwd": {
+     "type": "string"
+    },
+    "status": {
+     "type": "string"
+    },
+    "surname": {
+     "type": "string"
+    },
+    "telephone": {
+     "type": "string"
+    },
+    "userType": {
+     "type": "string"
+    }
+   }
+  },
+  "_any": {
+   "id": "_any",
+   "type": "any"
+  }
+ },
+ "methods": {
+  "memberendpoint.deRegister": {
+   "id": "memberendpoint.deRegister",
+   "parameters": {
+    "email": {
+     "type": "string",
+     "required": true
+    }
+   },
+   "parameterOrder": [
+    "email"
+   ],
+   "returns": {
+    "$ref": "RequestResult"
+   },
+   "scopes": [
+    "https://www.googleapis.com/auth/userinfo.email"
+   ]
+  },
+  "memberendpoint.getMemberByEmail": {
+   "id": "memberendpoint.getMemberByEmail",
+   "parameters": {
+    "email": {
+     "type": "string",
+     "required": true
+    }
+   },
+   "parameterOrder": [
+    "email"
+   ],
+   "returns": {
+    "$ref": "Member"
+   },
+   "scopes": [
+    "https://www.googleapis.com/auth/userinfo.email"
+   ]
+  },
+  "memberendpoint.getMemberByEmailWeb": {
+   "id": "memberendpoint.getMemberByEmailWeb",
+   "parameters": {
+    "email": {
+     "type": "string",
+     "required": true
+    }
+   },
+   "parameterOrder": [
+    "email"
+   ],
+   "returns": {
+    "$ref": "RequestResult"
+   },
+   "scopes": [
+    "https://www.googleapis.com/auth/userinfo.email"
+   ]
+  },
+  "memberendpoint.getMemberByID": {
+   "id": "memberendpoint.getMemberByID",
+   "allowGet": true,
+   "parameters": {
+    "id": {
+     "type": "string",
+     "required": true,
+     "format": "int64"
+    }
+   },
+   "parameterOrder": [
+    "id"
+   ],
+   "returns": {
+    "$ref": "Member"
+   },
+   "scopes": [
+    "https://www.googleapis.com/auth/userinfo.email"
+   ]
+  },
+  "memberendpoint.getMemberByNationalID": {
+   "id": "memberendpoint.getMemberByNationalID",
+   "allowGet": true,
+   "parameters": {
+    "nationalId": {
+     "type": "string",
+     "required": true
+    }
+   },
+   "parameterOrder": [
+    "nationalId"
+   ],
+   "returns": {
+    "$ref": "Member"
+   },
+   "scopes": [
+    "https://www.googleapis.com/auth/userinfo.email"
+   ]
+  },
+  "memberendpoint.getMemberByTelephone": {
+   "id": "memberendpoint.getMemberByTelephone",
+   "parameters": {
+    "telephone": {
+     "type": "string",
+     "required": true
+    }
+   },
+   "parameterOrder": [
+    "telephone"
+   ],
+   "returns": {
+    "$ref": "Member"
+   },
+   "scopes": [
+    "https://www.googleapis.com/auth/userinfo.email"
+   ]
+  },
+  "memberendpoint.isEmailValid": {
+   "id": "memberendpoint.isEmailValid",
+   "parameters": {
+    "email": {
+     "type": "string",
+     "required": true
+    }
+   },
+   "parameterOrder": [
+    "email"
+   ],
+   "returns": {
+    "$ref": "RequestResult"
+   },
+   "scopes": [
+    "https://www.googleapis.com/auth/userinfo.email"
+   ]
+  },
+  "memberendpoint.listMember": {
+   "id": "memberendpoint.listMember",
+   "allowGet": true,
+   "parameters": {
+    "count": {
+     "type": "integer",
+     "format": "int32"
+    },
+    "cursor": {
+     "type": "string"
+    }
+   },
+   "returns": {
+    "$ref": "CollectionResponse_Member"
+   },
+   "scopes": [
+    "https://www.googleapis.com/auth/userinfo.email"
+   ]
+  },
+  "memberendpoint.listMemberAccountWeb": {
+   "id": "memberendpoint.listMemberAccountWeb",
+   "allowGet": true,
+   "parameters": {
+    "count": {
+     "type": "integer",
+     "format": "int32"
+    },
+    "cursor": {
+     "type": "string"
+    },
+    "email": {
+     "type": "string",
+     "required": true
+    }
+   },
+   "parameterOrder": [
+    "email"
+   ],
+   "returns": {
+    "$ref": "CollectionResponse_Account"
+   },
+   "scopes": [
+    "https://www.googleapis.com/auth/userinfo.email"
+   ]
+  },
+  "memberendpoint.obtainMemberByEmail": {
+   "id": "memberendpoint.obtainMemberByEmail",
+   "parameters": {
+    "email": {
+     "type": "string",
+     "required": true
+    }
+   },
+   "parameterOrder": [
+    "email"
+   ],
+   "returns": {
+    "$ref": "RequestResult"
+   },
+   "scopes": [
+    "https://www.googleapis.com/auth/userinfo.email"
+   ]
+  },
+  "memberendpoint.register": {
+   "id": "memberendpoint.register",
+   "parameters": {
+    "resource": {
+     "$ref": "UserDTO"
+    }
+   },
+   "parameterOrder": [
+    "resource"
+   ],
+   "returns": {
+    "$ref": "RequestResult"
+   },
+   "scopes": [
+    "https://www.googleapis.com/auth/userinfo.email"
+   ]
+  },
+  "memberendpoint.registerViaPhone": {
+   "id": "memberendpoint.registerViaPhone",
+   "parameters": {
+    "resource": {
+     "$ref": "MemberDTO"
+    }
+   },
+   "parameterOrder": [
+    "resource"
+   ],
+   "returns": {
+    "$ref": "RequestResult"
+   },
+   "scopes": [
+    "https://www.googleapis.com/auth/userinfo.email"
+   ]
+  },
+  "memberendpoint.removeMember": {
+   "id": "memberendpoint.removeMember",
+   "parameters": {
+    "id": {
+     "type": "string",
+     "required": true,
+     "format": "int64"
+    }
+   },
+   "parameterOrder": [
+    "id"
+   ],
+   "scopes": [
+    "https://www.googleapis.com/auth/userinfo.email"
+   ]
+  },
+  "memberendpoint.retrieveMember": {
+   "id": "memberendpoint.retrieveMember",
+   "parameters": {
+    "id": {
+     "type": "string",
+     "required": true,
+     "format": "int64"
+    }
+   },
+   "parameterOrder": [
+    "id"
+   ],
+   "returns": {
+    "$ref": "RequestResult"
+   },
+   "scopes": [
+    "https://www.googleapis.com/auth/userinfo.email"
+   ]
+  },
+  "memberendpoint.selectAccountsByMemberID": {
+   "id": "memberendpoint.selectAccountsByMemberID",
+   "parameters": {
+    "count": {
+     "type": "integer",
+     "format": "int32"
+    },
+    "cursor": {
+     "type": "string"
+    },
+    "id": {
+     "type": "string",
+     "required": true,
+     "format": "int64"
+    }
+   },
+   "parameterOrder": [
+    "id"
+   ],
+   "returns": {
+    "$ref": "RequestResult"
+   },
+   "scopes": [
+    "https://www.googleapis.com/auth/userinfo.email"
+   ]
+  },
+  "memberendpoint.selectMemberAccounts": {
+   "id": "memberendpoint.selectMemberAccounts",
+   "allowGet": true,
+   "parameters": {
+    "count": {
+     "type": "integer",
+     "format": "int32"
+    },
+    "cursor": {
+     "type": "string"
+    },
+    "resource": {
+     "$ref": "Member"
+    }
+   },
+   "parameterOrder": [
+    "resource"
+   ],
+   "returns": {
+    "$ref": "CollectionResponse_Account"
+   },
+   "scopes": [
+    "https://www.googleapis.com/auth/userinfo.email"
+   ]
+  },
+  "memberendpoint.txnlessGetMemberByEmail": {
+   "id": "memberendpoint.txnlessGetMemberByEmail",
+   "parameters": {
+    "email": {
+     "type": "string",
+     "required": true
+    }
+   },
+   "parameterOrder": [
+    "email"
+   ],
+   "returns": {
+    "$ref": "Member"
+   },
+   "scopes": [
+    "https://www.googleapis.com/auth/userinfo.email"
+   ]
+  },
+  "memberendpoint.updateMember": {
+   "id": "memberendpoint.updateMember",
+   "parameters": {
+    "resource": {
+     "$ref": "Member"
+    }
+   },
+   "parameterOrder": [
+    "resource"
+   ],
+   "returns": {
+    "$ref": "RequestResult"
+   },
+   "scopes": [
+    "https://www.googleapis.com/auth/userinfo.email"
+   ]
+  }
+ }
+}

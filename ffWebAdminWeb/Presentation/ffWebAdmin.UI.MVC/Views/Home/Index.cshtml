@@ -1,0 +1,65 @@
+﻿@using System.Web.Helpers;
+
+@{
+    ViewBag.Title = "Fanikiwa";
+}
+
+
+@section featured {
+
+    <section class="featured">
+        <div class="content-wrapper">
+
+            <hgroup class="title">
+                <h1>Fanikiwa Administrator.</h1>
+                <h2>@ViewBag.Message</h2>
+            </hgroup> 
+
+            <div class="clearboth">
+
+                  @*@{
+    var myChart = new Chart(width: 200, height: 200)
+        .AddTitle("Chart Title")
+        .AddSeries(
+            name: "Employee",
+            xValue: new[] {  "Peter", "Andrew", "Julie", "Mary", "Dave" },
+            yValues: new[] { "2", "6", "4", "5", "3" })
+        .Write();
+}*@
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+}
+
+
+
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+
+            $("#progress").hide();
+
+            $.ajaxSetup({ cache: false });
+
+        });
+
+        
+
+
+    </script>
+
+}
+
+
+
+
+

@@ -1,0 +1,4 @@
+C:\My Projects\fanikiwa\fCommon\fCommon\bin\Release\fCommon.dll
+C:\My Projects\fanikiwa\fCommon\fCommon\bin\Release\fCommon.pdb
+C:\My Projects\fanikiwa\fCommon\fCommon\obj\Release\fCommon.dll
+C:\My Projects\fanikiwa\fCommon\fCommon\obj\Release\fCommon.pdb

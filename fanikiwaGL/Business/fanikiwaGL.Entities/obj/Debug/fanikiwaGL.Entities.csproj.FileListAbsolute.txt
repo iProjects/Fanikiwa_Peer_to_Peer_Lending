@@ -1,0 +1,9 @@
+C:\My Projects\fanikiwa\fanikiwaGL\bin\fanikiwaGL.Entities.dll
+C:\My Projects\fanikiwa\fanikiwaGL\bin\fanikiwaGL.Entities.pdb
+C:\My Projects\fanikiwa\fanikiwaGL\Business\fanikiwaGL.Entities\obj\Debug\fanikiwaGL.Entities.dll
+C:\My Projects\fanikiwa\fanikiwaGL\Business\fanikiwaGL.Entities\obj\Debug\fanikiwaGL.Entities.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fanikiwaGL\bin\fanikiwaGL.Entities.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fanikiwaGL\bin\fanikiwaGL.Entities.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fanikiwaGL\Business\fanikiwaGL.Entities\obj\Debug\fanikiwaGL.Entities.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fanikiwaGL\Business\fanikiwaGL.Entities\obj\Debug\fanikiwaGL.Entities.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fanikiwaGL\Business\fanikiwaGL.Entities\obj\Debug\fanikiwaGL.Entities.csprojResolveAssemblyReference.cache

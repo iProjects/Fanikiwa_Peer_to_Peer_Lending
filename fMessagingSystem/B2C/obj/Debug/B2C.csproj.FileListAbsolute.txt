@@ -1,0 +1,34 @@
+C:\My Projects\fanikiwa\fMessagingSystem\bin\B2C.exe.config
+C:\My Projects\fanikiwa\fMessagingSystem\bin\B2C.exe
+C:\My Projects\fanikiwa\fMessagingSystem\bin\B2C.pdb
+C:\My Projects\fanikiwa\fMessagingSystem\B2C\obj\Debug\B2C.exe
+C:\My Projects\fanikiwa\fMessagingSystem\B2C\obj\Debug\B2C.pdb
+D:\My Projects\fanikiwa\fMessagingSystem\bin\B2C.exe.config
+D:\My Projects\fanikiwa\fMessagingSystem\bin\B2C.exe
+D:\My Projects\fanikiwa\fMessagingSystem\bin\B2C.pdb
+D:\My Projects\fanikiwa\fMessagingSystem\B2C\obj\Debug\B2C.exe
+D:\My Projects\fanikiwa\fMessagingSystem\B2C\obj\Debug\B2C.pdb
+D:\My Projects\fanikiwa\fMessagingSystem\B2C\obj\Debug\B2C.csprojResolveAssemblyReference.cache
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\bin\B2C.exe.config
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\bin\B2C.exe
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\bin\B2C.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\B2C\obj\Debug\B2C.exe
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\B2C\obj\Debug\B2C.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\bin\Resources\BDG.ICO
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\bin\Resources\Delete.ico
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\bin\Resources\donuts.ico
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\bin\Resources\Icon.ico
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\bin\Resources\powermage.jpg
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\bin\Resources\settings.ICO
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\bin\Resources\signal-green.gif
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\bin\Resources\signal-red.gif
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\bin\Resources\signal-yellow.gif
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\bin\Resources\splogo.ico
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\bin\Resources\weight.png
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\bin\Resources\TrayIcon.ico
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\B2C\obj\Debug\B2C.main_form.resources
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\B2C\obj\Debug\B2C.csproj.GenerateResource.Cache
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\B2C\obj\Debug\B2C.csprojResolveAssemblyReference.cache
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\B2C\obj\Debug\B2C.Properties.Resources.resources
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\bin\TimeStampObserver.xml
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\B2C\obj\Debug\B2C.SplashScreen.resources

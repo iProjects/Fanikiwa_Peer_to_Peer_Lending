@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Main -->
+    <string name="app_name">Fanikiwa</string>
+    <string name="fanikiwa">Fanikiwa</string>
+    <string name="title_activity_main">Fanikiwa</string>
+    <string name="action_settings">Settings</string>
+    <string name="lbl_AboutApp">About App</string>
+    <string name="hello_world">Hello World!</string>
+    <string name="title_section1">Offers</string>
+    <string name="title_section2">Accounts</string>
+    <string name="title_section3">My Profile</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="action_search">Search</string>
+    <string name="action_example">Example action</string>
+    <string name="action_quit">Exit</string>
+
+    <!-- Quotes -->
+    <string name="lblListQuotes">List Quotes</string>
+    <string name="lbl_AddQuote">Add Quote</string>
+    <string name="lbl_Add">Add</string>
+    <string name="lbl_AuthorName">Author Name</string>
+    <string name="lbl_Message">Message</string>
+    <string name="action_quotes">Quotes</string>
+    <string name="add_quote">Add Quote</string>
+
+    <!-- Organization -->
+    <string name="lblListOrganizations">List Organizations</string>
+    <string name="lbl_AddOrg">Add Organization</string>
+    <string name="lbl_AddOrganization">Add</string>
+    <string name="lbl_OrganizationName">Name</string>
+    <string name="lbl_OrganizationEmail">Emai</string>
+    <string name="lbl_OrganizationAddress">Address</string>
+    <string name="action_organizations">Organizations</string>
+
+    <!-- Coa -->
+    <string name="lblListCoa">Chart of Accounts</string>
+    <string name="lbl_AddCoa">Add Coa</string>
+    <string name="lbl_btnCOAList">Coa List</string>
+    <string name="lbl_AddChartofAccount">Add</string>
+    <string name="lbl_CoaDescription">Description</string>
+    <string name="action_coa">Chart of Accounts</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_boot">BootActivity</string>
+    <string name="add_chart_of_account">Add Chart of Account</string>
+
+    <!-- Login -->
+    <string name="confirm_registry">Email not found. You want to create a new user with that email and password?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="loginregisterlink">New to Fanikiwa? Register here</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="prompt_email">Email</string>
+    <string name="USER_ID">USER_ID</string>
+    <string name="Userid">USERID</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="plus_sign_out">Switch Google+ account</string>
+    <string name="plus_disconnect">Disconnect from Google+</string>
+
+    <!-- Register -->
+    <string name="email">Email</string>
+    <string name="emailhint">Email(username@domain.com)</string>
+    <string name="surname">SurName</string>
+    <string name="register_new_account">Register New Account</string>
+    <string name="telephone">Telephone</string>
+    <string name="register_link">Already has account! Login here</string>
+
+    <!-- Offers -->
+    <string name="offer_description">Description</string>
+    <string name="btnCancel">Cancel</string>
+    <string name="btnClose">Close</string>
+    <string name="btnMakeOffer">Create</string>
+    <string name="btnAcceptOffer">Accept</string>
+     <string name="btnDeleteOffer">Delete</string>
+    <string name="lbl_btnMakeOffer">Create Offer</string>
+    <string name="lblListOffers">My Offers List</string>
+    <string name="offer_amount">Amount</string>
+    <string name="offer_Term">Term</string>
+    <string name="offer_Interest">Interest</string>
+    <string name="offer_partialPay">partial Pay</string>
+    <string name="offer_OfferType">Offer Type</string>
+    <string name="offer_PublicOffer">Public Offer</string>
+    <string name="action_get_a_loan">Get a Loan</string>
+    <string name="action_make_an_investment">Make an Investment</string>
+    <string name="make_an_offer">Make an Offer</string>
+    <string name="make_lend_offer">Make Lend Offer</string>
+    <string name="make_borrow_offer">Make Borrow Offer</string>
+    <string name="lbl_btnOffersList">List Offers</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="FragmentAccounts">Accounts</string>
+    <string name="FragmentOffers">Offers</string>
+    <string name="FragmentProfile">Profile</string>
+    <string name="btnMyOffersList">My Offers</string>
+
+    <!-- Accounts -->
+    <string name="btnMiniStatement">Mini Statement</string>
+    <string name="btnStatement">Statement</string>
+    <string name="statementaccountid">statementaccountid</string>
+    <string name="ministatementaccountid">ministatementaccountid</string>
+    <string name="btnMyAccountsList">My Accounts</string>
+
+    <!-- Profile -->
+    <string name="profile_email">Email</string>
+    <string name="profile_surname">Surname</string>
+    <string name="profile_othernames">OtherNames</string>
+    <string name="profile_telephone">Telephone</string>
+    <string name="profile_nationalid">National ID</string>
+    <string name="profile_dateofbirth">Date Of Birth</string>
+    <string name="profile_refferedby">Referred By</string>
+    <string name="profile_maxrecords">Max Records To Display</string>
+    <string name="profile_gender">Gender</string>
+    <string name="btnUpdateProfile">Update Profile</string>
+    <string name="profile_informby">Inform By</string>
+
+</resources>

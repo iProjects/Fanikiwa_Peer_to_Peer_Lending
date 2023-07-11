@@ -1,0 +1,10 @@
+C:\My Projects\fanikiwa\fCommon\fCommon\bin\Debug\fCommon.dll
+C:\My Projects\fanikiwa\fCommon\fCommon\bin\Debug\fCommon.pdb
+C:\My Projects\fanikiwa\fCommon\fCommon\obj\Debug\fCommon.dll
+C:\My Projects\fanikiwa\fCommon\fCommon\obj\Debug\fCommon.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\bin\fCommon.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\bin\fCommon.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fCommon\fCommon\obj\Debug\fCommon.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fCommon\fCommon\obj\Debug\fCommon.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fCommon\bin\fCommon.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fCommon\bin\fCommon.pdb

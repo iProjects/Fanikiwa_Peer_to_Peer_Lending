@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Deposit Over The Counter">
+  <useCaseModelRootMoniker Id="d3e1d094-cb4c-4f08-8c71-d0d21d5e8df0" />
+  <nestedChildShapes>
+    <useCaseShape Id="fcd6e686-125b-4b95-b819-7ff1b443b060" absoluteBounds="2, 1.25, 1, 0.75" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="d298bc37-ac28-41ad-811f-a0e4133aee32" LastKnownName="Deposit Cash Over The counter" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <actorShape Id="44189665-2d3a-4c8b-83ab-805fbac6063d" absoluteBounds="0.625, 1.375, 0.5, 0.5" isReference="false" heightOffset="0">
+      <actorMoniker Id="97bb949e-e21a-4c59-9e33-327a88a506b1" LastKnownName="Lender" />
+      <relativeChildShapes />
+    </actorShape>
+    <useCaseAssociationConnector edgePoints="[(0.875 : 1.625); (0.875 : 1.625)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="22b9ba29-3f82-45d9-956c-8b9f3b32e168" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="44189665-2d3a-4c8b-83ab-805fbac6063d" />
+        <actorShapeMoniker Id="44189665-2d3a-4c8b-83ab-805fbac6063d" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseAssociationConnector edgePoints="[(1.125 : 1.625); (2 : 1.625)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="7292ca50-7808-4ab0-a2d6-a6ec84e61bc3" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="44189665-2d3a-4c8b-83ab-805fbac6063d" />
+        <useCaseShapeMoniker Id="fcd6e686-125b-4b95-b819-7ff1b443b060" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <actorShape Id="6c520de9-9c16-4518-9e0f-b2a931f1f51a" absoluteBounds="3.875, 0.75, 0.5, 0.5" isReference="false" heightOffset="0">
+      <actorMoniker Id="9c1c2644-f878-4a3a-8187-550991660ccc" LastKnownName="Accounting System" />
+      <relativeChildShapes />
+    </actorShape>
+    <useCaseAssociationConnector edgePoints="[(2.94490873140637 : 1.4538812571514); (3.875 : 1.09615384615385)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="e78ebef6-1645-4815-b439-ba0e1271adc8" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="fcd6e686-125b-4b95-b819-7ff1b443b060" />
+        <actorShapeMoniker Id="6c520de9-9c16-4518-9e0f-b2a931f1f51a" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <actorShape Id="f29c3aac-c3e8-481c-a36a-b88dd0d07649" absoluteBounds="3.875, 2, 0.5, 0.5" isReference="false" heightOffset="0">
+      <actorMoniker Id="0a0aef7e-2b2e-4d69-8b47-53a050202d94" LastKnownName="Messaging System" />
+      <relativeChildShapes />
+    </actorShape>
+    <useCaseAssociationConnector edgePoints="[(2.94490873140637 : 1.7961187428486); (3.875 : 2.15384615384615)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="c8db46d4-903d-47c1-b50a-23892455f500" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="fcd6e686-125b-4b95-b819-7ff1b443b060" />
+        <actorShapeMoniker Id="f29c3aac-c3e8-481c-a36a-b88dd0d07649" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <artifactShape Id="e7cee757-a7d5-4a2e-92fc-645b3d16d827" absoluteBounds="1.75, 3.875, 1.5, 0.75" customColor="161, 199, 231">
+      <artifactMoniker Id="42a7e02e-042c-44a2-a80a-ad2eb062e1b0" LastKnownName="7.1.Deposit Over The Counter.docx" />
+    </artifactShape>
+    <useCaseDependencyConnector edgePoints="[(2.5 : 2); (2.5 : 3.875)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black">
+      <dependencyMoniker Id="4209bd92-1f2f-4271-ac65-9037fa3b48e7" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="fcd6e686-125b-4b95-b819-7ff1b443b060" />
+        <artifactShapeMoniker Id="e7cee757-a7d5-4a2e-92fc-645b3d16d827" />
+      </nodes>
+    </useCaseDependencyConnector>
+    <actorShape Id="fbdf999d-4bc6-4e7b-8e7f-5f85e00a0423" absoluteBounds="3.875, 3.25, 0.5, 0.5" isReference="false" heightOffset="0">
+      <actorMoniker Id="932b8bf0-d94d-406b-b907-717271448d0f" LastKnownName="Teller Module" />
+      <relativeChildShapes />
+    </actorShape>
+    <useCaseAssociationConnector edgePoints="[(2.77249417529771 : 1.93941635611274); (3.90833333333333 : 3.25)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="bde2fa13-045d-4ec5-8618-0a736113bcee" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="fcd6e686-125b-4b95-b819-7ff1b443b060" />
+        <actorShapeMoniker Id="fbdf999d-4bc6-4e7b-8e7f-5f85e00a0423" />
+      </nodes>
+    </useCaseAssociationConnector>
+  </nestedChildShapes>
+</useCaseDiagram>

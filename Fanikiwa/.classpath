@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="test"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.8.0_31"/>
+	<classpathentry kind="con" path="com.google.appengine.eclipse.core.GAE_CONTAINER/App Engine"/>
+	<classpathentry exported="true" kind="lib" path="C:/Tools/objectify-5.1.5.jar" sourcepath="C:/Users/Administrator/.m2/repository/com/googlecode/objectify/objectify/5.1.5/objectify-5.1.5-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Tools/commons-codec-1.10.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Tools/twilio-java-sdk-3.3.10-jar-with-dependencies.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Tools/junit-4.10.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Tools/jackson-databind-2.5.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Tools/jackson-core-2.5.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Tools/gson-2.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Tools/appengine-api.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Tools/appengine-api-stubs.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Tools/appengine-testing.jar"/>
+	<classpathentry exported="true" kind="lib" path="war/WEB-INF/lib/itextpdf-5.5.6.jar"/>
+	<classpathentry kind="output" path="war/WEB-INF/classes"/>
+</classpath>

@@ -1,0 +1,407 @@
+{
+ "kind": "discovery#restDescription",
+ "etag": "\"u_zXkMELIlX4ktyNbM2XKD4vK8E/ejXF6m4mL66A7ZvPhrf8fTZD5zI\"",
+ "discoveryVersion": "v1",
+ "id": "loanendpoint:v1",
+ "name": "loanendpoint",
+ "version": "v1",
+ "description": "This is an API",
+ "ownerDomain": "sp.com",
+ "ownerName": "sp.com",
+ "packagePath": "fanikiwa.entity",
+ "icons": {
+  "x16": "http://www.google.com/images/icons/product/search-16.gif",
+  "x32": "http://www.google.com/images/icons/product/search-32.gif"
+ },
+ "protocol": "rest",
+ "baseUrl": "https://fanikiwaweb.appspot.com/_ah/api/loanendpoint/v1/",
+ "basePath": "/_ah/api/loanendpoint/v1/",
+ "rootUrl": "https://fanikiwaweb.appspot.com/_ah/api/",
+ "servicePath": "loanendpoint/v1/",
+ "batchPath": "batch",
+ "parameters": {
+  "alt": {
+   "type": "string",
+   "description": "Data format for the response.",
+   "default": "json",
+   "enum": [
+    "json"
+   ],
+   "enumDescriptions": [
+    "Responses with Content-Type of application/json"
+   ],
+   "location": "query"
+  },
+  "fields": {
+   "type": "string",
+   "description": "Selector specifying which fields to include in a partial response.",
+   "location": "query"
+  },
+  "key": {
+   "type": "string",
+   "description": "API key. Your API key identifies your project and provides you with API access, quota, and reports. Required unless you provide an OAuth 2.0 token.",
+   "location": "query"
+  },
+  "oauth_token": {
+   "type": "string",
+   "description": "OAuth 2.0 token for the current user.",
+   "location": "query"
+  },
+  "prettyPrint": {
+   "type": "boolean",
+   "description": "Returns response with indentations and line breaks.",
+   "default": "true",
+   "location": "query"
+  },
+  "quotaUser": {
+   "type": "string",
+   "description": "Available to use for quota purposes for server-side applications. Can be any arbitrary string assigned to a user, but should not exceed 40 characters. Overrides userIp if both are provided.",
+   "location": "query"
+  },
+  "userIp": {
+   "type": "string",
+   "description": "IP address of the site where the request originates. Use this if you want to enforce per-user limits.",
+   "location": "query"
+  }
+ },
+ "auth": {
+  "oauth2": {
+   "scopes": {
+    "https://www.googleapis.com/auth/userinfo.email": {
+     "description": "View your email address"
+    }
+   }
+  }
+ },
+ "schemas": {
+  "CollectionResponse_Loan": {
+   "id": "CollectionResponse_Loan",
+   "type": "object",
+   "properties": {
+    "items": {
+     "type": "array",
+     "items": {
+      "$ref": "Loan"
+     }
+    },
+    "nextPageToken": {
+     "type": "string"
+    }
+   }
+  },
+  "Loan": {
+   "id": "Loan",
+   "type": "object",
+   "properties": {
+    "accrueInSusp": {
+     "type": "boolean"
+    },
+    "accruedIntInSusp": {
+     "type": "number",
+     "format": "double"
+    },
+    "accruedInterest": {
+     "type": "number",
+     "format": "double"
+    },
+    "amount": {
+     "type": "number",
+     "format": "double"
+    },
+    "borrowerId": {
+     "type": "string",
+     "format": "int64"
+    },
+    "createdDate": {
+     "type": "string",
+     "format": "date-time"
+    },
+    "id": {
+     "type": "string",
+     "format": "int64"
+    },
+    "intPaidAccount": {
+     "type": "string",
+     "format": "int64"
+    },
+    "intPayingAccount": {
+     "type": "string",
+     "format": "int64"
+    },
+    "interestAccrualInterval": {
+     "type": "string"
+    },
+    "interestApplicationMethod": {
+     "type": "string"
+    },
+    "interestComputationMethod": {
+     "type": "string"
+    },
+    "interestComputationTerm": {
+     "type": "string"
+    },
+    "interestRate": {
+     "type": "number",
+     "format": "double"
+    },
+    "interestRateSusp": {
+     "type": "number",
+     "format": "double"
+    },
+    "lastIntAccrualDate": {
+     "type": "string",
+     "format": "date-time"
+    },
+    "lastIntAppDate": {
+     "type": "string",
+     "format": "date-time"
+    },
+    "lenderId": {
+     "type": "string",
+     "format": "int64"
+    },
+    "maturityDate": {
+     "type": "string",
+     "format": "date-time"
+    },
+    "nextIntAccrualDate": {
+     "type": "string",
+     "format": "date-time"
+    },
+    "nextIntAppDate": {
+     "type": "string",
+     "format": "date-time"
+    },
+    "offerId": {
+     "type": "string",
+     "format": "int64"
+    },
+    "partialPay": {
+     "type": "boolean"
+    },
+    "term": {
+     "type": "integer",
+     "format": "int32"
+    },
+    "transactionType": {
+     "type": "string",
+     "format": "int64"
+    }
+   }
+  }
+ },
+ "methods": {
+  "getLoanByID": {
+   "id": "loanendpoint.getLoanByID",
+   "path": "loan/{id}",
+   "httpMethod": "GET",
+   "parameters": {
+    "id": {
+     "type": "string",
+     "required": true,
+     "format": "int64",
+     "location": "path"
+    }
+   },
+   "parameterOrder": [
+    "id"
+   ],
+   "response": {
+    "$ref": "Loan"
+   },
+   "scopes": [
+    "https://www.googleapis.com/auth/userinfo.email"
+   ]
+  },
+  "insertLoan": {
+   "id": "loanendpoint.insertLoan",
+   "path": "loan",
+   "httpMethod": "POST",
+   "request": {
+    "$ref": "Loan",
+    "parameterName": "resource"
+   },
+   "response": {
+    "$ref": "Loan"
+   },
+   "scopes": [
+    "https://www.googleapis.com/auth/userinfo.email"
+   ]
+  },
+  "listLoan": {
+   "id": "loanendpoint.listLoan",
+   "path": "loan",
+   "httpMethod": "GET",
+   "parameters": {
+    "count": {
+     "type": "integer",
+     "format": "int32",
+     "location": "query"
+    },
+    "cursor": {
+     "type": "string",
+     "location": "query"
+    }
+   },
+   "response": {
+    "$ref": "CollectionResponse_Loan"
+   },
+   "scopes": [
+    "https://www.googleapis.com/auth/userinfo.email"
+   ]
+  },
+  "nextIntAccrualLoanByDate": {
+   "id": "loanendpoint.nextIntAccrualLoanByDate",
+   "path": "NextIntAccrualLoanByDate/{date}",
+   "httpMethod": "POST",
+   "parameters": {
+    "date": {
+     "type": "string",
+     "required": true,
+     "format": "date-time",
+     "location": "path"
+    }
+   },
+   "parameterOrder": [
+    "date"
+   ],
+   "response": {
+    "$ref": "CollectionResponse_Loan"
+   },
+   "scopes": [
+    "https://www.googleapis.com/auth/userinfo.email"
+   ]
+  },
+  "nextIntAppLoanByDate": {
+   "id": "loanendpoint.nextIntAppLoanByDate",
+   "path": "NextIntAppLoanByDate/{date}",
+   "httpMethod": "POST",
+   "parameters": {
+    "date": {
+     "type": "string",
+     "required": true,
+     "format": "date-time",
+     "location": "path"
+    }
+   },
+   "parameterOrder": [
+    "date"
+   ],
+   "response": {
+    "$ref": "CollectionResponse_Loan"
+   },
+   "scopes": [
+    "https://www.googleapis.com/auth/userinfo.email"
+   ]
+  },
+  "removeLoan": {
+   "id": "loanendpoint.removeLoan",
+   "path": "loan/{id}",
+   "httpMethod": "DELETE",
+   "parameters": {
+    "id": {
+     "type": "string",
+     "required": true,
+     "format": "int64",
+     "location": "path"
+    }
+   },
+   "parameterOrder": [
+    "id"
+   ],
+   "scopes": [
+    "https://www.googleapis.com/auth/userinfo.email"
+   ]
+  },
+  "selectMyInvestments": {
+   "id": "loanendpoint.selectMyInvestments",
+   "path": "selectMyInvestments/{email}",
+   "httpMethod": "POST",
+   "parameters": {
+    "count": {
+     "type": "integer",
+     "format": "int32",
+     "location": "query"
+    },
+    "cursor": {
+     "type": "string",
+     "location": "query"
+    },
+    "email": {
+     "type": "string",
+     "required": true,
+     "location": "path"
+    }
+   },
+   "parameterOrder": [
+    "email"
+   ],
+   "response": {
+    "$ref": "CollectionResponse_Loan"
+   },
+   "scopes": [
+    "https://www.googleapis.com/auth/userinfo.email"
+   ]
+  },
+  "selectMyLoans": {
+   "id": "loanendpoint.selectMyLoans",
+   "path": "selectMyLoans/{email}",
+   "httpMethod": "POST",
+   "parameters": {
+    "count": {
+     "type": "integer",
+     "format": "int32",
+     "location": "query"
+    },
+    "cursor": {
+     "type": "string",
+     "location": "query"
+    },
+    "email": {
+     "type": "string",
+     "required": true,
+     "location": "path"
+    }
+   },
+   "parameterOrder": [
+    "email"
+   ],
+   "response": {
+    "$ref": "CollectionResponse_Loan"
+   },
+   "scopes": [
+    "https://www.googleapis.com/auth/userinfo.email"
+   ]
+  },
+  "updateLoan": {
+   "id": "loanendpoint.updateLoan",
+   "path": "loan",
+   "httpMethod": "PUT",
+   "request": {
+    "$ref": "Loan",
+    "parameterName": "resource"
+   },
+   "response": {
+    "$ref": "Loan"
+   },
+   "scopes": [
+    "https://www.googleapis.com/auth/userinfo.email"
+   ]
+  },
+  "zerolizeAccruedIntLoan": {
+   "id": "loanendpoint.zerolizeAccruedIntLoan",
+   "path": "zerolizeAccruedIntLoan",
+   "httpMethod": "POST",
+   "request": {
+    "$ref": "Loan",
+    "parameterName": "resource"
+   },
+   "response": {
+    "$ref": "Loan"
+   },
+   "scopes": [
+    "https://www.googleapis.com/auth/userinfo.email"
+   ]
+  }
+ }
+}

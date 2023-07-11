@@ -1,0 +1,5 @@
+C:\Dev\ffWebAdmin\ffWebAdmin\bin\ffWebAdmin.Services.Contracts.dll
+C:\Dev\ffWebAdmin\ffWebAdmin\bin\ffWebAdmin.Services.Contracts.pdb
+C:\Dev\ffWebAdmin\ffWebAdmin\Services\ffWebAdmin.Services.Contracts\obj\Release\ffWebAdmin.Services.Contracts.dll
+C:\Dev\ffWebAdmin\ffWebAdmin\Services\ffWebAdmin.Services.Contracts\obj\Release\ffWebAdmin.Services.Contracts.pdb
+C:\Dev\ffWebAdmin\ffWebAdmin\Services\ffWebAdmin.Services.Contracts\obj\Release\ffWebAdmin.Services.Contracts.csprojResolveAssemblyReference.cache

@@ -1,0 +1,311 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Loan Details | Fanikiwa - Peer-to-Peer Lending</title>
+<link href="/Images/Dollar.ico" rel="shortcut icon" type="image/x-icon" />
+<link rel="stylesheet" href="/Content/Site.css" type="text/css" />
+<script src="/Scripts/jquery-2.0.3.js" type="text/javascript"></script>
+<script src="/Scripts/MainMenu.js"></script>
+<script src="/Scripts/fanikiwa.js"></script>
+<script src="/Scripts/CustomScripts.js" type="text/javascript"></script>
+<script src="/Scripts/MyLoanDetails.js"></script>
+
+
+</head>
+
+
+<body>
+
+	<header>
+		<div class="content-wrapper">
+
+			<div class="float-left">
+				<p class="site-title" title="Fanikiwa - Peer - To - Peer Lending">
+					Fanikiwa - Peer - To - Peer Lending</p>
+			</div>
+
+
+			<div class="float-right">
+				<section id="login">
+					<text> Welcome To Fanikiwa, <a id="lnkloggedinuser"
+						style="cursor: pointer;" href="#" onclick="ManageProfile()"
+						title="Manage Profile"></a> <a id="lnklogoff"
+						style="cursor: pointer;" href="#" onclick="LogOff()"
+						title="Log Off">Log off</a> </text>
+				</section>
+			</div>
+
+			<div id="MainMenu"></div>
+			<div id="SubMenu"></div>
+
+		</div>
+
+
+	</header>
+
+
+
+
+	<div id="body">
+
+
+		<section class="content-wrapper main-content clear-fix">
+
+			<div id="error-display-div" class="displaynone"></div>
+
+
+			<hgroup class="title">
+				<h2 class="page-title">Loan Details</h2>
+			</hgroup>
+
+			<div id="apiResults" style="float: left; clear: both"></div>
+
+			<div style="float: left; clear: both">
+				<input type="button" value="Back"
+					onclick="window.history.go(-1); return false;" />
+			</div>
+
+			<div style="float: left; clear: both">
+
+				<form action="javascript:void(0);">
+
+					<fieldset>
+						<legend>Loan Details</legend>
+
+						<div id="column-div">
+
+							<article class="col1">
+								<div class="pad">
+
+									<div>
+										<label for="txtLoanId">Id</label> <input id="txtLoanId"
+											placeholder="Id" autofocus type="number"></input>
+									</div>
+
+									<div>
+										<label for="txtamount">Amount</label> <input id="txtamount"
+											placeholder="Amount" type="number"></input>
+									</div>
+
+									<div>
+										<label for="txtterm">Term</label> <input id="txtterm"
+											placeholder="Term" type="number"></input>
+									</div>
+
+									<div>
+										<label for="txtinterestRate">Interest Rate</label> <input
+											id="txtinterestRate" placeholder="Interest Rate"
+											type="number"></input>
+									</div>
+
+									<div>
+										<label for="txtAccruedInterest">Accrued Interest</label> <input
+											id="txtAccruedInterest" placeholder="Accrued Interest"
+											type="number"></input>
+									</div>
+
+									<div>
+										<label for="txtinterestRateSusp">Interest Rate In
+											Suspense</label> <input id="txtinterestRateSusp"
+											placeholder="Interest Rate In Suspense" type="number"></input>
+									</div>
+
+									<div>
+										<label for="txtaccruedIntInSusp">Accrued Interest In
+											Suspense</label> <input id="txtaccruedIntInSusp"
+											placeholder="txtaccruedIntInSusp" type="number"></input>
+									</div>
+
+									<div>
+										<label for="txtintPayingAccount">Interest Paying
+											Account</label> <input id="txtintPayingAccount"
+											placeholder="Interest Paying Account" type="number"></input>
+									</div>
+
+									<div>
+										<label for="txtintPaidAccount">Interest Paid Account</label> <input
+											id="txtintPaidAccount" placeholder="Interest Paid Account"
+											type="number"></input>
+									</div>
+
+									<div>
+										<label for="txtborrowerId">BorrowerId</label> <input
+											id="txtborrowerId" placeholder="BorrowerId" type="number"></input>
+									</div>
+
+									<div>
+										<label for="txtlenderId">LenderId</label> <input
+											id="txtlenderId" placeholder="LenderId" type="number"></input>
+									</div>
+
+									<div>
+										<label for="txtofferId">OfferId</label> <input id="txtofferId"
+											placeholder="OfferId" type="number"></input>
+									</div>
+
+								</div>
+							</article>
+
+							<article class="col2">
+								<div class="pad">
+
+									<div>
+										<label for="cbointerestAccrualInterval">Interest
+											Accrual Interval</label> <select id="cbointerestAccrualInterval"
+											style="width: 95%;">
+											<option value="Y">Yearly</option>
+											<option value="M">Monthly</option>
+											<option value="D">Daily</option>
+										</select>
+									</div>
+
+									<div>
+										<label for="cbointerestComputationMethod">Interest
+											Computation Method</label> <select id="cbointerestComputationMethod"
+											style="width: 95%;">
+											<option value="C">Compound</option>
+											<option value="S">Simple</option>
+										</select>
+									</div>
+
+									<div>
+										<label for="cbointerestComputationTerm">Interest
+											Computation Term</label> <select id="cbointerestComputationTerm"
+											style="width: 95%;">
+											<option value="Y">Yearly</option>
+											<option value="M">Monthly</option>
+											<option value="D">Daily</option>
+										</select>
+									</div>
+
+									<div>
+										<label for="cbointerestApplicationMethod">Interest
+											Application Method</label> <select id="cbointerestApplicationMethod"
+											style="width: 95%;">
+											<option value="Y">Yearly</option>
+											<option value="M">Monthly</option>
+											<option value="D">Daily</option>
+										</select>
+									</div>
+
+									<div>
+										<label for="chkaccrueInSusp">Accrual In Suspense</label> <input
+											id="chkaccrueInSusp" placeholder="Accrual In Suspense"
+											type="checkbox"></input>
+									</div>
+
+									<div>
+										<label for="chkPartialPay">Partial Pay</label> <input
+											id="chkPartialPay" placeholder="Partial Pay" type="checkbox"></input>
+									</div>
+
+								</div>
+							</article>
+
+
+							<article class="col3">
+								<div class="pad">
+
+									<div>
+										<label for="dtpcreatedDate">Created Date</label> <input
+											id="dtpcreatedDate" placeholder="Created Date" type="date"></input>
+									</div>
+
+									<div>
+										<label for="dtpmaturityDate">Maturity Date</label> <input
+											id="dtpmaturityDate" placeholder="Maturity Date" type="date"></input>
+									</div>
+
+									<div>
+										<label for="txtlastIntAccrualDate">Last Interest
+											Accrual Date</label> <input id="txtlastIntAccrualDate"
+											placeholder="Last Interest Accrual Date" type="date"></input>
+									</div>
+
+									<div>
+										<label for="txtnextIntAccrualDate">Next Interest
+											Accrual Date</label> <input id="txtnextIntAccrualDate"
+											placeholder="Next Interest Accrual Date" type="date"></input>
+									</div>
+
+									<div>
+										<label for="txtlastIntAppDate">Last Interest
+											Application Date</label> <input id="txtlastIntAppDate"
+											placeholder="Last Interest Application Date" type="date"></input>
+									</div>
+
+									<div>
+										<label for="txtnextIntAppDate">Next Interest
+											Application Date</label> <input id="txtnextIntAppDate"
+											placeholder="Next Interest Application Date" type="date"></input>
+									</div>
+
+								</div>
+							</article>
+
+						</div>
+
+					</fieldset>
+
+
+				</form>
+
+			</div>
+
+		</section>
+
+
+	</div>
+
+
+
+	<footer>
+
+		<hr />
+
+		<div id="div-mpesapaybill">
+			<span id="mpesapaybill">Mpesa Paybill Number</span> <span
+				id="mpesapaybillnumber">882600</span>
+		</div>
+
+		<div id="div-copyright">
+			<span id="copyright">Copyright &copy;</span> <span id="footerdate"></span>
+			<span id="companyname"> Software Providers Limited.</span> <span
+				id="rightsreserved">All Rights Reserved.</span>
+		</div>
+
+		<div id="div-androiddownload">
+			<img id="android" src="/Images/android.png"
+				alt="Fanikiwa in your pocket!" /> <span id="pocket">Fanikiwa
+				in your pocket!</span> <span id="ourapp">Get our app and invest on
+				the go.</span><span id="freedownload">Free download now</span>
+			<div id="androiddownload">
+				<a id="androiddownloadlink" target="_blank" href="#"> </a>
+			</div>
+		</div>
+
+	</footer>
+
+
+
+	<script type="text/javascript">
+		function init() {
+			fanikiwa.loanendpoint.loandetail.init(GETROOT());
+		}
+	</script>
+
+	<script src="https://apis.google.com/js/client.js?onload=init"></script>
+
+
+
+
+</body>
+
+
+</html>

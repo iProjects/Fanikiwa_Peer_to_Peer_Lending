@@ -1,0 +1,5 @@
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\bin\MutexManager.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\bin\MutexManager.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSProcessor\MutexManager\obj\Debug\MutexManager.dll
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSProcessor\MutexManager\obj\Debug\MutexManager.pdb
+D:\wakxpx\csharp\visualstudio\2013\fanikiwa peer to peer lending\fMessagingSystem\SMSProcessor\MutexManager\obj\Debug\MutexManager.csprojResolveAssemblyReference.cache
